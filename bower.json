@@ -1,0 +1,20 @@
+{
+  "name": "anthony.codes",
+  "homepage": "https://github.com/4cm4k1/anthony.codes",
+  "authors": [
+    "Anthony Maki <4cm4k1@gmail.com>"
+  ],
+  "description": "Personal website",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "master"
+  }
+}

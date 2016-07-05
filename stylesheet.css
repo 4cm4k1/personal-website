@@ -1,16 +1,25 @@
+.command-line {
+  display: none;
+}
+
+.on-screen {
+  font-size: 6em;
+}
+
 body {
   font-family: 'Space Mono', monospace;
   font-weight: 400;
   background: #263238;
+  color: #78909C;
 }
 
 p {
-  color: #78909C;
+
   white-space:nowrap;
   width: 10em;
   overflow: hidden;
-  animation:
-    typing 3s steps(12, end);
+  /*animation:
+    typing 3s steps(12, end);*/
 }
 
 .dir {
@@ -21,6 +30,7 @@ p {
   color: #827717;
 }
 
+
 main {
   padding: 2em;
   display: flex;
@@ -28,15 +38,13 @@ main {
   align-items: center;
 }
 
-@keyframes blink {
-  from, to {
-    background: #263238;
-  }
-  50% {
-    background: #78909C;
-  }
+.typed-cursor{
+    font-size: 6em;
+    opacity: 1;
+    animation: blink 1s infinite;
 }
-
-@keyframes typing {
-    from { width: 0 }
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
