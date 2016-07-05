@@ -1,0 +1,42 @@
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  background: #263238;
+}
+
+p {
+  color: #78909C;
+  white-space:nowrap;
+  width: 10em;
+  overflow: hidden;
+  animation:
+    typing 3s steps(12, end);
+}
+
+.dir {
+  color: #2196F3;
+}
+
+.git {
+  color: #827717;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@keyframes blink {
+  from, to {
+    background: #263238;
+  }
+  50% {
+    background: #78909C;
+  }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
