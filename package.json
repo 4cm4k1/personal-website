@@ -1,0 +1,23 @@
+{
+  "name": "anthony.codes",
+  "version": "1.0.0",
+  "description": "Anthony Maki’s website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4cm4k1/anthony.codes.git"
+  },
+  "author": "Anthony Maki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4cm4k1/anthony.codes/issues"
+  },
+  "homepage": "https://github.com/4cm4k1/anthony.codes#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
