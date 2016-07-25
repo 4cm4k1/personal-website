@@ -1,6 +1,6 @@
-$(function(){
-  $(".on-screen").typed({
-    stringsElement: $(".command-line"),
-    cursorChar: "&#x258B;"
-  });
+$(function() {
+    $(".on-screen").typed({
+        stringsElement: $(".command-line"),
+        cursorChar: "&#x258B;"
+    });
 });
