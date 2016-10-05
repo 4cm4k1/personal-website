@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/4cm4k1
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://anthony.codes
+  * I am 4cm4k1 (https://keybase.io/4cm4k1) on keybase.
+  * I have a public key with fingerprint 7291 3A17 F455 0BC9 C9E3  7F4E 47D5 BF05 3EFB 252F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010107026e68fbc80fd8c64fc5fb04af237861aac9911cd6bd074fd6b51a7380f1350a",
+            "fingerprint": "72913a17f4550bc9c9e37f4e47d5bf053efb252f",
+            "host": "keybase.io",
+            "key_id": "47d5bf053efb252f",
+            "kid": "010107026e68fbc80fd8c64fc5fb04af237861aac9911cd6bd074fd6b51a7380f1350a",
+            "uid": "15cc166eb75b613478413f76edf42319",
+            "username": "4cm4k1"
+        },
+        "service": {
+            "hostname": "anthony.codes",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1475702736,
+    "expire_in": 157680000,
+    "prev": "b7abd883727af596aa86c052163cf35ab20fdd3b170d02aaf6fd58f818d7b827",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJbSBVBGD6mZtnNByEIemihSBLb2dvsMSq6PVihBoaZymlmdsazqbvH
+s3tM0S5kF4JUKihQi6JIMBJSoQetzHzognoSLMWMjBKpHiqojC42K/bWYzMPw///
+3/fN9//8vYtifYkxKdmLMy+Gfv6KeXL/QsSX+8WOVgnYNiqF9CqhmM48tMSgjhso
+Ng0hXRABv1CUNKrpDBNdZIZONIURlWFRQUySoa4BhIjfDwAxNGyIUGH8VQGCMocD
+WRWRkCow0yqi4VDYtFwuCyU/kBGATFFVERM/8VOZB1SBhoqZqMqUYUmVGCcGbcdj
+cHMYOTTNtHmOB4EZe//A/2ffkRk5oBICNI1iqGINyArUFSAzqFGDKZIM/B7QoWEL
+lVLPFSlVioFwMFXguXKTUG+sXh+zdWS5QduqTCM2nzSnhsK2axO7hJeCrhty0j2q
+WxnysAcoDsyqBLBpGXyMnFFOw45pW0I64Ejimp4sUKDKO4aylirQipAZpgHTQ6hQ
+00V+vH9oOZfEEGFD12UoQcRUv4aQrhFRlYAmEyarCEt8WoaMARQNUUKIacxQdaYD
+3YBYl6Dg9VVm2Vzbz32iIq7pmEUWciNhKhzs6S6I88Uk+ubGz/H2y5c4P+nv1k2+
+T5jOu9oy+nr92Kf9W+6Mx+85IVzZcBQ0CM+SM7aa2yLR6l9LOq59n1r+dCTh5XBN
+3jy8uaC+ojWuc3BqpNV36NXSwXWXhjaFd50IzF/xSFnQVbdg6MjNF+1x403RVTUZ
+Z9pSbpDbDdsbo4K5s/p0a86y1XsHHG1VTvTHx+zhB80FE9si4q3QRGrkVFPs2tqq
+obqyNWnTn39nZk2bO3ZvrO3vO1Q92D5c87I7+frkxN265fkrm3MG6jPGv+8N9hee
+LMRVG6OXP5Q8PFvLeiG+dlz5MFo2dd7s7/yS9jZpss3pW1/dXLrv8LupLacWHsu/
+UXavQ+xp/BqMPRf/duzN866slorHud/+ALc2TNU=
+=7Ooa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/4cm4k1
+
+==================================================================
