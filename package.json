@@ -1,47 +1,61 @@
 {
-  "name": "anthony.codes",
-  "version": "1.0.0",
+  "name": "anthony-codes",
+  "version": "0.0.0",
   "description": "Website located at https://anthony.codes",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
   "repository": {
-    "url": "git@github.com:4cm4k1/anthony.codes.git",
+    "url": "git@github.com:4cm4k1/anthony-codes.git",
     "type": "git"
   },
   "author": "Anthony Maki",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/4cm4k1/anthony.codes/issues"
+    "url": "https://github.com/4cm4k1/anthony-codes/issues"
   },
-  "homepage": "https://github.com/4cm4k1/anthony.codes#readme",
+  "homepage": "https://github.com/4cm4k1/anthony-codes#readme",
+  "angular-cli": {},
+  "scripts": {
+    "start": "ng serve",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "ng test && xo",
+    "pree2e": "webdriver-manager update",
+    "e2e": "protractor"
+  },
+  "private": true,
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-animate": "^1.5.8",
-    "angular-aria": "^1.5.8",
-    "angular-material": "^1.1.1",
-    "angular-messages": "^1.5.8",
-    "angular-route": "^1.5.8",
-    "angularfire": "^2.0.2",
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "firebase": "^3.4.0"
+    "@angular/common": "^2.1.0",
+    "@angular/compiler": "^2.1.0",
+    "@angular/core": "^2.1.0",
+    "@angular/forms": "^2.1.0",
+    "@angular/http": "^2.1.0",
+    "@angular/material": "^2.0.0-alpha.10",
+    "@angular/platform-browser": "^2.1.0",
+    "@angular/platform-browser-dynamic": "^2.1.0",
+    "@angular/router": "^3.1.0",
+    "angularfire2": "2.0.0-beta.6",
+    "core-js": "^2.4.1",
+    "firebase": "^3.6.1",
+    "rxjs": "5.0.0-beta.12",
+    "ts-helpers": "^1.1.1",
+    "zone.js": "^0.6.23"
   },
   "devDependencies": {
-    "@4cm4k1/grunt-standard": "^3.0.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "nodemon": "^1.11.0"
-  },
-  "standard": {
-    "globals": [
-      "angular",
-      "firebase"
-    ]
+    "@angular/compiler-cli": "^2.1.0",
+    "@types/jasmine": "^2.2.30",
+    "@types/node": "^6.0.42",
+    "angular-cli": "1.0.0-beta.20-4",
+    "codelyzer": "~1.0.0-beta.3",
+    "jasmine-core": "2.4.1",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-remap-istanbul": "^0.2.1",
+    "protractor": "4.0.9",
+    "ts-node": "1.2.1",
+    "tslint": "3.13.0",
+    "typescript": "~2.0.3",
+    "webdriver-manager": "10.2.5",
+    "xo": "^0.17.1"
   }
 }
