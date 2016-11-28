@@ -1,14 +1,14 @@
-import { AnthonyCodesPage } from './app.po';
+import { AnthonyCodesPage } from "./app.po";
 
-describe('anthony-codes App', function() {
+describe("anthony-codes App", function() {
   let page: AnthonyCodesPage;
 
   beforeEach(() => {
     page = new AnthonyCodesPage();
   });
 
-  it('should display message saying app works', () => {
+  it("should display message saying app works", () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual("app works!");
   });
 });
