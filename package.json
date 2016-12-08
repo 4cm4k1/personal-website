@@ -51,7 +51,7 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
-    "protractor": "4.0.9",
+    "protractor": "4.0.12",
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
     "tslint-eslint-rules": "^3.0.0",
