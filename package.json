@@ -57,6 +57,6 @@
     "tslint-eslint-rules": "^3.0.0",
     "typescript": "^2.0.10",
     "webdriver-manager": "10.2.5",
-    "xo": "^0.17.1"
+    "xo": "^0.18.0"
   }
 }
