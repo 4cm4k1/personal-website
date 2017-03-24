@@ -22,7 +22,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^2.1.0",
+    "@angular/common": "^4.0.0",
     "@angular/compiler": "^2.1.0",
     "@angular/core": "^2.1.0",
     "@angular/forms": "^2.1.0",
