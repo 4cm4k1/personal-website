@@ -1,54 +1,28 @@
-# anthony-codes [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![GitHub release](https://img.shields.io/github/release/4cm4k1/anthony.codes.svg)](https://github.com/4cm4k1/anthony.codes/releases) [![TravisCI Build Status](https://img.shields.io/travis/4cm4k1/anthony-codes.svg)](https://travis-ci.org/4cm4k1/anthony-codes) [![CircleCI Build Status](https://img.shields.io/circleci/project/github/4cm4k1/anthony-codes.svg)](https://circleci.com/gh/4cm4k1/anthony-codes) [![license](https://img.shields.io/github/license/4cm4k1/anthony.codes.svg)](https://github.com/4cm4k1/anthony.codes/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/4cm4k1.svg?style=social&label=Follow)](https://twitter.com/4cm4k1) [![GitHub followers](https://img.shields.io/github/followers/4cm4k1.svg?style=social&label=Follow)](https://github.com/4cm4k1)
+# AnthonyCodes
 
-> Website located at <https://anthony.codes>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-This is the code for my personal website located at [anthony.codes](https://anthony.codes).
+## Development server
 
-If you happen to like it or find anything interesting, feel free to bring the code down onto your system.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Anything amiss? Shoot me a PR! 👊
+## Code scaffolding
 
-It uses [AngularJS 2](https://github.com/angular), [Angular Material 2](https://github.com/material2), [AngularFire 2](https://github.com/firebase/angularfire2), and [Firebase](https://github.com/firebase). It's live, deployed via Firebase Hosting and the Firebase CLI.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Install
+## Build
 
-### Clone with HTTPS
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-```shell
-git clone https://github.com/4cm4k1/anthony-codes.git
-npm install || yarn install
-```
+## Running unit tests
 
-### Clone with SSH
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```shell
-git clone git@github.com:4cm4k1/anthony-codes.git
-npm install || yarn install
-```
+## Running end-to-end tests
 
-## Usage
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-### Deploy with Firebase Hosting
+## Further help
 
-Assuming you have `firebase-tools` installed, you can deploy by (1) initializing -- this will create the `.firebaserc` file; you will need to change the `package.json`'s `name` property to something other than `anthony-codes` -- and then (2) deploying. This will create the `database.rules.json` and `firebase.json` files as well as deploy your website live to `<your-package-name>.firebaseapp.com`. _See Firebase's docs for more information on configuring the created files._
-
-```shell
-firebase init
-firebase deploy
-```
-
-### Develop Locally
-
-#### npm
-
-```shell
-npm start -> ng serve
-```
-
-#### Yarn
-
-```shell
-yarn run start -> ng serve
-```
-
-## [License](https://github.com/4cm4k1/anthony.codes/blob/master/LICENSE)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
