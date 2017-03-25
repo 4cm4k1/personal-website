@@ -7,7 +7,6 @@
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -27,12 +26,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
 ### https://raw.github.com/github/gitignore/2c0cb52a67921cf3dffb8098ba027f376f73f859/Sass.gitignore
 
 .sass-cache/
 *.css.map
-
 
 ### https://raw.github.com/github/gitignore/2c0cb52a67921cf3dffb8098ba027f376f73f859/Node.gitignore
 
@@ -94,6 +91,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-
-
