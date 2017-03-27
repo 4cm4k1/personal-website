@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-		"prestart": "yarn run lint && yarn run test",
+    "prestart": "yarn run lint && yarn run test",
     "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
@@ -54,7 +54,7 @@
     "typescript": "^2.2.2",
     "xo": "^0.18.1"
   },
-	"xo": {
-		"envs": ["node", "jasmine", "protractor", "es6"]
-	}
+  "xo": {
+    "envs": ["node", "jasmine", "protractor", "es6"]
+  }
 }

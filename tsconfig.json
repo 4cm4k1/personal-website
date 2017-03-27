@@ -16,8 +16,8 @@
       "es2016",
       "dom"
     ],
-		"plugins": [
-			{"name": "@angular/language-service"}
-		]
+    "plugins": [
+      {"name": "@angular/language-service"}
+    ]
   }
 }
