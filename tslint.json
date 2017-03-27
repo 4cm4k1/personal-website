@@ -2,6 +2,7 @@
   "rulesDirectory": [
     "node_modules/codelyzer"
   ],
+  "extends": "tslint-config-xo/esnext",
   "rules": {
     "callable-types": true,
     "class-name": true,
@@ -16,7 +17,7 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "tabs"
     ],
     "interface-over-type-literal": true,
     "label-position": true,
@@ -98,8 +99,8 @@
       "check-type"
     ],
 
-    "directive-selector": [true, "attribute", "ac", "camelCase"],
-    "component-selector": [true, "element", "ac", "kebab-case"],
+    "directive-selector": [true, "attribute", "app", "camelCase"],
+    "component-selector": [true, "element", "app", "kebab-case"],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
