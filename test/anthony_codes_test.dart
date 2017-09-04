@@ -1,20 +1,18 @@
 @Tags(const ['aot'])
 @TestOn('browser')
 import 'dart:async';
-
 import 'package:angular/angular.dart';
 import 'package:angular_test/angular_test.dart';
 import 'package:pageloader/objects.dart';
 import 'package:test/test.dart';
+import 'package:anthony_codes/anthony_codes_component.dart';
 
-import 'package:anthony_codes/app_component.dart';
-
-NgTestFixture<AppComponent> fixture;
+NgTestFixture<AnthonyCodesComponent> fixture;
 AppPO appPO;
 
 @AngularEntrypoint()
 void main() {
-  final testBed = new NgTestBed<AppComponent>();
+  final testBed = new NgTestBed<AnthonyCodesComponent>();
 
   setUp(() async {
     fixture = await testBed.create();
@@ -24,10 +22,8 @@ void main() {
   tearDown(disposeAnyRunningTest);
 
   test('title', () async {
-    expect(await appPO.title, 'My First AngularDart App');
+    expect(await appPO.title, 'Anthony Maki');
   });
-
-  // Testing info: https://webdev.dartlang.org/angular/guide/testing
 }
 
 class AppPO {
