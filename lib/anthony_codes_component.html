@@ -1,3 +1,35 @@
-<h1>Anthony Maki</h1>
-
-<nav-bar></nav-bar>
+<material-drawer temporary #drawer="drawer" [attr.end]="end ? '' : null" [attr.overlay]="overlay ? '' : null">
+	<div *deferredContent>
+		Here is some drawer content.
+	</div>
+</material-drawer>
+<material-content>
+	<header class="material-header shadow">
+		<div class="material-header-row">
+			<material-button class="material-drawer-button" icon (trigger)="drawer.toggle()">
+				<material-icon icon="menu"></material-icon>
+			</material-button>
+			<span class="material-header-title">Anthony Maki</span>
+			<div class="material-spacer"></div>
+			<nav class="material-navigation">
+				<a [routerLink]="['Home']">Home</a>
+			</nav>
+			<nav class="material-navigation">
+				<a href="#">About</a>
+			</nav>
+			<nav class="material-navigation">
+				<a href="#">Résumé</a>
+			</nav>
+			<nav class="material-navigation">
+				<a href="#">Projects</a>
+			</nav>
+			<nav class="material-navigation">
+				<a href="https://blog.anthony.codes" target="_blank">Blog</a>
+			</nav>
+			<nav class="material-navigation">
+				<a [routerLink]="['NotFound']">404</a>
+			</nav>
+		</div>
+	</header>
+	<router-outlet></router-outlet>
+</material-content>

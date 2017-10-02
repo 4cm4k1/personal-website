@@ -22,7 +22,7 @@ void main() {
   tearDown(disposeAnyRunningTest);
 
   test('title', () async {
-    expect(await appPO.title, 'Anthony Maki');
+    expect(await appPO.title, 'Anthony Codes');
   });
 }
 

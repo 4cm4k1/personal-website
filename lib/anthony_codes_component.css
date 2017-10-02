@@ -1,0 +1,8 @@
+:host {
+	font-family: 'Roboto Mono', monospace;
+}
+
+a:link, a:visited, a:active, a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
