@@ -14,6 +14,5 @@ import 'package:angular_components/angular_components.dart';
 class HomeComponent implements OnInit {
   @override
   Future<Null> ngOnInit() async {
-		print("Home is loaded!");
   }
 }

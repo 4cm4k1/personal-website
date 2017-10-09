@@ -14,6 +14,5 @@ import 'package:angular_components/angular_components.dart';
 class NotFoundComponent implements OnInit {
   @override
   Future<Null> ngOnInit() async {
-		print("Not Found is loaded!");
   }
 }

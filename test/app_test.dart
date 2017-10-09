@@ -5,14 +5,14 @@ import 'package:angular/angular.dart';
 import 'package:angular_test/angular_test.dart';
 import 'package:pageloader/objects.dart';
 import 'package:test/test.dart';
-import 'package:anthony_codes/anthony_codes_component.dart';
+import 'package:anthony_codes/app_component.dart';
 
-NgTestFixture<AnthonyCodesComponent> fixture;
+NgTestFixture<AppComponent> fixture;
 AppPO appPO;
 
 @AngularEntrypoint()
 void main() {
-  final testBed = new NgTestBed<AnthonyCodesComponent>();
+  final testBed = new NgTestBed<AppComponent>();
 
   setUp(() async {
     fixture = await testBed.create();

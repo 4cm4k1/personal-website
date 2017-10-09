@@ -1,6 +1,9 @@
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+body {
+	font-family: 'Noto Mono', 'Roboto Mono', Inconsolata, monospace;
+}
+
+/* THEMING (at least until angular_components supports it natively) */
+/* Override tooltip background color (here because it’s at DOM root) */
+.shadow .ink {
+	background-color: #bc477b;
 }

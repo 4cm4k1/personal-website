@@ -1,0 +1,13 @@
+{
+	"name": "anthony-codes",
+	"version": "1.0.0",
+	"description": "Personal site built with Dart, Angular, & Firebase",
+	"main": "index.js",
+	"repository": "git@github.com:4cm4k1/anthony-codes.git",
+	"author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes/)",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"normalize.css": "^7.0.0"
+	}
+}

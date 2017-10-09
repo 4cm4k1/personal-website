@@ -5,12 +5,12 @@ import 'src/home/home_component.dart';
 import 'src/not_found/not_found_component.dart';
 
 @Component(
-  selector: 'anthony-codes',
+  selector: 'app',
   styleUrls: const [
-		'anthony_codes_component.css',
 		'package:angular_components/src/components/app_layout/layout.scss.css',
+		'app_component.css',
 	],
-  templateUrl: 'anthony_codes_component.html',
+  templateUrl: 'app_component.html',
   directives: const [
 		materialDirectives,
 		ROUTER_DIRECTIVES,
@@ -40,7 +40,7 @@ import 'src/not_found/not_found_component.dart';
 	)
 ])
 
-class AnthonyCodesComponent {
+class AppComponent {
 	bool end = false;
 	bool overlay = true;
 }

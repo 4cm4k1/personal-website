@@ -1,6 +1,6 @@
 name: anthony_codes
-description: A web app that uses AngularDart Components
-version: 0.0.1
+description: Personal site built with Dart, Angular, & Firebase
+version: 1.0.0
 homepage: https://anthony.codes
 author: Anthony Maki <4cm4k1@gmail.com>
 

@@ -1,0 +1,63 @@
+<material-drawer temporary #drawer="drawer" [attr.end]="end ? '' : null" [attr.overlay]="overlay ? '' : null">
+	<material-list *deferredContent>
+		<div group class="mat-drawer-spacer"></div>
+		<div group>
+			<material-list-item [routerLink]="['Home']">
+				<material-icon icon="home"></material-icon>Home
+			</material-list-item>
+		</div>
+		<div group>
+			<material-list-item [routerLink]="['NotFound']">
+				<material-icon icon="person_outline"></material-icon>Bio
+			</material-list-item>
+			<material-list-item [routerLink]="['NotFound']">
+				<material-icon icon="format_list_bulleted"></material-icon>Résumé
+			</material-list-item>
+			<material-list-item [routerLink]="['NotFound']">
+				<material-icon icon="developer_board"></material-icon>Projects
+			</material-list-item>
+			<material-list-item [routerLink]="['NotFound']">
+				<material-icon icon="rss_feed"></material-icon>Blog
+			</material-list-item>
+		</div>
+	</material-list>
+</material-drawer>
+<material-content>
+	<header class="material-header shadow">
+		<div class="material-header-row">
+			<material-button class="material-drawer-button is-mobile" icon (trigger)="drawer.toggle()">
+				<material-icon icon="menu"></material-icon>
+			</material-button>
+			<span class="material-header-title">
+				<a [routerLink]="['Home']">Anthony Maki</a>
+			</span>
+			<div class="material-spacer"></div>
+			<nav class="material-navigation is-not-mobile">
+				<a [routerLink]="['Home']" materialTooltip="Home">
+					<material-icon icon="home"></material-icon>
+				</a>
+			</nav>
+			<nav class="material-navigation is-not-mobile">
+				<a [routerLink]="['NotFound']" materialTooltip="Bio">
+					<material-icon icon="person_outline"></material-icon>
+				</a>
+			</nav>
+			<nav class="material-navigation is-not-mobile">
+				<a [routerLink]="['NotFound']" materialTooltip="Résumé">
+					<material-icon icon="format_list_bulleted"></material-icon>
+				</a>
+			</nav>
+			<nav class="material-navigation is-not-mobile">
+				<a [routerLink]="['NotFound']" materialTooltip="Projects">
+					<material-icon icon="developer_board"></material-icon>
+				</a>
+			</nav>
+			<nav class="material-navigation is-not-mobile">
+				<a href="https://blog.anthony.codes" target="_blank" materialTooltip="Blog">
+					<material-icon icon="rss_feed"></material-icon>
+				</a>
+			</nav>
+		</div>
+	</header>
+	<router-outlet></router-outlet>
+</material-content>
