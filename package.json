@@ -1,13 +1,32 @@
 {
-	"name": "website",
-	"version": "1.0.0",
-	"description": "Personal site built with Dart, Angular, & Firebase",
-	"main": "index.js",
-	"repository": "git@github.com:4cm4k1/website.git",
-	"author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes/)",
-	"license": "MIT",
-	"private": true,
-	"dependencies": {
-		"normalize.css": "^7.0.0"
-	}
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site built with Dart, Angular, & Firebase",
+  "bugs": "https://github.com/4cm4k1/website/issues",
+  "license": "MIT",
+  "author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)",
+  "contributors": [
+    "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"
+  ],
+  "repository": "https://github.com/4cm4k1/website",
+  "scripts": {
+    "lint": "remark README.md -o && sort-package-json"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "remark": "^8.0.0",
+    "remark-cli": "^4.0.0",
+    "remark-lint": "^6.0.1",
+    "remark-preset-github": "^0.0.7",
+    "sort-package-json": "^1.7.1",
+    "xo": "^0.18.2"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-github"
+    ]
+  }
 }
