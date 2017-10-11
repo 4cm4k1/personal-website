@@ -6,12 +6,12 @@ import 'src/not_found/not_found_component.dart';
 
 @Component(
   selector: 'app',
-  styleUrls: const [
+  styleUrls: const <String>[
 		'package:angular_components/src/components/app_layout/layout.scss.css',
 		'app_component.css',
 	],
   templateUrl: 'app_component.html',
-  directives: const [
+  directives: const <Object>[
 		materialDirectives,
 		ROUTER_DIRECTIVES,
 		DeferredContentDirective,
@@ -20,7 +20,10 @@ import 'src/not_found/not_found_component.dart';
     MaterialTemporaryDrawerComponent,
     MaterialToggleComponent,
 	],
-  providers: const [materialProviders, ROUTER_PROVIDERS],
+  providers: const <Object>[
+		materialProviders,
+		ROUTER_PROVIDERS,
+	],
 )
 
 @RouteConfig(const [
@@ -40,7 +43,11 @@ import 'src/not_found/not_found_component.dart';
 	)
 ])
 
+/// Entire app.
 class AppComponent {
+	/// Whether pop-out drawer appears on left or right.
 	bool end = false;
+
+	/// Whether overlay darkening rest of page activates when drawer pops out.
 	bool overlay = true;
 }
