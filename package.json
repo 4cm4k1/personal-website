@@ -11,16 +11,27 @@
   ],
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
-    "lint": "remark README.md -o && sort-package-json"
+    "build": "pub build && gulp replaceIndexResourceTags compressCss",
+    "build:deploy": "pub build && gulp replaceIndexResourceTags compressCss && firebase deploy",
+    "lint": "remark README.md -o && sort-package-json",
+    "start": "concurrently -rk \"serve node_modules -nSt\" \"pub serve\""
   },
   "dependencies": {
+    "firebase": "^4.5.1",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "concurrently": "^3.5.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-replace": "^0.6.1",
     "remark": "^8.0.0",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.7",
+    "serve": "^6.2.0",
     "sort-package-json": "^1.7.1"
   },
   "remarkConfig": {
