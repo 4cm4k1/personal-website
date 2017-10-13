@@ -2,21 +2,21 @@
 	<material-list *deferredContent>
 		<div group class="mat-drawer-spacer"></div>
 		<div group>
-			<material-list-item [routerLink]="homeRoute">
+			<material-list-item [routerLink]="homeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="home"></material-icon>Home
 			</material-list-item>
 		</div>
 		<div group>
-			<material-list-item [routerLink]="bioRoute">
+			<material-list-item [routerLink]="bioRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="person"></material-icon>Bio
 			</material-list-item>
-			<material-list-item [routerLink]="resumeRoute">
+			<material-list-item [routerLink]="resumeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="format_list_bulleted"></material-icon>Résumé
 			</material-list-item>
-			<material-list-item [routerLink]="projectsRoute">
+			<material-list-item [routerLink]="projectsRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="developer_board"></material-icon>Projects
 			</material-list-item>
-			<a href="https://blog.anthony.codes" target="_blank">
+			<a href="https://blog.anthony.codes" target="_blank" (trigger)="drawer.toggle()">
 				<material-list-item>
 					<material-icon icon="rss_feed"></material-icon>Blog
 				</material-list-item>
@@ -31,26 +31,26 @@
 				<material-icon icon="menu"></material-icon>
 			</material-button>
 			<span class="material-header-title">
-				<a [routerLink]="homeRoute">Anthony Maki</a>
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active">Anthony Maki</a>
 			</span>
 			<div class="material-spacer"></div>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="homeRoute" materialTooltip="Home">
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active" materialTooltip="Home">
 					<material-icon icon="home"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="bioRoute" materialTooltip="Bio">
+				<a [routerLink]="bioRoute" routerLinkActive="router-link-active" materialTooltip="Bio">
 					<material-icon icon="person"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="resumeRoute" materialTooltip="Résumé">
+				<a [routerLink]="resumeRoute" routerLinkActive="router-link-active" materialTooltip="Résumé">
 					<material-icon icon="format_list_bulleted"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="projectsRoute" materialTooltip="Projects">
+				<a [routerLink]="projectsRoute" routerLinkActive="router-link-active" materialTooltip="Projects">
 					<material-icon icon="developer_board"></material-icon>
 				</a>
 			</nav>
