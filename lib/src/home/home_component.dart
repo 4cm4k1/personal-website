@@ -1,21 +1,22 @@
 import 'dart:async';
 import 'package:angular/angular.dart';
+import 'package:angular_router/angular_router.dart';
 import 'package:angular_components/angular_components.dart';
 
 @Component(
   selector: 'home',
-  styleUrls: const <String>[
+  styleUrls: const [
     'home_component.css',
   ],
   templateUrl: 'home_component.html',
-  directives: const <Object>[
+  directives: const [
     CORE_DIRECTIVES,
     materialDirectives,
   ]
 )
-/// Main page of website.
-class HomeComponent implements OnInit {
+/// Home page.
+class HomeComponent implements OnActivate {
   @override
-  Future<Null> ngOnInit() async {
+  Future<Null> onActivate(_, __) async {
   }
 }

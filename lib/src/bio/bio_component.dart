@@ -4,18 +4,18 @@ import 'package:angular_router/angular_router.dart';
 import 'package:angular_components/angular_components.dart';
 
 @Component(
-  selector: 'not-found',
-  styleUrls: const <String>[
-    'not_found_component.css',
+  selector: 'bio',
+  styleUrls: const [
+    'bio_component.css',
   ],
-  templateUrl: 'not_found_component.html',
-  directives: const <Object>[
+  templateUrl: 'bio_component.html',
+  directives: const [
     CORE_DIRECTIVES,
     materialDirectives,
   ]
 )
-/// 404 page.
-class NotFoundComponent implements OnActivate {
+/// Bio page.
+class BioComponent implements OnActivate {
   @override
   Future<Null> onActivate(_, __) async {
   }
