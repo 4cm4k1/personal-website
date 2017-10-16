@@ -19,8 +19,8 @@ dart_task:
   - dartfmt
 
 cache:
-  - dart: true
-  - yarn: true
+  dart: true
+  yarn: true
   directories:
     - $HOME/.pub-cache
     - node_modules
