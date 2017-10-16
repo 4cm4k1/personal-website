@@ -2,52 +2,52 @@
 # yarn lockfile v1
 
 
-"@firebase/app@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.1.0.tgz#b18e6dbb218f65dd97f042b3c958d6484aacc449"
+"@firebase/app@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.1.1.tgz#26e660bff8b4242860dea57eb934a5f71d2b81c2"
   dependencies:
-    "@firebase/util" "^0.1.0"
+    "@firebase/util" "^0.1.1"
 
-"@firebase/auth@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.1.0.tgz#f264502cbf48f89e517b6dba8ab24e6c2c1c5c52"
+"@firebase/auth@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.1.1.tgz#ede30a449b487e79e8b25086a92a1037ef5e505c"
 
-"@firebase/database@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.1.0.tgz#77cedb607585b138bcd7db80ac01a6d9ac0a6002"
+"@firebase/database@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.1.1.tgz#2e630c52654495c7c3ea0387a5087c04ba311800"
   dependencies:
-    "@firebase/util" "^0.1.0"
+    "@firebase/util" "^0.1.1"
     faye-websocket "0.9.3"
 
-"@firebase/firestore@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.1.0.tgz#6e42655708b8a528f89461d56154c2a124bc06b6"
+"@firebase/firestore@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.1.1.tgz#705a5c4e29dc600acc41cd8732e408c2de858a70"
   dependencies:
-    "@firebase/webchannel-wrapper" "^0.2.2"
+    "@firebase/webchannel-wrapper" "^0.2.3"
 
-"@firebase/messaging@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.1.0.tgz#d43acaf1ff8588d25fa8afab13204951f88a3b48"
+"@firebase/messaging@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.1.1.tgz#e72450c7a1399d441c1d542a22c3559cde6b2fab"
   dependencies:
-    "@firebase/util" "^0.1.0"
+    "@firebase/util" "^0.1.1"
 
-"@firebase/polyfill@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/polyfill/-/polyfill-0.1.0.tgz#1c38e809f64eb7e73d1d2c26441da3260f31171f"
+"@firebase/polyfill@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/polyfill/-/polyfill-0.1.1.tgz#fd31789b58357f619245aac1f76b982c07398a6f"
   dependencies:
     promise-polyfill "^6.0.2"
 
-"@firebase/storage@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.1.0.tgz#257750c984aad433531f4e65744227407fed960e"
+"@firebase/storage@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.1.1.tgz#5604405d59010f34f90ecc4bbb0b19b7afd05e82"
 
-"@firebase/util@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@firebase/util/-/util-0.1.0.tgz#c67d92f7d1b3365bfd31e0795dbbffdaf6457dc3"
+"@firebase/util@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@firebase/util/-/util-0.1.1.tgz#4faa625ffd6e7c518088758cba08790973f7abf9"
 
-"@firebase/webchannel-wrapper@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.2.tgz#5fb89db77b63ef59378599913d38e28cc4291290"
+"@firebase/webchannel-wrapper@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.3.tgz#e94f7e772f40e48a2dc52e57d1df38b28bf98e39"
 
 abbrev@1:
   version "1.1.1"
@@ -1440,17 +1440,17 @@ fined@^1.0.1:
     object.pick "^1.2.0"
     parse-filepath "^1.0.1"
 
-firebase@^4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-4.5.1.tgz#882365d350c9bbbe3fe0731343776963cedefd9d"
+firebase@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-4.5.2.tgz#a0856ab37d2ba52d853f6d9ac683b98ab1f8812b"
   dependencies:
-    "@firebase/app" "0.1.0"
-    "@firebase/auth" "0.1.0"
-    "@firebase/database" "0.1.0"
-    "@firebase/firestore" "0.1.0"
-    "@firebase/messaging" "0.1.0"
-    "@firebase/polyfill" "0.1.0"
-    "@firebase/storage" "0.1.0"
+    "@firebase/app" "^0.1.1"
+    "@firebase/auth" "^0.1.1"
+    "@firebase/database" "^0.1.1"
+    "@firebase/firestore" "^0.1.1"
+    "@firebase/messaging" "^0.1.1"
+    "@firebase/polyfill" "^0.1.1"
+    "@firebase/storage" "^0.1.1"
     dom-storage "^2.0.2"
     xmlhttprequest "^1.8.0"
 

@@ -12,7 +12,7 @@ const normalizeCssPath = 'node_modules/normalize.css/normalize.css';
 export function replaceIndexResourceTags() {
   return gulp.src(builtIndexPath, { base: '.' })
     .pipe(replace('http://localhost:5000/normalize.css/', ''))
-    .pipe(replace('http://localhost:5000/firebase/', '/__/firebase/4.5.1/'))
+    .pipe(replace('http://localhost:5000/firebase/', '/__/firebase/4.5.2/'))
     .pipe(replace('https://anthony.codes/__/', '/__/'))
     .pipe(gulp.dest('.'));
 }
