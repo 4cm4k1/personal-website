@@ -21,7 +21,7 @@
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "concurrently": "^3.5.0",
     "gulp": "gulpjs/gulp#4.0",
@@ -31,7 +31,7 @@
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.7",
-    "serve": "^6.2.0",
+    "serve": "^6.3.1",
     "sort-package-json": "^1.7.1"
   },
   "remarkConfig": {

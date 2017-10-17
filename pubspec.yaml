@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   angular: ^4.0.0
-  angular_components: ^0.7.1
+  angular_components: ^0.8.0
   angular_forms: ^1.0.0
   angular_router: ^2.0.0-alpha
 

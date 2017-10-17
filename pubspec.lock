@@ -24,7 +24,7 @@ packages:
       name: angular_components
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.1"
+    version: "0.8.0"
   angular_forms:
     description:
       name: angular_forms
@@ -97,6 +97,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.0+1"
+  build_runner:
+    description:
+      name: build_runner
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.0"
   charcode:
     description:
       name: charcode
@@ -325,6 +331,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  sass:
+    description:
+      name: sass
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-beta.2"
+  sass_builder:
+    description:
+      name: sass_builder
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
+  scratch_space:
+    description:
+      name: scratch_space
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1+1"
   shelf:
     description:
       name: shelf
@@ -385,6 +409,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.6.2"
+  stream_transform:
+    description:
+      name: stream_transform
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.9"
   string_scanner:
     description:
       name: string_scanner

@@ -13,7 +13,7 @@ import 'src/resume/resume_component.template.dart' as resume_component;
 @Component(
   selector: 'app',
   styleUrls: const [
-		'package:angular_components/src/components/app_layout/layout.scss.css',
+		'package:angular_components/app_layout/layout.scss.css',
 		'app_component.css',
 	],
   templateUrl: 'app_component.html',
