@@ -216,7 +216,13 @@ packages:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.15.1"
+    version: "0.15.2"
+  io:
+    description:
+      name: io
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.0"
   isolate:
     description:
       name: isolate
@@ -432,7 +438,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.24+8"
+    version: "0.12.26"
   tuple:
     description:
       name: tuple
@@ -488,4 +494,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=1.24.0 <=2.0.0-dev.3.0"
+  dart: ">=1.24.0 <=2.0.0-dev.4.0"
