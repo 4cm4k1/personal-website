@@ -1,37 +1,29 @@
 language: dart
-
 sudo: false
-
 dart:
-  - dev
-
+- dev
 branches:
   only:
-    - master
-  
+  - master
 before_install:
-  - . $HOME/.nvm/nvm.sh
-  - nvm install node
-  - nvm use node
-
+- ". $HOME/.nvm/nvm.sh"
+- nvm install node
+- nvm use node
 dart_task:
-  - dartanalyzer: --fatal-warnings .
-  - dartfmt
-
+- dartanalyzer: "--fatal-warnings ."
+- dartfmt
 cache:
   dart: true
   yarn: true
   directories:
-    - $HOME/.pub-cache
-    - node_modules
-
+  - "$HOME/.pub-cache"
+  - node_modules
 script:
-  - pub get
-  - yarn install
-  - yarn run build
-
+- pub get
+- yarn install
+- yarn run build
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: RrkjKAKp8/z2VeqL8PVSjjbnIxgHyLbb6bYZzTVKvZPgX9rt1n32MGs8kgqeyF6Ju4bsrOyBuhWYp2dudn8oFSnJiHvMpnNyBfCcnZw5j5IEdyVnMq1hCThgqQ+C4sV/24LYH001y2Xys4Zxwa+wknytiJeg6O9jNhQh+tw1ap9vNLyzXeSzdVpfQUFGhlFIPlQnalRRUYbLUC/oQjSKm6ZpASQaLh87iM6EyjByBk2K1x+MkdY8OsrrPxuFCGdZFoMp/CzaXcvkqJ8l1n3RSjqYFgGNeMXLJ1QueUb9s+c9tVtoQ3GdHYY3pFvDKTqoWTw81k5928wMdl6JpNKcNuvy0OGkQUDBsMQlCYJfuLGRAzjGMS0RgcqdIe9bSXltdguecltuckxTKa+0h2VLCZrQyhei5gQDuP0VMa729qyr/FgbJ4Hm399rm6OQj+FUaypt4J71ByJhy2YOIL0izJMgl3bGAQLSpwogkLFZ5iqi61m9nfmxQ9Z8dmmpyAS2WtAgPy6jR3W/ihm8fFf2cqLa5y60D44chNBXo/QSFRHKIOr5Wc4H/Kr+IMbEJDbemVp7stCqMSpAOk8dz1VuAJGc26m7DdVDkTduGeTbrEZzXswEFM73IveAc4DI0iBoxchEGeQO15tUj8c+ZfecGHcF9xfuQ1TIRJ4JepxCEBY=
+    secure: RpF/dXDMSminEYXqcU7gXCw3orhGYm4yng7P1Wof2Zd5Cj3iXy+m8NxgjaHWEhRJ36WHjnNPCh6ZZxDC57+UorlNZhAs71Fo9hOYhwE+GPWaHjbJOos9kNcPGEcYtQUYbIQN9xGPWZXb9cpNZGqwhyOP+yiCbYZl8UFmpHxEkwdQ8DLN1gtTFRT57Vm2fgUcBSjr5DRbb9n+rX6lsmyJ5JjU0ZN6qiFSFAs9lAS42KIP7QHPArZRteYTYK2QEinhFxa/QNN1SBoqaXhQPG9acKfaoZROgqo64tGdbMGJyzZWVtzRfxKbZ3J32TS1cjWXgFqWqYPB5bSXWc8tYxV0VAapLJp1LuoAZUccFAUpXSJaXwqc7YQszktbQJwu7yj6tOuT3RGjPooLuDx90oxlhs3+iel7fj0npwHoYoWaZcuaqExGWG7OnUfwCgCTuujRa0nJZVEGIIsNpjE0o/UWXfz78Ll1XJAkGHZhoV2jxe3PmP8twNMU6/CbOXH7Zv3ro7xxj/1tMSOWO73UTeXEYIJwJvgMbrFUd2eeh44okDyJW/PFbYeBQ+lMUiRRjYdChiWaLT00teTLlamhbtvF1k9pO7Fb0sksiHiB3HB2X8loGZKXe4hRCSDH7MnlG72zNQPnujayu6DI/vWMzhnfmk0wt3ZqAe0QBFBnzV0zAUY=
