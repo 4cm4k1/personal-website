@@ -11,8 +11,8 @@
   ],
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
-    "build": "pub build && gulp replaceIndexResourceTags compressCss",
-    "build:deploy": "pub build && gulp replaceIndexResourceTags compressCss && firebase deploy",
+    "build": "pub build && webpack",
+    "build:deploy": "pub build && webpack && firebase deploy",
     "lint": "remark README.md -o && sort-package-json",
     "start": "concurrently -rk \"serve node_modules -nSt\" \"pub serve\""
   },
@@ -21,9 +21,12 @@
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
+    "babel-core": "7.0.0-beta.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "7.0.0-beta.3",
+    "babel-register": "7.0.0-beta.3",
     "concurrently": "^3.5.0",
+    "css-loader": "^0.28.7",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-replace": "^0.6.1",
@@ -32,7 +35,9 @@
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.7",
     "serve": "^6.3.1",
-    "sort-package-json": "^1.7.1"
+    "sort-package-json": "^1.7.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
   },
   "remarkConfig": {
     "plugins": [
