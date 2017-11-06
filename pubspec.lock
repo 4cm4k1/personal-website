@@ -336,7 +336,7 @@ packages:
       name: sass
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0-beta.2"
+    version: "1.0.0-beta.3"
   sass_builder:
     description:
       name: sass_builder
@@ -348,7 +348,7 @@ packages:
       name: scratch_space
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1+1"
+    version: "0.0.1+2"
   shelf:
     description:
       name: shelf
@@ -378,7 +378,7 @@ packages:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.2"
+    version: "0.7.2+1"
   source_map_stack_trace:
     description:
       name: source_map_stack_trace
@@ -402,7 +402,7 @@ packages:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.3"
+    version: "1.9.0"
   stream_channel:
     description:
       name: stream_channel
@@ -432,7 +432,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.26"
+    version: "0.12.27"
   tuple:
     description:
       name: tuple
@@ -488,4 +488,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=1.24.0 <=2.0.0-dev.5.0"
+  dart: ">=1.24.0 <=2.0.0-dev.6.0"
