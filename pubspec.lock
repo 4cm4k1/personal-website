@@ -294,7 +294,7 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.4.2"
+    version: "1.5.0"
   perf_api:
     description:
       name: perf_api
@@ -402,7 +402,7 @@ packages:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.0"
+    version: "1.9.1"
   stream_channel:
     description:
       name: stream_channel
@@ -432,7 +432,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.27"
+    version: "0.12.27+1"
   tuple:
     description:
       name: tuple
@@ -488,4 +488,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=1.24.0 <=2.0.0-dev.6.0"
+  dart: ">=1.24.0 <=2.0.0-dev.7.0"
