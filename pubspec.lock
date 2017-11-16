@@ -157,6 +157,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.3"
+  firebase:
+    description:
+      name: firebase
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.0"
   fixnum:
     description:
       name: fixnum
