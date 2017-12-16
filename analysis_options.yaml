@@ -1,4 +1,7 @@
 analyzer:
+  plugins:
+    angular:
+      enabled: true
   strong-mode: true
   errors:
     unused_element: error
