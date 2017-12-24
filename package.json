@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal site built with Dart, Angular, & Firebase",
+  "description": "Personal site built with Dart, Angular, and Firebase",
   "bugs": "https://github.com/4cm4k1/website/issues",
   "license": "MIT",
   "author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)",
@@ -11,13 +11,14 @@
   ],
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
+    "alias": "now alias --token $NOW_TOKEN",
     "build": "pub build && webpack",
-    "build:deploy": "pub build && webpack && firebase deploy",
-    "lint": "remark README.md -o && sort-package-json",
+    "deploy": "now ./build/web --token $NOW_TOKEN",
+    "lint": "remark readme.md -o && sort-package-json",
     "start": "concurrently -rk \"serve node_modules -nSt\" \"pub serve\""
   },
   "dependencies": {
-    "firebase": "^4.8.0",
+    "firebase": "^4.8.1",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
@@ -31,7 +32,7 @@
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.7",
-    "serve": "^6.4.1",
+    "serve": "^6.4.3",
     "sort-package-json": "^1.7.1",
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0"

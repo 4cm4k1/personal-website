@@ -68,4 +68,4 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 ## License
 
-[MIT](LICENSE) © [Anthony Maki](https://anthony.codes)
+[MIT](license) © [Anthony Maki](https://anthony.codes)

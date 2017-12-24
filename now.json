@@ -1,0 +1,9 @@
+{
+  "name": "anthony-codes",
+  "alias": "anthony.codes",
+  "public": true,
+  "type": "static",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
