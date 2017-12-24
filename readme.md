@@ -10,6 +10,7 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Contributors](#contributors)
+* [Changelog](#changelog)
 * [License](#license)
 
 
@@ -56,7 +57,7 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 
 ## Contributing
 
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](conduct.md). By participating in this project you agree to abide by its terms.
 
 
 ## Contributors
@@ -64,6 +65,9 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 | Name             | Website                 |
 | ---------------- | ----------------------- |
 | **Anthony Maki** | <https://anthony.codes> |
+
+
+## [Changelog](changelog.md)
 
 
 ## License
