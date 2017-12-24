@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
-    "alias": "now alias --token $NOW_TOKEN",
+    "alias": "now alias -A ./build/web/now.json --token $NOW_TOKEN",
     "build": "pub build && webpack",
     "deploy": "now ./build/web --token $NOW_TOKEN",
     "lint": "remark readme.md -o && sort-package-json",
