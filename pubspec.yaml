@@ -21,7 +21,7 @@ dev_dependencies:
   test: ^0.12.29+1
 
 dependency_overrides:
-  angular: ^5.0.0-alpha+2
+  analyzer: ^0.31.0-alpha.1
 
 transformers:
 - angular:
