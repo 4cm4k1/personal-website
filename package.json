@@ -13,7 +13,7 @@
   "scripts": {
     "alias": "now alias -t $NOW_TOKEN",
     "build": "pub build && webpack",
-    "deploy": "now ./build/web -A ./now.json -t $NOW_TOKEN",
+    "deploy": "now ./build/web -t $NOW_TOKEN",
     "lint": "remark readme.md -o && sort-package-json",
     "start": "concurrently -rk \"serve node_modules -nSt\" \"pub serve\""
   },
