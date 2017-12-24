@@ -4,11 +4,10 @@
 	<head>
 		<!-- HEAD INFO: https://github.com/joshbuchea/HEAD -->
 		<meta charset="utf-8" />
-		<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
 		<link rel="dns-prefetch" href="https://repos.anthony.codes" />
-		<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" />
-		<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Mono" as="style" />
-		<link rel="preload" href="style.css" as="style" />
+		<link rel="preload" href="assets/noto-mono.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="assets/noto-mono.woff" as="font" type="font/woff" crossorigin />
+		<link rel="preload" href="assets/material-icons.woff2" as="font" type="font/woff2" crossorigin />
 		<link rel="preload" href="main.dart.js" as="script" />
 		<meta content="origin-when-cross-origin" name="referrer" />
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
@@ -16,10 +15,6 @@
 		<title>Anthony Maki, Rapidly Iterating Software Engineer - Anthony Codes</title>
 		<meta name="description" content="Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect."
 		/>
-		<!-- STYLES -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
-		<link href="style.css" type="text/css" rel="stylesheet" />
 		<!-- ICONS -->
 		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
@@ -89,6 +84,48 @@
 			]
 		}
 	</script>
+		<style>
+			@font-face {
+				font-family: 'Material Icons';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Material Icons'), local('MaterialIcons-Regular'),
+				url('assets/material-icons.woff2') format('woff2');
+			}
+
+			@font-face {
+				font-family: 'Noto Mono';
+				src: local('Noto Mono'), local('NotoMono'),
+				url('assets/noto-mono.woff2') format('woff2'),
+				url('assets/noto-mono.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			body {
+				font-family: 'Noto Mono', 'Roboto Mono', Inconsolata, monospace;
+			}
+
+			.material-icons {
+				font-family: 'Material Icons';
+				font-weight: normal;
+				font-style: normal;
+				font-size: 24px;
+				line-height: 1;
+				letter-spacing: normal;
+				text-transform: none;
+				display: inline-block;
+				white-space: nowrap;
+				word-wrap: normal;
+				direction: ltr;
+				-webkit-font-feature-settings: 'liga';
+				font-feature-settings: 'liga';
+				-webkit-font-smoothing: antialiased;
+				text-rendering: optimizeLegibility;
+				-moz-osx-font-smoothing: grayscale;
+			}
+
+		</style>
 	</head>
 
 	<body>

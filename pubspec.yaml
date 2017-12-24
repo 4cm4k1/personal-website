@@ -1,5 +1,5 @@
 name: website
-description: Personal site built with Dart, Angular, & Firebase
+description: Personal site built with Dart, Angular, and Firebase
 version: 1.0.0
 homepage: https://anthony.codes
 author: Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)
@@ -13,6 +13,7 @@ dependencies:
   angular_router: ^2.0.0-alpha+2
   firebase:
     git: git://github.com/firebase/firebase-dart.git
+  sass_builder: ^1.1.0
 
 dev_dependencies:
   angular_test: ^2.0.0-alpha
@@ -24,6 +25,7 @@ dependency_overrides:
   analyzer: ^0.31.0-alpha.1
 
 transformers:
+- sass_builder
 - angular:
     entry_points:
       - web/main.dart
@@ -35,3 +37,5 @@ transformers:
 web:
  compiler:
    debug: dartdevc
+
+license: MIT
