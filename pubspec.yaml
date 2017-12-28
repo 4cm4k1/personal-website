@@ -33,6 +33,16 @@ transformers:
 - test/pub_serve:
     $include: test/**_test.dart
 - dart_to_js_script_rewriter
+- $dart2js:
+    checked: true
+    csp: true
+    minify: true
+    sourceMaps: false
+    suppressHints: true
+    suppressWarnings: true
+    terse: true
+    verbose: true
+    commandLineOptions: [--trust-type-annotations, --trust-primitives]
 
 web:
  compiler:

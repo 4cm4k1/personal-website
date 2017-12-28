@@ -7,6 +7,10 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "type": "static",
+  "files": [
+    "build",
+    "index.js"
+  ],
+  "type": "npm",
   "public": true
 }
