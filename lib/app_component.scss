@@ -1,8 +1,10 @@
-:host {
-	/* COMPONENT ITSELF */
+@import 'package:angular_components/css/material/material';
+
+material-list-item {
+	color: $mat-grey-700;
 }
 
-a:link, a:visited, a:active, a:hover{
+a:link, a:visited, a:active, a:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -10,12 +12,7 @@ a:link, a:visited, a:active, a:hover{
 /* THEMING (at least until angular_components supports it natively) */
 /* Override header background color */
 .material-header {
-	background-color: #880e4f;
-}
-
-/* Override tooltip background color */
-.shadow .ink {
-	background-color: #bc477b;
+	background-color: $mat-pink-500;
 }
 
 /* RESPONSIVE ELEMENTS */
@@ -39,6 +36,6 @@ a:link, a:visited, a:active, a:hover{
 	/* Let’s override some properties to make title not so far right */
 	.material-header-row .material-header-title {
 		left: 0;
-		margin-left: 12px;
+		margin-left: 2rem;
 	}
 }

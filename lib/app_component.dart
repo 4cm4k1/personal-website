@@ -17,13 +17,15 @@ import 'src/resume/resume_component.template.dart' as resume_component;
   ],
   templateUrl: 'app_component.html',
   directives: const [
-    materialDirectives,
     routerDirectives,
     DeferredContentDirective,
     MaterialButtonComponent,
     MaterialIconComponent,
+    MaterialListComponent,
+    MaterialListItemComponent,
     MaterialTemporaryDrawerComponent,
     MaterialToggleComponent,
+		MaterialTooltipDirective,
   ],
   providers: const [
     materialProviders,

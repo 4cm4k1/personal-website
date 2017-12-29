@@ -14,9 +14,9 @@
   "scripts": {
     "alias": "now alias -A ./now.json -t $NOW_TOKEN",
     "build": "pub build",
-    "now-build": "echo 'Hi'",
     "deploy": "now -t $NOW_TOKEN",
     "lint": "remark readme.md -o && sort-package-json",
+    "now-build": "echo 'Hi'",
     "start": "node index.js"
   },
   "dependencies": {

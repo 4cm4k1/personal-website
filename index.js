@@ -22,6 +22,7 @@ const configuration = {
             value: 'style-src \'self\' \'unsafe-inline\' https://cdnjs.cloudflare.com; ' +
               'script-src \'self\' \'unsafe-eval\' https://www.gstatic.com; ' +
               'font-src \'self\' data:; ' +
+              'base-uri \'self\'; ' +
               'require-sri-for style'
           },
           {

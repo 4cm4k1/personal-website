@@ -7,24 +7,22 @@
 			</material-list-item>
 		</div>
 		<div group>
-			<material-list-item [routerLink]="bioRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
+			<material-list-item [routerLink]="homeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="person"></material-icon>Bio
 			</material-list-item>
-			<material-list-item [routerLink]="resumeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
+			<material-list-item [routerLink]="homeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="format_list_bulleted"></material-icon>Résumé
 			</material-list-item>
-			<material-list-item [routerLink]="projectsRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
+			<material-list-item [routerLink]="homeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
 				<material-icon icon="developer_board"></material-icon>Projects
 			</material-list-item>
-			<a href="https://blog.anthony.codes" target="_blank" (trigger)="drawer.toggle()">
-				<material-list-item>
-					<material-icon icon="rss_feed"></material-icon>Blog
-				</material-list-item>
-			</a>
+			<material-list-item [routerLink]="homeRoute" routerLinkActive="router-link-active" (trigger)="drawer.toggle()">
+				<material-icon icon="rss_feed"></material-icon>Blog
+			</material-list-item>
 		</div>
 	</material-list>
 </material-drawer>
-<material-content>
+<main>
 	<header class="material-header shadow">
 		<div class="material-header-row">
 			<material-button class="material-drawer-button is-mobile" icon (trigger)="drawer.toggle()">
@@ -40,26 +38,26 @@
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="bioRoute" routerLinkActive="router-link-active" materialTooltip="Bio">
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active" materialTooltip="Bio">
 					<material-icon icon="person"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="resumeRoute" routerLinkActive="router-link-active" materialTooltip="Résumé">
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active" materialTooltip="Résumé">
 					<material-icon icon="format_list_bulleted"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a [routerLink]="projectsRoute" routerLinkActive="router-link-active" materialTooltip="Projects">
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active" materialTooltip="Projects">
 					<material-icon icon="developer_board"></material-icon>
 				</a>
 			</nav>
 			<nav class="material-navigation is-not-mobile">
-				<a href="https://blog.anthony.codes" materialTooltip="Blog">
+				<a [routerLink]="homeRoute" routerLinkActive="router-link-active" materialTooltip="Blog">
 					<material-icon icon="rss_feed"></material-icon>
 				</a>
 			</nav>
 		</div>
 	</header>
 	<router-outlet [routes]="routes"></router-outlet>
-</material-content>
+</main>
