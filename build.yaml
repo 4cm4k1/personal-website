@@ -9,9 +9,7 @@ targets:
           dart2js_args:
           # CSP below adds nearly 80kB to main.dart.js
           # - --csp
-          - --dump-info
           - --enable-diagnostic-colors
           - --minify
-          - --show-package-warnings
           - --trust-primitives
           - --trust-type-annotations

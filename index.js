@@ -19,8 +19,8 @@ const configuration = {
           },
           {
             key: 'Content-Security-Policy',
-            value: 'style-src \'self\' \'unsafe-inline\' https://cdnjs.cloudflare.com; ' +
-              'script-src \'self\' \'unsafe-eval\' https://www.gstatic.com; ' +
+            value: 'style-src \'self\' \'unsafe-inline\'; ' +
+              'script-src \'self\' \'unsafe-eval\'; ' +
               'font-src \'self\' data:; ' +
               'base-uri \'self\'; '
           },
@@ -66,6 +66,6 @@ app.listen((error) => {
   if (error) {
     console.log(error);
   } else if (process.env.NODE_ENV !== 'production') {
-    console.log('Serving at http://localhost:4242 !');
+    console.log('Serving at http://localhost:4242...');
   }
 });

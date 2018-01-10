@@ -8,7 +8,8 @@
     "NODE_ENV": "production"
   },
   "files": [
-    "build",
+    "build/web/*.{html,ico,jpg,js,json,png,svg,txt,xml}",
+    "build/web/assets",
     "index.js"
   ],
   "type": "npm",
