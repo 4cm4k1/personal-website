@@ -2,18 +2,24 @@ const path = require('path');
 
 const cssnano = require('cssnano');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const NodeEnvPlugin = require('node-env-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    common: ['normalize.css', 'firebase/app', 'firebase/firestore']
+    webpack: [
+      'normalize.css',
+      path.join(__dirname, 'web/assets/webpack.js')
+    ]
   },
-  devtool: 'source-map',
+  devtool: NodeEnvPlugin.devtool,
   output: {
-    path: path.join(__dirname, 'build/web/assets'),
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'firebase',
+    libraryTarget: 'var',
+    path: path.join(__dirname, 'build/web/assets')
   },
   module: {
     rules: [
@@ -33,21 +39,12 @@ module.exports = {
           fallback: 'style-loader',
           use: 'css-loader'
         })
-      },
-      {
-        test: /\.(scss|sass)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            'sass-loader'
-          ]
-        })
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('common.css'),
+    new ExtractTextPlugin('webpack.css'),
+    new NodeEnvPlugin(),
     new OptimizeCssAssetsPlugin({
       cssProcessor: cssnano,
       cssProcessorOptions: { discardComments: { removeAll: true } },

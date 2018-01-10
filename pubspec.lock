@@ -142,7 +142,7 @@ packages:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.5"
+    version: "0.7.5+1"
   build_web_compilers:
     dependency: "direct dev"
     description:
@@ -657,4 +657,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: "2.0.0-dev.15.0"
+  dart: ">=2.0.0-dev.15.0 <=2.0.0-dev.16.0"

@@ -57,7 +57,7 @@ const configuration = {
   },
   cwd: __dirname,
   compression: shrinkRay(),
-  debug: true
+  debug: false
 };
 
 const app = superstatic(configuration);
