@@ -13,11 +13,12 @@
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
     "alias": "now alias -A ./now.json -t $NOW_TOKEN",
-    "build": "pub build",
+    "build": "pub run build_runner build --output=build && webpack",
     "deploy": "now -t $NOW_TOKEN",
     "lint": "remark readme.md -o && sort-package-json",
-    "now-build": "echo 'Hi'",
-    "start": "node index.js"
+    "now-build": "",
+    "start": "node index.js",
+    "watch": "concurrently \"pub run build_runner watch --output=build\" \"webpack\" \"NODE_ENV=dev yarn run start\""
   },
   "dependencies": {
     "firebase": "^4.8.1",
@@ -26,10 +27,11 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.36",
-    "@babel/preset-env": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
     "babel-loader": "^8.0.0-beta.0",
-    "css-loader": "^0.28.7",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.8",
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.7.2",
@@ -41,7 +43,7 @@
     "sass-loader": "^6.0.6",
     "sort-package-json": "^1.7.1",
     "style-loader": "^0.19.1",
-    "uglifyjs-webpack-plugin": "^1.1.5",
+    "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0"
   },
   "engines": {

@@ -57,11 +57,15 @@ const configuration = {
   },
   cwd: __dirname,
   compression: shrinkRay(),
-  debug: false
+  debug: true
 };
 
 const app = superstatic(configuration);
 
 app.listen((error) => {
-  if (error) console.log(error);
+  if (error) {
+    console.log(error);
+  } else if (process.env.NODE_ENV !== 'production') {
+    console.log('Serving at http://localhost:4242 !');
+  }
 });

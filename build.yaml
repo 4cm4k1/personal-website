@@ -1,0 +1,17 @@
+targets:
+  website:
+    builders:
+      build_web_compilers|entrypoint:
+        generate_for:
+        - web/**.dart
+        options:
+          compiler: dart2js
+          dart2js_args:
+          # CSP below adds nearly 80kB to main.dart.js
+          # - --csp
+          - --dump-info
+          - --enable-diagnostic-colors
+          - --minify
+          - --show-package-warnings
+          - --trust-primitives
+          - --trust-type-annotations

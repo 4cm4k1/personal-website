@@ -5,25 +5,35 @@ homepage: https://anthony.codes
 author: Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)
 
 environment:
-  sdk: '<=2.0.0'
+  sdk: '>=2.0.0-dev <=2.0.0'
 
 dependencies:
-  angular: ^5.0.0-alpha+2
-  angular_components: ^0.9.0-alpha+2
-  angular_router: ^2.0.0-alpha+2
-  firebase:
-    git: git://github.com/firebase/firebase-dart.git
-  sass_builder: ^1.1.0
+  angular: ^5.0.0-alpha+3
+  angular_components: ^0.9.0-alpha+3
+  angular_router: ^2.0.0-alpha+3
+  firebase: ^4.3.0
 
 dev_dependencies:
-  angular_test: ^2.0.0-alpha
+  angular_test: ^2.0.0-alpha+1
   browser: ^0.10.0+2
+  build_runner: ^0.7.5
+  build_web_compilers: ^0.2.0
   dart_to_js_script_rewriter: ^1.0.3
+  sass_builder: ^1.1.1
   test: ^0.12.30
 
 dependency_overrides:
+  # Until angular exits alpha
   analyzer: ^0.31.0-alpha.1
+  # Until 0.9.0-alpha+3 and 1.1.1 are published
+  angular_components:
+    git:
+      url: https://github.com/dart-lang/angular_components.git
+      ref: github-sync
+  sass_builder:
+    git: https://github.com/dart-league/sass_builder.git
 
+# SOON TO BE DELETED IN FAVOR OF build.yaml
 transformers:
 - sass_builder
 - angular:
