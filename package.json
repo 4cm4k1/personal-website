@@ -12,10 +12,11 @@
   "scripts": {
     "alias": "now alias -A ./now.json -t $NOW_TOKEN",
     "build": "pub run build_runner build --output=build && webpack",
-    "deploy": "now -t $NOW_TOKEN",
-    "lint": "remark readme.md -o && sort-package-json",
-    "now-build": "echo 'Starting app!'",
     "precommit": "pretty-quick --staged",
+    "deploy": "now -t $NOW_TOKEN",
+    "lint":
+      "remark readme.md -o && sort-package-json && prettier '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' --write",
+    "now-build": "echo 'Starting app!'",
     "start": "node index.js",
     "watch":
       "concurrently \"onchange '**/*.{css,js,json,md,scss}' -- prettier --write {{changed}}\" \"pub run build_runner watch --output=build\" \"webpack\" \"NODE_ENV=dev yarn run start\""

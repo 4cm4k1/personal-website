@@ -1,41 +1,44 @@
 @import 'package:angular_components/css/material/material';
 
 material-list-item {
-	color: $mat-grey-700;
+  color: $mat-grey-700;
 }
 
-a:link, a:visited, a:active, a:hover {
-  color: #FFFFFF;
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: #ffffff;
   text-decoration: none;
 }
 
 /* THEMING (at least until angular_components supports it natively) */
 /* Override header background color */
 .material-header {
-	background-color: $mat-pink-500;
+  background-color: $mat-pink-500;
 }
 
 /* RESPONSIVE ELEMENTS */
 /* Let’s assume mobile first, so set the desktop elements not to display */
 .is-not-mobile {
-	display: none;
+  display: none;
 }
 
 /* If it turns out we’re on a big screen, then make some adjustments */
 @media only screen and (min-width: 48rem) {
-	/* Hide mobile elements */
-	.is-mobile {
-		display: none;
-	}
+  /* Hide mobile elements */
+  .is-mobile {
+    display: none;
+  }
 
-	/* Show desktop elements */
-	.is-not-mobile {
-		display: inherit;
-	}
+  /* Show desktop elements */
+  .is-not-mobile {
+    display: inherit;
+  }
 
-	/* Let’s override some properties to make title not so far right */
-	.material-header-row .material-header-title {
-		left: 0;
-		margin-left: 2rem;
-	}
+  /* Let’s override some properties to make title not so far right */
+  .material-header-row .material-header-title {
+    left: 0;
+    margin-left: 2rem;
+  }
 }

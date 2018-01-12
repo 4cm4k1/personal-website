@@ -11,58 +11,59 @@ const configuration = {
         headers: [
           {
             key: 'Access-Control-Allow-Origin',
-            value: 'https://anthony.codes'
+            value: 'https://anthony.codes',
           },
           {
             key: 'Cache-Control',
-            value: 'max-age=604800'
+            value: 'max-age=604800',
           },
           {
             key: 'Content-Security-Policy',
-            value: 'style-src \'self\' \'unsafe-inline\'; ' +
-              'script-src \'self\' \'unsafe-eval\'; ' +
-              'font-src \'self\' data:; ' +
-              'base-uri \'self\'; '
+            value:
+              "style-src 'self' 'unsafe-inline'; " +
+              "script-src 'self' 'unsafe-eval'; " +
+              "font-src 'self' data:; " +
+              "base-uri 'self'; ",
           },
           {
             key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload'
+            value: 'max-age=63072000; includeSubDomains; preload',
           },
           {
             key: 'X-Content-Type-Options',
-            value: 'nosniff'
+            value: 'nosniff',
           },
           {
             key: 'X-Frame-Options',
-            value: 'DENY'
+            value: 'DENY',
           },
           {
             key: 'X-UA-Compatible',
-            value: 'IE=edge; chrome=1'
+            value: 'IE=edge; chrome=1',
           },
           {
             key: 'X-XSS-Protection',
-            value: '1; mode=block'
-          }
-        ]
-      }
+            value: '1; mode=block',
+          },
+        ],
+      },
     ],
     public: './build/web',
     rewrites: [
       {
         source: '**',
-        destination: '/index.html'
-      }
-    ]
+        destination: '/index.html',
+      },
+    ],
   },
   cwd: __dirname,
   compression: shrinkRay(),
-  debug: false
+  debug: false,
 };
 
 const app = superstatic(configuration);
 
-app.listen((error) => {
+app.listen(error => {
   if (error) {
     console.log(error);
   } else if (process.env.NODE_ENV !== 'production') {

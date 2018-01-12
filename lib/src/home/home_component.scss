@@ -2,14 +2,14 @@
 @import 'package:angular_components/material_progress/mixins';
 
 .custom-theme {
-	@include material-progress-theme(
+  @include material-progress-theme(
 	  $indeterminate-color: $mat-pink-100,
 		$active-color: $mat-pink-500,
 		$secondary-color: $mat-pink-900);
 }
 
 :host {
-  color: $mat-grey-700;		
+  color: $mat-grey-700;
   display: flex;
   flex-direction: column;
   margin: 2rem auto;
@@ -20,12 +20,14 @@ a {
   text-decoration: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   border-bottom: 0.1rem solid $mat-pink-500;
   color: $mat-pink-500;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   border-bottom: 0.1rem solid $mat-pink-900;
   color: $mat-pink-900;
 }
@@ -38,8 +40,8 @@ ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  list-style-type: none;  
-  margin: 0;  
+  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 

@@ -9,17 +9,14 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    webpack: [
-      'normalize.css',
-      path.join(__dirname, 'web/assets/webpack.js')
-    ]
+    webpack: ['normalize.css', path.join(__dirname, 'web/assets/webpack.js')],
   },
   devtool: NodeEnvPlugin.devtool,
   output: {
     filename: '[name].js',
     library: 'firebase',
     libraryTarget: 'var',
-    path: path.join(__dirname, 'build/web/assets')
+    path: path.join(__dirname, 'build/web/assets'),
   },
   module: {
     rules: [
@@ -27,20 +24,18 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env']
+          presets: ['@babel/preset-env'],
         },
-        exclude: [
-          path.resolve(__dirname, 'node_modules')
-        ]
+        exclude: [path.resolve(__dirname, 'node_modules')],
       },
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader'
-        })
-      }
-    ]
+          use: 'css-loader',
+        }),
+      },
+    ],
   },
   plugins: [
     new ExtractTextPlugin('webpack.css'),
@@ -48,8 +43,8 @@ module.exports = {
     new OptimizeCssAssetsPlugin({
       cssProcessor: cssnano,
       cssProcessorOptions: { discardComments: { removeAll: true } },
-      canPrint: true
+      canPrint: true,
     }),
-    new UglifyJsPlugin()
-  ]
+    new UglifyJsPlugin(),
+  ],
 };

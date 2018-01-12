@@ -2,7 +2,6 @@
 
 Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website located at <https://anthony.codes>.
 
-
 ## Table of Contents
 
 * [Prerequisites](#prerequisites)
@@ -12,7 +11,6 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 * [Contributors](#contributors)
 * [Changelog](#changelog)
 * [License](#license)
-
 
 ## Prerequisites
 
@@ -26,7 +24,6 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 * [Node](https://github.com/nodejs/node): `brew install node`
 * [Now CLI](https://github.com/zeit/now-cli): `brew cask install now`
 * [Yarn](https://github.com/yarnpkg/yarn): `brew install yarn`
-
 
 ## Installation
 
@@ -45,7 +42,6 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
    yarn install && pub get
    ```
 
-
 ## Usage
 
 * Develop with live rebuilds:
@@ -60,11 +56,9 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
   yarn run build
   ```
 
-
 ## Contributing
 
 Please note that this project is released with a [Contributor Code of Conduct](conduct.md). By participating in this project you agree to abide by its terms.
-
 
 ## Contributors
 
@@ -72,9 +66,7 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 | ---------------- | ----------------------- |
 | **Anthony Maki** | <https://anthony.codes> |
 
-
 ## [Changelog](changelog.md)
-
 
 ## License
 

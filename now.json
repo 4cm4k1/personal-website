@@ -1,9 +1,7 @@
 {
   "name": "anthony-codes",
   "description": "Personal site built with Dart, Angular, and Firebase",
-  "alias": [
-    "anthony.codes"
-  ],
+  "alias": ["anthony.codes"],
   "env": {
     "NODE_ENV": "production"
   },
