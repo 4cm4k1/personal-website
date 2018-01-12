@@ -24,7 +24,7 @@ dev_dependencies:
 
 dependency_overrides:
   # Until angular exits alpha
-  analyzer: ^0.31.0-alpha.1
+  analyzer: ^0.31.0-alpha.2
   # Until 0.9.0-alpha+3 and 1.1.1 are published
   angular_components:
     git:
@@ -32,27 +32,6 @@ dependency_overrides:
       ref: github-sync
   sass_builder:
     git: https://github.com/dart-league/sass_builder.git
-
-# SOON TO BE DELETED IN FAVOR OF build.yaml
-# transformers:
-# - sass_builder
-# - angular:
-#     entry_points:
-#       - web/main.dart
-#       - test/**_test.dart
-# - test/pub_serve:
-#     $include: test/**_test.dart
-# - dart_to_js_script_rewriter
-# - $dart2js:
-#     checked: true
-#     csp: true
-#     minify: true
-#     sourceMaps: false
-#     suppressHints: true
-#     suppressWarnings: true
-#     terse: true
-#     verbose: true
-#     commandLineOptions: [--trust-type-annotations, --trust-primitives]
 
 web:
  compiler:
