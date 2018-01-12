@@ -5,12 +5,12 @@ dart:
 branches:
   only:
   - master
-  - /^greenkeeper/.*$/
+  - "/^greenkeeper/.*$/"
 before_install:
 - ". $HOME/.nvm/nvm.sh"
 - nvm install node
 - nvm use node
-- yarn global add now@latest
+- yarn global add greenkeeper-lockfile@1 now@latest
 dart_task:
 - dartanalyzer: "--fatal-warnings ."
 - dartfmt
@@ -20,12 +20,15 @@ cache:
   directories:
   - "$HOME/.pub-cache"
   - node_modules
+before_script: greenkeeper-lockfile-update
 script:
 - pub get
 - yarn install
 - yarn run build
 - yarn run deploy
 - yarn run alias
+after_script: greenkeeper-lockfile-upload
 env:
   global:
-    secure: GrSoLgRHahuVQ1eEiXt6yonR+HYNKpY64xUyMU2xEPHeM1eSUv+XJUVBAwL6Aiyylw8+48q2Mwrw/NZaJSKrgfDojWdzKM3q7xf7qGpWZVC4DbHiL4G5zmLjY43Mq0FyQRsGMFHo7SAXLHFy3jyMmGMPk9rA9ScZvf+IbGm/6fRFcpiIYUTp/czbeoIJnwc8bEPqjIKat1zl0nfSXPEi/QFgQ2aDdFlVANQ5a3AwfwmaTnKeYwDanW9blcizYMbzUW2YuTJwgcU2BrwzWcpyFIKnhJEvmcSWaO9cgQkCUjShTm5IfPJAOEx/xCxwB8lZEPeHc6gBUhnnEWG9ls+konOYzw33IGtv8Pz/z3W8GHRIuuVrQl9shZgLIfZV9XjbmwPPQT0UsJWJRhGT9VIk7pxbKQJEcOtTxbRnHt6lZbgu+hxb5FUOyaKs5RAZyyTCgnmgKC5cE/njvnlCvkVpB1h1jcmtiwBEAty3b4F5pPXYTptV5gYkdFb5R1aaCWlbbgeyqQj5XXdj9140fWO8B5TSOqlvQsLNEyhLS1NsA8yywr7qxgo9jGUQJj410yuaDT0HW+gvnEu+i4459CMyzIPpN/pgvnyiEBIJ62Qzv9UzSJ+RT5SrUaA7TvLXv+y2H1X3Anb2t7O59ZSZ5WeF5vZUdrJ7l2hzK6Mz57LovMI=
+  - secure: GrSoLgRHahuVQ1eEiXt6yonR+HYNKpY64xUyMU2xEPHeM1eSUv+XJUVBAwL6Aiyylw8+48q2Mwrw/NZaJSKrgfDojWdzKM3q7xf7qGpWZVC4DbHiL4G5zmLjY43Mq0FyQRsGMFHo7SAXLHFy3jyMmGMPk9rA9ScZvf+IbGm/6fRFcpiIYUTp/czbeoIJnwc8bEPqjIKat1zl0nfSXPEi/QFgQ2aDdFlVANQ5a3AwfwmaTnKeYwDanW9blcizYMbzUW2YuTJwgcU2BrwzWcpyFIKnhJEvmcSWaO9cgQkCUjShTm5IfPJAOEx/xCxwB8lZEPeHc6gBUhnnEWG9ls+konOYzw33IGtv8Pz/z3W8GHRIuuVrQl9shZgLIfZV9XjbmwPPQT0UsJWJRhGT9VIk7pxbKQJEcOtTxbRnHt6lZbgu+hxb5FUOyaKs5RAZyyTCgnmgKC5cE/njvnlCvkVpB1h1jcmtiwBEAty3b4F5pPXYTptV5gYkdFb5R1aaCWlbbgeyqQj5XXdj9140fWO8B5TSOqlvQsLNEyhLS1NsA8yywr7qxgo9jGUQJj410yuaDT0HW+gvnEu+i4459CMyzIPpN/pgvnyiEBIJ62Qzv9UzSJ+RT5SrUaA7TvLXv+y2H1X3Anb2t7O59ZSZ5WeF5vZUdrJ7l2hzK6Mz57LovMI=
+  - secure: v7oetHxW2OkFH/P7GULHDFkBYimnvUz16U1Cg2u/cBEDMf0hhlAMJISFUfqbB2DaEKQOshSQfgCFFPMVeGDJlR0t85/wLnan39c3xNoLM0OK12DfTdNON2AwZtgqZKQsBd5SqETaGmzQn4j6m9qSsbsJw25g5A5yAG1+9Hgz7ShA7kNYNPsCgOssIG7/wbpHqWteBZgfXH4YiS2jn1w83wUAAo5EF9z4DuQZyJQ+JSYrE8AYnsBNdsjNR4ztIqj9SPsnNS5+Lc+mw//CA6If3ys4VTTSYA9ZF/Y6cQHZsUuVHu3nMrnSL85UonNKNiGGEEC3bPYtvoOny/TXKUkmMDRmxXR4EtkWMTNUeVL6/DhVL2amebN2PQCvM6oWZ6qN3NlQAvOuSp1kqLsTg2hl5brA7hNNY9J7RFNI+Lz453GeMQWGELyi5rf+ov0t595cg3zqXPIT+yDENtxamqRPdWoE0LQCwWrkKLVkzWKhnZxKFT+ImEStML2Nk6E2X8BAjVJgoW7Qo0yZaUPGDLBs34XQUgJqRElsXI/LHNHgOa9q6fkq0i5AeVm0qpuVqjYUps+khJ73te/5OzPBSIE/QgXpMwwPyIuX7RDohwDgA+YYGo9R8l1dLH8n467KIokF8cawo9daxfQMf4Y9J/U/q4WH03EPjEG9eLNxzoTKOM4=
