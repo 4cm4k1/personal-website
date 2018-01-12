@@ -1,4 +1,4 @@
-# Website [![Build Status](https://img.shields.io/travis/4cm4k1/website/master.svg)](https://travis-ci.org/4cm4k1/website) [![Greenkeeper](https://badges.greenkeeper.io/4cm4k1/website.svg)](https://greenkeeper.io/) [![XO Code Style (JS)](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![GitHub Release](https://img.shields.io/github/release/4cm4k1/website.svg)](https://github.com/4cm4k1/website/releases) [![Website](https://img.shields.io/website-up-down-green-red/https/anthony.codes.svg?label=website)](https://anthony.codes) [![License](https://img.shields.io/github/license/4cm4k1/website.svg)](license)
+# Website [![Build Status](https://img.shields.io/travis/4cm4k1/website/master.svg?style=flat-square)](https://travis-ci.org/4cm4k1/website) [![Greenkeeper](https://badges.greenkeeper.io/4cm4k1/website.svg)](https://greenkeeper.io/) [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![GitHub Release](https://img.shields.io/github/release/4cm4k1/website.svg?style=flat-square)](https://github.com/4cm4k1/website/releases) [![Website](https://img.shields.io/website-up-down-green-red/https/anthony.codes.svg?label=website&style=flat-square)](https://anthony.codes) [![License](https://img.shields.io/github/license/4cm4k1/website.svg?style=flat-square)](license)
 
 Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website located at <https://anthony.codes>.
 
@@ -16,10 +16,16 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 
 ## Prerequisites
 
+* [Homebrew](https://github.com/Homebrew/install) (this guide assumes using macOS): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Code editor, ranked by level of integration with Dart SDK:
+  * [WebStorm](https://www.jetbrains.com/webstorm/): `brew cask install webstorm`
+  * [VS Code](https://github.com/Microsoft/vscode) (what I am currently using): `brew cask install visual-code-studio`
+  * [Atom](https://github.com/atom/atom): `brew cask install atom`
 * [Dart v2](https://github.com/dart-lang/sdk): `brew tap dart-lang/dart && brew install dart --devel`
+* [Firebase CLI](https://github.com/firebase/firebase-tools) (optional): `brew install firebase-cli`
 * [Node](https://github.com/nodejs/node): `brew install node`
+* [Now CLI](https://github.com/zeit/now-cli): `brew cask install now`
 * [Yarn](https://github.com/yarnpkg/yarn): `brew install yarn`
-* [Firebase CLI](https://github.com/firebase/firebase-tools): `brew install firebase-cli`
 
 
 ## Installation
@@ -45,13 +51,13 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 * Develop with live rebuilds:
 
   ```shell
-  pub serve
+  yarn run watch
   ```
 
 * Build for production:
 
   ```shell
-  pub build
+  yarn run build
   ```
 
 

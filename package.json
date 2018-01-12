@@ -36,6 +36,7 @@
     "node-env-webpack-plugin": "^1.1.0",
     "normalize.css": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "prettier": "^1.10.2",
     "remark": "^8.0.0",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
