@@ -5,6 +5,7 @@ dart:
 branches:
   only:
   - master
+  - /^greenkeeper/.*$/
 before_install:
 - ". $HOME/.nvm/nvm.sh"
 - nvm install node
