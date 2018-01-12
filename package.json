@@ -13,9 +13,12 @@
     "alias": "now alias -A ./now.json -t $NOW_TOKEN",
     "br": "pub run build_runner build --output=build",
     "br-watch": "pub run build_runner watch --output=build",
-    "build": "yarn run br && yarn run webpack && yarn run uglify",
+    "build":
+      "yarn run br && yarn run webpack && yarn run uglify && yarn run html-minify",
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
     "deploy": "now -t $NOW_TOKEN",
+    "html-minify":
+      "html-minifier -c .html-minifier.json -o build/web/index.html build/web/index.html",
     "now-build": "echo 'Starting app!'",
     "remark": "remark readme.md -o",
     "sort": "sort-package-json",
@@ -43,6 +46,7 @@
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "firebase": "^4.8.2",
+    "html-minifier": "^3.5.8",
     "husky": "^0.14.3",
     "node-env-webpack-plugin": "^1.1.0",
     "normalize.css": "^7.0.0",
