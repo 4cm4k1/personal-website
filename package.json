@@ -60,7 +60,7 @@
     "remark-preset-github": "^0.0.7",
     "sort-package-json": "^1.7.1",
     "style-loader": "^0.19.1",
-    "uglify-js": "^3.3.5",
+    "uglify-js": "^3.3.7",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0"
   },
