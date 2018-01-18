@@ -38,11 +38,11 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.37",
-    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
     "babel-loader": "^8.0.0-beta.0",
     "concurrently": "^3.5.1",
-    "css-loader": "^0.28.8",
+    "css-loader": "^0.28.9",
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "firebase": "^4.8.2",
@@ -53,7 +53,7 @@
     "onchange": "^3.3.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "prettier": "^1.10.2",
-    "pretty-quick": "^1.2.0",
+    "pretty-quick": "^1.2.2",
     "remark": "^8.0.0",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
