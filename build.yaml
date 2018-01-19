@@ -1,6 +1,9 @@
 targets:
   website:
     builders:
+      angular:
+        options:
+          use_new_template_parser: True
       build_web_compilers|entrypoint:
         generate_for:
         - web/**.dart
