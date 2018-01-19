@@ -25,7 +25,7 @@ import 'src/resume/resume_component.template.dart' as resume_component;
     MaterialListItemComponent,
     MaterialTemporaryDrawerComponent,
     MaterialToggleComponent,
-		MaterialTooltipDirective,
+    MaterialTooltipDirective,
   ],
   providers: const [
     materialProviders,
