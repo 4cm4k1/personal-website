@@ -2,7 +2,7 @@
 # See http://pub.dartlang.org/doc/glossary.html#lockfile
 packages:
   analyzer:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
@@ -14,51 +14,49 @@ packages:
       name: angular
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0-alpha+3"
+    version: "5.0.0-alpha+4"
   angular_ast:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: angular_ast
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "0.4.2"
   angular_compiler:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: angular_compiler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0-alpha+3"
+    version: "0.4.0-alpha+4"
   angular_components:
     dependency: "direct main"
     description:
-      path: "."
-      ref: github-sync
-      resolved-ref: "966efd233d9b625adba3d392010f552b82d705c6"
-      url: "https://github.com/dart-lang/angular_components.git"
-    source: git
+      name: angular_components
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.9.0-alpha+3"
   angular_forms:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: angular_forms
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1-alpha+3"
+    version: "1.0.1-alpha+4"
   angular_router:
     dependency: "direct main"
     description:
       name: angular_router
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+3"
+    version: "2.0.0-alpha+4"
   angular_test:
     dependency: "direct dev"
     description:
       name: angular_test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+1"
+    version: "2.0.0-alpha+2"
   ansicolor:
     dependency: transitive
     description:
@@ -121,49 +119,49 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.2"
+    version: "0.12.0"
   build_barback:
     dependency: transitive
     description:
       name: build_barback
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.0+1"
+    version: "0.5.0+2"
   build_config:
     dependency: transitive
     description:
       name: build_config
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.1"
+    version: "0.2.2+1"
   build_runner:
     dependency: "direct dev"
     description:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.5+1"
+    version: "0.7.7"
   build_web_compilers:
     dependency: "direct dev"
     description:
       name: build_web_compilers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.0"
+    version: "0.2.1"
   built_collection:
     dependency: transitive
     description:
       name: built_collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.2"
+    version: "3.0.1"
   built_value:
     dependency: transitive
     description:
       name: built_value
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.3.3"
+    version: "4.6.1"
   charcode:
     dependency: transitive
     description:
@@ -184,7 +182,7 @@ packages:
       name: code_builder
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.0"
+    version: "3.0.0"
   code_transformers:
     dependency: transitive
     description:
@@ -227,13 +225,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.9"
-  dart_to_js_script_rewriter:
-    dependency: "direct dev"
-    description:
-      name: dart_to_js_script_rewriter
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.3"
   firebase:
     dependency: "direct main"
     description:
@@ -464,7 +455,7 @@ packages:
       name: quiver
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.25.0"
+    version: "0.27.0"
   quiver_hashcode:
     dependency: transitive
     description:
@@ -482,19 +473,17 @@ packages:
   sass_builder:
     dependency: "direct dev"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "8cd926d3a3a5299e6473f138179b00a3a67a74c5"
-      url: "https://github.com/dart-league/sass_builder.git"
-    source: git
-    version: "1.1.1"
+      name: sass_builder
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.2"
   scratch_space:
     dependency: transitive
     description:
       name: scratch_space
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1+2"
+    version: "0.0.1+3"
   shelf:
     dependency: transitive
     description:
@@ -529,7 +518,7 @@ packages:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.3"
+    version: "0.7.4"
   source_map_stack_trace:
     dependency: transitive
     description:
@@ -657,4 +646,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=2.0.0-dev.15.0 <=2.0.0-dev.17.0"
+  dart: ">=2.0.0-dev.15.0 <=2.0.0-dev.19.0"
