@@ -140,7 +140,7 @@ packages:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.7"
+    version: "0.7.7+1"
   build_web_compilers:
     dependency: "direct dev"
     description:
