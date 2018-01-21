@@ -14,17 +14,21 @@
     "br": "pub run build_runner build --output=build",
     "br-watch": "pub run build_runner watch --output=build",
     "build":
-      "yarn run br && yarn run webpack && yarn run uglify && yarn run html-minify",
+      "yarn run br && yarn run webpack && yarn run uglify && yarn run html && yarn run json && yarn run svg && yarn run xml",
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
     "deploy": "now -t $NOW_TOKEN",
-    "html-minify":
-      "html-minifier -c .html-minifier.json -o build/web/index.html build/web/index.html",
+    "html":
+      "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext html",
+    "json":
+      "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext json",
     "now-build": "echo 'Starting app!'",
     "pub-get": "pub get --no-precompile",
     "pub-upgrade": "pub upgrade --no-precompile",
     "remark": "remark . -o && git add '*.md'",
     "sort": "sort-package-json && git add package.json",
     "start": "node index.js",
+    "svg":
+      "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext svg",
     "prettier":
       "prettier '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' --write",
     "prettier-watch":
@@ -33,7 +37,9 @@
       "uglifyjs build/web/main.dart.js --mangle --compress --output build/web/main.dart.js",
     "watch":
       "concurrently \"yarn run prettier-watch\" \"yarn run br-watch\" \"yarn run webpack\" \"NODE_ENV=dev yarn run start\"",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "xml":
+      "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
   },
   "dependencies": {
     "shrink-ray": "^0.1.3",
