@@ -4,7 +4,7 @@
 .custom-theme {
   @include material-progress-theme(
 	  $indeterminate-color: $mat-pink-100,
-		$active-color: $mat-pink-500,
+		$active-color: $mat-pink-700,
 		$secondary-color: $mat-pink-900);
 }
 
@@ -22,8 +22,8 @@ a {
 
 a:link,
 a:visited {
-  border-bottom: 0.1rem solid $mat-pink-500;
-  color: $mat-pink-500;
+  border-bottom: 0.1rem solid $mat-pink-700;
+  color: $mat-pink-700;
 }
 
 a:active,

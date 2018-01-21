@@ -5,8 +5,8 @@
     <!-- HEAD INFO: https://github.com/joshbuchea/HEAD -->
     <meta charset="utf-8" />
     <link rel="preload" href="assets/webpack.css" as="style" crossorigin="anonymous" />
-    <link rel="preload" href="assets/noto-mono.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="assets/material-icons.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="assets/NotoSansMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="assets/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <meta content="origin-when-cross-origin" name="referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Anthony Maki, Rapidly Iterating Software Engineer - Anthony Codes</title>
@@ -85,23 +85,30 @@
     <style>
       @font-face {
         font-family: 'Material Icons';
-        font-style: normal;
-        font-weight: 400;
+        src: url('assets/MaterialIcons-Regular.eot');
         src: local('Material Icons'), local('MaterialIcons-Regular'),
-        url('assets/material-icons.woff2') format('woff2');
+        url('assets/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/MaterialIcons-Regular.woff2') format('woff2'),
+        url('assets/MaterialIcons-Regular.woff') format('woff'),
+        url('assets/MaterialIcons-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
       }
 
       @font-face {
-        font-family: 'Noto Mono';
-        src: local('Noto Mono'), local('NotoMono'),
-        url('assets/noto-mono.woff2') format('woff2'),
-        url('assets/noto-mono.woff') format('woff');
+        font-family: 'Noto Sans Mono';
+        src: url('assets/NotoSansMono-Regular.eot');
+        src: local('Noto Sans Mono Regular'), local('NotoSansMono-Regular'),
+        url('assets/NotoSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/NotoSansMono-Regular.woff2') format('woff2'),
+        url('assets/NotoSansMono-Regular.woff') format('woff'),
+        url('assets/NotoSansMono-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
       }
 
       body {
-        font-family: 'Noto Mono', 'Roboto Mono', Inconsolata, monospace;
+        font-family: 'Noto Sans Mono', 'Noto Mono', 'Roboto Mono', Inconsolata, Monaco, Courier, monospace;
       }
 
       .material-icons {
