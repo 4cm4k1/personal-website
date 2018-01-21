@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Personal site built with Dart, Angular, and Firebase",
   "bugs": "https://github.com/4cm4k1/website/issues",
@@ -22,8 +22,8 @@
     "now-build": "echo 'Starting app!'",
     "pub-get": "pub get --no-precompile",
     "pub-upgrade": "pub upgrade --no-precompile",
-    "remark": "remark readme.md -o",
-    "sort": "sort-package-json",
+    "remark": "remark . -o && git add '*.md'",
+    "sort": "sort-package-json && git add package.json",
     "start": "node index.js",
     "prettier":
       "prettier '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' --write",

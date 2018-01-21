@@ -1,5 +1,11 @@
 # Changelog
 
-## 1.0.0
+## 0.0.1
 
-* Initial version, created by Stagehand
+* Initial version
+
+## Contributors
+
+| Name             | Website                 |
+| ---------------- | ----------------------- |
+| **Anthony Maki** | <https://anthony.codes> |
