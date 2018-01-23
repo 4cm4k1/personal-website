@@ -19,10 +19,10 @@ dev_dependencies:
   angular_compiler: ^0.4.0-alpha+4
   angular_test: ^2.0.0-alpha+2
   browser: ^0.10.0+2
-  build_runner: ^0.7.7+1
+  build_runner: ^0.7.8
   build_web_compilers: ^0.2.1
   sass_builder: ^1.1.2
-  test: ^0.12.30
+  test: ^0.12.30+1
 
 # dependency_overrides:
 

@@ -4285,9 +4285,9 @@ remark-cli@^5.0.0:
     remark "^9.0.0"
     unified-args "^5.0.0"
 
-remark-comment-config@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/remark-comment-config/-/remark-comment-config-5.0.1.tgz#15f59586933c4bab42f454579402a813b85e3e06"
+remark-comment-config@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/remark-comment-config/-/remark-comment-config-5.0.2.tgz#9202e9af2739a4d9a802e254255542a05debf2a4"
   dependencies:
     mdast-comment-marker "^1.0.1"
 
@@ -4299,9 +4299,9 @@ remark-contributors@^3.1.0:
     mdast-util-to-string "^1.0.0"
     parse-author "^2.0.0"
 
-remark-github@^7.0.0:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-7.0.2.tgz#e3e2cafca7b519bc3a1cf215c57d9066053484f6"
+remark-github@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/remark-github/-/remark-github-7.0.3.tgz#c435d6649707fcb3061ab048121f96ea5de5b9c0"
   dependencies:
     is-alphabetical "^1.0.0"
     is-decimal "^1.0.0"
@@ -4313,7 +4313,7 @@ remark-heading-gap@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/remark-heading-gap/-/remark-heading-gap-3.0.0.tgz#f52ac47a27995ef3248a59eb7544b5620b4736a6"
 
-remark-license@niftylettuce/remark-license:
+"remark-license@github:niftylettuce/remark-license":
   version "4.0.1"
   resolved "https://codeload.github.com/niftylettuce/remark-license/tar.gz/17ecb8f64f8f6082414d14f9267a12764e6ddbfb"
   dependencies:
@@ -4780,13 +4780,13 @@ remark-parse@^5.0.0:
     vfile-location "^2.0.0"
     xtend "^4.0.1"
 
-remark-preset-github@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/remark-preset-github/-/remark-preset-github-0.0.7.tgz#4611fdf5451c2b142a7e2d9eadfb22b8acc3bade"
+remark-preset-github@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/remark-preset-github/-/remark-preset-github-0.0.8.tgz#195c40293f01d40081ed7e803bfbeb575fac170a"
   dependencies:
-    remark-comment-config "^5.0.0"
+    remark-comment-config "^5.0.2"
     remark-contributors "^3.1.0"
-    remark-github "^7.0.0"
+    remark-github "^7.0.3"
     remark-heading-gap "^3.0.0"
     remark-license niftylettuce/remark-license
     remark-lint-blockquote-indentation "^1.0.0"
@@ -4828,11 +4828,11 @@ remark-preset-github@^0.0.7:
     remark-lint-unordered-list-marker-style "^1.0.0"
     remark-preset-lint-recommended "^3.0.1"
     remark-retext "^3.0.0"
-    remark-toc "^4.0.0"
+    remark-toc "^5.0.0"
     remark-validate-links "^7.0.0"
     retext-english "^3.0.0"
     retext-preset-github "^0.0.4"
-    unified "^6.0.0"
+    unified "^6.1.6"
 
 remark-preset-lint-recommended@^3.0.1:
   version "3.0.1"
@@ -4861,9 +4861,17 @@ remark-retext@^3.0.0:
   dependencies:
     mdast-util-to-nlcst "^3.2.0"
 
-remark-slug@^4.0.0, remark-slug@^4.2.1:
+remark-slug@^4.2.1:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-4.2.3.tgz#8d987d0e5e63d4a49ea37b90fe999a3dcfc81b72"
+  dependencies:
+    github-slugger "^1.0.0"
+    mdast-util-to-string "^1.0.0"
+    unist-util-visit "^1.0.0"
+
+remark-slug@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-5.0.0.tgz#9de71fcdc2bfae33ebb4a41eb83035288a829980"
   dependencies:
     github-slugger "^1.0.0"
     mdast-util-to-string "^1.0.0"
@@ -4888,12 +4896,12 @@ remark-stringify@^5.0.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
-remark-toc@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/remark-toc/-/remark-toc-4.0.1.tgz#ff36ff6de54ea07dd59e3f5334a4a3aac1e93185"
+remark-toc@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/remark-toc/-/remark-toc-5.0.0.tgz#f1e13ed11062ad4d102b02e70168bd85015bf129"
   dependencies:
     mdast-util-toc "^2.0.0"
-    remark-slug "^4.0.0"
+    remark-slug "^5.0.0"
 
 remark-validate-links@^7.0.0:
   version "7.0.0"
@@ -5797,6 +5805,18 @@ unified-lint-rule@^1.0.0:
 unified@^6.0.0:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/unified/-/unified-6.1.5.tgz#716937872621a63135e62ced2f3ac6a063c6fb87"
+  dependencies:
+    bail "^1.0.0"
+    extend "^3.0.0"
+    is-plain-obj "^1.1.0"
+    trough "^1.0.0"
+    vfile "^2.0.0"
+    x-is-function "^1.0.4"
+    x-is-string "^0.1.0"
+
+unified@^6.1.6:
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/unified/-/unified-6.1.6.tgz#5ea7f807a0898f1f8acdeefe5f25faa010cc42b1"
   dependencies:
     bail "^1.0.0"
     extend "^3.0.0"

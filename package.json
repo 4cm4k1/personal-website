@@ -66,7 +66,7 @@
     "remark": "^9.0.0",
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
-    "remark-preset-github": "^0.0.7",
+    "remark-preset-github": "^0.0.8",
     "sort-package-json": "^1.7.1",
     "style-loader": "^0.19.1",
     "uglify-js": "^3.3.8",
