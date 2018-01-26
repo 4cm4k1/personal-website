@@ -21,7 +21,7 @@ const configuration = {
             key: 'Content-Security-Policy',
             value:
               "style-src 'self' 'unsafe-inline'; " +
-              "script-src 'self' 'unsafe-eval'; " +
+              "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/; " +
               "font-src 'self' data:; " +
               "base-uri 'self'; ",
           },
