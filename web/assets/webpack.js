@@ -1,2 +1,2 @@
-module.exports = require('firebase/app');
-require('firebase/firestore');
+export * from 'firebase/app';
+export * from 'firebase/firestore';

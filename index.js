@@ -21,8 +21,8 @@ const configuration = {
             key: 'Content-Security-Policy',
             value:
               "style-src 'self' 'unsafe-inline'; " +
-              "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/; " +
-              "font-src 'self' data:; " +
+              "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/; " +
+              "font-src 'self'; " +
               "base-uri 'self'; ",
           },
           {
@@ -67,6 +67,6 @@ app.listen(error => {
   if (error) {
     console.log(error);
   } else if (process.env.NODE_ENV !== 'production') {
-    console.log('Serving at http://localhost:4242...');
+    console.log('Serving at http://localhost:4242/');
   }
 });

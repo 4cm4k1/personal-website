@@ -5,8 +5,8 @@
   "description": "Personal site built with Dart, Angular, and Firebase",
   "bugs": "https://github.com/4cm4k1/website/issues",
   "license": "MIT",
-  "author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)",
-  "contributors": ["Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"],
+  "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
+  "contributors": ["Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"],
   "main": "index.js",
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
@@ -34,7 +34,7 @@
     "prettier-watch":
       "onchange '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' -- prettier --write {{changed}}",
     "uglify":
-      "uglifyjs build/web/main.dart.js --mangle --compress --output build/web/main.dart.js",
+      "uglifyjs build/web/main.dart.js --compress --output build/web/main.dart.js",
     "watch":
       "concurrently \"yarn run prettier-watch\" \"yarn run br-watch\" \"yarn run webpack\" \"NODE_ENV=dev yarn run start\"",
     "webpack": "webpack",

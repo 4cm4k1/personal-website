@@ -10,8 +10,7 @@ targets:
         options:
           compiler: dart2js
           dart2js_args:
-          # CSP below adds nearly 80kB to main.dart.js
-          # - --csp
+          - --csp
           - --enable-diagnostic-colors
           - --minify
           - --trust-primitives
