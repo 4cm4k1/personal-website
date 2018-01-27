@@ -39,7 +39,7 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 2. Install dependencies!
 
    ```shell
-   yarn install && pub get
+   yarn install && yarn run pub-get
    ```
 
 ## Usage
@@ -54,6 +54,12 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 
   ```shell
   yarn run build
+  ```
+
+* Serve production build assets:
+
+  ```shell
+  yarn run start
   ```
 
 ## Contributing
