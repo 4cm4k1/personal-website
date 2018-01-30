@@ -1,14 +1,13 @@
+import 'dart:html';
+
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 import 'package:firebase/firebase.dart' as fb;
-// import 'package:firebase/firestore.dart';
 import 'package:website/app_component.dart';
 
 import 'main.template.dart' as ng;
 
 void main() {
-  const WINDOW = const OpaqueToken<String>('Window');
-
   try {
     fb.initializeApp(
         apiKey: 'AIzaSyBQFtT5GU6KyUgZrHo_ko0cBPA02uSVaC8',
@@ -24,8 +23,8 @@ void main() {
     AppComponent,
     [
       routerProviders,
-      const ValueProvider.forToken(APP_BASE_HREF, '/'),
-      const ValueProvider.forToken(WINDOW, 'window'),
+      new ValueProvider.forToken(APP_BASE_HREF, '/'),
+      new ValueProvider(Window, window),
     ],
     ng.initReflector,
   );
