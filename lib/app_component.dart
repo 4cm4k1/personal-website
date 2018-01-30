@@ -50,7 +50,7 @@ class AppComponent {
   String notFoundRoute = app_routes.notFound.toUrl();
 
   /// Blog page route.
-  String blogRoute = 'https://blog.anthony.codes';
+  String blogRoute = 'https://thedebug.life';
 
   /// List of route definitions.
   final List<RouteDefinition> routes = [
