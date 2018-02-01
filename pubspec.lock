@@ -154,7 +154,7 @@ packages:
       name: built_collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.3"
+    version: "3.0.4"
   built_value:
     dependency: transitive
     description:
@@ -308,7 +308,7 @@ packages:
       name: io
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.1"
+    version: "0.3.2+1"
   isolate:
     dependency: transitive
     description:
@@ -518,7 +518,7 @@ packages:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.4+1"
+    version: "0.7.4+2"
   source_map_stack_trace:
     dependency: transitive
     description:
@@ -646,4 +646,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=2.0.0-dev.15.0 <=2.0.0-dev.19.0"
+  dart: ">=2.0.0-dev.15.0 <=2.0.0-dev.20.0"
