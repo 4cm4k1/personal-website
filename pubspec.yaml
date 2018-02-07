@@ -8,20 +8,27 @@ environment:
   sdk: '>=2.0.0-dev <=2.0.0'
 
 dependencies:
-  angular: ^5.0.0-alpha+4
-  angular_components: ^0.9.0-alpha+3
-  angular_forms: ^1.0.1-alpha+4
-  angular_router: ^2.0.0-alpha+4
+  angular: ^5.0.0-alpha+5
+  angular_components: ^0.9.0-alpha+4
+  angular_forms: ^1.0.1-alpha+5
+  angular_router: ^2.0.0-alpha+5
   firebase: ^4.3.1
 
 dev_dependencies:
-  angular_ast: ^0.4.2
-  angular_compiler: ^0.4.0-alpha+4
-  angular_test: ^2.0.0-alpha+2
+  angular_ast: ^0.4.3
+  angular_compiler: ^0.4.0-alpha+5
+  angular_test: ^2.0.0-alpha+3
   browser: ^0.10.0+2
-  build_runner: ^0.7.8
-  build_web_compilers: ^0.2.1
+  build_runner: ^0.7.9+2
+  build_web_compilers: ^0.3.0
   sass_builder: ^1.1.2
-  test: ^0.12.30+1
+  test: ^0.12.30+2
+
+# until next angular_components version is published
+dependency_overrides:
+  angular_components:
+    git:
+      url: https://github.com/dart-lang/angular_components.git
+      ref: master
 
 license: MIT
