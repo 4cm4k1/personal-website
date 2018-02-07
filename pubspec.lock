@@ -32,11 +32,9 @@ packages:
   angular_components:
     dependency: "direct main"
     description:
-      path: "."
-      ref: master
-      resolved-ref: "860d16150e134ac9cb4c7833d4e15087c96da8c6"
-      url: "https://github.com/dart-lang/angular_components.git"
-    source: git
+      name: angular_components
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.9.0-alpha+4"
   angular_forms:
     dependency: "direct main"
