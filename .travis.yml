@@ -22,7 +22,7 @@ cache:
   - node_modules
 before_script: greenkeeper-lockfile-update
 script:
-- yarn run pub-upgrade
+- yarn run pub-get
 - yarn install
 - yarn run build
 - yarn run deploy
