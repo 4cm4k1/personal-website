@@ -54,7 +54,7 @@
     "css-loader": "^0.28.9",
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^3.0.2",
-    "firebase": "^4.9.1",
+    "firebase": "^4.10.0",
     "html-minifier": "^3.5.9",
     "husky": "^0.14.3",
     "node-env-webpack-plugin": "^1.1.0",
@@ -68,9 +68,9 @@
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
     "sort-package-json": "^1.7.1",
-    "style-loader": "^0.20.1",
-    "uglify-js": "^3.3.10",
-    "uglifyjs-webpack-plugin": "^1.1.8",
+    "style-loader": "^0.20.2",
+    "uglify-js": "^3.3.11",
+    "uglifyjs-webpack-plugin": "^1.2.0",
     "webpack": "^3.11.0"
   },
   "engines": {
