@@ -1,5 +1,5 @@
 const superstatic = require('superstatic').server;
-const shrinkRay = require('shrink-ray');
+const shrinkRay = require('shrink-ray-current');
 
 const configuration = {
   port: 4242,
