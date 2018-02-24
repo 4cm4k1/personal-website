@@ -11,6 +11,8 @@ analyzer:
 
     # Allow importing .template.dart files without an analyzer error.
     uri_has_not_been_generated: ignore
+  exclude:
+    - build/**
 
 # Lint rules and documentation, see http://dart-lang.github.io/linter/lints
 linter:
