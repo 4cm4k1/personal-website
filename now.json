@@ -12,6 +12,7 @@
     "build/web/index.html",
     "build/web/keybase.txt",
     "build/web/main.dart.js",
+    "build/web/pwa.dart.js",
     "build/web/robots.txt",
     "build/web/sitemap.xml",
     "index.js"
