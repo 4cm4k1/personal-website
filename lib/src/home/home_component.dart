@@ -10,7 +10,7 @@ import 'package:angular_components/angular_components.dart';
     ],
     templateUrl: 'home_component.html',
     directives: const [
-      CORE_DIRECTIVES,
+      coreDirectives,
       MaterialProgressComponent,
     ])
 

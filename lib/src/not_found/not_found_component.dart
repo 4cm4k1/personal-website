@@ -10,7 +10,7 @@ import 'package:angular_router/angular_router.dart';
     ],
     templateUrl: 'not_found_component.html',
     directives: const [
-      CORE_DIRECTIVES,
+      coreDirectives,
     ])
 
 /// 404 page.

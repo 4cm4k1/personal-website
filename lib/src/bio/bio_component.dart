@@ -10,7 +10,7 @@ import 'package:angular_router/angular_router.dart';
     ],
     templateUrl: 'bio_component.html',
     directives: const [
-      CORE_DIRECTIVES,
+      coreDirectives,
     ])
 
 /// Bio page.
