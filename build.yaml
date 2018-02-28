@@ -1,9 +1,6 @@
 targets:
   website:
     builders:
-      angular:
-        options:
-          use_new_template_parser: True
       build_web_compilers|entrypoint:
         generate_for:
         - web/**.dart
@@ -12,6 +9,7 @@ targets:
           dart2js_args:
           - --csp
           - --enable-diagnostic-colors
+          - --fast-startup
           - --minify
           - --trust-primitives
           - --trust-type-annotations
