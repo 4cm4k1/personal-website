@@ -14,7 +14,7 @@
     "br": "pub run build_runner build --output=build",
     "br-watch": "pub run build_runner watch --output=build",
     "build":
-      "yarn run br && yarn run webpack && yarn run uglify && yarn run html && yarn run json && yarn run svg && yarn run xml",
+      "yarn run br && yarn run uglify && yarn run html && yarn run json && yarn run svg && yarn run xml",
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
     "deploy": "now -t $NOW_TOKEN",
     "html":
@@ -36,8 +36,7 @@
     "uglify":
       "uglifyjs build/web/main.dart.js --compress --output build/web/main.dart.js",
     "watch":
-      "concurrently \"yarn run prettier-watch\" \"yarn run br-watch\" \"yarn run webpack\" \"NODE_ENV=dev yarn run start\"",
-    "webpack": "webpack",
+      "concurrently \"yarn run prettier-watch\" \"yarn run br-watch\" \"NODE_ENV=dev yarn run start\"",
     "xml":
       "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
   },
@@ -46,32 +45,18 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
-    "@firebase/app-types": "^0.1.2",
-    "babel-loader": "^8.0.0-beta.0",
     "concurrently": "^3.5.1",
-    "css-loader": "^0.28.10",
-    "cssnano": "^3.10.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "firebase": "^4.10.1",
     "html-minifier": "^3.5.9",
     "husky": "^0.14.3",
-    "node-env-webpack-plugin": "^1.1.0",
-    "normalize.css": "^8.0.0",
     "onchange": "^3.3.0",
-    "optimize-css-assets-webpack-plugin": "^3.2.0",
-    "prettier": "^1.10.2",
+    "prettier": "^1.11.0",
     "pretty-quick": "^1.4.1",
     "remark": "^9.0.0",
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
     "sort-package-json": "^1.11.0",
-    "style-loader": "^0.20.2",
-    "uglify-js": "^3.3.12",
-    "uglifyjs-webpack-plugin": "^1.2.2",
-    "webpack": "^3.11.0"
+    "uglify-js": "^3.3.12"
   },
   "engines": {
     "node": "9.x.x"

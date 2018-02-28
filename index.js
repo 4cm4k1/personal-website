@@ -15,13 +15,13 @@ const configuration = {
           },
           {
             key: 'Cache-Control',
-            value: 'max-age=604800',
+            value: 'max-age=31536000',
           },
           {
             key: 'Content-Security-Policy',
             value:
-              "style-src 'self' 'unsafe-inline'; " +
-              "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/; " +
+              "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/; " +
+              "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/ https://cdn.jsdelivr.net/; " +
               "font-src 'self'; " +
               "base-uri 'self'; ",
           },

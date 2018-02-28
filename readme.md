@@ -27,20 +27,20 @@ Source code for [**@4cm4k1**](https://github.com/4cm4k1)'s personal website loca
 
 ## Installation
 
-1. Clone this repo and `cd` in.
+1.  Clone this repo and `cd` in.
 
-   ```shell
-   # For HTTPS
-   git clone https://github.com/4cm4k1/website.git && cd website
-   # For SSH
-   git clone git@github.com:4cm4k1/website.git && cd website
-   ```
+    ```shell
+    # For HTTPS
+    git clone https://github.com/4cm4k1/website.git && cd website
+    # For SSH
+    git clone git@github.com:4cm4k1/website.git && cd website
+    ```
 
-2. Install dependencies!
+2.  Install dependencies!
 
-   ```shell
-   yarn install && yarn run pub-get
-   ```
+    ```shell
+    yarn install && yarn run pub-get
+    ```
 
 ## Usage
 
