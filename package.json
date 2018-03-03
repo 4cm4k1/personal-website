@@ -49,7 +49,7 @@
     "html-minifier": "^3.5.9",
     "husky": "^0.14.3",
     "onchange": "^3.3.0",
-    "prettier": "^1.11.0",
+    "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1",
     "remark": "^9.0.0",
     "remark-cli": "^5.0.0",
