@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
-    "html-minifier": "^3.5.9",
+    "html-minifier": "^3.5.10",
     "husky": "^0.14.3",
     "onchange": "^3.3.0",
     "prettier": "^1.11.1",
@@ -56,7 +56,7 @@
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
     "sort-package-json": "^1.11.0",
-    "uglify-js": "^3.3.12"
+    "uglify-js": "^3.3.14"
   },
   "engines": {
     "node": "9.x.x"

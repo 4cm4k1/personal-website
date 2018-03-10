@@ -14,49 +14,49 @@ packages:
       name: angular
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0-alpha+6"
+    version: "5.0.0-alpha+7"
   angular_ast:
     dependency: "direct dev"
     description:
       name: angular_ast
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.3"
+    version: "0.4.3+1"
   angular_compiler:
     dependency: "direct dev"
     description:
       name: angular_compiler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0-alpha+6"
+    version: "0.4.0-alpha+7"
   angular_components:
     dependency: "direct main"
     description:
       name: angular_components
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0-alpha+6"
+    version: "0.9.0-alpha+7"
   angular_forms:
     dependency: "direct main"
     description:
       name: angular_forms
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1-alpha+6"
+    version: "1.0.1-alpha+7"
   angular_router:
     dependency: "direct main"
     description:
       name: angular_router
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+6"
+    version: "2.0.0-alpha+7"
   angular_test:
     dependency: "direct dev"
     description:
       name: angular_test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+4"
+    version: "2.0.0-alpha+5"
   args:
     dependency: transitive
     description:
@@ -91,7 +91,7 @@ packages:
       name: boolean_selector
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.3"
   browser:
     dependency: "direct dev"
     description:
@@ -105,7 +105,7 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.0+1"
+    version: "0.12.0+2"
   build_barback:
     dependency: transitive
     description:
@@ -126,7 +126,7 @@ packages:
       name: build_modules
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.0"
+    version: "0.2.0+2"
   build_resolvers:
     dependency: transitive
     description:
@@ -140,14 +140,14 @@ packages:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.12"
+    version: "0.7.13+1"
   build_web_compilers:
     dependency: "direct dev"
     description:
       name: build_web_compilers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.2"
+    version: "0.3.3"
   built_collection:
     dependency: transitive
     description:
@@ -196,7 +196,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.14.5"
+    version: "1.14.6"
   convert:
     dependency: transitive
     description:
@@ -238,7 +238,7 @@ packages:
       name: firebase
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.3.1"
+    version: "4.4.0"
   fixnum:
     dependency: transitive
     description:
@@ -280,7 +280,7 @@ packages:
       name: html
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.2+2"
+    version: "0.13.3"
   http:
     dependency: transitive
     description:
@@ -392,7 +392,7 @@ packages:
       name: observable
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.21.1"
+    version: "0.21.2"
   package_config:
     dependency: transitive
     description:
@@ -476,7 +476,7 @@ packages:
       name: sass
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0-beta.5.2"
+    version: "1.0.0-beta.5.3"
   sass_builder:
     dependency: "direct dev"
     description:
@@ -532,7 +532,7 @@ packages:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.5+1"
+    version: "0.7.6"
   source_map_stack_trace:
     dependency: transitive
     description:
@@ -595,7 +595,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.31"
+    version: "0.12.32+1"
   tuple:
     dependency: transitive
     description:
@@ -646,4 +646,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=2.0.0-dev.23.0 <=2.0.0-dev.32.0"
+  dart: ">=2.0.0-dev.28.0 <=2.0.0-dev.35.0"
