@@ -57,6 +57,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0-alpha+5"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.33"
   args:
     dependency: transitive
     description:
@@ -98,7 +105,7 @@ packages:
       name: browser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.10.0+2"
+    version: "0.10.0+3"
   build:
     dependency: transitive
     description:
@@ -119,7 +126,7 @@ packages:
       name: build_config
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.4"
+    version: "0.2.5"
   build_modules:
     dependency: transitive
     description:
@@ -140,14 +147,14 @@ packages:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.13+1"
+    version: "0.8.0"
   build_web_compilers:
     dependency: "direct dev"
     description:
       name: build_web_compilers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.3"
+    version: "0.3.4+1"
   built_collection:
     dependency: transitive
     description:
@@ -196,7 +203,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.14.6"
+    version: "1.14.7"
   convert:
     dependency: transitive
     description:
@@ -392,7 +399,7 @@ packages:
       name: observable
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.21.2"
+    version: "0.21.3"
   package_config:
     dependency: transitive
     description:
@@ -646,4 +653,4 @@ packages:
     source: hosted
     version: "2.1.13"
 sdks:
-  dart: ">=2.0.0-dev.28.0 <=2.0.0-dev.35.0"
+  dart: ">=2.0.0-dev.37 <=2.0.0-dev.38.0"
