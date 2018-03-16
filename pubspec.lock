@@ -100,7 +100,7 @@ packages:
     source: hosted
     version: "1.0.3"
   browser:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: browser
       url: "https://pub.dartlang.org"
