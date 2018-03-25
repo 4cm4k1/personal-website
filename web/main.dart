@@ -12,7 +12,7 @@ import 'main.template.dart' as ng;
 // New way to inject dependencies, but doesn't fully work
 @GenerateInjector(const [
   routerProviders,
-  const Provider(APP_BASE_HREF, useValue: '/'),
+  const Provider(appBaseHref, useValue: '/'),
   //  new ValueProvider(Window, window), - doesn't work
 ])
 final InjectorFactory appInjector = ng.appInjector$Injector;
