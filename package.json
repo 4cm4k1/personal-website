@@ -14,7 +14,7 @@
     "br": "pub run build_runner build --output=build",
     "br-watch": "pub run build_runner watch --output=build",
     "build":
-      "yarn run br && yarn run uglify && yarn run html && yarn run json && yarn run svg && yarn run xml",
+      "yarn run br && yarn run html && yarn run json && yarn run svg && yarn run xml",
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
     "deploy": "now -t $NOW_TOKEN",
     "html":
@@ -33,8 +33,6 @@
       "prettier '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' --write",
     "prettier-watch":
       "onchange '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' -- prettier --write {{changed}}",
-    "uglify":
-      "uglifyjs build/web/main.dart.js --compress --output build/web/main.dart.js",
     "watch": "NODE_ENV=dev npm-run-all prettier-watch br-watch start",
     "xml":
       "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
@@ -54,8 +52,7 @@
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
-    "sort-package-json": "^1.11.0",
-    "uglify-js": "^3.3.16"
+    "sort-package-json": "^1.11.0"
   },
   "engines": {
     "node": "9.x.x"
