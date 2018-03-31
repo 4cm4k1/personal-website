@@ -5,20 +5,7 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "files": [
-    "build/web/assets",
-    "build/web/browserconfig.xml",
-    "build/web/favicon.ico",
-    "build/web/index.html",
-    "build/web/keybase.txt",
-    "build/web/main.dart.js",
-    "build/web/main.dart.js.map",
-    "build/web/pwa.dart.js",
-    "build/web/pwa.dart.js.map",
-    "build/web/robots.txt",
-    "build/web/sitemap.xml",
-    "index.js"
-  ],
+  "files": ["build", "index.js"],
   "type": "npm",
   "public": true
 }
