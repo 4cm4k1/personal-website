@@ -13,8 +13,9 @@
     <!-- HEAD INFO: https://github.com/joshbuchea/HEAD -->
     <meta charset="utf-8" />
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css" as="style" crossorigin="anonymous" />
-    <link rel="preload" href="assets/NotoSansMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="assets/MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin="anonymous" />
+    <link rel="preload" href="https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <meta content="origin-when-cross-origin" name="referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Anthony Maki - Software Engineer</title>
@@ -85,60 +86,29 @@
     }
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" crossorigin="anonymous" />
     <style>
       @font-face {
-        font-family: 'Material Icons';
-        src: url('assets/MaterialIcons-Regular.eot');
-        src: local('Material Icons'), local('MaterialIcons-Regular'),
-        url('assets/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
-        url('assets/MaterialIcons-Regular.woff2') format('woff2'),
-        url('assets/MaterialIcons-Regular.woff') format('woff'),
-        url('assets/MaterialIcons-Regular.ttf') format('truetype');
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      @font-face {
+        font-display: swap;
         font-family: 'Noto Sans Mono';
-        src: url('assets/NotoSansMono-Regular.eot');
-        src: local('Noto Sans Mono Regular'), local('NotoSansMono-Regular'),
-        url('assets/NotoSansMono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('assets/NotoSansMono-Regular.woff2') format('woff2'),
-        url('assets/NotoSansMono-Regular.woff') format('woff'),
-        url('assets/NotoSansMono-Regular.ttf') format('truetype');
-        font-weight: normal;
         font-style: normal;
+        font-weight: normal;
+        src: url('https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.eot');
+        src: local('Noto Sans Mono Regular'), local('NotoSansMono-Regular'),
+        url('https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.woff2') format('woff2'),
+        url('https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.woff') format('woff'),
+        url('https://storage.googleapis.com/anthony-codes.appspot.com/fonts/NotoSansMono-Regular.ttf') format('truetype');
       }
-
       body {
         font-family: 'Noto Sans Mono', 'Noto Mono', 'Roboto Mono', Inconsolata, Monaco, Courier, monospace;
       }
-
-      .material-icons {
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: normal;
-        text-transform: none;
-        display: inline-block;
-        white-space: nowrap;
-        word-wrap: normal;
-        direction: ltr;
-        -webkit-font-feature-settings: 'liga';
-        font-feature-settings: 'liga';
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
     </style>
   </head>
 
   <body>
     <app>Loading RAM now...</app>
-    <script defer src="https://cdn.jsdelivr.net/combine/npm/firebase@4.12.0/firebase-app.min.js,npm/firebase@4.12.0/firebase-firestore.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/combine/npm/firebase@4.12.1/firebase-app.min.js,npm/firebase@4.12.1/firebase-firestore.min.js"></script>
     <script defer src="main.dart.js"></script>
     <noscript>You do not have JavaScript enabled, and you are sad.</noscript>
   </body>

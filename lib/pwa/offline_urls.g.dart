@@ -1,14 +1,6 @@
 /// URLs for offline cache.
 final List<String> offlineUrls = [
   './',
-  './assets/MaterialIcons-Regular.eot',
-  './assets/MaterialIcons-Regular.ttf',
-  './assets/MaterialIcons-Regular.woff',
-  './assets/MaterialIcons-Regular.woff2',
-  './assets/NotoSansMono-Regular.eot',
-  './assets/NotoSansMono-Regular.ttf',
-  './assets/NotoSansMono-Regular.woff',
-  './assets/NotoSansMono-Regular.woff2',
   './assets/android-chrome-192x192.png',
   './assets/android-chrome-512x512.png',
   './assets/apple-touch-icon.png',
@@ -24,9 +16,10 @@ final List<String> offlineUrls = [
   './favicon.ico',
   './keybase.txt',
   './main.dart.js',
+  './pwa.dart.js',
   './robots.txt',
   './sitemap.xml',
 ];
 
 /// Last modified timestamp of the files
-final String lastModified = '2018-02-28T16:24:35.610Z';
+final String lastModified = '2018-03-30T22:00:30.000Z';

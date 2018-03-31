@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["https://anthony.codes", "https://thedebug.life"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

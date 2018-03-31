@@ -35,8 +35,7 @@
       "onchange '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' -- prettier --write {{changed}}",
     "uglify":
       "uglifyjs build/web/main.dart.js --compress --output build/web/main.dart.js",
-    "watch":
-      "concurrently \"yarn run prettier-watch\" \"yarn run br-watch\" \"NODE_ENV=dev yarn run start\"",
+    "watch": "NODE_ENV=dev npm-run-all prettier-watch br-watch start",
     "xml":
       "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
   },
@@ -45,9 +44,9 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "concurrently": "^3.5.1",
     "html-minifier": "^3.5.12",
     "husky": "^0.14.3",
+    "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1",

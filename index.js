@@ -20,10 +20,10 @@ const configuration = {
           {
             key: 'Content-Security-Policy',
             value:
-              "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/; " +
+              "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/ https://*.googleapis.com/; " +
               "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/ https://cdn.jsdelivr.net/; " +
-              "font-src 'self'; " +
-              "base-uri 'self'; ",
+              "font-src 'self' https://*.gstatic.com/ https://*.googleapis.com/; " +
+              "base-uri 'self';",
           },
           {
             key: 'Strict-Transport-Security',

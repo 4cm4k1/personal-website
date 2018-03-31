@@ -1,7 +1,4 @@
-// import 'dart:html';
-
 import 'package:angular/angular.dart';
-import 'package:angular/experimental.dart';
 import 'package:angular_router/angular_router.dart';
 import 'package:firebase/firebase.dart' as fb;
 import 'package:pwa/client.dart' as pwa;
@@ -9,17 +6,11 @@ import 'package:website/app_component.template.dart' as app;
 
 import 'main.template.dart' as ng;
 
-// New way to inject dependencies, but doesn't fully work
-@GenerateInjector(const [
-  routerProviders,
-  const Provider(appBaseHref, useValue: '/'),
-  //  new ValueProvider(Window, window), - doesn't work
-])
-final InjectorFactory appInjector = ng.appInjector$Injector;
-
 void main() {
+  // Initialize Service Worker
   new pwa.Client();
 
+  // Initialize Firebase
   try {
     fb.initializeApp(
         apiKey: 'AIzaSyBQFtT5GU6KyUgZrHo_ko0cBPA02uSVaC8',
@@ -31,9 +22,13 @@ void main() {
     print(e);
   }
 
-  // Experimental version until runApp is exported
-  bootstrapFactory(
-    app.AppComponentNgFactory,
-    appInjector,
-  );
+  // Initialize App
+  runApp(app.AppComponentNgFactory, createInjector: appInjector);
 }
+
+// Inject things into App
+@GenerateInjector(const [
+  routerProviders,
+  const ValueProvider.forToken(appBaseHref, '/'),
+])
+final InjectorFactory appInjector = ng.appInjector$Injector;

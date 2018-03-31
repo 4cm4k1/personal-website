@@ -1,29 +1,29 @@
 import 'package:pwa/worker.dart';
 import 'package:website/pwa/offline_urls.g.dart' as offline;
 
-/// The Progressive Web Application's entry point.
 void main() {
-  // The Worker handles the low-level code for initialization, fetch API
-  // routing and (later) messaging.
-  new Worker()
+  // Make 3 caches
+  final analyticsCache = DynamicCache('analytics');
+  final cdnCache = DynamicCache('cdn');
+  final fontsCache = DynamicCache('fonts');
 
-    // The static assets that need to be in the cache for offline mode.
-    // By default it uses the automatically generated list from the output of
-    // `pub build`. To refresh this list, run `pub run pwa` after each new build.
+  // Initialize the PWA worker
+  new Worker()
+    // Assign the worker's offline URLS to the variable defined above
     ..offlineUrls = offline.offlineUrls
 
-    // The above list can be extended with additional URLs:
-    //
-    // List<String> offlineUrls = new List.from(offline.offlineUrls);
-    // offlineUrls.addAll(['https://www.example.org/custom/resource/']);
-    // worker.offlineUrls = offlineUrls;
+    // Define cache strategies for 3rd-party assets
+    ..router.registerGetUrl(
+        'https://www.google-analytics.com/', analyticsCache.networkFirst)
+    ..router.registerGetUrl(
+        'https://www.googletagmanager.com/', analyticsCache.networkFirst)
+    ..router.registerGetUrl('https://cdn.jsdelivr.net/', cdnCache.cacheFirst)
+    ..router
+        .registerGetUrl('https://fonts.googleapis.com/', fontsCache.cacheFirst)
+    ..router.registerGetUrl('https://fonts.gstatic.com/', fontsCache.cacheFirst)
+    ..router.registerGetUrl(
+        'https://storage.googleapis.com/', fontsCache.cacheFirst)
 
-    // Fine-tune the caching and network fetch with dynamic caches and cache
-    // strategies on the url-prefixed network routes:
-    //
-    // DynamicCache cache = new DynamicCache('images');
-    // worker.router.registerGetUrl('https://cdn.example.com/', cache.networkFirst);
-
-    // Start the worker.
+    // Start the PWA worker
     ..run(version: offline.lastModified);
 }
