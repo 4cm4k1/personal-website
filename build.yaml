@@ -8,7 +8,15 @@ targets:
           compiler: dart2js
           dart2js_args:
           - --csp
+          - --dump-info
           - --enable-diagnostic-colors
+          - --fast-startup
+          - --trust-primitives
+          - --trust-type-annotations
+        release_options:
+          dart2js_args:
+          - --csp
+          - --dump-info
           - --fast-startup
           - --minify
           - --trust-primitives

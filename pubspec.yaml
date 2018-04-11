@@ -8,26 +8,20 @@ environment:
   sdk: '>=2.0.0-dev <=2.0.0'
 
 dependencies:
-  angular: ^5.0.0-alpha+9
-  angular_components: ^0.9.0-alpha+9
-  angular_forms: ^2.0.0-alpha+1
-  angular_router: ^2.0.0-alpha+9
+  angular: ^5.0.0-alpha+10
+  angular_components: ^0.9.0-alpha+10
+  angular_forms: ^2.0.0-alpha+2
+  angular_router: ^2.0.0-alpha+10
   firebase: ^4.4.0
   pwa: ^0.1.10
 
 dev_dependencies:
-  angular_ast: ^0.5.0
-  angular_compiler: ^0.4.0-alpha+9
-  angular_test: ^2.0.0-alpha+7
-  build_runner: ^0.8.1
-  build_web_compilers: ^0.3.5
+  angular_ast: ^0.5.1
+  angular_compiler: ^0.4.0-alpha+10
+  angular_test: ^2.0.0-alpha+8
+  build_runner: ^0.8.2+2
+  build_web_compilers: ^0.3.6
   sass_builder: ^1.1.5
-  test: ^0.12.33
-
-dependency_overrides:
-  angular:
-    git:
-      url: https://github.com/dart-lang/angular.git
-      path: angular
+  test: ^0.12.34
 
 license: MIT

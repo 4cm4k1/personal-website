@@ -11,7 +11,7 @@
   "repository": "https://github.com/4cm4k1/website",
   "scripts": {
     "alias": "now alias -A ./now.json -t $NOW_TOKEN",
-    "br": "pub run build_runner build --output=build",
+    "br": "pub run build_runner build --output=build --release",
     "br-watch": "pub run build_runner watch --output=build",
     "build":
       "yarn run br && yarn run html && yarn run json && yarn run svg && yarn run xml",
@@ -20,7 +20,7 @@
     "html":
       "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext html",
     "json":
-      "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext json",
+      "html-minifier -c .html-minifier.json --input-dir build/web/assets --output-dir build/web/assets --file-ext json",
     "now-build": "echo 'Starting app!'",
     "pub-get": "pub get --no-precompile",
     "pub-upgrade": "pub upgrade --no-precompile",
@@ -42,7 +42,7 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "html-minifier": "^3.5.12",
+    "html-minifier": "^3.5.14",
     "husky": "^0.14.3",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0",
