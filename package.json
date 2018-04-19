@@ -42,17 +42,17 @@
     "superstatic": "^5.0.1"
   },
   "devDependencies": {
-    "html-minifier": "^3.5.14",
+    "html-minifier": "^3.5.15",
     "husky": "^0.14.3",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0",
-    "prettier": "^1.11.1",
+    "prettier": "^1.12.1",
     "pretty-quick": "^1.4.1",
     "remark": "^9.0.0",
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
-    "sort-package-json": "^1.11.0"
+    "sort-package-json": "^1.12.0"
   },
   "engines": {
     "node": "9.x.x"
