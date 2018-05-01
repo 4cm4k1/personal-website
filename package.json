@@ -52,7 +52,7 @@
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
-    "sort-package-json": "^1.12.0"
+    "sort-package-json": "^1.13.0"
   },
   "engines": {
     "node": "10.x.x"

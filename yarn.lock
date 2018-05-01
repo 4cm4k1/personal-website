@@ -629,6 +629,10 @@ destroy@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
 
+detect-indent@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
+
 detect-libc@^1.0.2, detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
@@ -3253,10 +3257,11 @@ sort-object-keys@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.2.tgz#d3a6c48dc2ac97e6bc94367696e03f6d09d37952"
 
-sort-package-json@^1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-1.12.0.tgz#cb5c8b583270e23624f1780cf4ba025299403a96"
+sort-package-json@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-1.13.0.tgz#c029eeb99c72918b468b9c2a807b7de48cc0cfcf"
   dependencies:
+    detect-indent "^5.0.0"
     sort-object-keys "^1.1.1"
 
 source-map@0.5.x:
