@@ -19,10 +19,10 @@ dev_dependencies:
   angular_ast: ^0.5.2
   angular_compiler: ^0.4.0-alpha+11
   angular_test: ^2.0.0-alpha+9
-  build_runner: ^0.8.8
-  build_web_compilers: ^0.4.0
+  build_runner: ^0.8.9
+  build_web_compilers: ^0.4.0+1
   sass_builder: ^2.0.0
-  test: ^0.12.37
+  test: ^0.12.38
 
 license: MIT
 
