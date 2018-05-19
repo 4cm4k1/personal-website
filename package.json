@@ -55,7 +55,7 @@
     "sort-package-json": "^1.15.0"
   },
   "engines": {
-    "node": "10.x.x"
+    "node": "9.x.x"
   },
   "remarkConfig": {
     "plugins": ["preset-github"]
