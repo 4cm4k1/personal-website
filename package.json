@@ -12,7 +12,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "alias": "now alias -A ./now.json -t $NOW_TOKEN",
+    "alias": "now alias -t $NOW_TOKEN",
     "br": "webdev build -o build",
     "br-watch": "webdev serve",
     "build": "yarn run br && yarn run html && yarn run json && yarn run svg && yarn run xml",
@@ -33,7 +33,6 @@
     "xml": "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
   },
   "dependencies": {
-    "iltorb": "^2.3.2",
     "shrink-ray-current": "^2.1.0",
     "superstatic": "^5.0.1"
   },
@@ -42,15 +41,28 @@
     "husky": "^0.14.3",
     "npm-run-all": "^4.1.3",
     "onchange": "^4.0.0",
-    "prettier": "^1.13.0",
+    "prettier": "^1.13.3",
     "pretty-quick": "^1.6.0",
     "remark": "^9.0.0",
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.8",
     "sort-package-json": "^1.15.0"
   },
-  "engines": {
-    "node": "9.x.x"
+  "now": {
+    "alias": "anthony.codes",
+    "engines": {
+      "node": "^10.0.0"
+    },
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "files": [
+      "build",
+      "index.js"
+    ],
+    "name": "anthony-codes",
+    "public": true,
+    "type": "npm"
   },
   "remarkConfig": {
     "plugins": [
