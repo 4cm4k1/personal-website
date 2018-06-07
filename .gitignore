@@ -10,3 +10,6 @@ doc/api/
 # npm/Yarn stuff
 node_modules/
 yarn-error.log
+
+# React/Next.js stuff
+.next/
