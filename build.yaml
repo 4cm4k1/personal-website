@@ -15,7 +15,7 @@ targets:
           - --enable-diagnostic-colors
           - --fast-startup
           - --trust-primitives
-          - --trust-type-annotations
+          - --omit-implicit-checks
         release_options:
           dart2js_args:
           - --csp
@@ -23,4 +23,4 @@ targets:
           - --fast-startup
           - --minify
           - --trust-primitives
-          - --trust-type-annotations
+          - --omit-implicit-checks
