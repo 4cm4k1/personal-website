@@ -1,8 +1,10 @@
-// const shrinkRay = require('shrink-ray-current');
+const shrinkRay = require('shrink-ray-current');
 const polka = require('polka');
 const next = require('next');
 const { parse } = require('url');
 const { join } = require('path');
+const { createServer } = require('https');
+const { readFileSync } = require('fs');
 
 const { PORT = 4242, NODE_ENV } = process.env;
 
@@ -10,16 +12,23 @@ const dev = NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+const options = {
+  key: readFileSync('./localhost+2-key.pem'),
+  cert: readFileSync('./localhost+2.pem'),
+};
+
 const rootStaticFiles = [
   '/favicon.ico',
   '/keybase.txt',
+  '/resume-anthony-maki.pdf',
   '/robots.txt',
   '/sitemap.xml',
 ];
 
 app.prepare().then(() => {
-  polka()
+  const { handler } = polka()
     // Have Polka handle all requests
+    .use(shrinkRay())
     .get('*', (req, res) => {
       const parsedUrl = parse(req.url, true);
       const { path, query } = parsedUrl;
@@ -32,9 +41,11 @@ app.prepare().then(() => {
       } else {
         handle(req, res);
       }
-    })
-    .listen(PORT)
-    .then(() => console.log(`> Ready on http://localhost:${PORT}`));
+    });
+
+  createServer(options, handler).listen(PORT, _ =>
+    console.log(`> Ready on https://localhost:${PORT}`),
+  );
 });
 
 // const configuration = {
