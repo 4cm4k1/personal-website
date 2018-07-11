@@ -7,14 +7,14 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.32.2"
+    version: "0.32.3"
   angular:
     dependency: "direct main"
     description:
       name: angular
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0-alpha+15"
+    version: "5.0.0-beta"
   angular_ast:
     dependency: "direct dev"
     description:
@@ -28,35 +28,35 @@ packages:
       name: angular_compiler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0-alpha+15"
+    version: "0.4.0-alpha+16"
   angular_components:
     dependency: "direct main"
     description:
       name: angular_components
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0-alpha+15"
+    version: "0.9.0-beta"
   angular_forms:
     dependency: "direct main"
     description:
       name: angular_forms
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+7"
+    version: "2.0.0-beta"
   angular_router:
     dependency: "direct main"
     description:
       name: angular_router
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+14"
+    version: "2.0.0-alpha+15"
   angular_test:
     dependency: "direct dev"
     description:
       name: angular_test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-alpha+13"
+    version: "2.0.0-beta"
   archive:
     dependency: transitive
     description:
@@ -84,7 +84,7 @@ packages:
       name: bazel_worker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.10"
+    version: "0.1.11"
   boolean_selector:
     dependency: transitive
     description:
@@ -133,7 +133,7 @@ packages:
       name: build_runner_core
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.1"
+    version: "0.2.1+1"
   build_web_compilers:
     dependency: "direct dev"
     description:
@@ -154,7 +154,7 @@ packages:
       name: built_value
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.5.2"
+    version: "5.5.3"
   charcode:
     dependency: transitive
     description:
@@ -231,7 +231,7 @@ packages:
       name: firebase
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.5.1"
+    version: "5.0.0-beta"
   fixnum:
     dependency: transitive
     description:
@@ -245,7 +245,7 @@ packages:
       name: front_end
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.2"
+    version: "0.1.3"
   glob:
     dependency: transitive
     description:
@@ -273,7 +273,7 @@ packages:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.3+16"
+    version: "0.11.3+17"
   http_multi_server:
     dependency: transitive
     description:
@@ -329,7 +329,7 @@ packages:
       name: kernel
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.2"
+    version: "0.3.3"
   logging:
     dependency: transitive
     description:
@@ -371,7 +371,7 @@ packages:
       name: node_preamble
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.4.2"
+    version: "1.4.3"
   observable:
     dependency: transitive
     description:
@@ -469,14 +469,14 @@ packages:
       name: sass
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.3"
+    version: "1.9.0"
   sass_builder:
     dependency: "direct dev"
     description:
       name: sass_builder
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3"
+    version: "2.1.0"
   scratch_space:
     dependency: transitive
     description:
@@ -497,7 +497,7 @@ packages:
       name: shelf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.3+1"
+    version: "0.7.3+2"
   shelf_packages_handler:
     dependency: transitive
     description:
@@ -639,4 +639,4 @@ packages:
     source: hosted
     version: "2.1.14"
 sdks:
-  dart: ">=2.0.0-dev.62.0 <=2.0.0-dev.65.0"
+  dart: ">=2.0.0-dev.62.0 <=2.0.0-dev.68.0"
