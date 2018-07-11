@@ -43,7 +43,7 @@
     "@material/react-ripple": "^0.3.0",
     "@material/react-text-field": "^0.3.0",
     "@material/react-top-app-bar": "^0.3.0",
-    "next": "^6.1.0-canary.0",
+    "next": "6.1.1-canary.0",
     "polka": "^0.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
