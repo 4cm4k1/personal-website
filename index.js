@@ -18,92 +18,67 @@ const options = {
 };
 
 const rootStaticFiles = [
+  '/android-chrome-192x192.png',
+  '/android-chrome-512x512.png',
+  '/apple-touch-icon.png',
+  '/browserconfig.xml',
+  '/favicon-16x16.png',
+  '/favicon-32x32.png',
   '/favicon.ico',
   '/keybase.txt',
+  '/manifest.json',
+  '/metadata.html',
+  '/mstile-150x150.png',
+  '/og-image.jpg',
   '/resume-anthony-maki.pdf',
   '/robots.txt',
+  '/safari-pinned-tab.svg',
   '/sitemap.xml',
 ];
 
+async function setHeaders(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', 'https://anthony.codes');
+  res.setHeader('Cache-Control', 'max-age=31536000');
+  res.setHeader(
+    'Content-Security-Policy',
+    "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/ https://*.googleapis.com/; " +
+      "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/ https://cdn.jsdelivr.net/; " +
+      "font-src 'self' https://*.gstatic.com/ https://*.googleapis.com/; " +
+      "base-uri 'self';",
+  );
+  res.setHeader(
+    'Strict-Transport-Security',
+    'max-age=63072000; includeSubDomains; preload',
+  );
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('X-UA-Compatible', 'IE=edge; chrome=1');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  next();
+}
+
+// Set up Next
 app.prepare().then(() => {
+  // Set up Polka
   const { handler } = polka()
-    // Have Polka handle all requests
-    .use(shrinkRay())
-    .get('*', (req, res) => {
+    // Use shrinkRay for awesome compression
+    .use(setHeaders, shrinkRay())
+    // Handle all requests
+    .get('*', async (req, res) => {
       const parsedUrl = parse(req.url, true);
       const { path, query } = parsedUrl;
-      // IF: request is for one of the root static files,
-      // then serve from /static/ as if root /
-      // ELSE: handle and render request with Next.js
-      // or by actual request path
+
       if (rootStaticFiles.includes(path)) {
+        // Handle requests for files in /static/
         app.serveStatic(req, res, join(__dirname, 'static', path));
       } else {
+        // Handle everything else
         handle(req, res);
       }
     });
 
+  // Start server
   createServer(options, handler).listen(PORT, _ =>
     console.log(`> Ready on https://localhost:${PORT}`),
   );
 });
-
-// const configuration = {
-//   port: 4242,
-//   config: {
-//     cleanUrls: true,
-//     headers: [
-//       {
-//         source: '**',
-//         headers: [
-//           {
-//             key: 'Access-Control-Allow-Origin',
-//             value: 'https://anthony.codes',
-//           },
-//           {
-//             key: 'Cache-Control',
-//             value: 'max-age=31536000',
-//           },
-//           {
-//             key: 'Content-Security-Policy',
-//             value:
-//               "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/ https://*.googleapis.com/; " +
-//               "script-src 'self' 'unsafe-inline' https://*.google-analytics.com/ https://*.googletagmanager.com/ https://cdn.jsdelivr.net/; " +
-//               "font-src 'self' https://*.gstatic.com/ https://*.googleapis.com/; " +
-//               "base-uri 'self';",
-//           },
-//           {
-//             key: 'Strict-Transport-Security',
-//             value: 'max-age=63072000; includeSubDomains; preload',
-//           },
-//           {
-//             key: 'X-Content-Type-Options',
-//             value: 'nosniff',
-//           },
-//           {
-//             key: 'X-Frame-Options',
-//             value: 'DENY',
-//           },
-//           {
-//             key: 'X-UA-Compatible',
-//             value: 'IE=edge; chrome=1',
-//           },
-//           {
-//             key: 'X-XSS-Protection',
-//             value: '1; mode=block',
-//           },
-//         ],
-//       },
-//     ],
-//     public: './build/web',
-//     rewrites: [
-//       {
-//         source: '**',
-//         destination: '/index.html',
-//       },
-//     ],
-//   },
-//   cwd: __dirname,
-//   compression: shrinkRay(),
-//   debug: false,
-// };
