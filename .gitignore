@@ -13,3 +13,6 @@ yarn-error.log
 
 # React/Next.js stuff
 .next/
+
+# Local dev SSL certs
+*.pem
