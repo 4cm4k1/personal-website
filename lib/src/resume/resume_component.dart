@@ -5,11 +5,11 @@ import 'package:angular_router/angular_router.dart';
 
 @Component(
     selector: 'resume',
-    styleUrls: const [
+    styleUrls: [
       'resume_component.css',
     ],
     templateUrl: 'resume_component.html',
-    directives: const [
+    directives: [
       coreDirectives,
     ])
 

@@ -1,27 +1,27 @@
 import 'package:angular_router/angular_router.dart';
 
 /// Homepage route.
-final RoutePath home = new RoutePath(
+final RoutePath home = RoutePath(
   path: '',
   useAsDefault: true,
 );
 
 /// Bio route.
-final RoutePath bio = new RoutePath(
+final RoutePath bio = RoutePath(
   path: 'bio',
 );
 
 /// Résumé route.
-final RoutePath resume = new RoutePath(
+final RoutePath resume = RoutePath(
   path: 'resume',
 );
 
 /// Projects route.
-final RoutePath projects = new RoutePath(
+final RoutePath projects = RoutePath(
   path: 'projects',
 );
 
 /// 404 route.
-final RoutePath notFound = new RoutePath(
+final RoutePath notFound = RoutePath(
   path: 'not-found',
 );

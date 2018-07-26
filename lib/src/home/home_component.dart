@@ -5,11 +5,11 @@ import 'package:angular_components/angular_components.dart';
 
 @Component(
     selector: 'home',
-    styleUrls: const [
+    styleUrls: [
       'home_component.css',
     ],
     templateUrl: 'home_component.html',
-    directives: const [
+    directives: [
       coreDirectives,
       MaterialProgressComponent,
     ])

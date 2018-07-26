@@ -12,6 +12,7 @@ analyzer:
     uri_has_not_been_generated: ignore
   exclude:
     - build/**
+    - node_modules/**
 
 # Lint rules and documentation, see http://dart-lang.github.io/linter/lints
 linter:

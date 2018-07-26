@@ -10,3 +10,6 @@ doc/api/
 # npm/Yarn stuff
 node_modules/
 yarn-error.log
+
+# Local dev SSL certs
+*.pem

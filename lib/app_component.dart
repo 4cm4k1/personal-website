@@ -11,12 +11,12 @@ import 'src/resume/resume_component.template.dart' as resume_component;
 
 @Component(
   selector: 'app',
-  styleUrls: const [
+  styleUrls: [
     'package:angular_components/app_layout/layout.scss.css',
     'app_component.css',
   ],
   templateUrl: 'app_component.html',
-  directives: const [
+  directives: [
     routerDirectives,
     DeferredContentDirective,
     MaterialButtonComponent,
@@ -27,7 +27,7 @@ import 'src/resume/resume_component.template.dart' as resume_component;
     MaterialToggleComponent,
     MaterialTooltipDirective,
   ],
-  providers: const [
+  providers: [
     materialProviders,
   ],
 )
@@ -54,23 +54,23 @@ class AppComponent {
 
   /// List of route definitions.
   final List<RouteDefinition> routes = [
-    new RouteDefinition(
+    RouteDefinition(
       routePath: app_routes.home,
       component: home_component.HomeComponentNgFactory,
     ),
-    new RouteDefinition(
+    RouteDefinition(
       routePath: app_routes.bio,
       component: bio_component.BioComponentNgFactory,
     ),
-    new RouteDefinition(
+    RouteDefinition(
       routePath: app_routes.resume,
       component: resume_component.ResumeComponentNgFactory,
     ),
-    new RouteDefinition(
+    RouteDefinition(
       routePath: app_routes.projects,
       component: projects_component.ProjectsComponentNgFactory,
     ),
-    new RouteDefinition(
+    RouteDefinition(
       routePath: app_routes.notFound,
       component: not_found_component.NotFoundComponentNgFactory,
     ),

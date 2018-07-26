@@ -8,7 +8,7 @@ import 'main.template.dart' as ng;
 
 void main() {
   // Initialize Service Worker
-  new pwa.Client();
+  pwa.Client();
 
   // Initialize Firebase
   try {
@@ -27,8 +27,8 @@ void main() {
 }
 
 // Inject things into App
-@GenerateInjector(const [
+@GenerateInjector([
   routerProviders,
-  const ValueProvider.forToken(appBaseHref, '/'),
+  ValueProvider.forToken(appBaseHref, '/'),
 ])
 final InjectorFactory appInjector = ng.appInjector$Injector;

@@ -33,7 +33,7 @@
     "xml": "html-minifier -c .html-minifier.json --input-dir build/web --output-dir build/web --file-ext xml"
   },
   "dependencies": {
-    "shrink-ray-current": "^2.1.1",
+    "shrink-ray-current": "^2.1.2",
     "superstatic": "^5.0.2"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
   "now": {
     "alias": "anthony.codes",
     "engines": {
-      "node": "^9.0.0"
+      "node": "^10.0.0"
     },
     "env": {
       "NODE_ENV": "production"

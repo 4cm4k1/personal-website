@@ -5,11 +5,11 @@ import 'package:angular_router/angular_router.dart';
 
 @Component(
     selector: 'not-found',
-    styleUrls: const [
+    styleUrls: [
       'not_found_component.css',
     ],
     templateUrl: 'not_found_component.html',
-    directives: const [
+    directives: [
       coreDirectives,
     ])
 

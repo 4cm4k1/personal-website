@@ -5,11 +5,11 @@ import 'package:angular_router/angular_router.dart';
 
 @Component(
     selector: 'projects',
-    styleUrls: const [
+    styleUrls: [
       'projects_component.css',
     ],
     templateUrl: 'projects_component.html',
-    directives: const [
+    directives: [
       coreDirectives,
     ])
 

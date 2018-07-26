@@ -8,7 +8,7 @@ void main() {
   final fontsCache = DynamicCache('fonts');
 
   // Initialize the PWA worker
-  new Worker()
+  Worker()
     // Assign the worker's offline URLS to the variable defined above
     ..offlineUrls = offline.offlineUrls
 
