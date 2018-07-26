@@ -1,9 +1,3 @@
----
-name: Pull Request
-about: Submit a pull request to this project!
-
----
-
 ## Description
 
 <!-- Please describe the purpose of the pull request. -->
