@@ -7,6 +7,7 @@ Source code for my ([**@4cm4k1**](https://github.com/4cm4k1)) personal website l
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Code of Conduct](#code-of-conduct)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 - [Changelog](#changelog)
@@ -24,9 +25,9 @@ TBD.
 
 TBD.
 
-## Contributing
+## [Code of Conduct](.github/code_of_conduct.md)
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+## [Contributing](.github/contributing.md)
 
 ## Contributors
 
