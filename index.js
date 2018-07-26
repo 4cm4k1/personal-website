@@ -13,8 +13,8 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 const options = {
-  key: readFileSync('./localhost+2-key.pem'),
-  cert: readFileSync('./localhost+2.pem'),
+  key: readFileSync('./key.pem'),
+  cert: readFileSync('./cert.pem'),
 };
 
 const rootStaticFiles = [
