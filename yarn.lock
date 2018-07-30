@@ -813,6 +813,15 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
+"@material/react-line-ripple@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-line-ripple/-/react-line-ripple-0.4.0.tgz#dc36ec2ac1f25936352397d19a1be3b18c486a59"
+  dependencies:
+    "@material/line-ripple" "^0.35.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
 "@material/react-material-icon@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.3.0.tgz#a889b0479ec4158ba4f80a463340205196f7a78d"

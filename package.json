@@ -26,7 +26,7 @@
     "@material/react-card": "^0.3.0",
     "@material/react-fab": "^0.3.0",
     "@material/react-floating-label": "^0.3.0",
-    "@material/react-line-ripple": "^0.3.0",
+    "@material/react-line-ripple": "^0.4.0",
     "@material/react-material-icon": "^0.3.0",
     "@material/react-notched-outline": "^0.3.0",
     "@material/react-ripple": "^0.3.0",
