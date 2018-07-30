@@ -716,12 +716,12 @@
     "@material/theme" "^0.35.0"
     "@material/typography" "^0.35.0"
 
-"@material/card@^0.36.0":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.36.1.tgz#4803cdda93e2b43a9848bd36a36b4bb3f74a2b69"
+"@material/card@^0.37.0":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.37.1.tgz#6c5a56814cacbf4ab3b09b5aea030cf22857646f"
   dependencies:
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
 
@@ -776,11 +776,11 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-card@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@material/react-card/-/react-card-0.3.0.tgz#2e44efb3240a82a571bc9c35f3748058631319d1"
+"@material/react-card@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-card/-/react-card-0.4.0.tgz#6ad846cc1babbe2786d2d76a6adf050af9758ce2"
   dependencies:
-    "@material/card" "^0.36.0"
+    "@material/card" "^0.37.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.3.2"
@@ -864,6 +864,14 @@
 "@material/ripple@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.35.0"
+
+"@material/ripple@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.37.1.tgz#7bfe43036c2a9066f5083ba2ac5b952d96be16a4"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
