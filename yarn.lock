@@ -840,6 +840,15 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
+"@material/react-ripple@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.4.0.tgz#e25a6324a895458e5b27badd735c874b9e6a52cf"
+  dependencies:
+    "@material/ripple" "^0.37.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
 "@material/react-text-field@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@material/react-text-field/-/react-text-field-0.3.0.tgz#49efaec6480104d503edaa03ae4bba96f23e2bdc"
@@ -864,6 +873,14 @@
 "@material/ripple@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.35.0"
+
+"@material/ripple@^0.37.0":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.37.1.tgz#7bfe43036c2a9066f5083ba2ac5b952d96be16a4"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
