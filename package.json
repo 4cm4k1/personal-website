@@ -30,7 +30,7 @@
     "@material/react-material-icon": "^0.3.0",
     "@material/react-notched-outline": "^0.3.0",
     "@material/react-ripple": "^0.3.0",
-    "@material/react-text-field": "^0.3.0",
+    "@material/react-text-field": "^0.4.0",
     "@material/react-top-app-bar": "^0.3.0",
     "@mdx-js/mdx": "^0.15.0-0",
     "@zeit/next-bundle-analyzer": "^0.1.1",
