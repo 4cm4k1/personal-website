@@ -732,14 +732,16 @@
     "@material/animation" "^0.34.0"
     "@material/theme" "^0.35.0"
 
-"@material/fab@^0.36.0":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.36.1.tgz#f8bb1f446b7e4502fb9fcc856b8f7c78df613623"
+"@material/fab@^0.37.0":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/fab/-/fab-0.37.1.tgz#d383a89c3b70d0848aad24f92b62bbf1c7da4d17"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
+    "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/floating-label@^0.36.0":
   version "0.36.0"
@@ -785,12 +787,12 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-fab@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@material/react-fab/-/react-fab-0.3.0.tgz#843659892b09ce1750ec8a2c345a8168a5008895"
+"@material/react-fab@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-fab/-/react-fab-0.4.0.tgz#14ed4229d13db2960703a2a0e1d2376500869635"
   dependencies:
-    "@material/fab" "^0.36.0"
-    "@material/react-ripple" "^0.3.0"
+    "@material/fab" "^0.37.0"
+    "@material/react-ripple" "^0.4.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.3.2"
@@ -840,6 +842,15 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
+"@material/react-ripple@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.4.0.tgz#e25a6324a895458e5b27badd735c874b9e6a52cf"
+  dependencies:
+    "@material/ripple" "^0.37.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.2"
+
 "@material/react-text-field@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@material/react-text-field/-/react-text-field-0.3.0.tgz#49efaec6480104d503edaa03ae4bba96f23e2bdc"
@@ -864,6 +875,14 @@
 "@material/ripple@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.35.0"
+
+"@material/ripple@^0.37.0", "@material/ripple@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.37.1.tgz#7bfe43036c2a9066f5083ba2ac5b952d96be16a4"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
@@ -906,6 +925,10 @@
 "@material/typography@^0.35.0":
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.35.0.tgz#23ad7eb7c9789e69c7c3fa54df8fc311cd7fc4b1"
+
+"@material/typography@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.37.1.tgz#2e14e3ee5418a5170d793cdf7b6a671c8896292c"
 
 "@mdx-js/loader@^0.7.0":
   version "0.7.4"
