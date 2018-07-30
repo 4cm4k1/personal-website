@@ -852,11 +852,11 @@
     prop-types "^15.6.1"
     react "^16.3.2"
 
-"@material/react-top-app-bar@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.3.0.tgz#fe06220dd175758cfa4aa2f01bc5212f3ab3009b"
+"@material/react-top-app-bar@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.4.0.tgz#31274dd1af91cdd313609d4436c977ecf4d81520"
   dependencies:
-    "@material/top-app-bar" "^0.36.0"
+    "@material/top-app-bar" "^0.37.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.3.2"
@@ -864,6 +864,14 @@
 "@material/ripple@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.35.0"
+
+"@material/ripple@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.37.1.tgz#7bfe43036c2a9066f5083ba2ac5b952d96be16a4"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
@@ -891,21 +899,25 @@
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.35.0.tgz#a2c76f60b82a53d399b769ef91ec52e83ad3c3bd"
 
-"@material/top-app-bar@^0.36.0":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@material/top-app-bar/-/top-app-bar-0.36.1.tgz#2b80bac73b6eb426efee9ba3f676084fefcd19fb"
+"@material/top-app-bar@^0.37.0":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/top-app-bar/-/top-app-bar-0.37.1.tgz#b9e669ffb823465594c374448196d182b3c0f132"
   dependencies:
     "@material/animation" "^0.34.0"
     "@material/base" "^0.35.0"
     "@material/elevation" "^0.36.1"
-    "@material/ripple" "^0.36.0"
+    "@material/ripple" "^0.37.1"
     "@material/rtl" "^0.36.0"
     "@material/theme" "^0.35.0"
-    "@material/typography" "^0.35.0"
+    "@material/typography" "^0.37.1"
 
 "@material/typography@^0.35.0":
   version "0.35.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.35.0.tgz#23ad7eb7c9789e69c7c3fa54df8fc311cd7fc4b1"
+
+"@material/typography@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.37.1.tgz#2e14e3ee5418a5170d793cdf7b6a671c8896292c"
 
 "@mdx-js/loader@^0.7.0":
   version "0.7.4"
