@@ -804,6 +804,15 @@
     prop-types "^15.6.1"
     react "^16.3.0"
 
+"@material/react-floating-label@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@material/react-floating-label/-/react-floating-label-0.4.0.tgz#99bcad37f1e41039905ae1f8880fb5d7aa1f34d9"
+  dependencies:
+    "@material/floating-label" "^0.36.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react "^16.3.0"
+
 "@material/react-line-ripple@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@material/react-line-ripple/-/react-line-ripple-0.3.0.tgz#bf85724eeb491a0a0648d38004d76a1eebe3bbc4"
