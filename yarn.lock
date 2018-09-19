@@ -1032,9 +1032,9 @@
   dependencies:
     "@mdx-js/loader" "^0.7.0"
 
-"@zeit/next-source-maps@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@zeit/next-source-maps/-/next-source-maps-0.0.2.tgz#3c220de9b6b7eb993eb030876916b1c05bf0ffb0"
+"@zeit/next-source-maps@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@zeit/next-source-maps/-/next-source-maps-0.0.3.tgz#d62e93b4f5ccdd542c8530d21f60dd2757d98e3c"
 
 abbrev@1:
   version "1.1.1"
