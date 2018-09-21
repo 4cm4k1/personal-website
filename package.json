@@ -40,7 +40,7 @@
     "firebase": "^5.3.0",
     "next": "^6.1.1-canary.2",
     "next-compose-plugins": "^2.1.1",
-    "next-offline": "^2.8.0",
+    "next-offline": "^3.0.0",
     "next-optimized-images": "^1.4.1",
     "polka": "^0.4.0",
     "react": "^16.4.1",
