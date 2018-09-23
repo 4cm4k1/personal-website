@@ -14,7 +14,6 @@
   "scripts": {
     "alias": "now alias -t $NOW_TOKEN",
     "build": "next build",
-    "precommit": "pretty-quick --staged",
     "deploy": "now -t $NOW_TOKEN",
     "start": "node server.js",
     "prettier": "prettier '{*,{lib,test,web}/**/*}.{css,js,json,md,scss}' --write",
@@ -92,5 +91,10 @@
     "labels": [
       "renovate"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
