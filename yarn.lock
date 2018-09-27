@@ -1054,13 +1054,14 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
-"@types/next@^6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-6.1.7.tgz#663e6118353d88eea6c45b6da9495a9419fad5ef"
+"@types/next@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.0.tgz#7dd3d1196a711251fc2331661fe6ccc173929c54"
   dependencies:
     "@types/node" "*"
     "@types/node-fetch" "*"
     "@types/react" "*"
+    "@types/react-loadable" "*"
 
 "@types/node-fetch@*":
   version "2.1.1"
@@ -1089,6 +1090,13 @@
     "@types/node" "*"
     "@types/react" "*"
 
+"@types/react-loadable@*":
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/@types/react-loadable/-/react-loadable-5.4.1.tgz#bc76978c6d9039e5808797b5ee35f6ae18b7329f"
+  dependencies:
+    "@types/react" "*"
+    "@types/webpack" "*"
+
 "@types/react@*":
   version "16.4.6"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.6.tgz#5024957c6bcef4f02823accf5974faba2e54fada"
@@ -1108,6 +1116,25 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/tapable@*":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
+
+"@types/uglify-js@*":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.0.3.tgz#801a5ca1dc642861f47c46d14b700ed2d610840b"
+  dependencies:
+    source-map "^0.6.1"
+
+"@types/webpack@*":
+  version "4.4.12"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.12.tgz#79094b4c51ab1cf8f41f55bfe270c150bf0c0528"
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
