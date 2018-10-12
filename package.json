@@ -21,32 +21,32 @@
     "watch": "NODE_ENV=dev npm-run-all prettier-watch start"
   },
   "dependencies": {
-    "@material/react-button": "^0.4.2",
-    "@material/react-card": "^0.4.2",
-    "@material/react-fab": "^0.4.2",
-    "@material/react-floating-label": "^0.4.1",
-    "@material/react-line-ripple": "^0.4.1",
-    "@material/react-material-icon": "^0.4.2",
-    "@material/react-notched-outline": "^0.4.1",
-    "@material/react-ripple": "^0.4.2",
-    "@material/react-select": "^0.4.2",
-    "@material/react-tab-indicator": "^0.4.1",
-    "@material/react-text-field": "^0.4.2",
-    "@material/react-top-app-bar": "^0.4.2",
-    "@mdx-js/mdx": "^0.15.3",
+    "@material/react-button": "^0.5.0",
+    "@material/react-card": "^0.5.0",
+    "@material/react-fab": "^0.5.0",
+    "@material/react-floating-label": "^0.5.0",
+    "@material/react-line-ripple": "^0.5.1",
+    "@material/react-material-icon": "^0.5.0",
+    "@material/react-notched-outline": "^0.5.0",
+    "@material/react-ripple": "^0.5.0",
+    "@material/react-select": "^0.5.1",
+    "@material/react-tab-indicator": "^0.5.0",
+    "@material/react-text-field": "^0.5.1",
+    "@material/react-top-app-bar": "^0.5.0",
+    "@mdx-js/mdx": "^0.15.5",
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-mdx": "^1.2.0",
     "@zeit/next-source-maps": "^0.0.3",
     "autotrack": "^2.4.1",
-    "firebase": "^5.5.1",
-    "helmet": "^3.13.0",
+    "firebase": "^5.5.4",
+    "helmet": "^3.14.0",
     "modern-normalize": "^0.5.0",
-    "next": "^7.0.0",
+    "next": "^7.0.2",
     "next-compose-plugins": "^2.1.1",
-    "next-offline": "^3.0.0",
+    "next-offline": "^3.0.2",
     "next-optimized-images": "^1.4.1",
-    "polka": "^0.5.0",
+    "polka": "^0.5.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "shrink-ray-current": "^2.1.2",
@@ -54,31 +54,25 @@
   },
   "devDependencies": {
     "@firebase/app-types": "^0.3.2",
-    "@types/next": "^6.1.7",
-    "@types/react": "^16.4.14",
-    "@types/react-dom": "^16.0.7",
-    "debug": "^4.0.1",
-    "husky": "^1.0.0-rc.15",
+    "@types/next": "^7.0.2",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "^16.0.9",
+    "debug": "^4.1.0",
+    "husky": "^1.1.2",
     "npm-run-all": "^4.1.3",
-    "onchange": "^4.1.0",
+    "onchange": "^5.0.2",
     "prettier": "^1.14.3",
-    "pretty-quick": "^1.7.0"
+    "pretty-quick": "^1.7.0",
+    "webpack": "^4.20.2"
   },
   "now": {
     "alias": "anthony.codes",
-    "engines": {
-      "node": "^10.0.0"
+    "features": {
+      "cloud": "v2"
     },
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "files": [
-      "build",
-      "index.js"
-    ],
     "name": "anthony-codes",
     "public": true,
-    "type": "npm"
+    "type": "docker"
   },
   "renovate-config": {
     "assignees": [
