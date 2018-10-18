@@ -1,6 +1,9 @@
 *
 !components
+!lib
 !pages
 !static
 !package.json
+!next.config.js
+!server.js
 !yarn.lock
