@@ -62,18 +62,6 @@
     "pretty-quick": "^1.8.0",
     "webpack": "^4.21.0"
   },
-  "now": {
-    "alias": [
-      "anthony.codes",
-      "www.anthony.codes"
-    ],
-    "features": {
-      "cloud": "v2"
-    },
-    "name": "anthony-codes",
-    "public": true,
-    "type": "docker"
-  },
   "renovate-config": {
     "assignees": [
       "4cm4k1"

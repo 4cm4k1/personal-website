@@ -1,0 +1,9 @@
+{
+  "alias": ["anthony.codes", "www.anthony.codes"],
+  "features": {
+    "cloud": "v2"
+  },
+  "name": "anthony-codes",
+  "public": true,
+  "type": "docker"
+}
