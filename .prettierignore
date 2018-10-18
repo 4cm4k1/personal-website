@@ -1,3 +1,1 @@
-.dart_tool/
-.pub/
-build/
+node_modules/
