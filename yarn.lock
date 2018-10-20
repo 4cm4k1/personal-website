@@ -759,10 +759,10 @@
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-0.7.0.tgz#bded7892868cf6b189a121d0f0cec468f1609995"
   integrity sha512-jyKRcKnSh3CSEPL4xGOZNoOXEiv7YmFK/JEcdd/4cAH17/Xo+Pk67gk1E648LRKh6QPghgNvzNTY5R10mKbQNw==
 
-"@firebase/firestore@0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.8.4.tgz#2cb35180c002b4ab49e822239c3868c16a645d94"
-  integrity sha512-4/luSVEkF+qbenp2LX+A6mvssSzbC11BMUJ9Zh0R809/MHAGW9JfQVHrz78q240pll5yJZOFb8A4Kh3ke7yRkQ==
+"@firebase/firestore@0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.8.5.tgz#fa11449654a9894237adb23ab8c5ae00f745a142"
+  integrity sha512-3+XIzTX8lGJuZ6mYo4tNmJF3kmdADBw2H2d0eiUHZLY4Hj3xW3UGhLOu4KWJlmYLcZj/C1o0w7N0GnVidIuXVQ==
   dependencies:
     "@firebase/firestore-types" "0.7.0"
     "@firebase/logger" "0.1.1"
@@ -3421,15 +3421,15 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.5.4.tgz#6c6c9c829c1c223dd6bc9c5a7805a5ebcaf36ae2"
-  integrity sha512-4exmWUn2y6YQuavDPSnKrfUl/Bqu9qsLrhEtdM8VAskYa1pg85hC7rYtkjHBZjONTUvr9lEfYcKQbSdNWsvdMQ==
+firebase@^5.5.5:
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.5.5.tgz#41584a15bf40e3ce474880bb82478de35cc21dbb"
+  integrity sha512-glnN/ru3CM3fTqsxbUEGyWbHYREZmC12tXYZ9q/l/qtHfLSN8hSOkVGNeSVuq7jfNmhGERhesMEu9jgdPyw02w==
   dependencies:
     "@firebase/app" "0.3.4"
     "@firebase/auth" "0.7.8"
     "@firebase/database" "0.3.6"
-    "@firebase/firestore" "0.8.4"
+    "@firebase/firestore" "0.8.5"
     "@firebase/functions" "0.3.1"
     "@firebase/messaging" "0.3.6"
     "@firebase/polyfill" "0.3.3"
@@ -4386,6 +4386,11 @@ is-word-character@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-word-character/-/is-word-character-1.0.2.tgz#46a5dac3f2a1840898b91e576cd40d493f3ae553"
   integrity sha512-T3FlsX8rCHAH8e7RE7PfOPZVFQlcV3XRF9eOOBQ1uf70OxO7CjjSOjeImMPCADBdYWcStAbVbYvJ1m2D3tb+EA==
+
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+  integrity sha1-HxbkqiKwTRM2tmGIpmrzxgDDpm0=
 
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -5470,6 +5475,13 @@ opener@^1.4.3:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.1.tgz#6d2f0e77f1a0af0032aca716c2c1fbb8e7e8abed"
   integrity sha512-goYSy5c2UXE4Ra1xixabeVh1guIX/ZV/YokJksb6q2lubWu6UbvPQ20p542/sFIll1nl8JnCyK9oBaOcCWXwvA==
+
+opn@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.4.0.tgz#cb545e7aab78562beb11aa3bfabc7042e1761035"
+  integrity sha512-YF9MNdVy/0qvJvDtunAOzFw9iasOQHpVthTCvGzxt61Il64AYSGdK+rYwld7NAfk9qJ7dt+hymBNSc9LNYS+Sw==
+  dependencies:
+    is-wsl "^1.1.0"
 
 optjs@~3.2.2:
   version "3.2.2"

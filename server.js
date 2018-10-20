@@ -1,59 +1,41 @@
-// Constants
+const helmet = require('helmet'); // Imports
+const next = require('next');
+const polka = require('polka');
 const {
   DEV,
+  DEV_PROTOCOL,
   HOST,
   PORT,
   PROTOCOL,
   SERVER_OPTIONS,
   STATIC_FILES,
 } = require('./lib/getConstants');
-// node_modules imports
-const helmet = require('helmet');
-const next = require('next');
-const polka = require('polka');
-const shrinkRay = require('shrink-ray-current');
-const { createServer } = require(PROTOCOL);
+const { createServer } = require(DEV_PROTOCOL); // Either 'http' or 'https'
 const { join } = require('path');
-const { parse } = require('url');
-// Local module imports
-const getHelmetConfig = require('./lib/getHelmetConfig');
-const getNonce = require('./lib/getNonce');
-const sendRedirect = require('./lib/sendRedirect');
-const setHeaders = require('./lib/setHeaders');
-// Initialize Next.js
-const app = next({ dev: DEV });
-const handle = app.getRequestHandler();
-// Set up Next
-app.prepare().then(() => {
-  // Set up Polka
-  const { handler } = polka()
-    // Add redirect, nonce, headers, Helmet, and shrinkRay middleware
+const nextApp = next({ dev: DEV }); // Instantiate Next.js then start
+const nextHandler = nextApp.getRequestHandler(); // Save handler for later
+nextApp.prepare().then(() => {
+  const { handler: polkaHandler } = polka() // Instantiate Polka
     .use(
-      sendRedirect,
-      setHeaders,
-      getNonce,
-      helmet(getHelmetConfig()),
-      shrinkRay(),
+      require('./lib/sendRedirect'), // Redirect from `www`
+      require('./lib/setHeaders'), // Set headers that Helmet doesn’t
+      require('./lib/getNonce'), // Get nonce required for CSP
+      helmet(require('./lib/getHelmetConfig')()), // Use Helmet to set headers
+      require('shrink-ray-current')(), // Use Shrink Ray for compression
     )
-    // Handle all requests
-    .get('*', async (req, res) => {
-      const parsedUrl = parse(req.url, true);
-      const { path } = parsedUrl;
-
-      if (STATIC_FILES.includes(path)) {
-        // Handle requests for files in /static/
-        app.serveStatic(req, res, join(__dirname, 'static', path));
-      } else if (path === '/service-worker.js') {
-        // Serve service worker
-        app.serveStatic(req, res, join(__dirname, '.next', path));
-      } else {
-        // Handle everything else
-        handle(req, res);
-      }
-    });
-
-  // Start server
-  createServer(SERVER_OPTIONS, handler).listen(PORT, _ =>
-    console.log(`> Ready on ${PROTOCOL}://${HOST}`),
+    .get('/service-worker.js', async (
+      req,
+      res, // Serve from .next/
+    ) => nextApp.serveStatic(req, res, join(__dirname, '.next', req.url)))
+    .get(
+      '*', // Serve everything according to following condition
+      async (req, res) =>
+        STATIC_FILES.includes(req.url) // If static file, serve from static/
+          ? nextApp.serveStatic(req, res, join(__dirname, 'static', req.url))
+          : nextHandler(req, res), // Else, let Next.js handle
+    );
+  createServer(SERVER_OPTIONS, polkaHandler).listen(
+    PORT, // Start server at specified port
+    _ => (DEV ? require('opn')(`${PROTOCOL}://${HOST}`) : null), // If dev, open
   );
 });
