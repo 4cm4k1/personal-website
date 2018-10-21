@@ -17,25 +17,24 @@ const nextHandler = nextApp.getRequestHandler(); // Save handler for later
 nextApp.prepare().then(() => {
   const { handler: polkaHandler } = polka() // Instantiate Polka
     .use(
-      require('./lib/sendRedirect'), // Redirect from `www`
-      require('./lib/setHeaders'), // Set headers that Helmet doesn’t
-      require('./lib/getNonce'), // Get nonce required for CSP
-      helmet(require('./lib/getHelmetConfig')()), // Use Helmet to set headers
-      require('shrink-ray-current')(), // Use Shrink Ray for compression
-    )
-    .get('/service-worker.js', async (
-      req,
-      res, // Serve from .next/
-    ) => nextApp.serveStatic(req, res, join(__dirname, '.next', req.url)))
+      require('./lib/sendRedirect'),
+      require('./lib/setHeaders'),
+      require('./lib/getNonce'),
+      helmet(require('./lib/getHelmetConfig')()),
+      require('shrink-ray-current')(),
+    ) // Use various middleware
+    .get('/service-worker.js', async (req, res) =>
+      nextApp.serveStatic(req, res, join(__dirname, '.next', req.url)),
+    ) // Serve generated service worker from .next/
     .get(
-      '*', // Serve everything according to following condition
+      '*',
       async (req, res) =>
-        STATIC_FILES.includes(req.url) // If static file, serve from static/
+        STATIC_FILES.includes(req.url)
           ? nextApp.serveStatic(req, res, join(__dirname, 'static', req.url))
-          : nextHandler(req, res), // Else, let Next.js handle
-    );
+          : nextHandler(req, res),
+    ); // If static file, serve from static/ - Else, let Next.js handle
   createServer(SERVER_OPTIONS, polkaHandler).listen(
-    PORT, // Start server at specified port
-    _ => (DEV ? require('opn')(`${PROTOCOL}://${HOST}`) : null), // If dev, open
-  );
+    PORT,
+    _ => (DEV ? require('opn')(`${PROTOCOL}://${HOST}`) : null),
+  ); // Start server at specified port - If dev, open default browser
 });

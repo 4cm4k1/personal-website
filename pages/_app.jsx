@@ -20,7 +20,7 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Anthony Maki</title>
+          <title>Anthony Maki - Software Engineer</title>
         </Head>
         <Component {...pageProps} />
       </Container>
