@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10 as base
+FROM mhart/alpine-node:11 as base
 WORKDIR /usr/src
 COPY package.json next.config.js server.js yarn.lock /usr/src/
 RUN apk add --no-cache g++ make python

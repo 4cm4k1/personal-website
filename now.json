@@ -1,5 +1,12 @@
 {
-  "alias": ["anthony.codes", "www.anthony.codes"],
+  "alias": [
+    "anthony.codes",
+    "www.anthony.codes",
+    "thedebug.life",
+    "www.thedebug.life",
+    "anthony.app",
+    "www.anthony.app"
+  ],
   "features": {
     "cloud": "v2"
   },
