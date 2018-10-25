@@ -30,7 +30,7 @@
     "@material/react-ripple": "^0.5.0",
     "@material/react-select": "^0.5.1",
     "@material/react-tab-indicator": "^0.5.0",
-    "@material/react-text-field": "^0.5.1",
+    "@material/react-text-field": "^0.6.0",
     "@material/react-top-app-bar": "^0.5.0",
     "@mdx-js/mdx": "^0.15.5",
     "@zeit/next-bundle-analyzer": "^0.1.2",
