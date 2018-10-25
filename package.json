@@ -25,7 +25,7 @@
     "@material/react-fab": "^0.5.0",
     "@material/react-floating-label": "^0.5.0",
     "@material/react-line-ripple": "^0.5.1",
-    "@material/react-material-icon": "^0.5.0",
+    "@material/react-material-icon": "^0.6.0",
     "@material/react-notched-outline": "^0.5.0",
     "@material/react-ripple": "^0.5.0",
     "@material/react-select": "^0.5.1",
