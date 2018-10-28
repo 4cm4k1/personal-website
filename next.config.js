@@ -1,5 +1,5 @@
 const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-const withCss = require('@zeit/next-css');
+const withMDX = require('@zeit/next-mdx')(); // see https://github.com/zeit/next-plugins/issues/231#issuecomment-433587758
 const withOffline = require('next-offline');
 const withPlugins = require('next-compose-plugins');
 const withSourceMaps = require('@zeit/next-source-maps');
@@ -20,7 +20,23 @@ const bundleAnalyzerConfig = {
 };
 
 const nextConfig = {
-  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
+  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => {
+    config.module.rules.push({
+      // see https://github.com/zeit/styled-jsx#styles-in-regular-css-files
+      test: /\.css$/,
+      use: [
+        defaultLoaders.babel,
+        {
+          loader: require('styled-jsx/webpack').loader,
+          options: {
+            type: 'scoped',
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
   webpackDevMiddleware: config => config,
   publicRuntimeConfig: {
     hostname: process.env.NOW
@@ -32,7 +48,7 @@ const nextConfig = {
 module.exports = withPlugins(
   [
     withBundleAnalyzer(bundleAnalyzerConfig),
-    withCss,
+    withMDX,
     withOffline,
     withSourceMaps,
   ],

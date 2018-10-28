@@ -1,6 +1,7 @@
 *
 !components
 !lib
+!md
 !pages
 !static
 !package.json

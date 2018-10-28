@@ -1,3 +1,19 @@
+import { Cell, Grid, Row } from '@material/react-layout-grid';
+
+import Document from '../md/index.mdx';
+
 export default () => (
-  <h1 style={{ fontSize: '18rem', textAlign: 'center' }}>soon™</h1>
+  <>
+    <Grid>
+      <Row>
+        <Cell columns={12}>
+          <Document />
+        </Cell>
+      </Row>
+    </Grid>
+
+    <style jsx global>{`
+      @import '@material/react-layout-grid/index';
+    `}</style>
+  </>
 );
