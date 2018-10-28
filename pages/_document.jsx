@@ -14,6 +14,12 @@ export default class MyDocument extends Document {
     return (
       <html lang="en-US">
         <Head nonce={nonce}>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://stats.g.doubleclick.net" />
+          <link rel="preconnect" href="https://www.google.com" />
+          <link rel="preconnect" href="https://www.google-analytics.com" />
+          <link rel="preconnect" href="https://www.googletagmanager.com" />
           <script
             async
             nonce={nonce}
@@ -31,8 +37,6 @@ export default class MyDocument extends Document {
             }}
           />
           <JsonLd nonce={nonce} />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta content="origin-when-cross-origin" name="referrer" />
           <link
@@ -48,28 +52,28 @@ export default class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="apple-touch-icon.png"
+            href="/apple-touch-icon.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="favicon-32x32.png"
+            href="/favicon-32x32.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="favicon-16x16.png"
+            href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="manifest.json" />
-          <link rel="mask-icon" href="safari-pinned-tab.svg" color="#C2185B" />
-          <meta name="apple-mobile-web-app-title" content="Anthony Codes" />
-          <meta name="application-name" content="Anthony Codes" />
-          <meta name="theme-color" content="#C2185B" />
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#424242" />
+          <meta name="apple-mobile-web-app-title" content="Anthony Maki" />
+          <meta name="application-name" content="Anthony Maki" />
+          <meta name="theme-color" content="#424242" />
           <link rel="author" content="Anthony Maki" />
           <link rel="canonical" href="https://anthony.codes" />
-          <link rel="opengraph" href="metadata.html" />
+          <link rel="opengraph" href="/metadata.html" />
           <meta
             property="og:image"
             content="https://anthony.codes/og-image.jpg"
