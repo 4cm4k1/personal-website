@@ -4,6 +4,7 @@
 !md
 !pages
 !static
+!.babelrc
 !package.json
 !next.config.js
 !server.js
