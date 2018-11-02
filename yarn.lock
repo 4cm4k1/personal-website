@@ -2314,12 +2314,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.15.1:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
-  integrity sha512-VlfT9F3V0v+jr4yxPc5gg9s62/fIVWsd2Bk2iD435um1NlGMYdVCq+MjcXnhYq2icNOizHr1kK+5TI6H0Hy0ag==
-
-commander@^2.18.0:
+commander@2.19.0, commander@^2.18.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
@@ -2616,6 +2611,13 @@ debug@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
+  dependencies:
+    ms "^2.1.1"
+
+debug@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
+  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
   dependencies:
     ms "^2.1.1"
 
@@ -4735,7 +4737,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
-minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
+minimatch@^3.0.0, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -5013,10 +5015,10 @@ node-abi@^2.2.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.3.0.tgz#9280a6afd4d0bd9401ef3c60b936beeea0a6b3d3"
-  integrity sha512-yagD4yKkZLeG4EJkh+8Qbqhqw+owDQ/PowqD8vb5a5rfNXS/PRC21SGyIbUVXfPp/jl4s+jyeZj6xnLnDPLazw==
+node-addon-api@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.5.0.tgz#55be6b3da36e746f4b1f2af16c2adf67647d1ff8"
+  integrity sha512-YsL/8dpBWxCFj3wAVAa/ceN4TlT8lACK8EgpuN0q/4ecflWHDuKpodb+tt7Rx22r/6FJ2f+IT25XSsXnZGwYgA==
 
 node-fetch@^1.0.1:
   version "1.7.3"
@@ -5026,26 +5028,7 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-gyp@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.6.2.tgz#9bfbe54562286284838e750eac05295853fa1c60"
-  integrity sha1-m/vlRWIoYoSDjnUOrAUpWFP6HGA=
-  dependencies:
-    fstream "^1.0.0"
-    glob "^7.0.3"
-    graceful-fs "^4.1.2"
-    minimatch "^3.0.2"
-    mkdirp "^0.5.0"
-    nopt "2 || 3"
-    npmlog "0 || 1 || 2 || 3 || 4"
-    osenv "0"
-    request "2"
-    rimraf "2"
-    semver "~5.3.0"
-    tar "^2.0.0"
-    which "1"
-
-node-gyp@^3.8.0:
+node-gyp@3.8.0, node-gyp@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.8.0.tgz#540304261c330e80d0d5edce253a68cb3964218c"
   integrity sha512-3g8lYefrRRzvGeSowdJKAKyks8oUpLEd/DyPV4eMhVlhJ0aNaZqIrNUIPuEWWTAoPqyFkfGrM67MC69baqn6vA==
@@ -5140,14 +5123,14 @@ node-sass@^4.9.4:
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
 
-node-zopfli-es@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/node-zopfli-es/-/node-zopfli-es-0.0.2.tgz#a1ad448abc9e5283a3ca8ce6d6a5cc38dade4105"
-  integrity sha512-+R3CWkfhWZ3qujet1NtL3akCJV8fljRKY62p3CJkul8Hd5zH5rD8+kTS6fT2E9O/ndAX3XQQDyibdd0d6+bGmw==
+node-zopfli-es@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-zopfli-es/-/node-zopfli-es-1.0.0.tgz#3a81da89bdd15b85b6f0de31f20d152e840897f8"
+  integrity sha512-mktMWjrY+ryN+qfAMhMTpc8z7w6oZoFEiLLdfKmYAS98NL34XFZK+thBizLqPsE/VrfZQ4JYHoTrbe8kNbZBmA==
   dependencies:
-    commander "2.15.1"
-    node-addon-api "1.3.0"
-    node-gyp "3.6.2"
+    commander "2.19.0"
+    node-addon-api "1.5.0"
+    node-gyp "3.8.0"
 
 noop-logger@^0.1.1:
   version "0.1.1"
@@ -6101,7 +6084,7 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-request@2, request@^2.87.0, request@^2.88.0:
+request@^2.87.0, request@^2.88.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -6435,10 +6418,10 @@ shell-quote@^1.6.1:
     array-reduce "~0.0.0"
     jsonify "~0.0.0"
 
-shrink-ray-current@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/shrink-ray-current/-/shrink-ray-current-2.1.2.tgz#307bd81d67e137331a01681928c93ca688a78829"
-  integrity sha512-e31EJpu4KweiCwkWnhQFAOOsDeh4By1tKRq6TYxPk4MwDnMwTHyZU9N9lHXl1i4s2FJ3lUPeHzY3Fg2XCv9ODA==
+shrink-ray-current@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shrink-ray-current/-/shrink-ray-current-3.0.0.tgz#5cbab560c7daf9d4a3ce4575fe472f89abb436b2"
+  integrity sha512-uqXreZ9hEKJBFNag1XohtYhyiSkE6a8RGDe9QmHMh2DH8arqOpEFBsq6S/LUCYZQ4wlafyUhhva1wH5obfyPpw==
   dependencies:
     "@types/express" "*"
     "@types/iltorb" "*"
@@ -6446,11 +6429,11 @@ shrink-ray-current@^2.1.2:
     accepts "^1.3.0"
     bytes "^3.0.0"
     compressible "^2.0.0"
-    debug "^3.1.0"
+    debug "^4.0.0"
     iltorb "^2.0.0"
     lru-cache "^4.0.0"
     multipipe "^2.0.0"
-    node-zopfli-es "^0.0.2"
+    node-zopfli-es "^1.0.0"
     on-headers "^1.0.0"
     stream-buffers "^3.0.0"
     vary "^1.1.0"

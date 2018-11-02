@@ -37,7 +37,7 @@
     "polka": "^0.5.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "shrink-ray-current": "^2.1.2",
+    "shrink-ray-current": "^3.0.0",
     "styled-jsx-plugin-sass": "^0.3.0",
     "uuid": "^3.3.2"
   },
