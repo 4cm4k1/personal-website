@@ -45,26 +45,35 @@ export default class Layout extends Component {
               singleSelection
               selectedIndex={this.state.selectedIndex}
               wrapFocus
+              tag="nav"
             >
-              <ListItem onClick={this.onListItemClick}>
+              <ListItem // href="https://google.com/" - href prop commented out pending: https://github.com/material-components/material-components-web-react/pull/405
+                onClick={this.onListItemClick}
+              >
                 <ListItemGraphic graphic={<MaterialIcon icon="home" />} />
                 <ListItemText primaryText="Home" secondaryText="Current page" />
               </ListItem>
-              <ListItem onClick={this.onListItemClick}>
+              <ListItem // href="https://google.com/"
+                onClick={this.onListItemClick}
+              >
                 <ListItemGraphic graphic={<MaterialIcon icon="face" />} />
                 <ListItemText
                   primaryText="Biography"
                   secondaryText="Coming soon!"
                 />
               </ListItem>
-              <ListItem onClick={this.onListItemClick}>
+              <ListItem // href="https://google.com/"
+                onClick={this.onListItemClick}
+              >
                 <ListItemGraphic graphic={<MaterialIcon icon="book" />} />
                 <ListItemText
                   primaryText="Résumé"
                   secondaryText="Coming soon!"
                 />
               </ListItem>
-              <ListItem onClick={this.onListItemClick}>
+              <ListItem // href="https://google.com/"
+                onClick={this.onListItemClick}
+              >
                 <ListItemGraphic graphic={<MaterialIcon icon="apps" />} />
                 <ListItemText
                   primaryText="Projects"
