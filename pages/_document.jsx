@@ -20,22 +20,6 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://www.google.com" />
           <link rel="preconnect" href="https://www.google-analytics.com" />
           <link rel="preconnect" href="https://www.googletagmanager.com" />
-          <script
-            async
-            nonce={nonce}
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            nonce={nonce}
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}');
-          `,
-            }}
-          />
           <JsonLd nonce={nonce} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta content="origin-when-cross-origin" name="referrer" />
@@ -112,6 +96,22 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript nonce={nonce} />
+          <script
+            async
+            nonce={nonce}
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            nonce={nonce}
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `,
+            }}
+          />
         </body>
       </html>
     );

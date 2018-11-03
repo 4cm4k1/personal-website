@@ -8,17 +8,11 @@ import Drawer, {
 } from '@material/react-drawer';
 import TopAppBar, { TopAppBarFixedAdjust } from '@material/react-top-app-bar';
 import MaterialIcon from '@material/react-material-icon';
-import List, {
-  ListItem,
-  ListItemText,
-  ListItemGraphic,
-} from '@material/react-list';
+
+import NextLinkMaterialList from './NextLinkMaterialList';
 
 export default class Layout extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { open: false, selectedIndex: 0 };
-  }
+  state = { open: false };
 
   mainContentEl = React.createRef();
 
@@ -40,48 +34,7 @@ export default class Layout extends Component {
             <DrawerSubtitle>Software Engineer</DrawerSubtitle>
           </DrawerHeader>
           <DrawerContent>
-            <List
-              twoLine
-              singleSelection
-              selectedIndex={this.state.selectedIndex}
-              wrapFocus
-              tag="nav"
-            >
-              <ListItem // href="https://google.com/" - href prop commented out pending: https://github.com/material-components/material-components-web-react/pull/405
-                onClick={this.onListItemClick}
-              >
-                <ListItemGraphic graphic={<MaterialIcon icon="home" />} />
-                <ListItemText primaryText="Home" secondaryText="Current page" />
-              </ListItem>
-              <ListItem // href="https://google.com/"
-                onClick={this.onListItemClick}
-              >
-                <ListItemGraphic graphic={<MaterialIcon icon="face" />} />
-                <ListItemText
-                  primaryText="Biography"
-                  secondaryText="Coming soon!"
-                />
-              </ListItem>
-              <ListItem // href="https://google.com/"
-                onClick={this.onListItemClick}
-              >
-                <ListItemGraphic graphic={<MaterialIcon icon="book" />} />
-                <ListItemText
-                  primaryText="Résumé"
-                  secondaryText="Coming soon!"
-                />
-              </ListItem>
-              <ListItem // href="https://google.com/"
-                onClick={this.onListItemClick}
-              >
-                <ListItemGraphic graphic={<MaterialIcon icon="apps" />} />
-                <ListItemText
-                  primaryText="Projects"
-                  secondaryText="Coming soon!"
-                />
-              </ListItem>
-            </List>
-            <a href="#" />
+            <NextLinkMaterialList onListItemClick={this.onListItemClick} />
           </DrawerContent>
         </Drawer>
         <div ref={this.mainContentEl}>
