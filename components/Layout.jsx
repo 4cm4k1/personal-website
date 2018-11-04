@@ -62,6 +62,7 @@ export default class Layout extends Component {
           @import '@material/react-material-icon/index';
           @import '@material/react-drawer/index';
           @import '@material/react-list/index';
+          @import '@material/react-layout-grid/index';
         `}</style>
       </>
     );
