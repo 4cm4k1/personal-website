@@ -61,7 +61,8 @@ export default class Layout extends Component {
           @import '@material/react-top-app-bar/index';
           @import '@material/react-material-icon/index';
           @import '@material/react-drawer/index';
-          @import '@material/react-list/index';
+          /*@import '@material/react-list/index';*/
+          @import '@material/list/mdc-list';
           @import '@material/react-layout-grid/index';
         `}</style>
       </>
