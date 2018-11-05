@@ -1,12 +1,22 @@
-FROM mhart/alpine-node:11 as base
+FROM mhart/alpine-node:latest as base
 WORKDIR /usr/src
 COPY package.json next.config.js server.js yarn.lock /usr/src/
-RUN apk add --no-cache g++ make python
+RUN apk add --no-cache \
+  autoconf \
+  automake \
+  bash \
+  g++ \
+  libc6-compat \
+  libjpeg-turbo-dev \
+  libpng-dev \
+  make \
+  nasm \
+  python
 RUN yarn install
 COPY . .
 RUN yarn build && yarn --production
 
-FROM alpine:3.7
+FROM alpine:latest
 COPY --from=base /usr/bin/node /usr/bin/
 COPY --from=base /usr/lib/libgcc* /usr/lib/libstdc* /usr/lib/
 WORKDIR /usr/src
