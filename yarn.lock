@@ -4822,7 +4822,7 @@ next-offline@^3.0.4:
     webpack "^4.19.1"
     workbox-webpack-plugin "3.6.3"
 
-next-server@^7.0.2-canary.17:
+next-server@^7.0.2-canary.11:
   version "7.0.2-canary.17"
   resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.17.tgz#496a7490494dbbc2301fa0da9b5fc2f77137bb56"
   integrity sha512-plgfYKd1haSLmsLs3SsRdidnCT40X2+5rhpooyS8XNfLZdscbqcgJEIybvVYqd3aHFi7AM6QX4bM/yLkwTiE/w==
@@ -4839,10 +4839,10 @@ next-server@^7.0.2-canary.17:
     send "0.16.1"
     url "0.11.0"
 
-next@^7.0.2-canary.17:
-  version "7.0.2-canary.17"
-  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.17.tgz#7b31c4a65908dcec966d95593c7982fce1aec74e"
-  integrity sha512-Igs/M8GOLROeD77YC5pTaLNaDhC6yixzKNvz8LxeCMfDmEEDUvynj6sR87721s2U43oNdtbj44pKIFKJCCot3w==
+next@7.0.2-canary.11:
+  version "7.0.2-canary.11"
+  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.11.tgz#f51e62319bcf041b0a3998b02ec87bc4a80d1b44"
+  integrity sha512-yjF6//3eDHfs2v5trA2J8ZPS1/OgYAJoFSVtkSPqUQnd74KZdaEDWDPrw98E9PmWqjSHQiSCQ2cjg2vODUE70Q==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -4877,7 +4877,7 @@ next@^7.0.2-canary.17:
     minimist "1.2.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "^7.0.2-canary.17"
+    next-server "^7.0.2-canary.11"
     path-to-regexp "2.1.0"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
