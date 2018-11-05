@@ -5,9 +5,11 @@ import Document from '../md/index.mdx';
 export default () => (
   <Grid>
     <Row>
-      <Cell columns={12}>
+      <Cell desktopColumns={2} tabletColumns={1} />
+      <Cell desktopColumns={8} tabletColumns={6} phoneColumns={4}>
         <Document />
       </Cell>
+      <Cell desktopColumns={2} tabletColumns={1} />
     </Row>
   </Grid>
 );
