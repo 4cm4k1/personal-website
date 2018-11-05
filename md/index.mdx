@@ -4,7 +4,11 @@ _Currently, I’m seeking full-time employment in front-end and Node.js developm
 
 ## About me
 
-<img src="/face.jpg" alt="Headshot of Anthony Maki" />
+<picture>
+  <source srcSet={require('../static/face.jpg?webp')} type="image/webp" />
+  <source srcSet={require('../static/face.jpg')} type="image/jpeg" />
+  <img src={require('../static/face.jpg')} alt="Headshot of Anthony Maki" />
+</picture>
 
 I’m an adept, mid-level software engineer with rich front and back-end experience across many languages, technologies, and frameworks. I have architected, implemented, and maintained DevOps practices and CI/CD processes in agile startup environments. My specialties include React, Angular, jQuery, and native JavaScript front-end development, Node.js application development, and implementation of development tooling and build processes.
 
