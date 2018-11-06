@@ -12,6 +12,7 @@ const {
 } = require('./lib/getConstants');
 const { createServer } = require(DEV_PROTOCOL); // Either 'http' or 'https'
 const { join } = require('path');
+const renderAndCache = require('./lib/renderAndCache');
 const nextApp = next({ dev: DEV }); // Instantiate Next.js then start
 const nextHandler = nextApp.getRequestHandler(); // Save handler for later
 nextApp.prepare().then(() => {
@@ -26,6 +27,7 @@ nextApp.prepare().then(() => {
     .get('/service-worker.js', async (req, res) =>
       nextApp.serveStatic(req, res, join(__dirname, '.next', req.url)),
     ) // Serve generated service worker from .next/
+    .get('/', async (req, res) => renderAndCache(req, res, '/', nextApp))
     .get(
       '*',
       async (req, res) =>
