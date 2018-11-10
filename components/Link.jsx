@@ -10,7 +10,7 @@ const ActiveLink = ({ router, children, ...props }) => {
   }
   return (
     <Link {...props}>
-      <ListItem tag="a" activated={activated}>
+      <ListItem tag='a' activated={activated}>
         {children}
       </ListItem>
     </Link>

@@ -6,7 +6,7 @@ export default class JsonLd extends PureComponent {
     return (
       <Fragment>
         <script
-          type="application/ld+json"
+          type='application/ld+json'
           nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `{
@@ -34,7 +34,7 @@ export default class JsonLd extends PureComponent {
           }}
         />
         <script
-          type="application/ld+json"
+          type='application/ld+json'
           nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `{

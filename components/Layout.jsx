@@ -40,9 +40,9 @@ export default class Layout extends Component {
         <div ref={this.mainContentEl}>
           <DrawerAppContent>
             <TopAppBar
-              title="Anthony Maki"
+              title='Anthony Maki'
               navigationIcon={
-                <MaterialIcon icon="menu" onClick={this.onMenuButtonClick} />
+                <MaterialIcon icon='menu' onClick={this.onMenuButtonClick} />
               }
               short
             />

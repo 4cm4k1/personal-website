@@ -28,15 +28,12 @@ nextApp.prepare().then(() => {
       nextApp.serveStatic(req, res, join(__dirname, '.next', req.url)),
     ) // Serve generated service worker from .next/
     .get('/', async (req, res) => renderAndCache(req, res, '/', nextApp))
-    .get(
-      '*',
-      async (req, res) =>
-        STATIC_FILES.includes(req.url)
-          ? nextApp.serveStatic(req, res, join(__dirname, 'static', req.url))
-          : nextHandler(req, res),
+    .get('*', async (req, res) =>
+      STATIC_FILES.includes(req.url)
+        ? nextApp.serveStatic(req, res, join(__dirname, 'static', req.url))
+        : nextHandler(req, res),
     ); // If static file, serve from static/ - Else, let Next.js handle
-  createServer(SERVER_OPTIONS, polkaHandler).listen(
-    PORT,
-    _ => (DEV ? require('opn')(`${PROTOCOL}://${HOST}`) : null),
+  createServer(SERVER_OPTIONS, polkaHandler).listen(PORT, _ =>
+    DEV ? require('opn')(`${PROTOCOL}://${HOST}`) : null,
   ); // Start server at specified port - If dev, open default browser
 });
