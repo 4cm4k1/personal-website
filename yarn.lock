@@ -754,10 +754,10 @@
     "@material/theme" "^0.40.1"
     "@material/typography" "^0.40.1"
 
-"@material/react-drawer@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@material/react-drawer/-/react-drawer-0.6.1.tgz#cf6f6a24607f75053babebd503068b23d3bd7dd6"
-  integrity sha512-qq5Uj+vvZLMKinkTdwp9ekkWXVz1Nuu4pDF3fIxcDExY6M51HAslNsVv70beIWmhwJ0eDIARr1GXfkTPUWVAjw==
+"@material/react-drawer@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@material/react-drawer/-/react-drawer-0.6.2.tgz#e5be25ef431ab41bb3ba14ff5f722dc515fed44f"
+  integrity sha512-mUmuaY9f/kQAmIay4eVgHIiRp5qIAr0HgZ3KSZQjRop9sFKUn0zT2YHD2UEkwHuRqJTD9NwQo3S7Oya545N6CA==
   dependencies:
     "@material/drawer" "^0.40.1"
     "@material/list" "^0.40.1"
@@ -766,40 +766,40 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-layout-grid@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.6.1.tgz#e048b20d403ad47e00211349664c25d8ec0adf1f"
-  integrity sha512-SYQ+3CEi6vJlxv4kT1L6M/If/NeAYc8O5RPdJe6JnlNB4E3GkJJYlTlWx+V/Ddj0fpciSNp4EcD0cI7fNhaSwA==
+"@material/react-layout-grid@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.6.2.tgz#db26ff78ad88df3621fed33bcca75e53cf4a6725"
+  integrity sha512-7Qq0kdA75mqzJmu34IptNFsBdwY1rU2wK+cgzboKFr5suffxGUAYZagUQWoR9ybNNuRrsTnBcMlQhR83bXiBnA==
   dependencies:
     "@material/layout-grid" "^0.40.1"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-material-icon@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.6.1.tgz#aa0485c692c57d40b1d43c8f8963264964bf701a"
-  integrity sha512-b8qax9K+7fudAJLS2pIaefLU8oKpGwMIt9RZE2c95nszkVC573ZaCS+Xx/gRJcnCKDXqNvbwB1D6MwfayzIRFA==
+"@material/react-material-icon@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.6.2.tgz#8ad8a6665a4b0559aabbe478a9892ae3158dfc11"
+  integrity sha512-a5/RCGdHOx4uwlA5mvzXT8BJ/RkElZNVoD645FywR3iZ4QAAJ5ROUeVxcFbLp4TF25EuMiVTzHZRTCDltH3Wjw==
   dependencies:
-    "@material/react-ripple" "^0.6.1"
+    "@material/react-ripple" "^0.6.2"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-ripple@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.6.1.tgz#caa61dff42bf9281ea223a296550917f5c8b7d88"
-  integrity sha512-LHYKwd/TiWA+Py5wzcxEnf5ofCFIBz57AKKJJv+4MfIPYPOAyCSoZZMOL51zfmG9Mkq9lqxEySxuM3lb9ciQSA==
+"@material/react-ripple@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.6.2.tgz#94c3c0e16c9bc772a0b6482a34655b1e31e00a05"
+  integrity sha512-CakPq/NvYfFtEWq+2oAEc2//mTbK3bjGstu2Ro4kDsINTtwqSsWf9bcphGW8S9LcvvojFWIMK1StuXtmyWxZIA==
   dependencies:
     "@material/ripple" "^0.40.1"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-top-app-bar@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.6.1.tgz#e8df02108a34b0cf4d8cdc05173d1e943ff22524"
-  integrity sha512-Djz9LX1PxY4Ug3k/i7sg4LfJSRhanTRxkI2JpnB/K5OV5IlmXAnEyo9gN122M8wmj4daf4RT1RQ4NoiyjkVV9w==
+"@material/react-top-app-bar@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.6.2.tgz#a3ca280c4f8b43d6b65160c717684c617500725d"
+  integrity sha512-04L919PwMt8nTo08N9aXlVnZJTYRzuQGH6YqyB3fjguxlJztRQ9I3WmsDkeZyKTmQ4S7yUajVjZ+w71B99eBWg==
   dependencies:
     "@material/top-app-bar" "^0.40.1"
     classnames "^2.2.5"
@@ -1012,10 +1012,10 @@
     "@types/react" "*"
     "@types/react-loadable" "*"
 
-"@types/next@^7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.3.tgz#4831741dee02c463a761292176e372af072d3c39"
-  integrity sha512-BZu82o4yJQ+dzNuvxBzmzhqIjYcyWXnZMt5uUbDmgPTMKz6dwt9H4YqoS1RKtDmxSPFdUF5y5WkZ9c37pzz3XQ==
+"@types/next@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.4.tgz#ef69bf1fef5b4b95766b3c4e5bec766f6e921b98"
+  integrity sha512-7z1lh+fSqNmg178rHn2GhvUFtNuyXmBEAwrulgeaiKem1+xdTiTWZhJsfa/YrC8KrkkzNC6G0IrX/bEk7F9DyA==
   dependencies:
     "@types/next-server" "*"
     "@types/node" "*"
@@ -1060,10 +1060,18 @@
     "@types/react" "*"
     "@types/webpack" "*"
 
-"@types/react@*", "@types/react@^16.4.18":
+"@types/react@*":
   version "16.4.18"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.18.tgz#2e28a2e7f92d3fa7d6a65f2b73275c3e3138a13d"
   integrity sha512-eFzJKEg6pdeaukVLVZ8Xb79CTl/ysX+ExmOfAAqcFlCCK5TgFDD9kWR0S18sglQ3EmM8U+80enjUqbfnUyqpdA==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.7.1":
+  version "16.7.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.1.tgz#ae76b653d1d7d26b32186bba33c39745316bcdc4"
+  integrity sha512-kxde2oP2JvHiEXiAfb8WkL+8Aa9txDRD7L8zb3BipMNRoBbcr32xy/kfpbxmWMus71yXgJDqBgLmWil6UXdLzQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -3676,10 +3684,10 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-feature-policy@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/feature-policy/-/feature-policy-0.1.0.tgz#782d4865b1f261aa6ff6d0bba0c4eaeb2fd92862"
-  integrity sha512-Sq+O5vUN0wQGOLGKzDXY1xCY6dOPic2ufMEF0xpVHIW+Dr8LocJ7Jhnvo5ZBCXKqWUgmGIqcF5AIJR+Wnq2SQw==
+feature-policy@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/feature-policy/-/feature-policy-0.2.0.tgz#22096de49ab240176878ffe2bde2f6ff04d48c43"
+  integrity sha512-2hGrlv6efG4hscYVZeaYjpzpT6I2OZgYqE2yDUzeAcKj2D1SH0AsEzqJNXzdoglEddcIXQQYop3lD97XpG75Jw==
 
 figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -4526,15 +4534,15 @@ helmet-csp@2.7.1:
     dasherize "2.0.0"
     platform "1.3.5"
 
-helmet@^3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.14.0.tgz#ff99e0467fe3e9205300071370024dd6e6690317"
-  integrity sha512-VUOjHxegTX/dIr1KeU4ZrIkP8k0/nKKD6vNBT1LCS2+q5KO1oMFKGMVdMw/pUcxXbn/z8yP9rfyMZSTpxXPPMg==
+helmet@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.15.0.tgz#fe0bb80e05d9eec589e3cbecaf5384409a3a64c9"
+  integrity sha512-j9JjtAnWJj09lqe/PEICrhuDaX30TeokXJ9tW6ZPhVH0+LMoihDeJ58CdWeTGzM66p6EiIODmgAaWfdeIWI4Gg==
   dependencies:
     dns-prefetch-control "0.1.0"
     dont-sniff-mimetype "1.0.0"
     expect-ct "0.1.1"
-    feature-policy "0.1.0"
+    feature-policy "0.2.0"
     frameguard "3.0.0"
     helmet-crossdomain "0.3.0"
     helmet-csp "2.7.1"
@@ -7209,10 +7217,10 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@^1.14.3:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.3.tgz#90238dd4c0684b7edce5f83b0fb7328e48bd0895"
-  integrity sha512-qZDVnCrnpsRJJq5nSsiHCE3BYMED2OtsI+cmzIzF1QIfqm5ALf8tEJcO27zV1gKNKRPdhjO0dNWnrzssDQ1tFg==
+prettier@^1.15.1:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.1.tgz#06c67106afb1b40e74b002353b2079cc7e0e67bf"
+  integrity sha512-4rgV2hyc/5Pk0XHH4VjJWHRgVjgRbpMfLQjREAhHBtyW1UvTFkjJEsueGYNYYZd9mn97K+1qv0EBwm11zoaSgA==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -7449,15 +7457,15 @@ rc@^1.1.2, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.0.tgz#6375b8391e019a632a89a0988bce85f0cc87a92f"
-  integrity sha512-Stm2D9dXEUUAQdvpvhvFj/DEXwC2PAL/RwEMhoN4dvvD2ikTlJegEXf97xryg88VIAU22ZAP7n842l+9BTz6+w==
+react-dom@^16.6.1:
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.1.tgz#5476e08694ae504ae385a28b62ecc4fe3a29add9"
+  integrity sha512-zm+wBuEMGm009Wt1uE4Zw5KcXOW7qC4E/xW/fpJsCsbOco4U/R84u+DzzO/S4SYSdNBcqcaulcp4w3FXl8pImw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.10.0"
+    scheduler "^0.11.0"
 
 react-error-overlay@4.0.0:
   version "4.0.0"
@@ -7479,15 +7487,15 @@ react@^16.4.2:
     prop-types "^15.6.2"
     schedule "^0.5.0"
 
-react@^16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.6.0.tgz#b34761cfaf3e30f5508bc732fb4736730b7da246"
-  integrity sha512-zJPnx/jKtuOEXCbQ9BKaxDMxR0001/hzxXwYxG8septeyYGfsgAei6NgfbVgOhbY1WOP2o3VPs/E9HaN+9hV3Q==
+react@^16.6.1:
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.6.1.tgz#ee2aef4f0a09e494594882029821049772f915fe"
+  integrity sha512-OtawJThYlvRgm9BXK+xTL7BIlDx8vv21j+fbQDjRRUyok6y7NyjlweGorielTahLZHYIdKUoK2Dp9ByVWuMqxw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.10.0"
+    scheduler "^0.11.0"
 
 read-all-stream@^3.0.0:
   version "3.1.0"
@@ -7900,10 +7908,10 @@ schedule@^0.5.0:
   dependencies:
     object-assign "^4.1.1"
 
-scheduler@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.10.0.tgz#7988de90fe7edccc774ea175a783e69c40c521e1"
-  integrity sha512-+TSTVTCBAA3h8Anei3haDc1IRwMeDmtI/y/o3iBe3Mjl2vwYF9DtPDt929HyRmV/e7au7CLu8sc4C4W0VOs29w==
+scheduler@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.0.tgz#def1f1bfa6550cc57981a87106e65e8aea41a6b5"
+  integrity sha512-MAYbBfmiEHxF0W+c4CxMpEqMYK+rYF584VP/qMKSiHM6lTkBKKYOJaDiSILpJHla6hBOsVd6GucPL46o2Uq3sg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

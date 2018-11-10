@@ -1,6 +1,6 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 
-import Document from '../md/index.mdx';
+import Document from '../mdx/index.mdx';
 
 export default () => (
   <Grid>
