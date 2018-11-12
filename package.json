@@ -41,7 +41,7 @@
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "shrink-ray-current": "^3.0.1",
-    "styled-jsx-plugin-sass": "^0.3.0",
+    "styled-jsx-plugin-sass": "^1.0.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
