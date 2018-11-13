@@ -7,22 +7,10 @@
     "anthony.app",
     "www.anthony.app"
   ],
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@now/node-server"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "github": {
-    "autoAlias": true,
-    "enabled": true,
-    "silent": false
+  "features": {
+    "cloud": "v2"
   },
   "name": "anthony-codes",
   "public": true,
-  "regions": ["all"],
-  "version": 2
+  "type": "docker"
 }
