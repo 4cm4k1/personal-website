@@ -1068,10 +1068,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.7.1":
-  version "16.7.1"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.1.tgz#ae76b653d1d7d26b32186bba33c39745316bcdc4"
-  integrity sha512-kxde2oP2JvHiEXiAfb8WkL+8Aa9txDRD7L8zb3BipMNRoBbcr32xy/kfpbxmWMus71yXgJDqBgLmWil6UXdLzQ==
+"@types/react@^16.7.3":
+  version "16.7.3"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.3.tgz#dd96b19b21c450fab7d136f71d48f4b8fc72777e"
+  integrity sha512-ve/2lnXuLNaTDR1SPvsEX25m+NoNW3PMJxL2jd372UR8oJPwR5+jgtcheUoN27O+qKLFmQy0y0YKRwZcwtny3w==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -6417,10 +6417,10 @@ next-compose-plugins@^2.1.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.1.1.tgz#7da0a3ce0c8ce267b5cb4164d2fb6e4aaf61bf86"
   integrity sha512-4yLtmGjnBlzuYdL66+c/zi8ljl24sK9jtP31UsTG1ZAAHj+ybWfEG/S+HMwK+pD2fNmJ4xQyr4xOubzExcS+Lg==
 
-next-offline@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.0.4.tgz#4406b1ebe1006796caa3a50e6aff9ae218e739e6"
-  integrity sha512-GwrRc0KYBXq+lg+eP0xOmYFm4KcJCS2QuUi5mXPoqgH2SKqUqagZlKyaR9OSMjna7e0EIgN/OVnf7EyTAtsvyA==
+next-offline@^3.0.10:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.0.10.tgz#14d7e686bcb17f69e313781b9166cda9c272ad24"
+  integrity sha512-GUiZlpMWK9dw60Wq3Z66cLLlXYoMCPcxZb++gi8yiTkr67XKjbSVoLe2shwurXapXGt6ngNQ4d0hvxIGQshpsw==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
@@ -7354,10 +7354,10 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@^1.15.1:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.1.tgz#06c67106afb1b40e74b002353b2079cc7e0e67bf"
-  integrity sha512-4rgV2hyc/5Pk0XHH4VjJWHRgVjgRbpMfLQjREAhHBtyW1UvTFkjJEsueGYNYYZd9mn97K+1qv0EBwm11zoaSgA==
+prettier@^1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
+  integrity sha512-YgPLFFA0CdKL4Eg2IHtUSjzj/BWgszDHiNQAe0VAIBse34148whfdzLagRL+QiKS+YfK5ftB6X4v/MBw8yCoug==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -8734,10 +8734,10 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-styled-jsx-plugin-sass@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/styled-jsx-plugin-sass/-/styled-jsx-plugin-sass-0.3.0.tgz#4871d6f4894d88aaf1d8120adb393471116702d5"
-  integrity sha512-sU3voNd5XsOISD2oGt9fB2IQCsJtF9VcP4wdZOFMN3/im9YZ/o4iXxyyIas4A9Hf03DR+6u/NfEzaLIhhjFT3Q==
+styled-jsx-plugin-sass@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/styled-jsx-plugin-sass/-/styled-jsx-plugin-sass-1.0.0.tgz#a26e2002f57519f97a03a38ea6aabe1ee48478df"
+  integrity sha512-24c+jRreOo5mn7ln7q5QaeyBAAsBaUAJsBc7voLygmrF7fThXbo8Bn1UEbAKIfF2K8xSeiY3XGGt6xRYi4/C4g==
 
 styled-jsx@3.1.0:
   version "3.1.0"
