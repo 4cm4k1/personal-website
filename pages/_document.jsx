@@ -31,19 +31,19 @@ export default class MyDocument extends Document {
           <link
             rel='apple-touch-icon'
             sizes='180x180'
-            href='/apple-touch-icon.png'
+            href={require('../static/apple-touch-icon.png?url')}
           />
           <link
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href='/favicon-32x32.png'
+            href={require('../static/favicon-32x32.png?url')}
           />
           <link
             rel='icon'
             type='image/png'
             sizes='16x16'
-            href='/favicon-16x16.png'
+            href={require('../static/favicon-16x16.png?url')}
           />
           <link rel='manifest' href='/manifest.json' />
           <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#424242' />
@@ -87,15 +87,15 @@ export default class MyDocument extends Document {
             property='og:image:alt'
             content='Anthony Maki - Software Engineer'
           />
+          <script
+            defer
+            nonce={nonce}
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
         </Head>
         <body>
           <Main />
           <NextScript nonce={nonce} />
-          <script
-            async
-            nonce={nonce}
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
           <link
             href='https://fonts.googleapis.com/icon?family=Material+Icons'
             rel='stylesheet'
