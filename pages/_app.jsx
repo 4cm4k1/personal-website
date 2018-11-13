@@ -28,6 +28,10 @@ export default class MyApp extends App {
         </Layout>
         <style jsx global>{`
           @import 'modern-normalize/modern-normalize';
+          @font-face {
+            font-family: 'Material Icons';
+            font-display: swap;
+          }
         `}</style>
       </Container>
     );

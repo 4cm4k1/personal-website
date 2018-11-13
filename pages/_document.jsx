@@ -23,11 +23,6 @@ export default class MyDocument extends Document {
           <JsonLd nonce={nonce} />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta content='origin-when-cross-origin' name='referrer' />
-          <link
-            href='https://fonts.googleapis.com/icon?family=Material+Icons'
-            rel='stylesheet'
-            crossOrigin='anonymous'
-          />
           <meta
             name='description'
             property='og:description'
@@ -100,6 +95,11 @@ export default class MyDocument extends Document {
             async
             nonce={nonce}
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <link
+            href='https://fonts.googleapis.com/icon?family=Material+Icons'
+            rel='stylesheet'
+            crossOrigin='anonymous'
           />
           <script
             nonce={nonce}

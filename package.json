@@ -15,7 +15,7 @@
     "build": "next build",
     "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem cert.pem && mv localhost+2-key.pem key.pem",
     "start": "node server.js",
-    "prettier": "prettier '{*,{components,lib,mdx,pages}/**/*}.{css,js,json,jsx,md,mdx}' --write"
+    "prettier": "prettier '{*,{components,lib,mdx,pages}/**/*}.{babelrc,css,js,json,jsx,md,mdx}' --write"
   },
   "dependencies": {
     "@material/react-drawer": "^0.6.2",
