@@ -1012,10 +1012,10 @@
     "@types/react" "*"
     "@types/react-loadable" "*"
 
-"@types/next@^7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.4.tgz#ef69bf1fef5b4b95766b3c4e5bec766f6e921b98"
-  integrity sha512-7z1lh+fSqNmg178rHn2GhvUFtNuyXmBEAwrulgeaiKem1+xdTiTWZhJsfa/YrC8KrkkzNC6G0IrX/bEk7F9DyA==
+"@types/next@^7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.5.tgz#6802383cb1985f88a05130f1cacb32653acea7ef"
+  integrity sha512-XAUVUk9OaprcKIKsUTlND4maL0xPO+8tnLw62pE+MbFTGe+IaFYkvvycQV9we2mDk3ZLt3wHaKqbyVHdhzvNkQ==
   dependencies:
     "@types/next-server" "*"
     "@types/node" "*"
@@ -1068,10 +1068,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.7.3":
-  version "16.7.3"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.3.tgz#dd96b19b21c450fab7d136f71d48f4b8fc72777e"
-  integrity sha512-ve/2lnXuLNaTDR1SPvsEX25m+NoNW3PMJxL2jd372UR8oJPwR5+jgtcheUoN27O+qKLFmQy0y0YKRwZcwtny3w==
+"@types/react@^16.7.5":
+  version "16.7.5"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.5.tgz#3c7a944a8b465eec883fac85a58b2e0caf3c3b59"
+  integrity sha512-Wnd3ctWAJWir2gcbwNWFHxy5AMCZYImPdfPsp4SZQpdlrdeXBIJkQSnnrMsLlieor0dCSWT3H1VY3b1ZhkGiSw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -6448,10 +6448,10 @@ next-optimized-images@^1.4.1:
     url-loader "^1.0.1"
     webp-loader "^0.4.0"
 
-next-server@^7.0.2-canary.22:
-  version "7.0.2-canary.22"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.22.tgz#b31317e96ecfca1093d2169735ab32b305760d21"
-  integrity sha512-JivKHuckUCRUE//DtDGUtxSsJEHC56gq9h8OH7pP0DQj265MPniMmhuNcrozvj+lxLZcD28Gu30AGaJC7zpM8g==
+next-server@^7.0.2-canary.24:
+  version "7.0.2-canary.24"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.24.tgz#d44d2cb28bedae062deee16f3d945465ba77be68"
+  integrity sha512-IBngowV3LL0bK0g6+re991eyUxMOHSf5G6dYRZRH1FWJrBuqrl6zKRAnhdYCK8LX4Kw9HQ/38ygPJhn9LKaEAA==
   dependencies:
     "@babel/runtime-corejs2" "7.1.2"
     ansi-html "0.0.7"
@@ -6465,10 +6465,10 @@ next-server@^7.0.2-canary.22:
     send "0.16.1"
     url "0.11.0"
 
-next@^7.0.2-canary.22:
-  version "7.0.2-canary.22"
-  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.22.tgz#3983654d3af1d0181d0524a0fe0fbdde24ccf0f2"
-  integrity sha512-ZpN2hLvTJOkOrnS4vJ9ENKJyZtp2ndTxyJf7+zMKq3Td+PFAXq4ZIysPVLHrl2Hw5dEI4mI9HvVOXiR84Dwfbg==
+next@^7.0.2-canary.24:
+  version "7.0.2-canary.24"
+  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.24.tgz#1da66ce10ce21c3baff0a71822a526382c319a90"
+  integrity sha512-MQ8BnOkuYuG7mpMLLmq81uY2UZHzrqVU092ws2pYBQFC8w4fP5TMnfe6wPZ+Wpl4Yup8tv7DdcJ4qf0FwAp4/w==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -6500,7 +6500,7 @@ next@^7.0.2-canary.22:
     minimist "1.2.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "^7.0.2-canary.22"
+    next-server "^7.0.2-canary.24"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
