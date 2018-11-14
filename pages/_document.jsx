@@ -1,6 +1,9 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import JsonLd from '../components/JsonLd';
 import { GA_TRACKING_ID } from '../lib/getConstants';
+import appleTouchIcon from '../static/apple-touch-icon.png?url';
+import favicon16 from '../static/favicon-16x16.png?url';
+import favicon32 from '../static/favicon-32x32.png?url';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -28,23 +31,9 @@ export default class MyDocument extends Document {
             property='og:description'
             content='Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect.'
           />
-          <link
-            rel='apple-touch-icon'
-            sizes='180x180'
-            href={require('../static/apple-touch-icon.png?url')}
-          />
-          <link
-            rel='icon'
-            type='image/png'
-            sizes='32x32'
-            href={require('../static/favicon-32x32.png?url')}
-          />
-          <link
-            rel='icon'
-            type='image/png'
-            sizes='16x16'
-            href={require('../static/favicon-16x16.png?url')}
-          />
+          <link rel='apple-touch-icon' sizes='180x180' href={appleTouchIcon} />
+          <link rel='icon' type='image/png' sizes='32x32' href={favicon32} />
+          <link rel='icon' type='image/png' sizes='16x16' href={favicon16} />
           <link rel='manifest' href='/manifest.json' />
           <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#424242' />
           <meta name='apple-mobile-web-app-title' content='Anthony Maki' />

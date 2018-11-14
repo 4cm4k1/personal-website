@@ -1,0 +1,13 @@
+.github
+.next
+node_modules
+.dockerignore
+.editorconfig
+.gitignore
+*.pem
+changelog.md
+Dockerfile
+license
+readme.md
+server.js
+*.log

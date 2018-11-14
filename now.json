@@ -7,10 +7,22 @@
     "anthony.app",
     "www.anthony.app"
   ],
-  "features": {
-    "cloud": "v2"
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "github": {
+    "autoAlias": true,
+    "enabled": true,
+    "silent": false
   },
   "name": "anthony-codes",
   "public": true,
-  "type": "docker"
+  "regions": ["all"],
+  "version": 2
 }
