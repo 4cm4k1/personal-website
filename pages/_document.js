@@ -1,15 +1,15 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import JsonLd from '../components/JsonLd';
-import { GA_TRACKING_ID } from '../lib/getConstants';
-import appleTouchIcon from '../static/apple-touch-icon.png?url';
-import favicon16 from '../static/favicon-16x16.png?url';
-import favicon32 from '../static/favicon-32x32.png?url';
+const GA_TRACKING_ID = 'UA-112988450-1';
+const appleTouchIcon = '/static/apple-touch-icon.png';
+const favicon16 = '/static/favicon-16x16.png';
+const favicon32 = '/static/favicon-32x32.png';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    const { nonce } = ctx.res.locals;
-    return { ...initialProps, nonce };
+    // const { nonce } = ctx.res.locals;
+    return { ...initialProps /*nonce*/ };
   }
 
   render() {
