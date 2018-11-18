@@ -19,7 +19,7 @@
     "prettier": "prettier '{*,{components,lib,mdx,pages}/**/*}.{babelrc,css,js,json,jsx,md,mdx}' --write"
   },
   "dependencies": {
-    "next-server": "^7.0.2-canary.24",
+    "next-server": "^7.0.2-canary.25",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
@@ -30,7 +30,7 @@
     "@material/react-top-app-bar": "^0.6.2",
     "@mdx-js/loader": "^0.16.0",
     "@mdx-js/mdx": "^0.16.0",
-    "@rmwc/list": "^3.0.9",
+    "@rmwc/list": "^3.0.10",
     "@types/next": "^7.0.5",
     "@types/react": "^16.7.6",
     "@types/react-dom": "^16.0.9",
@@ -40,9 +40,9 @@
     "autotrack": "^2.4.1",
     "husky": "^1.1.4",
     "modern-normalize": "^0.5.0",
-    "next": "^7.0.2-canary.24",
+    "next": "^7.0.2-canary.25",
     "next-compose-plugins": "^2.1.1",
-    "next-offline": "^3.0.10",
+    "next-offline": "^3.1.0",
     "next-optimized-images": "^1.4.1",
     "node-sass": "^4.10.0",
     "opn": "^5.4.0",
