@@ -11,3 +11,4 @@ license
 readme.md
 server.js
 *.log
+yarn.lock
