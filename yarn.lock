@@ -6424,10 +6424,10 @@ next-compose-plugins@^2.1.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.1.1.tgz#7da0a3ce0c8ce267b5cb4164d2fb6e4aaf61bf86"
   integrity sha512-4yLtmGjnBlzuYdL66+c/zi8ljl24sK9jtP31UsTG1ZAAHj+ybWfEG/S+HMwK+pD2fNmJ4xQyr4xOubzExcS+Lg==
 
-next-offline@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.1.0.tgz#ff9ef847764b5d6fdf97b13aecbf11caa07e07e4"
-  integrity sha512-jOkLlp353n2jegB5S2WmsoJNTzDpBF8GtvTvl+hWNh3D0hsIvYvvgSOfJOkBfFYy9uKlz7+udux2eEIYphVYwQ==
+next-offline@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.2.1.tgz#60719fcf5317612b0e98489faa59ef84a428d8de"
+  integrity sha512-1aSA+AoK9nl6UXlyUVo7vCjjhGQ3uRWSqIPDw8XLsqmLHl2p3Br6IWZ1wPCVR9iahHIv9XRGSWcs/Rw6ycIslQ==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
