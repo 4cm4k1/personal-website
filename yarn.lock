@@ -702,10 +702,20 @@
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.40.1.tgz#c5ff31e7d7e17324a0045e889d3530b150b9fcec"
   integrity sha512-HtxFUw04EHg4S6pXfTA3Z0wKxnNDNcDhe1Np2Y2geo+lAk2Hb7m8yCL/GaL9o2I/eRYsgUXC0U7+Mk74GCz3zw==
 
+"@material/animation@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.41.0.tgz#315b45b32e1aeebee8a4cf555b8ad52076d09ddd"
+  integrity sha512-yYAwJbX3Q2AFd4dr6IYOsWLQy2HN8zWOFVl9AbUXunjzTfJCa/ecfXCriaT6qkmoNoHeTdJHRrsQJZC5GsPvzA==
+
 "@material/base@^0.40.1":
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/base/-/base-0.40.1.tgz#a0d8e19cee98dae0f96dbf0887a14b3f7acd2aac"
   integrity sha512-vrbOK8hONVCYgURQ9h7nkXvMdYnZVVNmAfFFijF8fbWQdwnoPcNTdqV6RoQlhBEqHYHQqLNfdUDlznAPKLclGQ==
+
+"@material/base@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-0.41.0.tgz#badadce711b4c25b1eb889a5e7581e32cd07c421"
+  integrity sha512-tEyzwBRu3d1H120SfKsDVYZHcqT5lKohh/7cWKR93aAaPDkSvjpKJIjyu2yuSkjpDduVZGzVocYbOvhUKhhzXQ==
 
 "@material/dom@^0.40.0":
   version "0.40.0"
@@ -776,22 +786,22 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-material-icon@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.6.2.tgz#8ad8a6665a4b0559aabbe478a9892ae3158dfc11"
-  integrity sha512-a5/RCGdHOx4uwlA5mvzXT8BJ/RkElZNVoD645FywR3iZ4QAAJ5ROUeVxcFbLp4TF25EuMiVTzHZRTCDltH3Wjw==
+"@material/react-material-icon@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.7.0.tgz#ed5279830f49c487f62e802bba59412f242ba0bd"
+  integrity sha512-/bu1PD01ZYclRyVueCTcFQSuZr6PvlxWh+rdUrMwUOaMXdhU/RwpOY4psdLli92dtVppUzm7yR4rkQGxSXcMCw==
   dependencies:
-    "@material/react-ripple" "^0.6.2"
+    "@material/react-ripple" "^0.7.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-ripple@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.6.2.tgz#94c3c0e16c9bc772a0b6482a34655b1e31e00a05"
-  integrity sha512-CakPq/NvYfFtEWq+2oAEc2//mTbK3bjGstu2Ro4kDsINTtwqSsWf9bcphGW8S9LcvvojFWIMK1StuXtmyWxZIA==
+"@material/react-ripple@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.7.0.tgz#89845239fe47a301c9d8e953f3e74463969ca0fd"
+  integrity sha512-tPvze1gZzBlcIhTMKQ078e7kUyA8PA6Nvd+Pnm4NVtgMf0fFR+R7pOIMBupXOuDPeGHzmh8D87SkxgRu9kiWEA==
   dependencies:
-    "@material/ripple" "^0.40.1"
+    "@material/ripple" "^0.41.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
@@ -815,6 +825,15 @@
     "@material/base" "^0.40.1"
     "@material/theme" "^0.40.1"
 
+"@material/ripple@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.41.0.tgz#73dbb9bf0e1d72382926b39f2527c011e689dde2"
+  integrity sha512-rxEUVWM4AByDlTCH0kkthZQmUuY6eeN0X6cOHBoioFN2vUDk0D0Nfzz/N9FF2AlAf8C2lDDLrTuqnJPVIn+NHA==
+  dependencies:
+    "@material/animation" "^0.41.0"
+    "@material/base" "^0.41.0"
+    "@material/theme" "^0.41.0"
+
 "@material/rtl@^0.40.1":
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.40.1.tgz#5b0d973e3c6f8e2ea3656c06ada37ba2fedfa206"
@@ -829,6 +848,11 @@
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.40.1.tgz#3cc3f1bf87ee9581df03e347a1979e53ae617221"
   integrity sha512-cH1CsGIDisEQ2oroZhLTypV0Ir00x3WIwFXnPo7qv3832tuIDkZY623U3rUax6KNPz4Hh1j0tNpTwgrNZwvwWA==
+
+"@material/theme@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.41.0.tgz#4f8252a872b17845cc661b867cbbf54e51a26759"
+  integrity sha512-ohW2JxObKOWvP34EkIIcrEVtL3g0Gs/T3/MdOsM36euyshY8Jwl1f6fjVUQvVjSpixUtSb30/+ulblF8fTOwBg==
 
 "@material/top-app-bar@^0.40.1":
   version "0.40.1"
