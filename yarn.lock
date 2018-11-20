@@ -736,10 +736,10 @@
     "@material/animation" "^0.40.1"
     "@material/theme" "^0.40.1"
 
-"@material/layout-grid@^0.40.1":
-  version "0.40.1"
-  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.40.1.tgz#66bbcae895f8650ee48157a770c8cff1b314755c"
-  integrity sha512-Fd/bhxGWuS1VlaXWzVBBg3ssyqjCbxhGJrZfNeepY1dth/6PCTOm4DPuo7nFDELp3JiI9Aob5JtxmdbQ+ahNZw==
+"@material/layout-grid@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.41.0.tgz#2e7d3be76313e0684d573b10c2c6a88b3230d251"
+  integrity sha512-Sa5RNoTGgfIojqJ9E94p7/k11V6q/tGk7HwKi4AQNAPjxield0zcl3G/SbsSb8YSHoK+D+7OXDN+n11x6EqF7g==
 
 "@material/list@^0.40.1", "@material/list@~0.40.0":
   version "0.40.1"
@@ -766,12 +766,12 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-layout-grid@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.6.2.tgz#db26ff78ad88df3621fed33bcca75e53cf4a6725"
-  integrity sha512-7Qq0kdA75mqzJmu34IptNFsBdwY1rU2wK+cgzboKFr5suffxGUAYZagUQWoR9ybNNuRrsTnBcMlQhR83bXiBnA==
+"@material/react-layout-grid@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.7.0.tgz#fac5d89d7fb8dfb9472b2ff3bf23664ebf56a803"
+  integrity sha512-PYNiCo6t4T3Xf8qpItwfVf+qqjYSdgtZYvvMNb7ACV1kjevBJkr70XQKUImucvs0v54B1lyIiEw/wLkc6D+h3Q==
   dependencies:
-    "@material/layout-grid" "^0.40.1"
+    "@material/layout-grid" "^0.41.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
