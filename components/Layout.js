@@ -50,21 +50,21 @@ export default class Layout extends Component {
           </DrawerAppContent>
         </div>
 
-        <style jsx global>{`
-          $mdc-typography-font-family: -apple-system, BlinkMacSystemFont,
-            'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-          $mdc-theme-primary: #424242;
-          $mdc-theme-secondary: #d81b60;
-          $mdc-theme-on-primary: #ffffff;
-          $mdc-theme-on-secondary: #ffffff;
-          @import '@material/react-top-app-bar/index';
-          @import '@material/react-material-icon/index';
-          @import '@material/react-drawer/index';
-          /*@import '@material/react-list/index';*/
-          @import '@material/list/mdc-list';
-          @import '@material/react-layout-grid/index';
-        `}</style>
+        {/* <style jsx global>{`
+          // $mdc-typography-font-family: -apple-system, BlinkMacSystemFont,
+          //   'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+          //   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+          // $mdc-theme-primary: #424242;
+          // $mdc-theme-secondary: #d81b60;
+          // $mdc-theme-on-primary: #ffffff;
+          // $mdc-theme-on-secondary: #ffffff;
+          // @import '@material/react-top-app-bar/index';
+          // @import '@material/react-material-icon/index';
+          // @import '@material/react-drawer/index';
+          // @import '@material/react-list/index';
+          // @import '@material/list/mdc-list';
+          // @import '@material/react-layout-grid/index';
+        `}</style> */}
       </>
     );
   }

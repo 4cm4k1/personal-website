@@ -1,15 +1,9 @@
-import { Fragment, PureComponent } from 'react';
-
-export default class JsonLd extends PureComponent {
-  render() {
-    const { nonce } = this.props;
-    return (
-      <Fragment>
-        <script
-          type='application/ld+json'
-          nonce={nonce}
-          dangerouslySetInnerHTML={{
-            __html: `{
+export default () => (
+  <>
+    <script
+      type='application/ld+json'
+      dangerouslySetInnerHTML={{
+        __html: `{
       "@context": "https://schema.org",
       "@type": "Person",
       "email": "4cm4k1@gmail.com",
@@ -31,22 +25,19 @@ export default class JsonLd extends PureComponent {
         "https://anthony.app"
       ]
     }`,
-          }}
-        />
-        <script
-          type='application/ld+json'
-          nonce={nonce}
-          dangerouslySetInnerHTML={{
-            __html: `{
+      }}
+    />
+    <script
+      type='application/ld+json'
+      dangerouslySetInnerHTML={{
+        __html: `{
       "@context": "https://schema.org",
       "@type": "WebSite",
       "url": "https://anthony.codes",
       "name": "Anthony Maki - Software Engineer",
       "description": "Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect."
     }`,
-          }}
-        />
-      </Fragment>
-    );
-  }
-}
+      }}
+    />
+  </>
+);

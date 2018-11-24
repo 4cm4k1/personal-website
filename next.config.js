@@ -21,29 +21,13 @@ const bundleAnalyzerConfig = {
 };
 
 const nextConfig = {
-  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => {
-    // config.module.rules.push({
-    //   // see https://github.com/zeit/styled-jsx#styles-in-regular-css-files
-    //   test: /\.css$/,
-    //   use: [
-    //     defaultLoaders.babel,
-    //     {
-    //       loader: require('styled-jsx/webpack').loader,
-    //       options: {
-    //         type: 'scoped',
-    //       },
-    //     },
-    //   ],
-    // });
-
-    return config;
-  },
+  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
-  // publicRuntimeConfig: {
-  //   hostname: process.env.NOW
-  //     ? 'https://anthony.codes'
-  //     : 'https://localhost:4242',
-  // },
+  publicRuntimeConfig: {
+    hostname: process.env.NOW
+      ? 'https://anthony.codes'
+      : 'https://localhost:3000',
+  },
 };
 
 module.exports = withPlugins(

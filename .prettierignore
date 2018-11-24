@@ -1,1 +1,3 @@
-node_modules/
+# Directories ---------------
+# Yarn-installed packages
+node_modules

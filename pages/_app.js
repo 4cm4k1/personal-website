@@ -1,6 +1,5 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
-import React from 'react';
 
 import Layout from '../components/Layout';
 
@@ -26,13 +25,13 @@ export default class MyApp extends App {
         <Layout>
           <Component {...pageProps} />
         </Layout>
-        <style jsx global>{`
-          @import 'modern-normalize/modern-normalize';
+        {/* <style jsx global>{`
+          // @import 'modern-normalize/modern-normalize';
           @font-face {
             font-family: 'Material Icons';
             font-display: swap;
           }
-        `}</style>
+        `}</style> */}
       </Container>
     );
   }
