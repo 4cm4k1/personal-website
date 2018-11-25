@@ -1,9 +1,12 @@
-# npm/Yarn stuff
-node_modules/
-yarn-error.log
-
-# React/Next.js stuff
-.next/
-
-# Local dev SSL certs
+# Directories ---------------
+# Next.js build outputs
+.next
+# Webpack Bundle Analyzer outputs
+bundles
+# Yarn-installed packages
+node_modules
+# Files ---------------------
+# Logs
+*.log
+# Local development SSL certificates
 *.pem
