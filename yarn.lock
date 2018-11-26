@@ -738,6 +738,11 @@
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.40.0.tgz#c0bfdf13f76546d35db7492fd6d4167721aac376"
   integrity sha512-dNekw081gH1Wh62h8VsOdP87iKkrbM2rFR28bTfolIv6ThRBUGlDe5w8grkrrXLnjoqO/fnQMP1Wdo8C7lcfvQ==
 
+"@material/dom@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.41.0.tgz#6756865f97bad4c91ee75e69d769d7cdc25398ae"
+  integrity sha512-wOJrMwjPddYXpQFZAIaCLWI3TO/6KU1lxESTBzunni8A4FHQVWhokml5Xt85GqZwmPFeIF2s+D0wfbWyrGBuKQ==
+
 "@material/drawer@^0.40.1":
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/drawer/-/drawer-0.40.1.tgz#a5eeb09d270f305daa71407b37437f353814526b"
@@ -775,7 +780,7 @@
   resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.41.0.tgz#2e7d3be76313e0684d573b10c2c6a88b3230d251"
   integrity sha512-Sa5RNoTGgfIojqJ9E94p7/k11V6q/tGk7HwKi4AQNAPjxield0zcl3G/SbsSb8YSHoK+D+7OXDN+n11x6EqF7g==
 
-"@material/list@^0.40.1", "@material/list@~0.40.0":
+"@material/list@^0.40.1":
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/list/-/list-0.40.1.tgz#0734917212156443868c56fc49f06333cdba7512"
   integrity sha512-2t3KgJPZZfCJp+F+n4CJVbpKXVK9SxrMRrd0S2WcdPgCMQ+yMXFhhOda5wXCZDFPGH2hulE4gQ2mXzN0aOdSgw==
@@ -787,6 +792,19 @@
     "@material/shape" "^0.40.1"
     "@material/theme" "^0.40.1"
     "@material/typography" "^0.40.1"
+
+"@material/list@~0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/list/-/list-0.41.0.tgz#b597fd844c9f5661565129db9103e6a08bf23255"
+  integrity sha512-HhYN0I02CTT8j91c1eeeI+L2KXVKdfzj0Zuapp2SdeCmQZLJO2tu2NYj0W6REBDTVBWBccr12Sn8o71CodEScQ==
+  dependencies:
+    "@material/base" "^0.41.0"
+    "@material/dom" "^0.41.0"
+    "@material/ripple" "^0.41.0"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.41.0"
+    "@material/theme" "^0.41.0"
+    "@material/typography" "^0.41.0"
 
 "@material/react-drawer@^0.6.2":
   version "0.6.2"
@@ -840,7 +858,7 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/ripple@^0.40.1", "@material/ripple@~0.40.0":
+"@material/ripple@^0.40.1":
   version "0.40.1"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.40.1.tgz#57cbc689303b48282229cb9b62556af7442e852a"
   integrity sha512-sndeTS4VHa0v1UGj7MNcxMCuO9LJ1DjoL1EjE6BH3Lm3M1MnXJHdsBo2CgPbU/FI84tt6+eyHGOYPdPrEDJhCA==
@@ -849,7 +867,7 @@
     "@material/base" "^0.40.1"
     "@material/theme" "^0.40.1"
 
-"@material/ripple@^0.41.0":
+"@material/ripple@^0.41.0", "@material/ripple@~0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.41.0.tgz#73dbb9bf0e1d72382926b39f2527c011e689dde2"
   integrity sha512-rxEUVWM4AByDlTCH0kkthZQmUuY6eeN0X6cOHBoioFN2vUDk0D0Nfzz/N9FF2AlAf8C2lDDLrTuqnJPVIn+NHA==
@@ -978,53 +996,49 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
-"@rmwc/base@^3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-3.0.11.tgz#a0c905825865f301c9b9e2a379a319f22028e243"
-  integrity sha512-g8g60AA5+0/QB2JcabqfzrdwzT/6vzLv4xKw2L5vN/Y4qopQ3fPYjZzzyPmtpcpPN7BscMYfiicKfFNwRi1HuQ==
+"@rmwc/base@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-4.0.0.tgz#6bc102dd0c1951a2430706304bb925344a55a5f9"
+  integrity sha512-Ul97lxgbjoMu9MqPXy+Vr4nkYWLBEf2oE0DRI1A2CIAfg+OWCuHuEErN3hSW7DMxkFK1qvXAonxGYJJ7TYCeMw==
   dependencies:
     classnames "^2.2.5"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
-
-"@rmwc/icon@^3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-3.0.11.tgz#94660dc082af256c556146ff915218abfd945713"
-  integrity sha512-P9/z09xTo3Fbo249mvoSFlELAlJXqVgC2sue+XeUtaxCN2tHnpcoueSvdx5B5B2bFY9iElwcEfGfrURk7XjRdg==
-  dependencies:
-    "@rmwc/base" "^3.0.11"
-    "@rmwc/provider" "^3.0.6"
-    classnames "^2.2.5"
     prop-types "^15.6.1"
 
-"@rmwc/list@^3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-3.0.11.tgz#9857b8a8326fe7254149e03f6d7ecda97e26bb34"
-  integrity sha512-moyNpOwhlsEJqUKRgzgefVmT5Ri57jo2ogLvUTxkTov7Nm5yCYQoCzKu080HpkL2aNjy+wRxQ7owROUFdeISSA==
+"@rmwc/icon@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-4.0.0.tgz#01c3200d47091f1e45b54ed70faf5206c4728843"
+  integrity sha512-azjDlqLfF/wjEzIJXUVhD9EIZQbqASCnHhCVAB9SLIbryvYFSmgynBELRhR/cXvwGE34OOK5aao1wHyFVLPohA==
   dependencies:
-    "@material/list" "~0.40.0"
-    "@rmwc/base" "^3.0.11"
-    "@rmwc/icon" "^3.0.11"
-    "@rmwc/provider" "^3.0.6"
-    "@rmwc/ripple" "^3.0.11"
-    classnames "^2.2.5"
-    prop-types "^15.6.1"
+    "@rmwc/base" "^4.0.0"
+    "@rmwc/provider" "^4.0.0"
 
-"@rmwc/provider@^3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-3.0.6.tgz#17109eaff7a9c5a6eedeb6521d0daf45a3e37b08"
-  integrity sha512-O6ixPcLBDlwZ3q4069oA5an7Uwv68gZwGiXX8spATPPBFsz0XQZDZnUrC8P8XAGsfNffyFQsRR3aCuXkzL3ZzA==
+"@rmwc/list@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-4.0.0.tgz#e018dd544d7bf4b03f53f731ac565423276446dc"
+  integrity sha512-wvsRw7jcpabuK0CSx9LrjvJJ51/VeCdSey/ZWKG5BGvO5QgVK+dFjoiwv+FV7td+IvmeAJTfFhSQI2Zy0gItdg==
   dependencies:
-    prop-types "^15.6.1"
+    "@material/list" "~0.41.0"
+    "@rmwc/base" "^4.0.0"
+    "@rmwc/icon" "^4.0.0"
+    "@rmwc/provider" "^4.0.0"
+    "@rmwc/ripple" "^4.0.0"
 
-"@rmwc/ripple@^3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-3.0.11.tgz#1cd0010fcff3d63bfcf1276bb1261c100f48f40d"
-  integrity sha512-xguuYhGiXswRDtF9Etae6V529W7ruEvddsqJVVERh/+d39dBkxrSXKnVgulyqR485k8r4ccT4CrJBGTPgrbcHA==
+"@rmwc/provider@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-4.0.0.tgz#25086bba93552d39f0698b43bbaf8141eeba81ab"
+  integrity sha512-S0UxLxTU2lrOKQRmTMJJrX5MlZK3Qryt5goJH1LFSvXnl07z2FPEqTW5XD/C83FWVwbLlPgWiuRPsnEny4Agcg==
   dependencies:
-    "@material/ripple" "~0.40.0"
-    "@rmwc/base" "^3.0.11"
-    classnames "^2.2.5"
+    "@rmwc/base" "^4.0.0"
+
+"@rmwc/ripple@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-4.0.0.tgz#3b5c0457d218487b132a131b3560b7b24d00f637"
+  integrity sha512-Of1DiaUN2tVSxYuvjGu4hO8Qq1L4dTHCzPqTnNwyGkLmubUUhNuyJSj2eSP0x+ra315UfJiXF3LRnBrHg07RRQ==
+  dependencies:
+    "@material/ripple" "~0.41.0"
+    "@rmwc/base" "^4.0.0"
 
 "@types/anymatch@*":
   version "1.3.0"
