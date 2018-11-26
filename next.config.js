@@ -1,11 +1,19 @@
-const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-const withMDX = require('@zeit/next-mdx')(); // see https://github.com/zeit/next-plugins/issues/231#issuecomment-433587758
-const withOffline = require('next-offline');
-const withOptimizedImages = require('next-optimized-images');
-const withPlugins = require('next-compose-plugins');
-const withSourceMaps = require('@zeit/next-source-maps')();
+const { withPlugins, optional } = moduleExists('next-compose-plugins')
+  ? require('next-compose-plugins')
+  : {};
 
-const { PHASE_DEVELOPMENT_SERVER } = require('next-server/constants');
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_PRODUCTION_BUILD,
+} = require('next-server/constants');
+
+function moduleExists(name) {
+  try {
+    return require.resolve(name);
+  } catch (error) {
+    return false;
+  }
+}
 
 const bundleAnalyzerConfig = {
   analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
@@ -32,13 +40,29 @@ const nextConfig = {
   },
 };
 
-module.exports = withPlugins(
-  [
-    withBundleAnalyzer(bundleAnalyzerConfig),
-    withMDX,
-    [withOffline, ['!', PHASE_DEVELOPMENT_SERVER]],
-    withOptimizedImages,
-    withSourceMaps,
-  ],
-  nextConfig,
-);
+module.exports = moduleExists('next-compose-plugins')
+  ? withPlugins(
+      [
+        [
+          optional(() =>
+            require('@zeit/next-bundle-analyzer')(bundleAnalyzerConfig),
+          ),
+          [PHASE_PRODUCTION_BUILD],
+        ],
+        [
+          optional(() => require('@zeit/next-mdx')()),
+          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
+        ],
+        [optional(() => require('next-offline')), [PHASE_PRODUCTION_BUILD]],
+        [
+          optional(() => require('next-optimized-images')),
+          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
+        ],
+        [
+          optional(() => require('@zeit/next-source-maps')()),
+          [PHASE_PRODUCTION_BUILD],
+        ],
+      ],
+      nextConfig,
+    )
+  : nextConfig;
