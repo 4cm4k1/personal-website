@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Drawer, {
   DrawerHeader,
   DrawerSubtitle,
@@ -8,8 +8,11 @@ import Drawer, {
 } from '@material/react-drawer';
 import TopAppBar, { TopAppBarFixedAdjust } from '@material/react-top-app-bar';
 import MaterialIcon from '@material/react-material-icon';
+import dynamic from 'next/dynamic';
 
-import NextLinkMaterialList from './NextLinkMaterialList';
+const NavList = dynamic(() => import('./NavList'));
+
+import '../scss/Layout.scss';
 
 export default class Layout extends Component {
   state = { open: false };
@@ -34,7 +37,7 @@ export default class Layout extends Component {
             <DrawerSubtitle>Software Engineer</DrawerSubtitle>
           </DrawerHeader>
           <DrawerContent>
-            <NextLinkMaterialList onListItemClick={this.onListItemClick} />
+            <NavList onListItemClick={this.onListItemClick} />
           </DrawerContent>
         </Drawer>
         <div ref={this.mainContentEl}>
@@ -49,22 +52,6 @@ export default class Layout extends Component {
             <TopAppBarFixedAdjust>{this.props.children}</TopAppBarFixedAdjust>
           </DrawerAppContent>
         </div>
-
-        <style jsx global>{`
-          $mdc-typography-font-family: -apple-system, BlinkMacSystemFont,
-            'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-          $mdc-theme-primary: #424242;
-          $mdc-theme-secondary: #d81b60;
-          $mdc-theme-on-primary: #ffffff;
-          $mdc-theme-on-secondary: #ffffff;
-          @import '@material/react-top-app-bar/index';
-          @import '@material/react-material-icon/index';
-          @import '@material/react-drawer/index';
-          /*@import '@material/react-list/index';*/
-          @import '@material/list/mdc-list';
-          @import '@material/react-layout-grid/index';
-        `}</style>
       </>
     );
   }

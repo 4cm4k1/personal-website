@@ -1,6 +1,5 @@
 import { withRouter } from 'next/router';
 import Link from 'next/link';
-import React, { Children } from 'react';
 import { ListItem } from '@rmwc/list';
 
 const ActiveLink = ({ router, children, ...props }) => {

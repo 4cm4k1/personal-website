@@ -46,7 +46,11 @@ export default class MyDocument extends Document {
             href={require('../static/favicon-16x16.png?url')}
           />
           <link rel='manifest' href='/manifest.json' />
-          <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#424242' />
+          <link
+            rel='mask-icon'
+            href={require('../static/safari-pinned-tab.svg?url')}
+            color='#424242'
+          />
           <meta name='apple-mobile-web-app-title' content='Anthony Maki' />
           <meta name='application-name' content='Anthony Maki' />
           <meta name='theme-color' content='#424242' />

@@ -3,6 +3,7 @@
 !lib
 !mdx
 !pages
+!scss
 !static
 !.babelrc
 !package.json

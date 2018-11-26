@@ -1,8 +1,12 @@
+const Fiber = require('fibers');
+const Sass = require('sass');
 const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
 const withMDX = require('@zeit/next-mdx')(); // see https://github.com/zeit/next-plugins/issues/231#issuecomment-433587758
 const withOffline = require('next-offline');
 const withOptimizedImages = require('next-optimized-images');
 const withPlugins = require('next-compose-plugins');
+const withPurgeCss = require('next-purgecss');
+const withSass = require('@zeit/next-sass');
 const withSourceMaps = require('@zeit/next-source-maps')();
 
 const bundleAnalyzerConfig = {
@@ -21,23 +25,7 @@ const bundleAnalyzerConfig = {
 };
 
 const nextConfig = {
-  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => {
-    config.module.rules.push({
-      // see https://github.com/zeit/styled-jsx#styles-in-regular-css-files
-      test: /\.css$/,
-      use: [
-        defaultLoaders.babel,
-        {
-          loader: require('styled-jsx/webpack').loader,
-          options: {
-            type: 'scoped',
-          },
-        },
-      ],
-    });
-
-    return config;
-  },
+  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
   publicRuntimeConfig: {
     hostname: process.env.NOW
@@ -46,9 +34,19 @@ const nextConfig = {
   },
 };
 
+const sassConfig = {
+  sassLoaderOptions: {
+    fiber: Fiber,
+    implementation: Sass,
+    includePaths: ['node_modules'],
+  },
+};
+
 module.exports = withPlugins(
   [
     withBundleAnalyzer(bundleAnalyzerConfig),
+    withPurgeCss,
+    withSass(sassConfig),
     withMDX,
     withOffline,
     withOptimizedImages,
