@@ -3,7 +3,9 @@ const withMDX = require('@zeit/next-mdx')(); // see https://github.com/zeit/next
 const withOffline = require('next-offline');
 const withOptimizedImages = require('next-optimized-images');
 const withPlugins = require('next-compose-plugins');
-const withSourceMaps = require('@zeit/next-source-maps');
+const withSourceMaps = require('@zeit/next-source-maps')();
+
+const { PHASE_DEVELOPMENT_SERVER } = require('next-server/constants');
 
 const bundleAnalyzerConfig = {
   analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
@@ -34,7 +36,7 @@ module.exports = withPlugins(
   [
     withBundleAnalyzer(bundleAnalyzerConfig),
     withMDX,
-    withOffline,
+    [withOffline, ['!', PHASE_DEVELOPMENT_SERVER]],
     withOptimizedImages,
     withSourceMaps,
   ],
