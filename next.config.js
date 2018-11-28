@@ -57,8 +57,8 @@ module.exports = moduleExists('next-compose-plugins')
           bundleAnalyzerConfig,
           [PHASE_PRODUCTION_BUILD],
         ],
-        // next-purgecss
-        [optional(() => require('next-purgecss')), [PHASE_PRODUCTION_BUILD]],
+        // TODO: not clear on how to use this with 3rd-party libs
+        // [optional(() => require('next-purgecss')), [PHASE_PRODUCTION_BUILD]],
         // @zeit/next-sass
         [
           optional(() => require('@zeit/next-sass')),
