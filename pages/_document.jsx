@@ -1,26 +1,24 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+
 import JsonLd from '../components/JsonLd';
-import { GA_TRACKING_ID } from '../lib/getConstants';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    const { nonce } = ctx.res.locals;
-    return { ...initialProps, nonce };
+    return { ...initialProps };
   }
 
   render() {
-    const { nonce } = this.props;
     return (
       <html lang='en-US'>
-        <Head nonce={nonce}>
+        <Head>
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link rel='preconnect' href='https://stats.g.doubleclick.net' />
           <link rel='preconnect' href='https://www.google.com' />
           <link rel='preconnect' href='https://www.google-analytics.com' />
           <link rel='preconnect' href='https://www.googletagmanager.com' />
-          <JsonLd nonce={nonce} />
+          <JsonLd />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta content='origin-when-cross-origin' name='referrer' />
           <meta
@@ -31,26 +29,22 @@ export default class MyDocument extends Document {
           <link
             rel='apple-touch-icon'
             sizes='180x180'
-            href={require('../static/apple-touch-icon.png?url')}
+            href='/apple-touch-icon.png'
           />
           <link
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href={require('../static/favicon-32x32.png?url')}
+            href='/favicon-16x16.png'
           />
           <link
             rel='icon'
             type='image/png'
             sizes='16x16'
-            href={require('../static/favicon-16x16.png?url')}
+            href='/favicon-32x32.png'
           />
           <link rel='manifest' href='/manifest.json' />
-          <link
-            rel='mask-icon'
-            href={require('../static/safari-pinned-tab.svg?url')}
-            color='#424242'
-          />
+          <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#424242' />
           <meta name='apple-mobile-web-app-title' content='Anthony Maki' />
           <meta name='application-name' content='Anthony Maki' />
           <meta name='theme-color' content='#424242' />
@@ -93,26 +87,24 @@ export default class MyDocument extends Document {
           />
           <script
             defer
-            nonce={nonce}
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            src='https://www.googletagmanager.com/gtag/js?id=UA-112988450-1'
           />
         </Head>
         <body>
           <Main />
-          <NextScript nonce={nonce} />
+          <NextScript />
           <link
             href='https://fonts.googleapis.com/icon?family=Material+Icons'
             rel='stylesheet'
             crossOrigin='anonymous'
           />
           <script
-            nonce={nonce}
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}');
+            gtag('config', 'UA-112988450-1');
           `,
             }}
           />

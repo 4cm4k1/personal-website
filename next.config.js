@@ -1,13 +1,20 @@
-const Fiber = require('fibers');
-const Sass = require('sass');
-const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-const withMDX = require('@zeit/next-mdx')(); // see https://github.com/zeit/next-plugins/issues/231#issuecomment-433587758
-const withOffline = require('next-offline');
-const withOptimizedImages = require('next-optimized-images');
-const withPlugins = require('next-compose-plugins');
-const withPurgeCss = require('next-purgecss');
-const withSass = require('@zeit/next-sass');
-const withSourceMaps = require('@zeit/next-source-maps')();
+const { withPlugins, optional } = moduleExists('next-compose-plugins')
+  ? require('next-compose-plugins')
+  : {};
+
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_EXPORT,
+  PHASE_PRODUCTION_BUILD,
+} = require('next-server/constants');
+
+function moduleExists(name) {
+  try {
+    return require.resolve(name);
+  } catch (error) {
+    return false;
+  }
+}
 
 const bundleAnalyzerConfig = {
   analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
@@ -27,30 +34,46 @@ const bundleAnalyzerConfig = {
 const nextConfig = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
-  publicRuntimeConfig: {
-    hostname: process.env.NOW
-      ? 'https://anthony.codes'
-      : 'https://localhost:4242',
-  },
 };
 
 const sassConfig = {
   sassLoaderOptions: {
-    fiber: Fiber,
-    implementation: Sass,
+    fiber: moduleExists('fibers') ? require('fibers') : {},
+    implementation: moduleExists('sass') ? require('sass') : {},
     includePaths: ['node_modules'],
   },
 };
 
-module.exports = withPlugins(
-  [
-    withBundleAnalyzer(bundleAnalyzerConfig),
-    withPurgeCss,
-    withSass(sassConfig),
-    withMDX,
-    withOffline,
-    withOptimizedImages,
-    withSourceMaps,
-  ],
-  nextConfig,
-);
+module.exports = moduleExists('next-compose-plugins')
+  ? withPlugins(
+      [
+        // @zeit/next-bundle-analyzer
+        [
+          optional(() => require('@zeit/next-bundle-analyzer')),
+          bundleAnalyzerConfig,
+          [PHASE_PRODUCTION_BUILD],
+        ],
+        // TODO: not clear on how to use this with 3rd-party libs
+        // [optional(() => require('next-purgecss')), [PHASE_PRODUCTION_BUILD]],
+        // @zeit/next-sass
+        [
+          optional(() => require('@zeit/next-sass')),
+          sassConfig,
+          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
+        ],
+        // @zeit/next-mdx
+        [
+          optional(() => require('@zeit/next-mdx')()),
+          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
+        ],
+        // next-offline - for now omit until Now v2 compatibility is sorted
+        [optional(() => require('next-offline')), [PHASE_EXPORT]],
+        // @zeit/next-source-maps
+        [
+          optional(() => require('@zeit/next-source-maps')()),
+          [PHASE_PRODUCTION_BUILD],
+        ],
+      ],
+      nextConfig,
+    )
+  : nextConfig;

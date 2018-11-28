@@ -1,0 +1,25 @@
+# Directories ---------------
+# GitHub configuration files
+.github
+# Next.js build outputs
+.next
+# Webpack Bundle Analyzer outputs
+bundles
+# Yarn-installed packages
+node_modules
+# Files ---------------------
+# EditorConfig
+.editorconfig
+# Git
+.gitignore
+# Prettier
+.prettierignore
+.prettierrc.json
+# Logs
+*.log
+# Root Markdown files
+*.md
+# Local development SSL certificates
+*.pem
+# License
+license

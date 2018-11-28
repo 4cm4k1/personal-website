@@ -7,10 +7,48 @@
     "anthony.app",
     "www.anthony.app"
   ],
-  "features": {
-    "cloud": "v2"
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next@canary"
+    },
+    {
+      "src": "static/**/*",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/(.*)[.](html|ico|jpg|json|pdf|png|svg|txt|webp|xml)$",
+      "dest": "/static/$1.$2"
+    },
+    {
+      "src": "/.*",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://anthony.codes",
+        "Content-Security-Policy": "default-src 'none'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; font-src 'self' https: fonts.gstatic.com; img-src 'self' https: data:; base-uri 'self'; manifest-src 'self'; object-src 'self'; connect-src https: webpack:; upgrade-insecure-requests",
+        "Feature-Policy": "accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Security-Policy": "default-src 'none'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; font-src 'self' https: fonts.gstatic.com; img-src 'self' https: data:; base-uri 'self'; manifest-src 'self'; object-src 'self'; connect-src https: webpack:; upgrade-insecure-requests",
+        "X-Content-Type-Options": "nosniff",
+        "X-DNS-Prefetch-Control": "on",
+        "X-Download-Options": "noopen",
+        "X-Frame-Options": "DENY",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-UA-Compatible": "IE=edge; chrome=1",
+        "X-WebKit-CSP": "default-src 'none'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; font-src 'self' https: fonts.gstatic.com; img-src 'self' https: data:; base-uri 'self'; manifest-src 'self'; object-src 'self'; connect-src https: webpack:; upgrade-insecure-requests",
+        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
+      }
+    }
+  ],
+  "github": {
+    "autoAlias": true,
+    "enabled": true,
+    "silent": false
   },
   "name": "anthony-codes",
   "public": true,
-  "type": "docker"
+  "regions": ["all"],
+  "version": 2
 }
