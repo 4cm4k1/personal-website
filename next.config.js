@@ -4,6 +4,7 @@ const { withPlugins, optional } = moduleExists('next-compose-plugins')
 
 const {
   PHASE_DEVELOPMENT_SERVER,
+  PHASE_EXPORT,
   PHASE_PRODUCTION_BUILD,
 } = require('next-server/constants');
 
@@ -71,7 +72,10 @@ module.exports = moduleExists('next-compose-plugins')
           [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
         ],
         // next-offline
-        [optional(() => require('next-offline')), [PHASE_PRODUCTION_BUILD]],
+        [
+          optional(() => require('next-offline')),
+          [PHASE_PRODUCTION_BUILD, PHASE_EXPORT],
+        ],
         // @zeit/next-source-maps
         [
           optional(() => require('@zeit/next-source-maps')()),
