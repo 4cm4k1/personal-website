@@ -34,11 +34,6 @@ const bundleAnalyzerConfig = {
 const nextConfig = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
-  publicRuntimeConfig: {
-    hostname: process.env.NOW
-      ? 'https://anthony.codes'
-      : 'https://localhost:3000',
-  },
 };
 
 const sassConfig = {
@@ -71,11 +66,8 @@ module.exports = moduleExists('next-compose-plugins')
           optional(() => require('@zeit/next-mdx')()),
           [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
         ],
-        // next-offline
-        [
-          optional(() => require('next-offline')),
-          [PHASE_PRODUCTION_BUILD, PHASE_EXPORT],
-        ],
+        // next-offline - for now omit until Now v2 compatibility is sorted
+        [optional(() => require('next-offline')), [PHASE_EXPORT]],
         // @zeit/next-source-maps
         [
           optional(() => require('@zeit/next-source-maps')()),
