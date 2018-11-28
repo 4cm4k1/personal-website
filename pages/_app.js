@@ -1,6 +1,8 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
 
+import '../scss/_normalize.scss';
+
 import Layout from '../components/Layout';
 
 export default class MyApp extends App {
@@ -21,17 +23,9 @@ export default class MyApp extends App {
         <Head>
           <title>Anthony Maki - Software Engineer</title>
         </Head>
-
         <Layout>
           <Component {...pageProps} />
         </Layout>
-        {/* <style jsx global>{`
-          // @import 'modern-normalize/modern-normalize';
-          @font-face {
-            font-family: 'Material Icons';
-            font-display: swap;
-          }
-        `}</style> */}
       </Container>
     );
   }

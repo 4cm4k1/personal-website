@@ -40,24 +40,39 @@ const nextConfig = {
   },
 };
 
+const sassConfig = {
+  sassLoaderOptions: {
+    fiber: moduleExists('fibers') ? require('fibers') : {},
+    implementation: moduleExists('sass') ? require('sass') : {},
+    includePaths: ['node_modules'],
+  },
+};
+
 module.exports = moduleExists('next-compose-plugins')
   ? withPlugins(
       [
+        // @zeit/next-bundle-analyzer
         [
-          optional(() =>
-            require('@zeit/next-bundle-analyzer')(bundleAnalyzerConfig),
-          ),
+          optional(() => require('@zeit/next-bundle-analyzer')),
+          bundleAnalyzerConfig,
           [PHASE_PRODUCTION_BUILD],
         ],
+        // next-purgecss
+        [optional(() => require('next-purgecss')), [PHASE_PRODUCTION_BUILD]],
+        // @zeit/next-sass
+        [
+          optional(() => require('@zeit/next-sass')),
+          sassConfig,
+          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
+        ],
+        // @zeit/next-mdx
         [
           optional(() => require('@zeit/next-mdx')()),
           [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
         ],
+        // next-offline
         [optional(() => require('next-offline')), [PHASE_PRODUCTION_BUILD]],
-        [
-          optional(() => require('next-optimized-images')),
-          [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
-        ],
+        // @zeit/next-source-maps
         [
           optional(() => require('@zeit/next-source-maps')()),
           [PHASE_PRODUCTION_BUILD],

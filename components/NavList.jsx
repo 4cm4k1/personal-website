@@ -2,9 +2,11 @@ import { List, ListItemGraphic } from '@rmwc/list';
 
 import Link from './Link';
 
+import '../scss/NavList.scss';
+
 export default () => (
   <List>
-    <Link href='/' prefetch passHref>
+    <Link href='/' passHref>
       <ListItemGraphic icon='home' />
       Home
     </Link>
