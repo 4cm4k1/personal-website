@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import '../scss/_normalize.scss';
 
-import Layout from '../components/Layout';
+import AppLayout from '../components/AppLayout';
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -23,9 +23,9 @@ export default class MyApp extends App {
         <Head>
           <title>Anthony Maki - Software Engineer</title>
         </Head>
-        <Layout>
+        <AppLayout>
           <Component {...pageProps} />
-        </Layout>
+        </AppLayout>
       </Container>
     );
   }

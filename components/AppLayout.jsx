@@ -12,9 +12,9 @@ import dynamic from 'next/dynamic';
 
 const NavList = dynamic(() => import('./NavList'));
 
-import '../scss/Layout.scss';
+import '../scss/AppLayout.scss';
 
-export default class Layout extends Component {
+export default class AppLayout extends Component {
   state = { open: false };
 
   mainContentEl = React.createRef();

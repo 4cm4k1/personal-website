@@ -32,6 +32,7 @@ const bundleAnalyzerConfig = {
 };
 
 const nextConfig = {
+  pageExtensions: ['js', 'jsx', 'mdx'],
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
 };
