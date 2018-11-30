@@ -15,6 +15,7 @@ Source code for my personal website located at <https://anthony.codes>.
 
 ## Prerequisites
 
+- [Git](https://github.com/git/git)
 - [mkcert](https://github.com/FiloSottile/mkcert) _(optional, if you want HTTPS with dev mode)_
 - [Node](https://github.com/nodejs/node)
 - [Now](https://github.com/zeit/now-cli) _(optional, if you want to deploy)_
