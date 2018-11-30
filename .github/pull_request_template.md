@@ -8,6 +8,6 @@
 - [ ] All tests are passing
 - [ ] New tests were created to address changes in PR (and tests are passing)
 - [ ] Updated `readme.md` and/or documentation, if necessary
-- [ ] Added myself / the `contributors` array in package.json
+- [ ] Added myself / the `contributors` array in `package.json`
 
 <!-- Thanks for contributing! -->

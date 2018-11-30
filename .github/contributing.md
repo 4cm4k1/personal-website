@@ -1,12 +1,11 @@
 ---
 name: Contributing
 about: Contribute to this project!
-
 ---
 
-# Contributing to website
+# Contributing to `website`
 
-First and foremost, thank you! We appreciate that you want to contribute to website, your time is valuable, and your contributions mean a lot to us.
+First and foremost, thank you! We appreciate that you want to contribute to `website`, your time is valuable, and your contributions mean a lot to us.
 
 ## Important!
 
@@ -30,14 +29,14 @@ Creating an issue is the simplest form of contributing to a project. But there a
 
 If you'd like to learn more about contributing in general, the [Guide to Idiomatic Contributing](https://github.com/jonschlinkert/idiomatic-contributing) has a lot of useful information.
 
-**Showing support for website**
+**Showing support for `website`**
 
 Please keep in mind that open source software is built by people like you, who spend their free time creating things the rest the community can use.
 
-Don't have time to contribute? No worries, here are some other ways to show your support for website:
+Don't have time to contribute? No worries, here are some other ways to show your support for `website`:
 
 - star the [project](https://github.com/4cm4k1/website)
-- tweet your support for website
+- tweet your support for `website`
 
 ## Issues
 
@@ -47,7 +46,7 @@ Do not create issues about bumping dependencies unless a bug has been identified
 
 **Help us to help you**
 
-Remember that we’re here to help, but not to make guesses about what you need help with:
+Remember that we're here to help, but not to make guesses about what you need help with:
 
 - Whatever bug or issue you're experiencing, assume that it will not be as obvious to the maintainers as it is to you.
 - Spell it out completely. Keep in mind that maintainers need to think about _all potential use cases_ of a library. It's important that you explain how you're using a library so that maintainers can make that connection and solve the issue.
@@ -71,13 +70,13 @@ Please be as descriptive as possible when creating an issue. Give us the informa
 
 - **description**: (required) What is the bug you're experiencing? How are you using this library/app?
 - **OS**: (required) what operating system are you on?
-- **version**: (required) please note the version of website are you using
+- **version**: (required) please note the version of `website` are you using
 - **error messages**: (required) please paste any error messages into the issue, or a [gist](https://gist.github.com/)
 - **extensions, plugins, helpers, etc** (if applicable): please list any extensions you're using
 
 ### Closing issues
 
-The original poster or the maintainers of website may close an issue at any time. Typically, but not exclusively, issues are closed when:
+The original poster or the maintainers of `website` may close an issue at any time. Typically, but not exclusively, issues are closed when:
 
 - The issue is resolved
 - The project's maintainers have determined the issue is out of scope

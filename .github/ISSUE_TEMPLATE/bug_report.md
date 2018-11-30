@@ -1,7 +1,6 @@
 ---
 name: Bug Report
 about: Create a report to improve the project!
-
 ---
 
 **Describe the bug:**

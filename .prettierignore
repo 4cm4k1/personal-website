@@ -1,3 +1,7 @@
 # Directories ---------------
+# Next.js build outputs
+.next
+# Webpack Bundle Analyzer outputs
+bundles
 # Yarn-installed packages
 node_modules

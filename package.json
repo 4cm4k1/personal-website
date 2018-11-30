@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "private": true,
   "description": "Personal site built with React, Next.js, and Material Components",
   "bugs": "https://github.com/4cm4k1/website/issues",
@@ -20,7 +20,7 @@
     "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem dev/cert.pem && mv localhost+2-key.pem dev/key.pem",
     "now-build": "next build --lambdas",
     "start": "next start",
-    "prettier": "prettier '{*,{components,dev,scss,pages}/**/*}.{babelrc,scss,js,json,jsx,md,mdx}' --write",
+    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
     "proxy": "node dev/server.js"
   },
   "husky": {

@@ -1,7 +1,6 @@
 ---
 name: Code of Conduct
 about: Be a good open-source community member!
-
 ---
 
 # Code of Conduct

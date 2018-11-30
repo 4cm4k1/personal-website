@@ -1,12 +1,5 @@
 {
-  "alias": [
-    "anthony.codes",
-    "www.anthony.codes",
-    "thedebug.life",
-    "www.thedebug.life",
-    "anthony.app",
-    "www.anthony.app"
-  ],
+  "alias": ["anthony.codes"],
   "builds": [
     {
       "src": "next.config.js",
