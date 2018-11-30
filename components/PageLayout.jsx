@@ -1,4 +1,8 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const { assetPath, host } = publicRuntimeConfig;
 
 export default ({ children }) => (
   <Grid>
@@ -11,3 +15,5 @@ export default ({ children }) => (
     </Row>
   </Grid>
 );
+
+export { assetPath, host };

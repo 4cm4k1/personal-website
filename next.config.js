@@ -1,13 +1,18 @@
-const { withPlugins, optional } = moduleExists('next-compose-plugins')
-  ? require('next-compose-plugins')
-  : {};
-
+const { NOW } = process.env;
 const {
   PHASE_DEVELOPMENT_SERVER,
   PHASE_EXPORT,
   PHASE_PRODUCTION_BUILD,
 } = require('next-server/constants');
+const { withPlugins, optional } = moduleExists('next-compose-plugins')
+  ? require('next-compose-plugins')
+  : {};
 
+/**
+ * Checks for existence of given module
+ * @param {string} name Name of module whose existence to test
+ * @returns {(boolean|string)} String representing module path or boolean false
+ */
 function moduleExists(name) {
   try {
     return require.resolve(name);
@@ -33,6 +38,24 @@ const bundleAnalyzerConfig = {
 
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx'],
+  publicRuntimeConfig: {
+    analytics: NOW ? 'UA-112988450-1' : '',
+    assetPath: NOW ? '' : '/static',
+    host: NOW ? 'https://anthony.codes' : 'https://localhost',
+    primaryTheme: '#424242',
+    profile: {
+      description:
+        'Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect.',
+      email: '4cm4k1@gmail.com',
+      firstName: 'Anthony',
+      fullName: 'Anthony Maki',
+      jobTitle: 'Software Engineer',
+      lastName: 'Maki',
+      phone: '+1 612-226-9494',
+      title: 'Anthony Maki - Software Engineer',
+      username: '4cm4k1',
+    },
+  },
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
 };

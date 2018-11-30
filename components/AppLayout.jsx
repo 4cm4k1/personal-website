@@ -29,12 +29,13 @@ export default class AppLayout extends Component {
   onMenuButtonClick = () => this.setState({ open: true });
 
   render() {
+    const { children, profile } = this.props;
     return (
       <>
         <Drawer modal open={this.state.open} onClose={this.onDrawerClose}>
           <DrawerHeader>
-            <DrawerTitle>Anthony Maki</DrawerTitle>
-            <DrawerSubtitle>Software Engineer</DrawerSubtitle>
+            <DrawerTitle>{profile.fullName}</DrawerTitle>
+            <DrawerSubtitle>{profile.jobTitle}</DrawerSubtitle>
           </DrawerHeader>
           <DrawerContent>
             <NavList onListItemClick={this.onListItemClick} />
@@ -43,13 +44,13 @@ export default class AppLayout extends Component {
         <div ref={this.mainContentEl}>
           <DrawerAppContent>
             <TopAppBar
-              title='Anthony Maki'
+              title={profile.title}
               navigationIcon={
                 <MaterialIcon icon='menu' onClick={this.onMenuButtonClick} />
               }
               short
             />
-            <TopAppBarFixedAdjust>{this.props.children}</TopAppBarFixedAdjust>
+            <TopAppBarFixedAdjust>{children}</TopAppBarFixedAdjust>
           </DrawerAppContent>
         </div>
       </>

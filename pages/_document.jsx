@@ -1,6 +1,16 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+import getConfig from 'next/config';
 
 import JsonLd from '../components/JsonLd';
+
+const { publicRuntimeConfig } = getConfig();
+const {
+  analytics,
+  assetPath,
+  host,
+  primaryTheme,
+  profile,
+} = publicRuntimeConfig;
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -18,95 +28,87 @@ export default class MyDocument extends Document {
           <link rel='preconnect' href='https://www.google.com' />
           <link rel='preconnect' href='https://www.google-analytics.com' />
           <link rel='preconnect' href='https://www.googletagmanager.com' />
-          <JsonLd />
+          <JsonLd host={host} profile={profile} />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta content='origin-when-cross-origin' name='referrer' />
           <meta
             name='description'
             property='og:description'
-            content='Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect.'
+            content={profile.description}
           />
           <link
             rel='apple-touch-icon'
             sizes='180x180'
-            href='/apple-touch-icon.png'
+            href={`${assetPath}/apple-touch-icon.png`}
           />
           <link
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href='/favicon-16x16.png'
+            href={`${assetPath}/favicon-16x16.png`}
           />
           <link
             rel='icon'
             type='image/png'
             sizes='16x16'
-            href='/favicon-32x32.png'
+            href={`${assetPath}/favicon-32x32.png`}
           />
-          <link rel='manifest' href='/manifest.json' />
-          <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#424242' />
-          <meta name='apple-mobile-web-app-title' content='Anthony Maki' />
-          <meta name='application-name' content='Anthony Maki' />
-          <meta name='theme-color' content='#424242' />
-          <link rel='author' content='Anthony Maki' />
-          <link rel='canonical' href='https://anthony.codes' />
-          <link rel='opengraph' href='/metadata.html' />
+          <link rel='manifest' href={`${assetPath}/manifest.json`} />
+          <link
+            rel='mask-icon'
+            href={`${assetPath}/safari-pinned-tab.svg`}
+            color={primaryTheme}
+          />
+          <meta name='apple-mobile-web-app-title' content={profile.fullName} />
+          <meta name='application-name' content={profile.fullName} />
+          <meta name='theme-color' content={primaryTheme} />
+          <link rel='author' content={profile.fullName} />
+          <link rel='canonical' href={host} />
+          <link rel='opengraph' href={`${assetPath}/metadata.html`} />
           <meta
             property='og:image'
-            content='https://anthony.codes/og-image.jpg'
+            content={`${host}${assetPath}/og-image.jpg`}
           />
-          <meta
-            property='og:image:alt'
-            content='Anthony Maki - Software Engineer'
-          />
+          <meta property='og:image:alt' content={profile.title} />
           <meta
             property='og:image:url'
-            content='https://anthony.codes/og-image.jpg'
+            content={`${host}${assetPath}/og-image.jpg`}
           />
-          <meta
-            property='og:title'
-            content='Anthony Maki - Software Engineer'
-          />
+          <meta property='og:title' content={profile.title} />
           <meta property='og:type' content='profile' />
-          <meta property='og:url' content='https://anthony.codes' />
+          <meta property='og:url' content={host} />
           <meta name='twitter:card' content='summary_large_image' />
-          <meta name='twitter:site' content='@4cm4k1' />
-          <meta name='twitter:creator' content='@4cm4k1' />
-          <meta
-            name='twitter:title'
-            content='Anthony Maki - Software Engineer'
-          />
-          <meta
-            name='twitter:description'
-            content='Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect.'
-          />
+          <meta name='twitter:site' content={`@${profile.username}`} />
+          <meta name='twitter:creator' content={`@${profile.username}`} />
+          <meta name='twitter:title' content={profile.title} />
+          <meta name='twitter:description' content={profile.description} />
           <meta
             name='twitter:image:alt'
             property='og:image:alt'
-            content='Anthony Maki - Software Engineer'
+            content={profile.title}
           />
           <script
             defer
-            src='https://www.googletagmanager.com/gtag/js?id=UA-112988450-1'
+            src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}
           />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <link
-            href='https://fonts.googleapis.com/icon?family=Material+Icons'
-            rel='stylesheet'
-            crossOrigin='anonymous'
-          />
           <script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-112988450-1');
+            gtag('config', '${analytics}');
           `,
             }}
+          />
+          <link
+            href='https://fonts.googleapis.com/icon?family=Material+Icons'
+            rel='stylesheet'
+            crossOrigin='anonymous'
           />
         </body>
       </html>
