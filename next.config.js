@@ -1,4 +1,4 @@
-const { NOW } = process.env;
+const NOW = process.env.NODE_ENV === 'production'; // https://github.com/zeit/now-builders/issues/55
 const {
   PHASE_DEVELOPMENT_SERVER,
   PHASE_EXPORT,
