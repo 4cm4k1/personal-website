@@ -5,6 +5,8 @@
 .next
 # Webpack Bundle Analyzer outputs
 bundles
+# Local development scripts
+dev
 # Yarn-installed packages
 node_modules
 # Files ---------------------

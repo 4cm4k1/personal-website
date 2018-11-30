@@ -16,10 +16,12 @@
     "analyze:server": "BUNDLE_ANALYZE=server yarn build",
     "build": "next build",
     "dev": "next",
-    "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem cert.pem && mv localhost+2-key.pem key.pem",
+    "dev:proxy": "run-p -r dev proxy",
+    "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem dev/cert.pem && mv localhost+2-key.pem dev/key.pem",
     "now-build": "next build --lambdas",
     "start": "next start",
-    "prettier": "prettier '{*,{components,scss,pages}/**/*}.{babelrc,scss,js,json,jsx,md,mdx}' --write"
+    "prettier": "prettier '{*,{components,dev,scss,pages}/**/*}.{babelrc,scss,js,json,jsx,md,mdx}' --write",
+    "proxy": "node dev/server.js"
   },
   "husky": {
     "hooks": {
@@ -55,11 +57,13 @@
     "css-loader": "^1.0.1",
     "extract-css-chunks-webpack-plugin": "^3.2.1",
     "fibers": "^3.1.1",
+    "http-proxy": "^1.17.0",
     "husky": "^1.2.0",
     "modern-normalize": "^0.5.0",
     "next-compose-plugins": "^2.1.1",
     "next-offline": "^3.2.1",
     "next-purgecss": "^3.0.0",
+    "npm-run-all": "^4.1.5",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "prettier": "^1.15.2",
     "pretty-quick": "^1.8.0",
