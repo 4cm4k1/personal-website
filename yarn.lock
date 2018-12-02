@@ -797,40 +797,40 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-layout-grid@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.7.0.tgz#fac5d89d7fb8dfb9472b2ff3bf23664ebf56a803"
-  integrity sha512-PYNiCo6t4T3Xf8qpItwfVf+qqjYSdgtZYvvMNb7ACV1kjevBJkr70XQKUImucvs0v54B1lyIiEw/wLkc6D+h3Q==
+"@material/react-layout-grid@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.7.1.tgz#c970d672789d3d493de772dd22e44e179285d512"
+  integrity sha512-hWDP2P7Nr8AXR+w7LrS4Q1uTB22T3m3RXK7B4wg+yX15iK9/V01JLGB5uH9boXAFvamcqxEzL2MZg+0GVt+Z8Q==
   dependencies:
     "@material/layout-grid" "^0.41.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-material-icon@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.7.0.tgz#ed5279830f49c487f62e802bba59412f242ba0bd"
-  integrity sha512-/bu1PD01ZYclRyVueCTcFQSuZr6PvlxWh+rdUrMwUOaMXdhU/RwpOY4psdLli92dtVppUzm7yR4rkQGxSXcMCw==
+"@material/react-material-icon@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.7.1.tgz#2e626a7c7c80eae8900a5ba27775f425822fa237"
+  integrity sha512-BgH+X7gs/3HUT0YLqC8+uN5DrnMzmPgAjkGzB8g2hbqHfE3PzYHCjElQNf+B1TbNz+XOlIbMzVk6F0XKiIJzNw==
   dependencies:
-    "@material/react-ripple" "^0.7.0"
+    "@material/react-ripple" "^0.7.1"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-ripple@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.7.0.tgz#89845239fe47a301c9d8e953f3e74463969ca0fd"
-  integrity sha512-tPvze1gZzBlcIhTMKQ078e7kUyA8PA6Nvd+Pnm4NVtgMf0fFR+R7pOIMBupXOuDPeGHzmh8D87SkxgRu9kiWEA==
+"@material/react-ripple@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.7.1.tgz#2711be88b049f459168cde93e6e3188241186ec8"
+  integrity sha512-kBn46yAr4/H053xcykPIGVQuW6LNOrzqhXvt+rXGHzs0H/0zVmv84HtfclOAn5vMsr7laBoC9c1fBt1JtiV8Rg==
   dependencies:
     "@material/ripple" "^0.41.0"
     classnames "^2.2.5"
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-top-app-bar@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.7.0.tgz#ffec7af22785ea71237f3dfa58152d7bfa95b61f"
-  integrity sha512-CmUNNQg/UF9/CTskG8rG8WDMTgu8n4GOQZP7TEWiVauH2xPaID8LSP/NF56y6gLO1wLW9Zh/Gpc4Yzkjc+glqQ==
+"@material/react-top-app-bar@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.7.1.tgz#c8817d050890747ae7ae46bdc269b29639c10394"
+  integrity sha512-vwWPkVoxjdYShoSlwn8EalCfP37TJ+a/fQYw7oRxyLM/VGCpUKI/8S6thDrLrnbqryEANmPUNlfJhA0VcAgijw==
   dependencies:
     "@material/top-app-bar" "^0.41.0"
     classnames "^2.2.5"
@@ -1281,10 +1281,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.7.10":
-  version "16.7.10"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.10.tgz#a0ebd3af6632d6997506f6d1aac67fed8d0851b0"
-  integrity sha512-8EFSjCFLUA7JJQ6lJ9+9/99urIrdHACwH8GqPlYAPyIjxOkz2snkttOzItwUwXgqc2xg+r/IYW8M1J8WXax7xg==
+"@types/react@^16.7.11":
+  version "16.7.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.11.tgz#1743b82ea6a0c659467f0c7317c233edb1f10be9"
+  integrity sha512-KZvX2XjzBPz+Dh7cjgDzzLxUmg4k8CnCSsB1V2Vtt1YtSIGe1sfHp2+Htl3S5DzeKrHnioaDHTMN/fjAvnEsSg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -5209,10 +5209,10 @@ next-purgecss@^3.0.0:
     glob-all "^3.1.0"
     purgecss-webpack-plugin "^1.3.1"
 
-next-server@^7.0.2-canary.33:
-  version "7.0.2-canary.33"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.33.tgz#36851ac61b685913db2fa751fb65658541967e17"
-  integrity sha512-Hr3MPZWxdU/zLCfeRf1b/Bl6aoXzvwEuyKFX4HJCAOqwP4dsaGn/czkGJ4WdkNMT3UVts9NEKmbdsyJjUKvWVA==
+next-server@^7.0.2-canary.34:
+  version "7.0.2-canary.34"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.34.tgz#1b80be84df27823189e6a1c155867c286d048140"
+  integrity sha512-i8njjNnJQT2pwry18vr5ROnyAd/BZk4A9N9InKNJn9uXUXB9MJBXuRdJndIWGmhQ4h/IIyIcNNh0lJyEuQgXWQ==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -5222,10 +5222,10 @@ next-server@^7.0.2-canary.33:
     send "0.16.1"
     url "0.11.0"
 
-next@^7.0.2-canary.33:
-  version "7.0.2-canary.33"
-  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.33.tgz#0e2bfd9bf4f8e5fbbb68812e7b2514df2f5c8413"
-  integrity sha512-RG8SrT7w7k/MNK3VSRHy3rVpfPdahuBq8hIzZZaXuqhy4y+5ftm6BI0ov0rNxrJSPpShVkwZxFr2rO/8WrWEdg==
+next@^7.0.2-canary.34:
+  version "7.0.2-canary.34"
+  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.34.tgz#249b7a5a51791d69d67050e52285ec4b75b69c2a"
+  integrity sha512-2Za8sMSSUqQsB46Xn9ai0U0rqAtYZ1/lVVTbEnO/xDdtvZZ9KASw+Ex2zvi/3aWGekwZsPuk5P41WciPfxNLEQ==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -5260,7 +5260,7 @@ next@^7.0.2-canary.33:
     minimist "1.2.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "^7.0.2-canary.33"
+    next-server "^7.0.2-canary.34"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
