@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "private": true,
   "description": "Personal site built with React, Next.js, and Material Components",
   "bugs": "https://github.com/4cm4k1/website/issues",
@@ -61,7 +61,7 @@
     "husky": "^1.2.0",
     "modern-normalize": "^0.5.0",
     "next-compose-plugins": "^2.1.1",
-    "next-offline": "^3.2.1",
+    "next-offline": "^3.2.2",
     "next-purgecss": "^3.0.0",
     "npm-run-all": "^4.1.5",
     "optimize-css-assets-webpack-plugin": "^5.0.1",

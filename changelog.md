@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.2
+
+- Reimplements [`next-offline`](https://github.com/hanford/next-offline), sans `static/**/*` assets, which will be cached at runtime (see [discussion](https://github.com/hanford/next-offline/issues/90))
+
 ## 0.9.1
 
 - Updates [`readme.md`](readme.md) and other Markdown files

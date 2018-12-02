@@ -58,6 +58,26 @@ const nextConfig = {
   },
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
+  workboxOpts: {
+    swDest: 'static/service-worker.js',
+    runtimeCaching: [
+      {
+        urlPattern: /^https?.*/,
+        handler: 'networkFirst',
+        options: {
+          cacheName: 'https-calls',
+          networkTimeoutSeconds: 15,
+          expiration: {
+            maxEntries: 150,
+            maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
+          },
+          cacheableResponse: {
+            statuses: [0, 200],
+          },
+        },
+      },
+    ],
+  },
 };
 
 const sassConfig = {
@@ -90,8 +110,11 @@ module.exports = moduleExists('next-compose-plugins')
           optional(() => require('@zeit/next-mdx')()),
           [PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD],
         ],
-        // next-offline - for now omit until Now v2 compatibility is sorted
-        [optional(() => require('next-offline')), [PHASE_EXPORT]],
+        // next-offline
+        [
+          optional(() => require('next-offline')),
+          [PHASE_EXPORT, PHASE_PRODUCTION_BUILD],
+        ],
         // @zeit/next-source-maps
         [
           optional(() => require('@zeit/next-source-maps')()),
