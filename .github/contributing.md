@@ -3,9 +3,9 @@ name: Contributing
 about: Contribute to this project!
 ---
 
-# Contributing to `website`
+# Contributing to `personal-website`
 
-First and foremost, thank you! We appreciate that you want to contribute to `website`, your time is valuable, and your contributions mean a lot to us.
+First and foremost, thank you! We appreciate that you want to contribute to `personal-website`, your time is valuable, and your contributions mean a lot to us.
 
 ## Important!
 
@@ -29,14 +29,14 @@ Creating an issue is the simplest form of contributing to a project. But there a
 
 If you'd like to learn more about contributing in general, the [Guide to Idiomatic Contributing](https://github.com/jonschlinkert/idiomatic-contributing) has a lot of useful information.
 
-**Showing support for `website`**
+**Showing support for `personal-website`**
 
 Please keep in mind that open source software is built by people like you, who spend their free time creating things the rest the community can use.
 
-Don't have time to contribute? No worries, here are some other ways to show your support for `website`:
+Don't have time to contribute? No worries, here are some other ways to show your support for `personal-website`:
 
-- star the [project](https://github.com/4cm4k1/website)
-- tweet your support for `website`
+- Star the [project](https://github.com/4cm4k1/personal-website).
+- Tweet your support for `personal-website`.
 
 ## Issues
 
@@ -59,29 +59,23 @@ Please try to determine if the issue is caused by an underlying library, and if 
 
 Try to follow these guidelines:
 
-- **Avoid creating issues for implementation help** - It's much better for discoverability, SEO, and semantics - to keep the issue tracker focused on bugs and feature requests - to ask implementation-related questions on [stackoverflow.com][so]
+- **Avoid creating issues for implementation help** - It's much better for discoverability, SEO, and semantics - to keep the issue tracker focused on bugs and feature requests - to ask implementation-related questions on [stackoverflow.com][so].
 - **Investigate the issue** - Search for exising issues (open or closed) that address the issue, and might have even resolved it already.
 - **Check the readme** - oftentimes you will find notes about creating issues, and where to go depending on the type of issue.
 - Create the issue in the appropriate repository.
 
 ### Creating an issue
 
-Please be as descriptive as possible when creating an issue. Give us the information we need to successfully answer your question or address your issue by answering the following in your issue:
-
-- **description**: (required) What is the bug you're experiencing? How are you using this library/app?
-- **OS**: (required) what operating system are you on?
-- **version**: (required) please note the version of `website` are you using
-- **error messages**: (required) please paste any error messages into the issue, or a [gist](https://gist.github.com/)
-- **extensions, plugins, helpers, etc** (if applicable): please list any extensions you're using
+Please be as descriptive as possible when creating an issue and use the provided issue templates.
 
 ### Closing issues
 
-The original poster or the maintainers of `website` may close an issue at any time. Typically, but not exclusively, issues are closed when:
+The original poster or the maintainers of `personal-website` may close an issue at any time. Typically, but not exclusively, issues are closed when:
 
-- The issue is resolved
-- The project's maintainers have determined the issue is out of scope
+- The issue is resolved.
+- The project's maintainers have determined the issue is out of scope.
 - An issue is clearly a duplicate of another issue, in which case the duplicate issue will be linked.
-- A discussion has clearly run its course
+- A discussion has clearly run its course.
 
 ## Next steps
 
@@ -92,13 +86,13 @@ Spending just a little extra time to review best practices and brush up on your 
 The following resources were hand-picked to help you be the most effective contributor you can be:
 
 - The [Guide to Idiomatic Contributing](https://github.com/jonschlinkert/idiomatic-contributing) is a great place for newcomers to start, but there is also information for experienced contributors there.
-- Take some time to learn basic markdown. We can't stress this enough. Don't start pasting code into GitHub issues before you've taken a moment to review this [markdown cheatsheet](https://gist.github.com/jonschlinkert/5854601)
+- Take some time to learn basic markdown. We can't stress this enough. Don't start pasting code into GitHub issues before you've taken a moment to review this [markdown cheatsheet](https://gist.github.com/jonschlinkert/5854601).
 - The GitHub guide to [basic markdown](https://help.github.com/articles/markdown-basics/) is another great markdown resource.
 - Learn about [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). And if you want to really go above and beyond, read [mastering markdown](https://guides.github.com/features/mastering-markdown/).
 
 At the very least, please try to:
 
-- Use backticks to wrap code. This ensures that it retains its formatting and isn't modified when it's rendered by GitHub, and makes the code more readable to others
-- When applicable, use syntax highlighting by adding the correct language name after the first "code fence"
+- Use backticks to wrap code. This ensures that it retains its formatting and isn't modified when it's rendered by GitHub and makes the code more readable to others.
+- When applicable, use syntax highlighting by adding the correct language name after the first "code fence."
 
-[so]: http://stackoverflow.com/questions/tagged/website
+[so]: http://stackoverflow.com/questions/tagged/personal-website

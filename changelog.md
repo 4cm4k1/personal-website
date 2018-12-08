@@ -1,5 +1,8 @@
 # Changelog
 
+- Updates `readme.md` and `contributing.md`
+- Renames this project from `website` to `personal-website`
+- Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
 - Upgrades `css-loader` and `sass` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
 

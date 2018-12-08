@@ -1,10 +1,10 @@
 {
-  "name": "website",
+  "name": "personal-website",
   "version": "0.9.3",
   "private": true,
-  "description": "Personal site built with React, Next.js, and Material Components",
-  "bugs": "https://github.com/4cm4k1/website/issues",
-  "repository": "https://github.com/4cm4k1/website",
+  "description": "Personal website – made with Next.js, React, MDX, and Material Components – deployed on ZEIT Now",
+  "bugs": "https://github.com/4cm4k1/personal-website/issues",
+  "repository": "https://github.com/4cm4k1/personal-website",
   "license": "MIT",
   "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
   "contributors": [
