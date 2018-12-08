@@ -24,9 +24,3 @@
 ## 0.9.0
 
 - Initial release
-
-## Contributors
-
-| Name             | Website                 |
-| ---------------- | ----------------------- |
-| **Anthony Maki** | <https://anthony.codes> |

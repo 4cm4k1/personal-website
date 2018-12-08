@@ -2,23 +2,7 @@
 
 [![Status](https://img.shields.io/website-up-down-green-red/https/anthony.codes.svg?label=status&style=flat-square)](https://anthony.codes) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/) [![Renovate](https://img.shields.io/badge/renovate-enabled-1f8ceb.svg?style=flat-square)](https://renovatebot.com/) [![Latest Release](https://img.shields.io/github/release/4cm4k1/personal-website/all.svg?style=flat-square)](https://github.com/4cm4k1/personal-website/releases) [![License](https://img.shields.io/github/license/4cm4k1/personal-website.svg?style=flat-square)](license) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website?ref=badge_small)
 
-This repo contains the source code for my personal website located at <https://anthony.codes>, using technologies such as, but not limited to:
-
-- [Babel](https://github.com/babel/babel)
-- [EditorConfig](https://github.com/editorconfig/editorconfig)
-- [fibers](https://github.com/laverdet/node-fibers)
-- [FOSSA](https://github.com/fossas/fossa-cli)
-- [http-proxy](https://github.com/nodejitsu/node-http-proxy)
-- [husky](https://github.com/typicode/husky)
-- [Material Components](https://github.com/material-components/material-components-web) ([React](https://github.com/material-components/material-components-web-react))
-- [MDX](https://github.com/mdx-js/mdx)
-- [modern-normalize](https://github.com/sindresorhus/modern-normalize)
-- [Next.js](https://github.com/zeit/next.js)
-- [Prettier](https://github.com/prettier/prettier)
-- [React](https://github.com/facebook/react)
-- [Renovate](https://github.com/renovatebot/renovate)
-- [Sass](https://github.com/sass/dart-sass)
-- [webpack](https://github.com/webpack/webpack)
+This repo contains the source code for my personal website located at <https://anthony.codes>, using many awesome technologies such as, but not limited to: [Babel](https://github.com/babel/babel), [EditorConfig](https://github.com/editorconfig/editorconfig), [fibers](https://github.com/laverdet/node-fibers), [FOSSA](https://github.com/fossas/fossa-cli), [http-proxy](https://github.com/nodejitsu/node-http-proxy), [husky](https://github.com/typicode/husky), [Material Components](https://github.com/material-components/material-components-web) ([React](https://github.com/material-components/material-components-web-react)), [MDX](https://github.com/mdx-js/mdx), [modern-normalize](https://github.com/sindresorhus/modern-normalize), [Next.js](https://github.com/zeit/next.js), [Prettier](https://github.com/prettier/prettier), [React](https://github.com/facebook/react), [Renovate](https://github.com/renovatebot/renovate), [Sass](https://github.com/sass/dart-sass), and [webpack](https://github.com/webpack/webpack).
 
 ## Table of Contents
 
