@@ -4,10 +4,6 @@
     {
       "src": "next.config.js",
       "use": "@now/next@canary"
-    },
-    {
-      "src": "static/**/*",
-      "use": "@now/static"
     }
   ],
   "routes": [

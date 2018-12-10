@@ -1,5 +1,6 @@
 # Changelog
 
+- Removes `@now/static` from `builds` in `now.json`
 - Updates `readme.md` and `contributing.md`
 - Renames this project from `website` to `personal-website`
 - Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
