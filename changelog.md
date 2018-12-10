@@ -1,6 +1,7 @@
 # Changelog
 
-- Adds `*.google.com` to CSP since Google Analytics sometimes requests a 1x1 image from there
+- Refines route rewrites in `now.json`
+- Adds `*.doubleclick.net` and `*.google.com` to CSP since Google Analytics sometimes requests a 1x1 image from there
 - Adds additional headers to assets in `now.json`
 - Removes `@now/static` from `builds` in `now.json`
 - Updates `readme.md` and `contributing.md`
