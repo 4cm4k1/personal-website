@@ -10,36 +10,67 @@
     {
       "src": "^/(.*)[.](html|ico|jpg|json|pdf|png|svg|txt|webp|xml)$",
       "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-      },
-      "dest": "/static/$1.$2"
-    },
-    {
-      "src": "^/service-worker.js$",
-      "dest": "/_next/static/service-worker.js"
-    },
-    {
-      "src": "/_next/static/.*",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
-      "src": "/.*",
-      "headers": {
         "Access-Control-Allow-Origin": "https://anthony.codes",
-        "Content-Security-Policy": "default-src 'self' 'unsafe-inline' *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
-        "Feature-Policy": "accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
-        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Cache-Control": "public, max-age=31536000, immutable",
         "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "X-Content-Security-Policy": "default-src 'self' 'unsafe-inline' *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
         "X-Content-Type-Options": "nosniff",
         "X-DNS-Prefetch-Control": "on",
         "X-Download-Options": "noopen",
         "X-Frame-Options": "DENY",
         "X-Permitted-Cross-Domain-Policies": "none",
         "X-UA-Compatible": "IE=edge; chrome=1",
-        "X-WebKit-CSP": "default-src 'self' 'unsafe-inline' *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
+        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
+      },
+      "dest": "/static/$1.$2"
+    },
+    {
+      "src": "^/service-worker.js$",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://anthony.codes",
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Service-Worker-Allowed": "/",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-DNS-Prefetch-Control": "on",
+        "X-Download-Options": "noopen",
+        "X-Frame-Options": "DENY",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-UA-Compatible": "IE=edge; chrome=1",
+        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
+      },
+      "dest": "/_next/static/service-worker.js"
+    },
+    {
+      "src": "/_next/static/.*",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://anthony.codes",
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-DNS-Prefetch-Control": "on",
+        "X-Download-Options": "noopen",
+        "X-Frame-Options": "DENY",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-UA-Compatible": "IE=edge; chrome=1",
+        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
+      }
+    },
+    {
+      "src": "/.*",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://anthony.codes",
+        "Content-Security-Policy": "default-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
+        "Feature-Policy": "accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Security-Policy": "default-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
+        "X-Content-Type-Options": "nosniff",
+        "X-DNS-Prefetch-Control": "on",
+        "X-Download-Options": "noopen",
+        "X-Frame-Options": "DENY",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-UA-Compatible": "IE=edge; chrome=1",
+        "X-WebKit-CSP": "default-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
         "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
       }
     }
