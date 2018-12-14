@@ -7,8 +7,9 @@
 - Updates `readme.md` and `contributing.md`
 - Renames this project from `website` to `personal-website`
 - Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
-- Upgrades `@mdx-js/loader`, `@mdx-js/tag`, `css-loader`, `next`, `next-offline`, `next-server`, and `sass` to latest versions
+- Upgrades `@mdx-js/loader`, `@mdx-js/tag`, `@types/node`, `@types/react`, `css-loader`, `husky`, `next`, `next-offline`, `next-server`, and `sass` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
+- Adds `github.autoJobCancelation` in `now.json`
 
 ## 0.9.3
 

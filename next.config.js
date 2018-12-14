@@ -52,7 +52,7 @@ const nextConfig = {
       jobTitle: 'Software Engineer',
       lastName: 'Maki',
       phone: '+1 612-226-9494',
-      title: 'Anthony Maki - Software Engineer',
+      title: 'Anthony Maki – Software Engineer',
       username: '4cm4k1',
     },
   },

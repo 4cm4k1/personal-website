@@ -79,6 +79,7 @@
   ],
   "github": {
     "autoAlias": true,
+    "autoJobCancelation": true,
     "enabled": true,
     "silent": false
   },

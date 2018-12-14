@@ -47,7 +47,7 @@ yarn prettier # runs `prettier` on source files
 yarn analyze:{both|browser|server} # builds in production mode and analyzes bundle sizes
 
 now # deploys to Now (requires Now)
-now alias # points `aliases` in `now.json` to deployment (requires Now)
+now alias # points aliases in `now.json` to deployment (requires Now)
 ```
 
 ## [Code of Conduct](.github/code_of_conduct.md)
