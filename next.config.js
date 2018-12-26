@@ -44,15 +44,14 @@ const nextConfig = {
     host: NOW ? 'https://anthony.codes' : 'https://localhost',
     primaryTheme: '#424242',
     profile: {
-      description:
-        'Anthony Maki is a Minneapolis-based software engineer. He codes stuff. Learn more about his interests, projects, and expertise. Contact him to chat, collaborate, and connect.',
+      description: 'Software Engineer',
       email: '4cm4k1@gmail.com',
       firstName: 'Anthony',
       fullName: 'Anthony Maki',
       jobTitle: 'Software Engineer',
       lastName: 'Maki',
       phone: '+1 612-226-9494',
-      title: 'Anthony Maki – Software Engineer',
+      title: 'Anthony Maki',
       username: '4cm4k1',
     },
   },

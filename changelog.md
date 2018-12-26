@@ -10,6 +10,10 @@
 - Upgrades `@mdx-js/loader`, `@mdx-js/tag`, `@types/node`, `@types/react`, `@types/webpack`, `css-loader`, `husky`, `next`, `next-offline`, `next-server`, `react`, `react-dom`, `sass`, and `webpack` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
 - Adds `github.autoJobCancelation` in `now.json`
+- Replaces app logos, including favicons and platform-specific assets, with a brand-new version
+- Tweaks `background_color` in `manifest.json`
+- Changes `title` in `next.config.js`
+- Adds some `<link>` and `<meta>` tags to `_document.jsx`
 
 ## 0.9.3
 

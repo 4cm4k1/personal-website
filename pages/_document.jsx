@@ -22,6 +22,8 @@ export default class MyDocument extends Document {
     return (
       <html lang='en-US'>
         <Head>
+          <meta charSet='utf-8' />
+          <meta name='viewport' content='width=device-width, initial-scale=1' />
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link rel='preconnect' href='https://stats.g.doubleclick.net' />
@@ -29,7 +31,6 @@ export default class MyDocument extends Document {
           <link rel='preconnect' href='https://www.google-analytics.com' />
           <link rel='preconnect' href='https://www.googletagmanager.com' />
           <JsonLd host={host} profile={profile} />
-          <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta content='origin-when-cross-origin' name='referrer' />
           <meta
             name='description'
@@ -38,27 +39,18 @@ export default class MyDocument extends Document {
           />
           <link
             rel='apple-touch-icon'
+            type='image/png'
             sizes='180x180'
-            href={`${assetPath}/apple-touch-icon.png`}
+            href={`${assetPath}/icon-180.png`}
           />
           <link
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href={`${assetPath}/favicon-16x16.png`}
-          />
-          <link
-            rel='icon'
-            type='image/png'
-            sizes='16x16'
-            href={`${assetPath}/favicon-32x32.png`}
+            href={`${assetPath}/icon-32.png`}
           />
           <link rel='manifest' href={`${assetPath}/manifest.json`} />
-          <link
-            rel='mask-icon'
-            href={`${assetPath}/safari-pinned-tab.svg`}
-            color={primaryTheme}
-          />
+          <meta name='msapplication-config' content='browserconfig.xml' />
           <meta name='apple-mobile-web-app-title' content={profile.fullName} />
           <meta name='application-name' content={profile.fullName} />
           <meta name='theme-color' content={primaryTheme} />
