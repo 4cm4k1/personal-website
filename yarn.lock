@@ -827,14 +827,13 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-top-app-bar@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.7.1.tgz#c8817d050890747ae7ae46bdc269b29639c10394"
-  integrity sha512-vwWPkVoxjdYShoSlwn8EalCfP37TJ+a/fQYw7oRxyLM/VGCpUKI/8S6thDrLrnbqryEANmPUNlfJhA0VcAgijw==
+"@material/react-top-app-bar@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.8.0.tgz#9872b0d24b7953927e3d01570c42a774ae0a5733"
+  integrity sha512-HYXoqFboht9gEYZu1XuXgjVSdRusJVOcBrsOBh9fLHgMYQnG3nVj8o34TR3jt1fAr2MSkTf1z1Gn5qLp5Qr8fA==
   dependencies:
     "@material/top-app-bar" "^0.41.0"
     classnames "^2.2.5"
-    prop-types "^15.6.1"
     react "^16.4.2"
 
 "@material/ripple@^0.40.1":
