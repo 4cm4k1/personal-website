@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@material/react-drawer": "^0.6.2",
-    "@material/react-layout-grid": "^0.7.1",
+    "@material/react-layout-grid": "^0.8.0",
     "@material/react-material-icon": "^0.7.1",
     "@material/react-top-app-bar": "^0.7.1",
     "@mdx-js/loader": "^0.16.6",
