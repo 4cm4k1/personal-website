@@ -38,23 +38,7 @@ const bundleAnalyzerConfig = {
 
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx'],
-  publicRuntimeConfig: {
-    analytics: NOW ? 'UA-112988450-1' : '',
-    assetPath: NOW ? '' : '/static',
-    host: NOW ? 'https://anthony.codes' : 'https://localhost',
-    primaryTheme: '#424242',
-    profile: {
-      description: 'Software Engineer',
-      email: '4cm4k1@gmail.com',
-      firstName: 'Anthony',
-      fullName: 'Anthony Maki',
-      jobTitle: 'Software Engineer',
-      lastName: 'Maki',
-      phone: '+1 612-226-9494',
-      title: 'Anthony Maki',
-      username: '4cm4k1',
-    },
-  },
+  target: 'serverless',
   webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
   webpackDevMiddleware: config => config,
   workboxOpts: {

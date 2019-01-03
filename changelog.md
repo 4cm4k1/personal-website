@@ -17,6 +17,13 @@
 - Changes `title` in `next.config.js`
 - Adds some `<link>` and `<meta>` tags to `_document.jsx`
 - Removes `@types/material-components-web` due to package receiving first-class TypeScript support
+- Enables Serverless Next.js! (see https://github.com/zeit/next.js/pull/5927, https://github.com/zeit/now-builders/pull/150, and https://github.com/zeit/now-examples/pull/214)
+  - Moves `publicRuntimeConfig` (deprecated) constants to `lib/constants.js`
+  - Adds `target: 'serverless'` to `next.config.js`
+  - Changes headers and routing in `now.json`
+  - Removes `--lambdas` in `now-build` in `package.json`
+  - Preserves root-level access to `favicon.ico`, `keybase.txt`, `resume-anthony-maki.pdf`, `robots.txt`, and `sitemap.xml`, and sets `Access-Control-Allow-Origin: *` for only them to allow external linking
+  - Sets all other static assets to again be behind `/static/`
 
 ### Known Issues
 

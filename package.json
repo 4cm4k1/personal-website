@@ -18,7 +18,7 @@
     "dev": "next",
     "dev:proxy": "run-p -r dev proxy",
     "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem dev/cert.pem && mv localhost+2-key.pem dev/key.pem",
-    "now-build": "next build --lambdas",
+    "now-build": "next build",
     "start": "next start",
     "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
     "proxy": "node dev/server.js"

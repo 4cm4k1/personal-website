@@ -1,9 +1,8 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
-import getConfig from 'next/config';
+import constants from '../lib/constants';
 
-const { publicRuntimeConfig } = getConfig();
-const { profile } = publicRuntimeConfig;
+const { profile } = constants;
 
 import '../scss/_normalize.scss';
 

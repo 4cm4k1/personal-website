@@ -1,16 +1,9 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import getConfig from 'next/config';
+import constants from '../lib/constants';
 
 import JsonLd from '../components/JsonLd';
 
-const { publicRuntimeConfig } = getConfig();
-const {
-  analytics,
-  assetPath,
-  host,
-  primaryTheme,
-  profile,
-} = publicRuntimeConfig;
+const { analytics, assetPath, host, primaryTheme, profile } = constants;
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -50,7 +43,10 @@ export default class MyDocument extends Document {
             href={`${assetPath}/icon-32.png`}
           />
           <link rel='manifest' href={`${assetPath}/manifest.json`} />
-          <meta name='msapplication-config' content='browserconfig.xml' />
+          <meta
+            name='msapplication-config'
+            content={`${assetPath}/browserconfig.xml`}
+          />
           <meta name='apple-mobile-web-app-title' content={profile.fullName} />
           <meta name='application-name' content={profile.fullName} />
           <meta name='theme-color' content={primaryTheme} />

@@ -1,8 +1,7 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
-import getConfig from 'next/config';
+import constants from '../lib/constants';
 
-const { publicRuntimeConfig } = getConfig();
-const { assetPath, host } = publicRuntimeConfig;
+const { assetPath, host } = constants;
 
 export default ({ children }) => (
   <Grid>
