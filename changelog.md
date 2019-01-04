@@ -24,6 +24,7 @@
   - Removes `--lambdas` in `now-build` in `package.json`
   - Preserves root-level access to `favicon.ico`, `keybase.txt`, `resume-anthony-maki.pdf`, `robots.txt`, and `sitemap.xml`, and sets `Access-Control-Allow-Origin: *` for only them to allow external linking
   - Sets all other static assets to again be behind `/static/`
+- Removes unnecessary code now that serverless is live
 
 ### Known Issues
 
