@@ -963,49 +963,49 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.16.6.tgz#af340b15a8ed6794bcae5d10611792b28238fa0c"
   integrity sha512-cTv+DLNEUPjAExizE2ujdUxQ6OO3z/ttzeh2JAweMh5uLfWHceSQiX9sbl16AYuV00MiOu//6gHoa+Ob2NZxNA==
 
-"@rmwc/base@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-4.0.1.tgz#42e9cc8b35714bae39beccdf48deac191f9f8605"
-  integrity sha512-pTdkvtUgcSiTzxaSNxGpiHf8vc6PDLPq3mt/uyTFytbGU55nwnrViWOoYHsJ7FEzZ/WMj1PfVR+iFam4yNCbxw==
+"@rmwc/base@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-4.0.6.tgz#acedced29d1cb7339951a92306e20c68e92475c6"
+  integrity sha512-rO/ZQCUuo9DjIovlNwPO4pYvewmBoCDmGF4k3HH3jxXCo5zT2v6MGU9CBHJq1EZxQrYtRAX9tfuCPSf4vSwGPg==
   dependencies:
     classnames "^2.2.5"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
     prop-types "^15.6.1"
 
-"@rmwc/icon@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-4.0.1.tgz#0762cb10c73aaf7fd6dd5325cd39800ff68abb29"
-  integrity sha512-VpwIMKC1nX3/kWb/O6MJW/XfYOuFRVocUr2m71K9VWk08CouEgfkhbFCb/IITt13/VagwLo8orIhvqHHHaHJWA==
+"@rmwc/icon@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-4.0.6.tgz#eae413a277f4d3b0c5c371bdc3fa6fddd518dc2e"
+  integrity sha512-MEmWQyHJFNKCTn4DuHBFcagkmsvZzCqfdqag2n0LEZdwaQ3TCvWehMxPfhlMh44+N8QNPnkE7tgzsDTfkyznIQ==
   dependencies:
-    "@rmwc/base" "^4.0.1"
-    "@rmwc/provider" "^4.0.1"
+    "@rmwc/base" "^4.0.6"
+    "@rmwc/provider" "^4.0.6"
 
-"@rmwc/list@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-4.0.1.tgz#d62ec6ad704ec97d6dec49a4f65d4a1d571fd793"
-  integrity sha512-xNpe9KGi73kFPDcACAiQW254FenZus/xgFae8ipWfviMxcDLyikjonihrQthElLp2qwKpeoQ9lN9dqwihCDLng==
+"@rmwc/list@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-4.0.6.tgz#5b1c09d7f21de9fc578ac88d4655c302faa05775"
+  integrity sha512-uR8IE0Rme82GqfRAS17r/MK8NgBDT/e2Ku3yM64ww2ic+eXtHJ9Kt1rLc38sl6ID2MvSRauVUaxG3YCS/r2YYw==
   dependencies:
     "@material/list" "~0.41.0"
-    "@rmwc/base" "^4.0.1"
-    "@rmwc/icon" "^4.0.1"
-    "@rmwc/provider" "^4.0.1"
-    "@rmwc/ripple" "^4.0.1"
+    "@rmwc/base" "^4.0.6"
+    "@rmwc/icon" "^4.0.6"
+    "@rmwc/provider" "^4.0.6"
+    "@rmwc/ripple" "^4.0.6"
 
-"@rmwc/provider@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-4.0.1.tgz#e2330ccd2831f60ad61cdfab7c735a665f53fca6"
-  integrity sha512-sKT/J0SjQ6ZTehkyaytx0R5O+Vz1mxivpTvq4Husaf3ivhDSFh10VH1ppDR5e5//yXvLyXLgDSPWtlO8eZkTHQ==
+"@rmwc/provider@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-4.0.6.tgz#2a718c5fbc41bfda81f897ab2fde4ccc1527da96"
+  integrity sha512-9HmaLdk9IHRHd3V6u0o2o2pICogSRrUpIlbsVOfW8ccG5hTpsOUbReGHTZxfIE/rFdcbU600wLZZa1PXKXfZAA==
   dependencies:
-    "@rmwc/base" "^4.0.1"
+    "@rmwc/base" "^4.0.6"
 
-"@rmwc/ripple@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-4.0.1.tgz#87be0f3dc89b7b5633f4eede37ab2968f3a9d284"
-  integrity sha512-x7yfPbXGWZWM/isUWrjz7w5DjrtbgNny2HMN8AVX/R3MlalCpS+DMOkc5kUjBxgU8+9kf4u7jfE/+baNh7aZ+A==
+"@rmwc/ripple@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-4.0.6.tgz#c5bdf0c0c81e52b121fee423708e9c718e3784d6"
+  integrity sha512-RH4e5oyErFd16jIPQHQRIRQIypX3AmhnNsuc6sfbs9LNyqME6ARP2nxWqPlGdN6ttnAb71uDXYUaD03sAEap3g==
   dependencies:
     "@material/ripple" "~0.41.0"
-    "@rmwc/base" "^4.0.1"
+    "@rmwc/base" "^4.0.6"
 
 "@types/anymatch@*":
   version "1.3.0"
@@ -4950,10 +4950,10 @@ next-compose-plugins@^2.1.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.1.1.tgz#7da0a3ce0c8ce267b5cb4164d2fb6e4aaf61bf86"
   integrity sha512-4yLtmGjnBlzuYdL66+c/zi8ljl24sK9jtP31UsTG1ZAAHj+ybWfEG/S+HMwK+pD2fNmJ4xQyr4xOubzExcS+Lg==
 
-next-offline@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.1.tgz#8f854f3bb1e7ebbc380069af29b414c0ca8f5ee3"
-  integrity sha512-nIg90zb8l9OfYK2sJxwqIvfo819rXKysn8JjhAfny9LsV612RHE6AE5P4MkptFeMBfZa3QqnwPkI8KynMBNNyw==
+next-offline@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.2.tgz#2e5b43af039986c40adbbffc84fbc8af1c43364f"
+  integrity sha512-SRl/BHGRUd2kjCQGXG4AI6XoqaT3RT7tjRZ1wclFDVzUbpXyUJawVy/RILfJiKZxxUuPx74d4lIVYoYez+5aTQ==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
@@ -6541,10 +6541,10 @@ sass-loader@^7.1.0:
     pify "^3.0.0"
     semver "^5.5.0"
 
-sass@^1.15.2:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.15.2.tgz#539f464a61e29a9e4f560ec9dc2ccc5236db8474"
-  integrity sha512-YFncPpx3ewKEhMg9sWdCxKUpPN/jwVLa0Q9iO2tcV5Y5Z/YAlFV6k6JaQwq3tmbN6FXKjUYElXRHcG0g4D1zkQ==
+sass@^1.15.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.15.3.tgz#12c8c62f707a9cd28856e9463914fcb5a7f556c7"
+  integrity sha512-9e6zdkLEjMAX/zXUWKs9GreDLFYozFOEu4gMZBZpkp+AiQgaofimqGZm9qMhS5V+4V2OWBapnM5xoJn2Rw9pQg==
   dependencies:
     chokidar "^2.0.0"
 
