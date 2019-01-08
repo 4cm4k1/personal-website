@@ -29,8 +29,8 @@
     }
   },
   "dependencies": {
-    "next": "^8.0.0-canary.2",
-    "next-server": "^8.0.0-canary.2",
+    "next": "^8.0.0-canary.3",
+    "next-server": "^8.0.0-canary.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
