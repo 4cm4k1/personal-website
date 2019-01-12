@@ -4958,10 +4958,10 @@ next-compose-plugins@^2.1.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.1.1.tgz#7da0a3ce0c8ce267b5cb4164d2fb6e4aaf61bf86"
   integrity sha512-4yLtmGjnBlzuYdL66+c/zi8ljl24sK9jtP31UsTG1ZAAHj+ybWfEG/S+HMwK+pD2fNmJ4xQyr4xOubzExcS+Lg==
 
-next-offline@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.2.tgz#2e5b43af039986c40adbbffc84fbc8af1c43364f"
-  integrity sha512-SRl/BHGRUd2kjCQGXG4AI6XoqaT3RT7tjRZ1wclFDVzUbpXyUJawVy/RILfJiKZxxUuPx74d4lIVYoYez+5aTQ==
+next-offline@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.3.tgz#51e13bcde88c2286822df4bbfaf0dbd4716ad817"
+  integrity sha512-Y9aOFL8rYmJpExt6Qu2brZQowmWjtKXOj411GIvnEHIHGBBngHdATxdDMa/Gx8Pc/UyfbVXhr/7TVrzc1IeurQ==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
@@ -4970,10 +4970,10 @@ next-offline@^3.3.2:
     webpack "^4.19.1"
     workbox-webpack-plugin "3.6.3"
 
-next-server@^8.0.0-canary.4:
-  version "8.0.0-canary.4"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.0-canary.4.tgz#1bbd658a39ffaf522c0d20ef99ca088256969a4b"
-  integrity sha512-5aESK3LAnZHP/dvrK+usRORnfyjFZkKJjYLxsrgytFSOg/XdAiDPhCPqrrgaP3ihFKbh2dyVhD7hYGDP3BUWUw==
+next-server@^8.0.0-canary.6:
+  version "8.0.0-canary.6"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.0-canary.6.tgz#320b826b275f93bb72de2d8f991fab307cc09fc9"
+  integrity sha512-rutl2AjXWgCzkwApiMpF0M1aPxA+ZaDKAs0uWdOXQ+a2Q67Bjt2q0BCDupypGmYBQBI5NugaCc2XT3jhw9cKIg==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -4983,10 +4983,10 @@ next-server@^8.0.0-canary.4:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.0-canary.4:
-  version "8.0.0-canary.4"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.0-canary.4.tgz#ce646c5e1d360befee9cff115002f1c8e9264b17"
-  integrity sha512-oysYwOqpwWtRPrL5phOLpQBs4Tt6i9NUJCy9b2njyPXbv0nOWCeqeXWBDCpX9S+G6Hijg56uq1dmztnH/tHfXQ==
+next@^8.0.0-canary.6:
+  version "8.0.0-canary.6"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.0-canary.6.tgz#d1c1756b0481686461b9aa72dec50689b9342f1c"
+  integrity sha512-AZzGGmGhaP+ZnG0miluOZQOBmCFZ1YFthbPTvUaasDDVMsF+8++02qVv5mNrxzmER7v1E1uAev4njS/sZNpgQw==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -5025,7 +5025,7 @@ next@^8.0.0-canary.4:
     loader-utils "1.1.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "^8.0.0-canary.4"
+    next-server "^8.0.0-canary.6"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
