@@ -60,6 +60,7 @@
       "src": "^/(.*)$",
       "headers": {
         "Access-Control-Allow-Origin": "https://anthony.codes",
+        "Cache-Control": "public, max-age=31536000, immutable",
         "Content-Security-Policy": "default-src 'self' 'unsafe-inline' *.doubleclick.net *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gstatic.com webpack:; upgrade-insecure-requests",
         "Feature-Policy": "accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
         "Referrer-Policy": "no-referrer-when-downgrade",
