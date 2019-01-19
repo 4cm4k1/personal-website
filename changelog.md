@@ -9,14 +9,14 @@
 - Updates `readme.md` and `contributing.md`
 - Renames this project from `website` to `personal-website`
 - Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
-- Upgrades `@material/react-layout-grid`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/tag`, `@rmwc/list`, `@types/node`, `@types/react`, `@types/webpack`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `pretty-quick`, `react`, `react-dom`, `sass`, and `webpack` to latest versions
+- Upgrades `@material/react-layout-grid`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/tag`, `@rmwc/list`, `@types/node`, `@types/react`, `@types/sass`, `@types/webpack`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `pretty-quick`, `react`, `react-dom`, `sass`, and `webpack` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
 - Adds `github.autoJobCancelation` in `now.json`
 - Replaces app logos, including favicons and platform-specific assets, with a brand-new version
 - Tweaks `background_color` in `manifest.json`
 - Changes `title` in `next.config.js`
 - Adds some `<link>` and `<meta>` tags to `_document.jsx`
-- Removes `@types/material-components-web` due to package receiving first-class TypeScript support
+- Removes `@types/material-components-web` and `@types/next-server`
 - Enables Serverless Next.js! (see https://github.com/zeit/next.js/pull/5927, https://github.com/zeit/now-builders/pull/150, and https://github.com/zeit/now-examples/pull/214)
   - Moves `publicRuntimeConfig` (deprecated) constants to `lib/constants.js`
   - Adds `target: 'serverless'` to `next.config.js`

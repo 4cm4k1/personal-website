@@ -1050,7 +1050,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/next-server@*", "@types/next-server@^7.0.2":
+"@types/next-server@*":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@types/next-server/-/next-server-7.0.2.tgz#7115f4f9ad9605d4ce1d36b0e125dd523670c7b4"
   integrity sha512-lc2wtaR6TjaVQcAV2nN3v90dMhRGbOg1MYVsu8cylvh+I/Ag4lDbqndRKE0tMGQR0ftTPaQQtYEHP/xtQ4s1vw==
@@ -1134,10 +1134,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/sass@^1.15.1":
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/@types/sass/-/sass-1.15.1.tgz#d43495cac952afc5340494d3cc56d7414ac1055e"
-  integrity sha512-WuqwU+tLmHkpuAfN8s8zHkvTBV2D/o33RKIZzdwQ2if47cNBOyzctAbGickafSJM9A+hf4aZan3gb70tam+/GQ==
+"@types/sass@^1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@types/sass/-/sass-1.16.0.tgz#b41ac1c17fa68ffb57d43e2360486ef526b3d57d"
+  integrity sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==
   dependencies:
     "@types/node" "*"
 
@@ -4948,10 +4948,10 @@ next-compose-plugins@^2.1.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.1.1.tgz#7da0a3ce0c8ce267b5cb4164d2fb6e4aaf61bf86"
   integrity sha512-4yLtmGjnBlzuYdL66+c/zi8ljl24sK9jtP31UsTG1ZAAHj+ybWfEG/S+HMwK+pD2fNmJ4xQyr4xOubzExcS+Lg==
 
-next-offline@^3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.4.tgz#c23c2bc14eecc6ce5bdbbd236bd79bdbda72d476"
-  integrity sha512-l4Tlxjz++8taH6wEvFwUEQoGoSzXMDXUO+xOrYWw/NHfmREvphB1pzAetEJACijLUrEPs+M5V3WaFS0JM0xOSQ==
+next-offline@^3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.5.tgz#e4c3f33efb0c4f49f3e28abd513ccc3a8fc8080f"
+  integrity sha512-e6J838mppCpYMnbCvthoOSZNtAj9iFpJdVnCkuQTiIFU9IDP/GxKpjsixfP1UaTyHCmO2GzmyiYaglzFMPeVVQ==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
