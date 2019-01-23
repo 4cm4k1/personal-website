@@ -37,7 +37,7 @@
     "@material/react-drawer": "^0.6.2",
     "@material/react-layout-grid": "^0.8.0",
     "@material/react-material-icon": "^0.7.1",
-    "@material/react-top-app-bar": "^0.8.0",
+    "@material/react-top-app-bar": "^0.9.0",
     "@mdx-js/loader": "^0.16.6",
     "@mdx-js/mdx": "^0.16.6",
     "@rmwc/list": "^4.0.6",

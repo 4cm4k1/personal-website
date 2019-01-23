@@ -826,10 +826,10 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-top-app-bar@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.8.0.tgz#9872b0d24b7953927e3d01570c42a774ae0a5733"
-  integrity sha512-HYXoqFboht9gEYZu1XuXgjVSdRusJVOcBrsOBh9fLHgMYQnG3nVj8o34TR3jt1fAr2MSkTf1z1Gn5qLp5Qr8fA==
+"@material/react-top-app-bar@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material/react-top-app-bar/-/react-top-app-bar-0.9.0.tgz#f40141c4699abc566ebd80f0656df6cbd8eb6b4d"
+  integrity sha512-kP/U2p2gf08lmmUIi3+0nN10gHgYqKib8mxNuTglLAWHNoH76R3pCKzbZOCvG4O1KVMOfIymDYqN1HxeA09Qrg==
   dependencies:
     "@material/top-app-bar" "^0.41.0"
     classnames "^2.2.5"
