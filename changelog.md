@@ -1,6 +1,6 @@
 # Changelog
 
-## In Progress
+## Master
 
 - Refines route rewrites in `now.json`
 - Adds `*.doubleclick.net` and `*.google.com` to CSP since Google Analytics sometimes requests a 1x1 image from there
@@ -9,7 +9,7 @@
 - Updates `readme.md` and `contributing.md`
 - Renames this project from `website` to `personal-website`
 - Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
-- Upgrades `@material/react-layout-grid`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/tag`, `@rmwc/list`, `@types/node`, `@types/react`, `@types/sass`, `@types/webpack`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `pretty-quick`, `react`, `react-dom`, `sass`, and `webpack` to latest versions
+- Upgrades `@material/react-layout-grid`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/tag`, `@rmwc/list`, `@types/node`, `@types/react`, `@types/sass`, `@types/webpack`, `clean-webpack-plugin`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `prettier`, `pretty-quick`, `react`, `react-dom`, `sass`, and `webpack` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
 - Adds `github.autoJobCancelation` in `now.json`
 - Replaces app logos, including favicons and platform-specific assets, with a brand-new version
