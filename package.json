@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "next": "^8.0.0-canary.11",
+    "next": "^8.0.0-canary.15",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
@@ -37,9 +37,9 @@
     "@material/react-drawer": "^0.6.2",
     "@material/react-layout-grid": "^0.8.0",
     "@material/react-material-icon": "^0.7.1",
-    "@material/react-top-app-bar": "^0.8.0",
-    "@mdx-js/loader": "^0.16.6",
-    "@mdx-js/mdx": "^0.16.6",
+    "@material/react-top-app-bar": "^0.9.0",
+    "@mdx-js/loader": "^0.16.8",
+    "@mdx-js/mdx": "^0.16.8",
     "@rmwc/list": "^4.0.6",
     "@types/clean-webpack-plugin": "^0.1.2",
     "@types/copy-webpack-plugin": "^4.4.2",
