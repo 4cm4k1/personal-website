@@ -17,8 +17,6 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
-          <link rel='preconnect' href='https://fonts.googleapis.com' />
-          <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link rel='preconnect' href='https://stats.g.doubleclick.net' />
           <link rel='preconnect' href='https://www.google.com' />
           <link rel='preconnect' href='https://www.google-analytics.com' />
@@ -92,11 +90,6 @@ export default class MyDocument extends Document {
             gtag('config', '${analytics}');
           `,
             }}
-          />
-          <link
-            href='https://fonts.googleapis.com/icon?family=Material+Icons'
-            rel='stylesheet'
-            crossOrigin='anonymous'
           />
         </body>
       </html>
