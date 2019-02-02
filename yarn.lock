@@ -1059,10 +1059,10 @@
     "@types/react" "*"
     "@types/react-loadable" "*"
 
-"@types/next@^7.0.6":
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.6.tgz#c4dabfe8707404160651ecf1fa35fd33cc566cdb"
-  integrity sha512-umm6e2UcVxO5HFZCpvFbedIW62Dv+6TS64hPdtgnzvlwsTNcILTXdq7virH+UWWDI/qdMQiiZHcqbXDzF0AUzA==
+"@types/next@^7.0.8":
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.8.tgz#f7d92b9cc8bc6914a52700b455dd79a532796e11"
+  integrity sha512-k9rznM9ebpna8n9g71iljRew5c0FNiG3QQ3/iU6Y75se8dXp52bGv2srf8VmPHpiHDmTCZZ/iMz14E/lD6HEIQ==
   dependencies:
     "@types/next-server" "*"
     "@types/node" "*"
@@ -1081,10 +1081,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.10.tgz#4fa76e6598b7de3f0cb6ec3abacc4f59e5b3a2ce"
   integrity sha512-8xZEYckCbUVgK8Eg7lf5Iy4COKJ5uXlnIOnePN0WUwSQggy9tolM+tDJf7wMOnT/JT/W9xDYIaYggt3mRV2O5w==
 
-"@types/node@^10.12.18":
-  version "10.12.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
-  integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
+"@types/node@^10.12.21":
+  version "10.12.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.21.tgz#7e8a0c34cf29f4e17a36e9bd0ea72d45ba03908e"
+  integrity sha512-CBgLNk4o3XMnqMc0rhb6lc77IwShMEglz05deDcn2lQxyXEZivfwgYJu7SMha9V5XcrP6qZuevTHV/QrN2vjKQ==
 
 "@types/optimize-css-assets-webpack-plugin@^1.3.3":
   version "1.3.3"
@@ -1126,10 +1126,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.7.21":
-  version "16.7.21"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.21.tgz#17e45871a2502e33b12b63279f44e1c02a4632fc"
-  integrity sha512-8BPxwygC83LgaIjOVVLrzB4mpP2u1ih01fbfy76L3h9OgKN+fNyMVPXj/0mGpWnxImjiM/2lqb3YOeT2Ca+NYQ==
+"@types/react@^16.8.1":
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.1.tgz#b431b104ecc6febda170b718caa9f50be66a6750"
+  integrity sha512-tD1ETKJcuhANOejRc/p7OgQ16DKnbGi0M3LccelKlPnUCDp2a5koVxZFoRN9HN+A+m84HB5VGN7I+r3nNhS3PA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -3784,11 +3784,6 @@ html-entities@^1.2.0:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
   integrity sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
 
-htmlescape@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/htmlescape/-/htmlescape-1.1.1.tgz#3a03edc2214bca3b66424a3e7959349509cb0351"
-  integrity sha1-OgPtwiFLyjtmQko+eVk0lQnLA1E=
-
 http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
@@ -4970,10 +4965,10 @@ next-offline@^3.3.5:
     webpack "^4.19.1"
     workbox-webpack-plugin "3.6.3"
 
-next-server@8.0.0-canary.15:
-  version "8.0.0-canary.15"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.0-canary.15.tgz#e0b6eba436496ddce97f4658eaf52ca027fc5599"
-  integrity sha512-1HMxdbDoyDZoIGbIwjydAD7rfsaMAip/bx0p0r9QdGvuAGBBIqG2/n6iQIz5wVWXYsx0YSczDU/sjyhX+2vkwQ==
+next-server@8.0.0-canary.18:
+  version "8.0.0-canary.18"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.0-canary.18.tgz#a97c70f12b3f254e49977e2fac4e55d5d83f82cd"
+  integrity sha512-/GbRm6dOi43XCEb0wM/QuTcubBrEj68z6x6IuwfJ48UD6r+em9aKClUTPys+QEavGtA3Jh6CyM0Ieohe7c6F9g==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -4983,10 +4978,10 @@ next-server@8.0.0-canary.15:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.0-canary.15:
-  version "8.0.0-canary.15"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.0-canary.15.tgz#a49d0dbe36b53e12d21aa0ab2e57b2706f541809"
-  integrity sha512-extR0828gfX2HwZKTVW/wL6iiKnB3DoAG/HtJ/Zi7KqnLSIbHhTn6jucubYDaVNo1VhTp64C2+Bqac9xtFDM0g==
+next@^8.0.0-canary.18:
+  version "8.0.0-canary.18"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.0-canary.18.tgz#82da698f6d62c06a403fd5f5537df3e7da72df2a"
+  integrity sha512-MbQgvORtCmLKS3w4rYLOug9WlrWi6XcwDTSPa/pse2yikYZoXoQo0patpu8QJtcFPqiNBh1KEtjEtmemS7J+Bg==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -4999,6 +4994,7 @@ next@^8.0.0-canary.15:
     "@babel/runtime" "7.1.2"
     "@babel/runtime-corejs2" "7.1.2"
     "@babel/template" "7.1.2"
+    acorn "^6.0.5"
     ansi-html "0.0.7"
     arg "3.0.0"
     async-sema "2.1.4"
@@ -5016,13 +5012,12 @@ next@^8.0.0-canary.15:
     friendly-errors-webpack-plugin "1.7.0"
     glob "7.1.2"
     hoist-non-react-statics "3.2.0"
-    htmlescape "1.1.1"
     http-status "1.0.1"
     launch-editor "2.2.1"
     loader-utils "1.1.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "8.0.0-canary.15"
+    next-server "8.0.0-canary.18"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
@@ -5957,10 +5952,10 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@^1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.1.tgz#534c2c9d7853f8845e5e078384e71973bd74089f"
-  integrity sha512-XXUITwIkGb3CPJ2hforHah/zTINRyie5006Jd2HKy2qz7snEJXl0KLfsJZW/wst9g6R2rFvqba3VpNYdu1hDcA==
+prettier@^1.16.3:
+  version "1.16.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.3.tgz#8c62168453badef702f34b45b6ee899574a6a65d"
+  integrity sha512-kn/GU6SMRYPxUakNXhpP0EedT/KmaPzr0H5lIsDogrykbaxOpOfAFfk5XA7DZrJyMAv1wlMV3CPcZruGXVVUZw==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
