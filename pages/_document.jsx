@@ -21,6 +21,12 @@ export default class MyDocument extends Document {
           <link rel='preconnect' href='https://www.google.com' />
           <link rel='preconnect' href='https://www.google-analytics.com' />
           <link rel='preconnect' href='https://www.googletagmanager.com' />
+          <link
+            rel='preload'
+            href={`${assetPath}/material-icons.woff2`}
+            as='font'
+            type='font/woff2'
+          />
           <JsonLd host={host} profile={profile} />
           <meta content='origin-when-cross-origin' name='referrer' />
           <meta
