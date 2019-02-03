@@ -10,17 +10,21 @@ export default () => (
       <ListItemGraphic icon='home' />
       Home
     </Link>
-    <Link href='/bio' prefetch passHref>
+    <Link href='/bio' passHref>
       <ListItemGraphic icon='face' />
       Bio
     </Link>
-    <Link href='/resume' prefetch passHref>
+    <Link href='/resume' passHref>
       <ListItemGraphic icon='book' />
       Resume
     </Link>
-    <Link href='/projects' prefetch passHref>
+    <Link href='/projects' passHref>
       <ListItemGraphic icon='apps' />
       Projects
+    </Link>
+    <Link href='/colophon' passHref>
+      <ListItemGraphic icon='web' />
+      Colophon
     </Link>
   </List>
 );

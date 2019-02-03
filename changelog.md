@@ -26,6 +26,9 @@
   - Sets all other static assets to again be behind `/static/`
 - Removes unnecessary code now that serverless is live
 - Serves Material Icons from `static/` instead of from Google
+- Modifies copy in `index.mdx`
+- Creates new page `colophon.mdx` and moves part of `index.mdx` to it
+- Removes `prefetch` directives from site links
 
 ### Known Issues
 

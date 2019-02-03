@@ -1,7 +1,7 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 import constants from '../lib/constants';
 
-const { assetPath, host } = constants;
+const { assetPath } = constants;
 
 export default ({ children }) => (
   <Grid>
@@ -15,4 +15,4 @@ export default ({ children }) => (
   </Grid>
 );
 
-export { assetPath, host };
+export { assetPath };
