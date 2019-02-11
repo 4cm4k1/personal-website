@@ -45,7 +45,7 @@
     "@types/copy-webpack-plugin": "^4.4.2",
     "@types/fibers": "^0.0.30",
     "@types/http-proxy": "^1.16.2",
-    "@types/next": "^7.0.8",
+    "@types/next": "^8.0.0",
     "@types/node": "^10.12.21",
     "@types/optimize-css-assets-webpack-plugin": "^1.3.3",
     "@types/prettier": "^1.15.2",
