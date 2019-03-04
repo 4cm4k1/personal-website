@@ -58,7 +58,7 @@
     "@zeit/next-mdx": "^1.2.1-canary.0",
     "@zeit/next-sass": "^1.0.2-canary.2",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
-    "clean-webpack-plugin": "^1.0.1",
+    "clean-webpack-plugin": "^2.0.0",
     "copy-webpack-plugin": "^5.0.0",
     "css-loader": "^2.1.0",
     "extract-css-chunks-webpack-plugin": "^3.3.2",
