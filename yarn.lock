@@ -757,6 +757,11 @@
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.40.0.tgz#c0bfdf13f76546d35db7492fd6d4167721aac376"
   integrity sha512-dNekw081gH1Wh62h8VsOdP87iKkrbM2rFR28bTfolIv6ThRBUGlDe5w8grkrrXLnjoqO/fnQMP1Wdo8C7lcfvQ==
 
+"@material/dom@^0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.41.0.tgz#6756865f97bad4c91ee75e69d769d7cdc25398ae"
+  integrity sha512-wOJrMwjPddYXpQFZAIaCLWI3TO/6KU1lxESTBzunni8A4FHQVWhokml5Xt85GqZwmPFeIF2s+D0wfbWyrGBuKQ==
+
 "@material/dom@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-1.0.1.tgz#a0bff19e5c3d14a147dca91f55eb8410eee31739"
@@ -855,25 +860,25 @@
     classnames "^2.2.5"
     react "^16.4.2"
 
-"@material/react-material-icon@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.7.1.tgz#2e626a7c7c80eae8900a5ba27775f425822fa237"
-  integrity sha512-BgH+X7gs/3HUT0YLqC8+uN5DrnMzmPgAjkGzB8g2hbqHfE3PzYHCjElQNf+B1TbNz+XOlIbMzVk6F0XKiIJzNw==
+"@material/react-material-icon@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@material/react-material-icon/-/react-material-icon-0.11.0.tgz#ceb00734764ecc5568395aa7ed1cefc26d5af577"
+  integrity sha512-IXXEABY6kzCG0eOKe0k0VT6KDBA/cZgHCsUnhAn3sjFh7JlV2rlc4uwduFcPCQa9BWfE82/i5wImg9H4bG8h3A==
   dependencies:
-    "@material/react-ripple" "^0.7.1"
-    classnames "^2.2.5"
-    prop-types "^15.6.1"
+    "@material/react-ripple" "^0.11.0"
+    classnames "^2.2.6"
     react "^16.4.2"
 
-"@material/react-ripple@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.7.1.tgz#2711be88b049f459168cde93e6e3188241186ec8"
-  integrity sha512-kBn46yAr4/H053xcykPIGVQuW6LNOrzqhXvt+rXGHzs0H/0zVmv84HtfclOAn5vMsr7laBoC9c1fBt1JtiV8Rg==
+"@material/react-ripple@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@material/react-ripple/-/react-ripple-0.11.0.tgz#db1ed65fd9e8d32792fb1101a4343fe0b18fe486"
+  integrity sha512-ozfuf83aI1IsSw19bjzNJ5WEEN6wb110or96nLbe/pNNCPLmMYmBgLweJIXQS3w8LagaeBec2q+fN8YwoHMi2w==
   dependencies:
+    "@material/dom" "^0.41.0"
     "@material/ripple" "^0.41.0"
-    classnames "^2.2.5"
-    prop-types "^15.6.1"
+    classnames "^2.2.6"
     react "^16.4.2"
+    utility-types "^3.2.1"
 
 "@material/react-top-app-bar@^0.9.0":
   version "0.9.0"
@@ -7912,6 +7917,11 @@ util@^0.11.0:
   integrity sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==
   dependencies:
     inherits "2.0.3"
+
+utility-types@^3.2.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/utility-types/-/utility-types-3.4.1.tgz#3caa1d207eac873f989bf8c92cf3e8c539045c61"
+  integrity sha512-GyH068kJf7c4vhfqj4aCM5X+TeV8jG2iPFLimpGpnQ7dvKfogZOHfiYxMww/nGEfMm/bEmnVbeZGO1see1OVKg==
 
 utils-merge@1.0.1:
   version "1.0.1"
