@@ -846,13 +846,13 @@
     prop-types "^15.6.1"
     react "^16.4.2"
 
-"@material/react-layout-grid@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.8.0.tgz#b0f73a3342b56badb0be4fe40b2f969962ca8263"
-  integrity sha512-fRjAF3vltejpI8ffSS01UJDdeBv8mwNbLIR6Qu8bMP9PE78C4hwZpUeols1eYCEU2VQlUGaMADSgnA1lbQG1jg==
+"@material/react-layout-grid@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@material/react-layout-grid/-/react-layout-grid-0.11.0.tgz#8318e26df48ba3a597f7b1abd6df5f6d04942725"
+  integrity sha512-Zj6ene48TehVz83yBHFNqCLCG4wZzoTolOOQPNIGiI+7sYRHjCbzPqIepDWMc5KRnAPjTC/zQmXUjcI9zagmDQ==
   dependencies:
     "@material/layout-grid" "^0.41.0"
-    classnames "^2.2.5"
+    classnames "^2.2.6"
     react "^16.4.2"
 
 "@material/react-material-icon@^0.7.1":
