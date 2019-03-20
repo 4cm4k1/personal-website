@@ -9,7 +9,7 @@
 - Updates `readme.md` and `contributing.md`
 - Renames this project from `website` to `personal-website`
 - Adds [FOSSA](https://github.com/fossas/fossa-cli) integration
-- Upgrades `@material/react-layout-grid`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/mdx`, `@rmwc/list`, `@types/copy-webpack-plugin`, `@types/next`, `@types/node`, `@types/optimize-css-assets-webpack-plugin`, `@types/prettier`, `@types/react`, `@types/react-dom`, `@types/sass`, `@types/webpack`, `@types/webpack-bundle-analyzer`, `clean-webpack-plugin`, `copy-webpack-plugin`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `prettier`, `pretty-quick`, `react`, `react-dom`, `sass`, `webpack`, and `webpack-bundle-analyzer` to latest versions
+- Upgrades `@material/react-layout-grid`, `@material/react-material-icon`, `@material/react-top-app-bar`, `@mdx-js/loader`, `@mdx-js/mdx`, `@rmwc/list`, `@types/copy-webpack-plugin`, `@types/next`, `@types/node`, `@types/optimize-css-assets-webpack-plugin`, `@types/prettier`, `@types/react`, `@types/react-dom`, `@types/sass`, `@types/webpack`, `@types/webpack-bundle-analyzer`, `clean-webpack-plugin`, `copy-webpack-plugin`, `css-loader`, `extract-css-chunks-webpack-plugin`, `husky`, `next`, `next-offline`, `next-server`, `prettier`, `pretty-quick`, `react`, `react-dom`, `sass`, `webpack`, and `webpack-bundle-analyzer` to latest versions
 - Adds `@types` for `clean-webpack-plugin`, `copy-webpack-plugin`, `fibers`, `http-proxy`, `node`, `optimize-css-assets-webpack-plugin`, `prettier`, `sass`, `webpack`, and `webpack-bundle-analyzer`
 - Adds `github.autoJobCancelation` in `now.json`
 - Replaces app logos, including favicons and platform-specific assets, with a brand-new version
