@@ -1,26 +1,13 @@
 const fiber = require('fibers'),
   sass = require('sass'),
-  withBundleAnalyzer = require('@zeit/next-bundle-analyzer'),
+  withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
+  }),
   withSass = require('@zeit/next-sass'),
-  withMDX = require('@zeit/next-mdx')(),
+  withMDX = require('@next/mdx')(),
   withOffline = require('next-offline'),
   withPlugins = require('next-compose-plugins'),
   withSourceMaps = require('@zeit/next-source-maps')(),
-  { BUNDLE_ANALYZE } = process.env,
-  bundleAnalyzerConfig = {
-    analyzeServer: ['server', 'both'].includes(BUNDLE_ANALYZE),
-    analyzeBrowser: ['browser', 'both'].includes(BUNDLE_ANALYZE),
-    bundleAnalyzerConfig: {
-      server: {
-        analyzerMode: 'static',
-        reportFilename: '../../bundles/server.html',
-      },
-      browser: {
-        analyzerMode: 'static',
-        reportFilename: '../bundles/client.html',
-      },
-    },
-  },
   nextConfig = {
     pageExtensions: ['js', 'jsx', 'mdx'],
     target: 'serverless',
@@ -58,7 +45,7 @@ const fiber = require('fibers'),
 module.exports = withPlugins(
   [
     // @zeit/next-bundle-analyzer
-    [withBundleAnalyzer, bundleAnalyzerConfig],
+    [withBundleAnalyzer],
     // @zeit/next-sass
     [withSass, sassConfig],
     // @zeit/next-mdx

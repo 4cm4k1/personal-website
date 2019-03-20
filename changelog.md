@@ -30,6 +30,7 @@
 - Creates new page `colophon.mdx` and moves part of `index.mdx` to it
 - Removes `prefetch` directives from site links
 - Adds `<link rel='preload' />` for webfont
+- Replaces `@zeit/next-bundle-analyzer` and `@zeit/next-mdx` with `@next/bundle-analyzer` and `@next/mdx` respectively
 
 ### Known Issues
 
