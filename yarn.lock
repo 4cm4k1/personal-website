@@ -1143,17 +1143,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-1.0.0-alpha.6.tgz#2ae87d75c1f2cf6d4a79d863bfd1ce441dd34fd5"
   integrity sha512-jXA1KyBpGkec+imeRuAaLq4EOoJeGApZ3up1YiMWP+axKSVW8O0moz8Ti1gkr0fzntJi5dVosQeMEUe9b1jsxQ==
 
-"@next/bundle-analyzer@^8.0.4-canary.12":
-  version "8.0.4-canary.12"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-8.0.4-canary.12.tgz#46f7531388c18c1f7e273605a9c37b30f2e8a87e"
-  integrity sha512-Cd4G9sAgCaK29AYlKnbul8oX+fRaoiEjwbTYOM9AqgXUIdR4scFAL+WorWSKY1NhwQ9kg/cxvMm0Ats/I4QGvw==
+"@next/bundle-analyzer@^8.0.4-canary.18":
+  version "8.0.4-canary.18"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-8.0.4-canary.18.tgz#1f1ecef6d623ae46d8fe5211500977cc14239d94"
+  integrity sha512-5Tc/WSZpiydF+EVtS9gsbaDCNTOWoS6IbKFXV3B6vI300C9JZD3NIIzZ5Zl2tQo6wGYpAFMpmfsIJaIK9PEhRQ==
   dependencies:
     webpack-bundle-analyzer "3.0.3"
 
-"@next/mdx@^8.0.4-canary.12":
-  version "8.0.4-canary.12"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-8.0.4-canary.12.tgz#ac46bce58cb003ceda5eae470f3ba158c082887e"
-  integrity sha512-IKG6X9gIY97GkoIoVekOmBbFfWC+t98VJRPiVUCJFn0/KPmZU8kdDy0bEyrJ7T3ZKqJKIWKku21ARMq5J3W1jQ==
+"@next/mdx@^8.0.4-canary.18":
+  version "8.0.4-canary.18"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-8.0.4-canary.18.tgz#284bd99ba2538f94f4b7ab4c628f86f95d316160"
+  integrity sha512-9s6Lt1jBbQqgEskeTOnftIBjAPFuKLLYn3kz7MRXRAGWHJ+DZFJb3W7Xi89byrVoa7yOQM4IY936Oc9lNmETGw==
 
 "@rmwc/base@^5.2.1":
   version "5.2.1"
@@ -1298,10 +1298,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
 
-"@types/react-dom@^16.8.2":
-  version "16.8.2"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.2.tgz#9bd7d33f908b243ff0692846ef36c81d4941ad12"
-  integrity sha512-MX7n1wq3G/De15RGAAqnmidzhr2Y9O/ClxPxyqaNg96pGyeXUYPSvujgzEVpLo9oIP4Wn1UETl+rxTN02KEpBw==
+"@types/react-dom@^16.8.3":
+  version "16.8.3"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.3.tgz#6131b7b6158bc7ed1925a3374b88b7c00481f0cb"
+  integrity sha512-HF5hD5YR3z9Mn6kXcW1VKe4AQ04ZlZj1EdLBae61hzQ3eEWWxMgNLUbIxeZp40BnSxqY1eAYLsH9QopQcxzScA==
   dependencies:
     "@types/react" "*"
 
@@ -1791,6 +1791,15 @@ alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
+
+amphtml-validator@1.0.23:
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/amphtml-validator/-/amphtml-validator-1.0.23.tgz#dba0c3854289563c0adaac292cd4d6096ee4d7c8"
+  integrity sha1-26DDhUKJVjwK2qwpLNTWCW7k18g=
+  dependencies:
+    colors "1.1.2"
+    commander "2.9.0"
+    promise "7.1.1"
 
 ansi-colors@^3.0.0:
   version "3.2.3"
@@ -2608,7 +2617,7 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
-colors@~1.1.2:
+colors@1.1.2, colors@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
   integrity sha1-FopHAXVran9RoSzgyXv6KMCE7WM=
@@ -2619,6 +2628,13 @@ comma-separated-tokens@^1.0.0:
   integrity sha512-Cg90/fcK93n0ecgYTAz1jaA3zvnQ0ExlmKY1rdbyHqAx6BHxwoJc+J7HDu0iuQ7ixEs1qaa+WyQ6oeuBpYP1iA==
   dependencies:
     trim "0.0.1"
+
+commander@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
+  integrity sha1-nJkJQXbhIkDLItbFFGCYQA/g99Q=
+  dependencies:
+    graceful-readlink ">= 1.0.0"
 
 commander@^2.18.0:
   version "2.19.0"
@@ -3914,6 +3930,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.4
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+
+"graceful-readlink@>= 1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
+  integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
 gzip-size@^5.0.0:
   version "5.0.0"
@@ -5300,10 +5321,10 @@ next-offline@^3.3.6:
     webpack "^4.19.1"
     workbox-webpack-plugin "3.6.3"
 
-next-server@8.0.4-canary.12:
-  version "8.0.4-canary.12"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.4-canary.12.tgz#37b08bcd16c46cef1e9c43824e1cd345cf49fef2"
-  integrity sha512-JHv+gzqGrcVMAbKUoyM2WczxkTnyzR4FJFDGS4XAy/qFbK1QnGS1V+yMfwsnjREaFCKAIwpH5vG6oTShFgSyFg==
+next-server@8.0.4-canary.18:
+  version "8.0.4-canary.18"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.4-canary.18.tgz#776469a19811f4f6de94db463ab3a6b157514488"
+  integrity sha512-BTTpNBE2h21QnVHav8A1MMtKZjS7gPS/XshA4ysDBWEilrj+cmeOPXBUHMxehqIjqOkUAtbByP+8Ay/ZpOnJgw==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -5313,10 +5334,10 @@ next-server@8.0.4-canary.12:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.4-canary.12:
-  version "8.0.4-canary.12"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.4-canary.12.tgz#fee9f13de2589c64bc1cee20dcd8f6045511c60c"
-  integrity sha512-ocsT15J1wm3QcR0pZWrQD20CtqIJOydbiKjkjv571zcYHdoktI0mXyIKPKIa+MLisB7ckQqc2N6dhBV1sjtYGA==
+next@^8.0.4-canary.18:
+  version "8.0.4-canary.18"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.4-canary.18.tgz#b45f3a3cd4481f737ff6d8f1a28835be7512721f"
+  integrity sha512-9C3hbhrBMzrLZJi7i3wOpCp9eCB4bNaNuvCSsnboB8urfyR1e6bjjM8Pm6wdXpfLSFJ3qq0WvyCtrgKJ8RKR1A==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -5329,6 +5350,7 @@ next@^8.0.4-canary.12:
     "@babel/runtime" "7.1.2"
     "@babel/runtime-corejs2" "7.1.2"
     "@babel/template" "7.1.2"
+    amphtml-validator "1.0.23"
     arg "3.0.0"
     async-sema "2.2.0"
     autodll-webpack-plugin "0.4.2"
@@ -5347,7 +5369,7 @@ next@^8.0.4-canary.12:
     magic-string "0.25.2"
     mkdirp "0.5.1"
     nanoid "1.2.1"
-    next-server "8.0.4-canary.12"
+    next-server "8.0.4-canary.18"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "5.1.4"
@@ -6336,6 +6358,13 @@ promise-inflight@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
+
+promise@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
+  integrity sha1-SJZUxpJha4qlWwck+oCbt9tJxb8=
+  dependencies:
+    asap "~2.0.3"
 
 promise@^7.0.1:
   version "7.3.1"
