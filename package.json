@@ -27,9 +27,9 @@
     }
   },
   "dependencies": {
-    "next": "^8.0.4-canary.30",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "next": "^8.0.5-canary.8",
+    "react": "^16.9.0-alpha.0",
+    "react-dom": "^16.9.0-alpha.0"
   },
   "devDependencies": {
     "@material/react-drawer": "^0.6.2",
@@ -37,20 +37,20 @@
     "@material/react-material-icon": "^0.11.0",
     "@material/react-top-app-bar": "^0.11.0",
     "@mdx-js/loader": "^1.0.0-alpha.17",
-    "@next/bundle-analyzer": "^8.0.4-canary.30",
-    "@next/mdx": "^8.0.4-canary.30",
-    "@rmwc/list": "^5.2.1",
+    "@next/bundle-analyzer": "^8.0.5-canary.8",
+    "@next/mdx": "^8.0.5-canary.8",
+    "@rmwc/list": "^5.2.2",
     "@types/copy-webpack-plugin": "^4.4.3",
     "@types/fibers": "^0.0.30",
     "@types/http-proxy": "^1.17.0",
     "@types/next": "^8.0.3",
-    "@types/node": "^11.12.2",
+    "@types/node": "^11.13.0",
     "@types/optimize-css-assets-webpack-plugin": "^1.3.4",
     "@types/prettier": "^1.16.1",
-    "@types/react": "^16.8.10",
+    "@types/react": "^16.8.12",
     "@types/react-dom": "^16.8.3",
     "@types/sass": "^1.16.0",
-    "@types/webpack": "^4.4.26",
+    "@types/webpack": "^4.4.27",
     "@types/webpack-bundle-analyzer": "^2.13.1",
     "@zeit/next-sass": "^1.0.2-canary.2",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
@@ -68,7 +68,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "sass": "^1.17.3",
+    "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
     "webpack": "^4.29.6",
     "webpack-bundle-analyzer": "^3.1.0"
