@@ -1134,17 +1134,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.0-rc.0.tgz#1863287fe20a396c13280e155a29dbf9f8a40889"
   integrity sha512-yE/eEUDBkdSdsSdXvantAn8Q6CdM+u2Nor2IRaN8Fe+p8IGpMfHqLFS3WSIZpodGB4PYUxRsGINDl7ITSZXQyg==
 
-"@next/bundle-analyzer@^8.0.5-canary.13":
-  version "8.0.5-canary.13"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-8.0.5-canary.13.tgz#6bc9a8ace78c0f95c7c06006945b787e8eb3b6e8"
-  integrity sha512-xMHXi9Wqkc4oGEESJIIQ/XdIaG1Pld+fYwkTu0gRfJDSAU++5n1DaLh7Sy5wm03Y2/KljHl1JZmhoCNnmb+9Vw==
+"@next/bundle-analyzer@^8.0.5-canary.17":
+  version "8.0.5-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-8.0.5-canary.17.tgz#61583ac4426f631af641a80ba11fe088bff0ca25"
+  integrity sha512-NAkJABkUlfUvbFdfhkxOqgLvL78NW9DaF3vX40tjUyMA0PkXnzNoEkqUpU2mkhhfJP84sZyh6mP5nGo+pG0N2Q==
   dependencies:
     webpack-bundle-analyzer "3.0.3"
 
-"@next/mdx@^8.0.5-canary.13":
-  version "8.0.5-canary.13"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-8.0.5-canary.13.tgz#389ce697df61d9b943cfb321d5ac56c95f83a584"
-  integrity sha512-1ExBmNlQ19zhRPJhIVNWuE8bHxwz+ZjJZormzhaqxv772zwL8LnkuhRUdO9uKL5ji66MaXZ/c3rf2v9IYNjb7w==
+"@next/mdx@^8.0.5-canary.17":
+  version "8.0.5-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-8.0.5-canary.17.tgz#09388984b4e901a623587f469f60938c91246ce0"
+  integrity sha512-IHuKWy+Mb4JfuUSO+Mu8J9/IHO8Z4Hf0WKkxEpo1J1IW643wcyitn8xVBIp/xQ1aHrNW0CoFBeeKKmFbeT/D/g==
 
 "@rmwc/base@^5.2.2":
   version "5.2.2"
@@ -5341,10 +5341,10 @@ next-offline@^3.3.7:
     webpack "^4.19.1"
     workbox-webpack-plugin "3.6.3"
 
-next-server@8.0.5-canary.13:
-  version "8.0.5-canary.13"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.5-canary.13.tgz#3188ef34591543a36d920a245d717fdfb7aaf1b6"
-  integrity sha512-uTJkXQ2S4vcLmhplkHsFZbuMEpd81OWg+fLi0USir2sEE6EPbBcU7gpPU5G6jC4rG92KaQjHJE4LOqiU9w60FA==
+next-server@8.0.5-canary.17:
+  version "8.0.5-canary.17"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.5-canary.17.tgz#1adeeadb98da6090783be408058fed66139e4b2a"
+  integrity sha512-9qzW9roOUNK+PUhG1ExqoIOHk+m29PWjKbMXMBqCtFwr4jLvt2rYIg0tyTuevtSFagCGQTna/jxYHexAOgzw1w==
   dependencies:
     amp-toolbox-optimizer "0.5.2-beta.6"
     etag "1.8.1"
@@ -5352,13 +5352,15 @@ next-server@8.0.5-canary.13:
     fresh "0.5.2"
     path-to-regexp "2.1.0"
     prop-types "15.6.2"
+    react-is "16.8.6"
+    react-ssr-prepass "1.0.2"
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.5-canary.13:
-  version "8.0.5-canary.13"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.5-canary.13.tgz#9fbeacdcc35776dbe9094c14f981b0a0aa006400"
-  integrity sha512-SKiqD1Gi3ezk4MHLYpfyE7UC8HH9DHZJ6crDBkogg7Z8VL9DiMQFYMCkdSEvDsAvDLYMW6TiPZGS4UxbkdHLJg==
+next@^8.0.5-canary.17:
+  version "8.0.5-canary.17"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.5-canary.17.tgz#fca9a01bca51585fffb7814a93b1b4658a1a0a32"
+  integrity sha512-SwEhM0E3+z5FxDTAYhhbNbqxJEbdYsObOKplaOGInGa7e4XIe97eLrvaNO+a5IlDP5MxKxPqN0RRDOtT6cVwyw==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -5388,11 +5390,11 @@ next@^8.0.5-canary.13:
     launch-editor "2.2.1"
     loader-utils "1.1.0"
     mkdirp "0.5.1"
-    next-server "8.0.5-canary.13"
+    next-server "8.0.5-canary.17"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "5.1.4"
-    react-is "16.6.3"
+    react-is "16.8.6"
     recursive-copy "2.0.6"
     serialize-javascript "1.6.1"
     source-map "0.6.1"
@@ -5592,6 +5594,11 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
+
+object-is@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/object-is/-/object-is-1.0.1.tgz#0aa60ec9989a0b3ed795cf4d06f62cf1ad6539b6"
+  integrity sha1-CqYOyZiaCz7Xlc9NBvYs8a1lObY=
 
 object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.1.0"
@@ -6599,15 +6606,22 @@ react-error-overlay@5.1.4:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.4.tgz#88dfb88857c18ceb3b9f95076f850d7121776991"
   integrity sha512-fp+U98OMZcnduQ+NSEiQa4s/XMsbp+5KlydmkbESOw4P69iWZ68ZMFM5a2BuE0FgqPBKApJyRuYHR95jM8lAmg==
 
-react-is@16.6.3:
-  version "16.6.3"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
-  integrity sha512-u7FDWtthB4rWibG/+mFbVd5FvdI20yde86qKGx4lVUTWmPlSWQ4QxbBIrrs+HnXGbxOUlUzTAP/VDmvCwaP2yA==
+react-is@16.8.6:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
+  integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
 react-is@^16.8.1:
   version "16.8.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
   integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
+
+react-ssr-prepass@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-ssr-prepass/-/react-ssr-prepass-1.0.2.tgz#f411414cbc043a90254cddcef0793b2aaf14b086"
+  integrity sha512-m8NKaYzWxifPGvrf9WGo/6WtOG6MNBIs2uNdcdIuQswtlkaV19AiFegwTeyblwoH2XxMcRviFJBvr4OkoTt3nA==
+  dependencies:
+    object-is "^1.0.1"
 
 react@^16.4.2:
   version "16.8.1"
