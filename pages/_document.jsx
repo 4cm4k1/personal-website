@@ -17,10 +17,10 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
-          <link rel='preconnect' href='https://stats.g.doubleclick.net' />
+          {/* <link rel='preconnect' href='https://stats.g.doubleclick.net' />
           <link rel='preconnect' href='https://www.google.com' />
           <link rel='preconnect' href='https://www.google-analytics.com' />
-          <link rel='preconnect' href='https://www.googletagmanager.com' />
+          <link rel='preconnect' href='https://www.googletagmanager.com' /> */}
           <link
             rel='preload'
             href={`${assetPath}/material-icons.woff2`}
@@ -79,15 +79,15 @@ export default class MyDocument extends Document {
             property='og:image:alt'
             content={profile.title}
           />
-          <script
+          {/* <script
             defer
             src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}
-          />
+          /> */}
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
@@ -96,7 +96,7 @@ export default class MyDocument extends Document {
             gtag('config', '${analytics}');
           `,
             }}
-          />
+          /> */}
         </body>
       </html>
     );
