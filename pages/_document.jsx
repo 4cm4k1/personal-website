@@ -26,9 +26,9 @@ export default class MyDocument extends Document {
             href={`${assetPath}/material-icons.woff2`}
             as='font'
             type='font/woff2'
+            crossOrigin='anonymous'
           />
           <JsonLd host={host} profile={profile} />
-          <meta content='origin-when-cross-origin' name='referrer' />
           <meta
             name='description'
             property='og:description'
