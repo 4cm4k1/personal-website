@@ -9,11 +9,15 @@ const fiber = require('fibers'),
   withPlugins = require('next-compose-plugins'),
   withSourceMaps = require('@zeit/next-source-maps')(),
   nextConfig = {
+    generateInDevMode: true,
     pageExtensions: ['js', 'jsx', 'mdx'],
+    // registerSwPrefix: '_next/static', // TODO: see below
     target: 'serverless',
     webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
     webpackDevMiddleware: config => config,
     workboxOpts: {
+      // importsDirectory: 'static',
+      // importWorkboxFrom: 'local', TODO: use 'local' but without duplicate `_next/static/static/`
       swDest: 'static/service-worker.js',
       runtimeCaching: [
         {

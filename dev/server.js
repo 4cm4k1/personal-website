@@ -10,17 +10,26 @@ function sleep(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }
 
-sleep(5000).then(() =>
-  httpProxy
-    .createServer({
-      target: {
-        host: 'localhost',
-        port: 3000,
-      },
-      ssl: {
-        key: readFileSync('./dev/key.pem'),
-        cert: readFileSync('./dev/cert.pem'),
-      },
-    })
-    .listen(443),
-);
+sleep(5000).then(() => {
+  let proxy = httpProxy.createServer({
+    target: {
+      host: 'localhost',
+      port: 3000,
+    },
+    ssl: {
+      key: readFileSync('./dev/key.pem'),
+      cert: readFileSync('./dev/cert.pem'),
+    },
+  });
+  proxy.on('proxyReq', (proxyReq, req, res) =>
+    // This approximates the routing in `now.json`
+    req.url.match(/^(\/service-worker\.js)$/)
+      ? (proxyReq.path = '/_next/static/service-worker.js')
+      : null,
+  );
+  proxy.on('proxyRes', (proxyRes, req, res) =>
+    // Same as above
+    res.setHeader('Service-Worker-Allowed', '/'),
+  );
+  proxy.listen(443);
+});
