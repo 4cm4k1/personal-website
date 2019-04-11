@@ -1,5 +1,7 @@
 import PageLayout, { assetPath } from '../components/PageLayout';
 
+import '../scss/index.scss';
+
 export default PageLayout;
 
 # Hi, I’m Anthony. 👋
@@ -8,18 +10,13 @@ export default PageLayout;
 
 <picture>
   <source srcSet={`${assetPath}/face.webp`} type='image/webp' />
-  <img src={`${assetPath}/face.jpg`} alt='Headshot of Anthony Maki' />
+  <img
+    className='avatar'
+    src={`${assetPath}/face.jpg`}
+    alt='Headshot of Anthony Maki'
+  />
 </picture>
 
 I’m working on some exciting personal projects, which I’ll post here as they’re ready. I also use this site as a playground for trying new ideas and technologies, whether it’s serverless lambdas, React, Next.js, or Material Components. I’ll have a blog up and running here soon covering those efforts. For now, check out my links below:
 
 [GitHub](https://github.com/4cm4k1) • [LinkedIn](https://www.linkedin.com/in/4cm4k1/) • [Keybase](https://keybase.io/4cm4k1) • [Twitter](https://twitter.com/4cm4k1) • [Résumé](https://anthony.codes/resume-anthony-maki.pdf)
-
-<style jsx>{`
-  img {
-    border-radius: 50%;
-    float: left;
-    margin: 0 1rem 0.5rem 0;
-    width: 5rem;
-  }
-`}</style>
