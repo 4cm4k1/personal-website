@@ -57,6 +57,10 @@
       "dest": "/_next/static/$1"
     },
     {
+      "src": "/(.*)/amp$",
+      "dest": "/$1/?amp=1"
+    },
+    {
       "src": "^/(.*)$",
       "headers": {
         "Access-Control-Allow-Origin": "https://anthony.codes",

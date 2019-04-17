@@ -31,6 +31,7 @@
 - Removes `prefetch` directives from site links
 - Adds `<link rel='preload' />` for webfont
 - Replaces `@zeit/next-bundle-analyzer` and `@zeit/next-mdx` with `@next/bundle-analyzer` and `@next/mdx` respectively
+- Adds initial unstyled, sorta broken AMP support!
 
 ### Known Issues
 
