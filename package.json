@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "next": "^8.0.5-canary.35",
+    "next": "^8.1.0",
     "react": "^16.9.0-alpha.0",
     "react-dom": "^16.9.0-alpha.0"
   },
@@ -37,8 +37,8 @@
     "@material/react-material-icon": "^0.11.0",
     "@material/react-top-app-bar": "^0.11.0",
     "@mdx-js/loader": "^1.0.10",
-    "@next/bundle-analyzer": "^8.0.5-canary.35",
-    "@next/mdx": "^8.0.5-canary.35",
+    "@next/bundle-analyzer": "^8.1.0",
+    "@next/mdx": "^8.1.0",
     "@rmwc/list": "^5.3.1",
     "@types/copy-webpack-plugin": "^4.4.4",
     "@types/fibers": "^0.0.30",

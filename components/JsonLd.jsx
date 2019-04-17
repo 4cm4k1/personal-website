@@ -20,7 +20,6 @@ export default props => (
         "https://www.linkedin.com/in/4cm4k1/",
         "https://keybase.io/4cm4k1",
         "https://www.youtube.com/c/AnthonyMaki",
-        "https://thedebug.life",
         "https://maki.fyi",
         "https://anthony.app"
       ]
