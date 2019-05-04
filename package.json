@@ -19,7 +19,7 @@
     "now-build": "next build",
     "start": "next start",
     "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
-    "proxy": "node dev/server.js"
+    "proxy": "node scripts/server.js"
   },
   "husky": {
     "hooks": {
