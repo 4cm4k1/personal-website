@@ -17,8 +17,8 @@ sleep(5000).then(() => {
       port: 3000,
     },
     ssl: {
-      key: readFileSync('./dev/key.pem'),
-      cert: readFileSync('./dev/cert.pem'),
+      key: readFileSync('./scripts/key.pem'),
+      cert: readFileSync('./scripts/cert.pem'),
     },
   });
   proxy.on('proxyReq', (proxyReq, req, res) =>
