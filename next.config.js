@@ -9,7 +9,7 @@ const sass = require('sass'),
   withSourceMaps = require('@zeit/next-source-maps')(),
   nextConfig = {
     generateInDevMode: true,
-    pageExtensions: ['js', 'jsx', 'mdx'],
+    pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     // registerSwPrefix: '_next/static', // TODO: see below
     target: 'serverless',
     webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,

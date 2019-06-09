@@ -1,11 +1,15 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 import constants from '../lib/constants';
-import { useAmp, withAmp } from 'next/amp';
+import { withAmp } from 'next/amp';
 
 const { assetPath } = constants;
 
+interface Props {
+  children: React.ReactNode;
+}
+
 export default withAmp(
-  ({ children }) => (
+  ({ children }: Props) => (
     <Grid>
       <Row>
         <Cell desktopColumns={2} tabletColumns={1} />

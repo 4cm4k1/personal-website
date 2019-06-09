@@ -19,7 +19,8 @@
     "now-build": "next build",
     "start": "next start",
     "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
-    "proxy": "node scripts/server.js"
+    "proxy": "node scripts/server.js",
+    "type-check": "tsc"
   },
   "husky": {
     "hooks": {
@@ -69,6 +70,7 @@
     "pretty-quick": "^1.11.0",
     "sass": "^1.21.0",
     "sass-loader": "^7.1.0",
+    "typescript": "^3.5.1",
     "webpack": "^4.33.0",
     "webpack-bundle-analyzer": "^3.3.2"
   },

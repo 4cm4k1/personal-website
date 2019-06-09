@@ -1,26 +1,17 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Main, NextScript, Html } from 'next/document';
 import constants from '../lib/constants';
 
 import JsonLd from '../components/JsonLd';
 
-const { analytics, assetPath, host, primaryTheme, profile } = constants;
+const { assetPath, host, primaryTheme, profile } = constants;
 
 export default class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
-
   render() {
     return (
-      <html lang='en-US'>
+      <Html lang='en-US'>
         <Head>
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
-          {/* <link rel='preconnect' href='https://stats.g.doubleclick.net' />
-          <link rel='preconnect' href='https://www.google.com' />
-          <link rel='preconnect' href='https://www.google-analytics.com' />
-          <link rel='preconnect' href='https://www.googletagmanager.com' /> */}
           <link
             rel='preload'
             href={`${assetPath}/material-icons.woff2`}
@@ -54,7 +45,7 @@ export default class MyDocument extends Document {
           <meta name='apple-mobile-web-app-title' content={profile.fullName} />
           <meta name='application-name' content={profile.fullName} />
           <meta name='theme-color' content={primaryTheme} />
-          <link rel='author' content={profile.fullName} />
+          <meta name='author' content={profile.fullName} />
           <link rel='canonical' href={host} />
           <link rel='opengraph' href={`${assetPath}/metadata.html`} />
           <meta
@@ -79,26 +70,12 @@ export default class MyDocument extends Document {
             property='og:image:alt'
             content={profile.title}
           />
-          {/* <script
-            defer
-            src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}
-          /> */}
         </Head>
         <body>
           <Main />
           <NextScript />
-          {/* <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${analytics}');
-          `,
-            }}
-          /> */}
         </body>
-      </html>
+      </Html>
     );
   }
 }

@@ -1,4 +1,18 @@
-export default props => (
+interface Props {
+  profile: {
+    email: string;
+    lastName: string;
+    firstName: string;
+    jobTitle: string;
+    phone: string;
+    description: string;
+    fullName: string;
+    title: string;
+  };
+  host: string;
+}
+
+export default (props: Props) => (
   <>
     <script
       type='application/ld+json'

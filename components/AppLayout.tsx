@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { createRef, Component } from 'react';
 import Drawer, {
   DrawerHeader,
   DrawerSubtitle,
@@ -20,14 +20,30 @@ const NavList = dynamic(() => import('./NavList'));
 
 import '../scss/AppLayout.scss';
 
-export default class AppLayout extends Component {
+interface Props {
+  children: React.ReactNode;
+  profile: {
+    email: string;
+    lastName: string;
+    firstName: string;
+    jobTitle: string;
+    phone: string;
+    description: string;
+    fullName: string;
+    title: string;
+  };
+}
+
+export default class AppLayout extends Component<Props> {
   state = { open: false };
 
-  mainContentEl = React.createRef();
+  mainContentEl = createRef<HTMLDivElement>();
 
   onDrawerClose = () => {
     this.setState({ open: false });
-    this.mainContentEl.current.querySelector('i, a').focus();
+    if (this.mainContentEl && this.mainContentEl.current) {
+      this.mainContentEl.current.focus();
+    }
   };
 
   onListItemClick = () => this.onDrawerClose();
@@ -44,7 +60,7 @@ export default class AppLayout extends Component {
             <DrawerSubtitle>{profile.jobTitle}</DrawerSubtitle>
           </DrawerHeader>
           <DrawerContent>
-            <NavList onListItemClick={this.onListItemClick} />
+            <NavList />
           </DrawerContent>
         </Drawer>
         <div ref={this.mainContentEl}>
