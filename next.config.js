@@ -1,5 +1,4 @@
-const fiber = require('fibers'),
-  sass = require('sass'),
+const sass = require('sass'),
   withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
   }),
@@ -40,7 +39,6 @@ const fiber = require('fibers'),
   },
   sassConfig = {
     sassLoaderOptions: {
-      fiber: fiber,
       implementation: sass,
       includePaths: ['node_modules'],
     },
