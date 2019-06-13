@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "next": "^8.1.1-canary.47",
+    "next": "^8.1.1-canary.51",
     "react": "^16.9.0-alpha.0",
     "react-dom": "^16.9.0-alpha.0"
   },
@@ -38,14 +38,14 @@
     "@material/react-material-icon": "^0.13.0",
     "@material/react-top-app-bar": "^0.13.0",
     "@mdx-js/loader": "^1.0.20",
-    "@next/bundle-analyzer": "^8.1.1-canary.47",
-    "@next/mdx": "^8.1.1-canary.47",
+    "@next/bundle-analyzer": "^8.1.1-canary.51",
+    "@next/mdx": "^8.1.1-canary.51",
     "@rmwc/list": "^5.5.2",
     "@types/copy-webpack-plugin": "^5.0.0",
     "@types/fibers": "^0.0.30",
     "@types/http-proxy": "^1.17.0",
     "@types/next": "^8.0.5",
-    "@types/node": "^12.0.7",
+    "@types/node": "^12.0.8",
     "@types/optimize-css-assets-webpack-plugin": "^1.3.4",
     "@types/prettier": "^1.16.4",
     "@types/react": "^16.8.19",
@@ -57,10 +57,10 @@
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.0.3",
-    "css-loader": "^2.1.1",
+    "css-loader": "^3.0.0",
     "extract-css-chunks-webpack-plugin": "^4.5.2",
     "http-proxy": "^1.17.0",
-    "husky": "^2.4.0",
+    "husky": "^2.4.1",
     "modern-normalize": "^0.5.0",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^4.0.2",
@@ -71,7 +71,7 @@
     "sass": "^1.21.0",
     "sass-loader": "^7.1.0",
     "typescript": "^3.5.1",
-    "webpack": "^4.33.0",
+    "webpack": "^4.34.0",
     "webpack-bundle-analyzer": "^3.3.2"
   },
   "renovate-config": {
