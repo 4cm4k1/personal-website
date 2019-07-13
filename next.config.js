@@ -11,6 +11,7 @@ const sass = require('sass'),
     generateInDevMode: true,
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     // registerSwPrefix: '_next/static', // TODO: see below
+    publicRuntimeConfig: false, // temp workaround
     target: 'serverless',
     webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
     webpackDevMiddleware: config => config,
