@@ -8,6 +8,14 @@ const sass = require('sass'),
   withPlugins = require('next-compose-plugins'),
   withSourceMaps = require('@zeit/next-source-maps')(),
   nextConfig = {
+    experimental: {
+      terserLoader: true,
+      // flyingShuttle: true,
+      asyncToPromises: true,
+      // documentMiddleware: true,
+      publicDirectory: true,
+      modern: true,
+    },
     generateInDevMode: true,
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     // registerSwPrefix: '_next/static', // TODO: see below
