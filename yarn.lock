@@ -1264,17 +1264,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.27.tgz#7461e39f8880eceff8f48b0240e6cdc0f01cc8db"
   integrity sha512-sCv3ItE5L6rdpnZR0s69C8KFgz4pmhGsH4de0ZiO+fiCC/L6asuKLubf9QZk3oG3vjebym/V593CE15vRXvvwQ==
 
-"@next/bundle-analyzer@^9.0.3-canary.3":
-  version "9.0.3-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.0.3-canary.3.tgz#9a24ecb2089b241dbf413794d1aff9891f6d10df"
-  integrity sha512-ondlH9kXZUlPUX4KQZT/1lRVaxNP+W67bMo3ZVCkxrk/qNcBIn2kUkc4GxesDrp8DG11Dg9kp0dpSYrhGv57Vg==
+"@next/bundle-analyzer@^9.0.3-canary.4":
+  version "9.0.3-canary.4"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.0.3-canary.4.tgz#01caffe72b69640f91efbae82ac2041d80d634ae"
+  integrity sha512-xunmsWROqi+6K/Zw76/jQ2OnU+KeShvZ8MuxVdv7J6x0y4j5voPQxlQHR5p8KEREKo0ayV39uyoJ57OOZmKPKw==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.0.3-canary.3":
-  version "9.0.3-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.0.3-canary.3.tgz#245c9390914a1296ce2765cd0738c60d1f3e95cd"
-  integrity sha512-FpjNwTr408xIEBB2T4CuYwZJmTFULJWjffliJf/kdHciaWhN7N/8dSfUMm5X4PA4ll3zzIbfWb+m/MPJlaHgtg==
+"@next/mdx@^9.0.3-canary.4":
+  version "9.0.3-canary.4"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.0.3-canary.4.tgz#0c3b2b7591173e4baa687bb10c208681d2820ce8"
+  integrity sha512-t0UG7Ul6cZplXmKiaIHFvFtsZ/fT5V+M6YB+SqUhDJUAvWPvxcG2jW1cney6bMFQEFhRg3BkLuj9OBtGA4XPLA==
 
 "@rmwc/base@^5.6.0":
   version "5.6.0"
@@ -5179,10 +5179,10 @@ next-offline@^4.0.2:
     webpack "^4.19.1"
     workbox-webpack-plugin "^4.3.1"
 
-next-server@9.0.3-canary.3:
-  version "9.0.3-canary.3"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-9.0.3-canary.3.tgz#69d7a56361ccca930858980fc2ac3f4e9111731b"
-  integrity sha512-glX1bRoKJ0xE666bVlqG9ySF3H78POWb4LRuygQr7oaF4pZoqWEimwT5tJ1sN3Di40OLdLBy3zeB/ub62ygpkg==
+next-server@9.0.3-canary.4:
+  version "9.0.3-canary.4"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-9.0.3-canary.4.tgz#c8bc7222c8b5b3b01b3115d45b8e5d8cabd61d63"
+  integrity sha512-5l7t7zqJ97295gsVhySm+H/8gMVYF4/O0dOstAXWw8GzJyXSlUxHuxhm4AJl9XTmVNzXY7BtV28YnLqVKZ0AcA==
   dependencies:
     amp-toolbox-optimizer "1.2.0-alpha.1"
     content-type "1.0.4"
@@ -5198,10 +5198,10 @@ next-server@9.0.3-canary.3:
     styled-jsx "3.2.1"
     url "0.11.0"
 
-next@^9.0.3-canary.3:
-  version "9.0.3-canary.3"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.0.3-canary.3.tgz#a05e3bea8336e3c7f5441b2809e702ba68fdda06"
-  integrity sha512-Qly0H6acu8xI9pgMtOTi7xEWj3Lz3Ve7U3nGS5c2k8X992MWsO/DesFTZ0i8TryZqgCvzE3SJjtBVNtSCd1pKw==
+next@^9.0.3-canary.4:
+  version "9.0.3-canary.4"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.0.3-canary.4.tgz#99d7cda6f0a95fa86c12985427411fdbad56b7a0"
+  integrity sha512-n7CYoQaH7a5Ita95d25uRKpNYP16+OlDWawo2PlPICjFcdojzHauHtfP1DiFUaGTAW6A9fwuTe2HeE/qqtHwiQ==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -5229,7 +5229,7 @@ next@^9.0.3-canary.3:
     launch-editor "2.2.1"
     loader-utils "1.2.3"
     mkdirp "0.5.1"
-    next-server "9.0.3-canary.3"
+    next-server "9.0.3-canary.4"
     prop-types "15.7.2"
     prop-types-exact "1.2.0"
     react-error-overlay "5.1.6"
