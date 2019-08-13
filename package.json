@@ -28,38 +28,38 @@
     }
   },
   "dependencies": {
-    "next": "^9.0.3-canary.6",
-    "react": "^16.9.0-alpha.0",
-    "react-dom": "^16.9.0-alpha.0"
+    "next": "^9.0.4-canary.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
     "@material/react-drawer": "^0.15.0",
     "@material/react-layout-grid": "^0.15.0",
     "@material/react-material-icon": "^0.15.0",
     "@material/react-top-app-bar": "^0.15.0",
-    "@mdx-js/loader": "^1.1.5",
-    "@next/bundle-analyzer": "^9.0.3-canary.6",
-    "@next/mdx": "^9.0.3-canary.6",
+    "@mdx-js/loader": "^1.2.2",
+    "@next/bundle-analyzer": "^9.0.4-canary.3",
+    "@next/mdx": "^9.0.4-canary.3",
     "@rmwc/list": "^5.6.0",
-    "@types/node": "^12.6.9",
-    "@types/react": "^16.8.24",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.1",
     "@types/react-dom": "^16.8.5",
     "@zeit/next-sass": "^1.0.2-canary.2",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
-    "husky": "^3.0.2",
+    "husky": "^3.0.3",
     "modern-normalize": "^0.5.0",
     "next-compose-plugins": "^2.2.0",
-    "next-offline": "^5.0.0-beta.1",
+    "next-offline": "^4.0.3",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "sass": "^1.22.9",
     "typescript": "^3.5.3"
   },
   "resolutions": {
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.2.0"
   },
   "engines": {
-    "node": "12.x || 10.x"
+    "node": ">=10.x"
   },
   "renovate-config": {
     "assignees": [
