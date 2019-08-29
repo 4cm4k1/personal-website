@@ -22,7 +22,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   },
   sassConfig = {
     sassLoaderOptions: {
-      includePaths: ['node_modules'],
+      sassOptions: {
+        includePaths: ['node_modules'],
+      },
     },
   };
 
