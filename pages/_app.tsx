@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app';
+import App from 'next/app';
 import Head from 'next/head';
 import constants from '../lib/constants';
 
@@ -12,14 +12,14 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <Container>
+      <>
         <Head>
           <title>{profile.title}</title>
         </Head>
         <AppLayout profile={profile}>
           <Component {...pageProps} />
         </AppLayout>
-      </Container>
+      </>
     );
   }
 }

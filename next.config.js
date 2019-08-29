@@ -8,12 +8,16 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   withSourceMaps = require('@zeit/next-source-maps')(),
   nextConfig = {
     experimental: {
-      terserLoader: true,
-      // flyingShuttle: true,
-      asyncToPromises: true,
-      // documentMiddleware: true,
+      // cpus: 1,
+      // ampBindInitData: false,
+      // profiling: false,
+      // documentMiddleware: false,
+      granularChunks: true,
       publicDirectory: true,
       modern: true,
+    },
+    future: {
+      excludeDefaultMomentLocales: true,
     },
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     target: 'serverless',
