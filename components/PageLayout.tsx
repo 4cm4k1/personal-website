@@ -1,6 +1,8 @@
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 import constants from '../lib/constants';
 
+import '@material/react-layout-grid/dist/layout-grid.css';
+
 const { assetPath } = constants;
 
 interface Props {

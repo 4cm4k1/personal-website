@@ -18,7 +18,9 @@ import dynamic from 'next/dynamic';
 
 const NavList = dynamic(() => import('./NavList'));
 
-import '../scss/AppLayout.scss';
+import '@material/react-drawer/dist/drawer.css';
+import '@material/react-top-app-bar/dist/top-app-bar.css';
+import '@material/react-material-icon/dist/material-icon.css';
 
 interface Props {
   children: React.ReactNode;

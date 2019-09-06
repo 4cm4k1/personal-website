@@ -1,7 +1,7 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
   }),
-  withSass = require('@zeit/next-sass'),
+  withCss = require('@zeit/next-css'),
   withMDX = require('@next/mdx')(),
   withOffline = require('next-offline'),
   withPlugins = require('next-compose-plugins'),
@@ -23,21 +23,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
     target: 'serverless',
     webpack: (config, { buildId, dev, isServer, defaultLoaders }) => config,
     webpackDevMiddleware: config => config,
-  },
-  sassConfig = {
-    sassLoaderOptions: {
-      sassOptions: {
-        includePaths: ['node_modules'],
-      },
-    },
   };
 
 module.exports = withPlugins(
   [
     // @zeit/next-bundle-analyzer
     [withBundleAnalyzer],
-    // @zeit/next-sass
-    [withSass, sassConfig],
+    // @zeit/next-css
+    [withCss],
     // @zeit/next-mdx
     [withMDX],
     // next-offline

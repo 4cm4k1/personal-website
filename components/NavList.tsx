@@ -2,7 +2,7 @@ import { List, ListItemGraphic } from '@rmwc/list';
 
 import Link from './Link';
 
-import '../scss/NavList.scss';
+import '@material/list/dist/mdc.list.css';
 
 export default () => (
   <List>

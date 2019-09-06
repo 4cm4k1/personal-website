@@ -14,12 +14,9 @@
     "analyze": "ANALYZE=true yarn build",
     "build": "next build",
     "dev": "next",
-    "dev:proxy": "run-p -r dev proxy",
-    "gen-dev-certs": "mkcert localhost 127.0.0.1 ::1 && mv localhost+2.pem dev/cert.pem && mv localhost+2-key.pem dev/key.pem",
     "now-build": "next build",
     "start": "next start",
-    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,scss} --write",
-    "proxy": "node scripts/server.js",
+    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,ts,tsx} --write",
     "type-check": "tsc"
   },
   "husky": {
@@ -28,7 +25,7 @@
     }
   },
   "dependencies": {
-    "next": "^9.0.5-canary.3",
+    "next": "^9.0.6-canary.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
@@ -37,28 +34,25 @@
     "@material/react-layout-grid": "^0.15.0",
     "@material/react-material-icon": "^0.15.0",
     "@material/react-top-app-bar": "^0.15.0",
-    "@mdx-js/loader": "^1.4.0",
-    "@next/bundle-analyzer": "^9.0.5-canary.3",
-    "@next/mdx": "^9.0.5-canary.3",
+    "@mdx-js/loader": "^1.4.4",
+    "@next/bundle-analyzer": "^9.0.6-canary.1",
+    "@next/mdx": "^9.0.6-canary.1",
     "@rmwc/list": "^5.6.0",
-    "@types/node": "^12.7.2",
+    "@types/node": "^12.7.4",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
-    "@zeit/next-sass": "^1.0.2-canary.2",
+    "@zeit/next-css": "^0.2.1-canary.4",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
-    "fibers": "^4.0.1",
     "husky": "^4.0.0-beta.1",
     "modern-normalize": "^0.5.0",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^5.0.0-beta.4",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
-    "sass": "^1.22.10",
     "typescript": "^3.6.2"
   },
   "resolutions": {
-    "sass-loader": "^8.0.0",
-    "set-value": "^2.0.1"
+    "set-value": "^3.0.1"
   },
   "engines": {
     "node": ">=10.x"
