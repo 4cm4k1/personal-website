@@ -5,8 +5,6 @@
 .next
 # Webpack Bundle Analyzer outputs
 bundles
-# Local development scripts
-dev
 # Yarn-installed packages
 node_modules
 # Files ---------------------
@@ -21,7 +19,5 @@ node_modules
 *.log
 # Root Markdown files
 *.md
-# Local development SSL certificates
-*.pem
 # License
 license

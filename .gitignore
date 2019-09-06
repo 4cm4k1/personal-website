@@ -8,5 +8,3 @@ node_modules
 # Files ---------------------
 # Logs
 *.log
-# Local development SSL certificates
-*.pem
