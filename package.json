@@ -40,7 +40,7 @@
     "@rmwc/list": "^5.6.0",
     "@types/node": "^12.7.4",
     "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
+    "@types/react-dom": "^16.9.4",
     "@zeit/next-css": "^0.2.1-canary.4",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.0.0-beta.1",
