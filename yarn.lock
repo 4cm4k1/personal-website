@@ -1238,10 +1238,10 @@
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.0.6-canary.1":
-  version "9.0.6-canary.1"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.0.6-canary.1.tgz#764a55e5df23e3d989297a86cb4c2fe59052adfa"
-  integrity sha512-uswtgpJJIdQizbBjl9QrBL0eraGD1y34nuKvsVUTGxPciKnYyXxSSN0wGxnLERtemW8yN6NynkpbkJx6Ruo/lA==
+"@next/mdx@^9.1.5":
+  version "9.1.5"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.1.5.tgz#d3f4b3ce680608b4fcaf55889ff84f3f8efcb6b8"
+  integrity sha512-1Anml0XN1YwvylGI7hcVYNhvUCl6oB2t8goa2z1qzla1asmoHsiWRtP/AISK+lEi4gKJl4hVPkhMsN1j9CR01w==
 
 "@rmwc/base@^5.6.0":
   version "5.6.0"
