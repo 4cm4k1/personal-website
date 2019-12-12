@@ -5,6 +5,7 @@ import constants from '../lib/constants';
 const { profile } = constants;
 
 import 'modern-normalize/modern-normalize.css';
+import '@material/list/dist/mdc.list.css';
 
 import AppLayout from '../components/AppLayout';
 

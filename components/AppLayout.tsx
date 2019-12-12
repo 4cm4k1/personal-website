@@ -14,9 +14,8 @@ import TopAppBar, {
   TopAppBarTitle,
 } from '@material/react-top-app-bar';
 import MaterialIcon from '@material/react-material-icon';
-import dynamic from 'next/dynamic';
 
-const NavList = dynamic(() => import('./NavList'));
+import NavList from './NavList';
 
 import '@material/react-drawer/dist/drawer.css';
 import '@material/react-top-app-bar/dist/top-app-bar.css';

@@ -2,8 +2,6 @@ import { withRouter } from 'next/router';
 import Link from 'next/link';
 import { ListItem } from '@rmwc/list';
 
-import '@material/list/dist/mdc.list.css';
-
 const ActiveLink = ({ router, children, ...props }) => {
   let activated = false;
   if (props.href === router.pathname) {
