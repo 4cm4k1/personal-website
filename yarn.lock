@@ -1393,10 +1393,10 @@
   dependencies:
     tslib "^1.9.3"
 
-"@material/animation@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-3.1.0.tgz#ab04e7c2e92ab370a2b28d12af1b88538d23014f"
-  integrity sha512-ZfP95awrPBLhpaCTPNx+xKYPp2D88fzf5p5YNVp6diUAGRpq3g12Aq7qJfIHDXAFo5CtrYhgOKRqIKxUVcFisQ==
+"@material/animation@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-4.0.0.tgz#19eaf377809f20978f8452a4237d27867d3ffd1d"
+  integrity sha512-IfzXzstWdtKQcsNWu+s2Hpz5dBwkTHtgtzoesr+FC7TqENH+SJdsF1ntnZI1XVi2C9ZlBf7f4BSmXpWHD0MIlw==
   dependencies:
     tslib "^1.9.3"
 
@@ -1412,10 +1412,10 @@
   dependencies:
     tslib "^1.9.3"
 
-"@material/base@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/base/-/base-3.1.0.tgz#ab933896ab6390d4e1d2f9797b74a90f47db272a"
-  integrity sha512-pWEBHyPrMV3rdnjqWWH96h5t3MxQI6V1J9jOor+UBG7bXQtr6InTabTqhz5CLY7r+qZU8YvNh2OKIy8heP0cyQ==
+"@material/base@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-4.0.0.tgz#535574d0b63c18892cfb70e88b27bc8f8090677a"
+  integrity sha512-vHm7fkqXzjdfxifXvlmaZColoIfKuWmO+1rvdzDORTWP+A8Dq70cgKd2I1SBqxzDGjOasMzHbQI6f9MISQf2vQ==
   dependencies:
     tslib "^1.9.3"
 
@@ -1433,6 +1433,11 @@
     "@material/theme" "^1.1.0"
     tslib "^1.9.3"
 
+"@material/density@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/density/-/density-4.0.0.tgz#5bc4bba6c1232f6e075c88295357e6ebdee4353f"
+  integrity sha512-PuOCPCXlWjimTq+OuCS8biAb1JE9aXCZwT1dRG9REAIAK7bN8KeeTzkeJp6jTj+ggZjWphwKF0lKeX6Gv+e/lw==
+
 "@material/dom@^1.0.0", "@material/dom@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-1.1.0.tgz#3bd3d1a3415b4181118fecb182d93beda56a6f8c"
@@ -1440,10 +1445,10 @@
   dependencies:
     tslib "^1.9.3"
 
-"@material/dom@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-3.1.0.tgz#1e58cad0cd5e1d9d6f6cb07422e327ad34a9d405"
-  integrity sha512-RtBLSkrBjMfHwknaGBifAIC8cBWF9pXjz2IYqfI2braB6SfQI4vhdJviwyiA5BmA/psn3cKpBUZbHI0ym0O0SQ==
+"@material/dom@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-4.0.0.tgz#f0e68c4429e555040304c958bb3e11614276fdfa"
+  integrity sha512-GRCJT9+PGWqygZwGf1XLTrbmzP35YWG7+T0hpfhoIJO8VDiMTeyfvhJXFuA2wh9pD0noEjte0lmbdBlykrbWZw==
   dependencies:
     tslib "^1.9.3"
 
@@ -1478,10 +1483,10 @@
   resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-0.44.1.tgz#afafc80294e5efab94bee31a187273d43d34979a"
   integrity sha512-90cc7njn4aHbH9UxY8qgZth1W5JgOgcEdWdubH1t7sFkwqFxS5g3zgxSBt46TygFBVIXNZNq35Xmg80wgqO7Pg==
 
-"@material/feature-targeting@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-3.1.0.tgz#a6f6cacd1e0c9b60dc82f2f3bb2de8cfd472252b"
-  integrity sha512-aXAa1Pv6w32URacE9LfMsl9zI6hFwx1K0Lp3Xpyf4rAkmaAB6z0gOkhicOrVFc0f64YheJgHjE7hJFieVenQdw==
+"@material/feature-targeting@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-4.0.0.tgz#8d9d1470801a1fd166773731613d9fa89e0fd85e"
+  integrity sha512-0gk+f151vqmEdWkrQ9ocPlQRU9aUtSGsVBhletqIbsthLUsZIz9qk25FHjV1wHd/bGHknd9NH+T8ENprv3KLFg==
 
 "@material/form-field@^0.41.0":
   version "0.41.0"
@@ -1529,19 +1534,20 @@
     "@material/typography" "^2.3.0"
     tslib "^1.9.3"
 
-"@material/list@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/list/-/list-3.1.0.tgz#d575e801c634e992bf40344dc0917b56947a3cb9"
-  integrity sha512-JBru3jtHHZPUCAmyLGAvZewERQYzG6DK43hvLRETuChQYfER/PJGh9Kbttr+7c0Qr+yvpf5kVgNUkY2AKnPEKg==
+"@material/list@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/list/-/list-4.0.0.tgz#206e13920d070c2f538027e0b4905bc2b903e64d"
+  integrity sha512-ximtqMQzi+bnnFy1jrdzMUH7jq169XVexCykumxoLI1PbVx4imQ0G3R6LIfJiafbxbBYawfwySZfMXTJkDML7g==
   dependencies:
-    "@material/base" "^3.1.0"
-    "@material/dom" "^3.1.0"
-    "@material/feature-targeting" "^3.1.0"
-    "@material/ripple" "^3.1.0"
-    "@material/rtl" "^3.1.0"
-    "@material/shape" "^3.1.0"
-    "@material/theme" "^3.1.0"
-    "@material/typography" "^3.1.0"
+    "@material/base" "^4.0.0"
+    "@material/density" "^4.0.0"
+    "@material/dom" "^4.0.0"
+    "@material/feature-targeting" "^4.0.0"
+    "@material/ripple" "^4.0.0"
+    "@material/rtl" "^4.0.0"
+    "@material/shape" "^4.0.0"
+    "@material/theme" "^4.0.0"
+    "@material/typography" "^4.0.0"
     tslib "^1.9.3"
 
 "@material/radio@^1.1.0":
@@ -1666,16 +1672,16 @@
     "@material/theme" "^1.1.0"
     tslib "^1.9.3"
 
-"@material/ripple@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-3.1.0.tgz#5cb581e9a70415c50c8b92ecd8628d5eeae34c74"
-  integrity sha512-mYvd2iWbQyVd6aLS9alHShoL05p/D0cvh5h1ga3atz55azooMLhGsbbE1YlEqUDKHKNuNvdVFm+0IfWdvvRgsw==
+"@material/ripple@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-4.0.0.tgz#906ba421a3e6c68651d829d44c50a95060aa1e75"
+  integrity sha512-9BLIOvyCP5sM+fQpLlcJZWyrHguusJq8E5A1pxg0wQwputOyaPBM7recHhYkJmVjzRpTcPgf1PkvkpN6DKGcNg==
   dependencies:
-    "@material/animation" "^3.1.0"
-    "@material/base" "^3.1.0"
-    "@material/dom" "^3.1.0"
-    "@material/feature-targeting" "^3.1.0"
-    "@material/theme" "^3.1.0"
+    "@material/animation" "^4.0.0"
+    "@material/base" "^4.0.0"
+    "@material/dom" "^4.0.0"
+    "@material/feature-targeting" "^4.0.0"
+    "@material/theme" "^4.0.0"
     tslib "^1.9.3"
 
 "@material/rtl@^0.40.1":
@@ -1688,10 +1694,10 @@
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.42.0.tgz#1836e78186c2d8b996f6fbf97adab203535335bc"
   integrity sha512-VrnrKJzhmspsN8WXHuxxBZ69yM5IwhCUqWr1t1eNfw3ZEvEj7i1g3P31HGowKThIN1dc1Wh4LE14rCISWCtv5w==
 
-"@material/rtl@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-3.1.0.tgz#8a5254bcf6c4d897e16206d52ba98b8eb98d45b7"
-  integrity sha512-HH19edQNb139zC+1SZ6/C9G92E54fUrnnW9AAF7t5eGjGdF26YJXJ/uhz+TnFhNUMi/QGrKUSycd4o73nU1m4A==
+"@material/rtl@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-4.0.0.tgz#bc07e0a7c47174b2542862c252b0e35b44329c47"
+  integrity sha512-AP8zByVDEWAJVJoxByVccUbH+BX24IeG7ol+L6Qd8JjzPpz1fzPVJ4BeDNaF0a6sXtHsRmj2zN5dsx/BGC3IHg==
 
 "@material/selection-control@^0.41.0":
   version "0.41.0"
@@ -1707,12 +1713,12 @@
   dependencies:
     "@material/feature-targeting" "^0.44.1"
 
-"@material/shape@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/shape/-/shape-3.1.0.tgz#7ccac6606d0ae45b779b3e52b8921c09c2b2f429"
-  integrity sha512-Oyvs7YjHfByA0e9IVVp7ojAlPwgSu3Bl0cioiE0OdkidkAaNu0izM2ryRzMBDH5o8+lRD0kpZoT+9CVVCdaYIg==
+"@material/shape@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/shape/-/shape-4.0.0.tgz#ddf4dcbfd290d367f80b26014fee0a1f490dc3cb"
+  integrity sha512-wmr05YBrEL462QPiJ+t9xh5RqxzylXYo/8DVZnb/1WA9GZ6m38UK/8Awtip1cZAN34pzD/9p5AydyywlQVoI+g==
   dependencies:
-    "@material/feature-targeting" "^3.1.0"
+    "@material/feature-targeting" "^4.0.0"
 
 "@material/theme@^0.41.0":
   version "0.41.0"
@@ -1726,12 +1732,12 @@
   dependencies:
     "@material/feature-targeting" "^0.44.1"
 
-"@material/theme@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-3.1.0.tgz#d31147bbc9e20bdaa3e322c9e898e4fc98807d8c"
-  integrity sha512-N4JX+akOwg1faAvFvIEhDcwW4cZfUpwEn8lct6Vs3WczjLF6/KdIoLVaYh+eVl1bzfsoIuWvx56j0B1PjXZw9g==
+"@material/theme@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-4.0.0.tgz#8de388fcdbae20fd09b02a3bdef3049bf2f623a8"
+  integrity sha512-vS4G4rusJTatTH50kSYO1U3UGN8EY9kGRvPaFsEFKikJBOqcR6KWK9H9/wCLqqd6nDNifEj9H2sdWw1AV4NA6Q==
   dependencies:
-    "@material/feature-targeting" "^3.1.0"
+    "@material/feature-targeting" "^4.0.0"
 
 "@material/top-app-bar@^1.1.0":
   version "1.1.1"
@@ -1767,12 +1773,12 @@
   dependencies:
     "@material/feature-targeting" "^0.44.1"
 
-"@material/typography@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-3.1.0.tgz#5a3aee31f49f6b8c87ebc91b77c5b896b280c492"
-  integrity sha512-aSNBQvVxIH1kORSYdLGuSTivx6oJ1MSOSTUAsUwhXPQLQlvbdFeZaqUp7xgn+EvRsHGRFhWk5YGuiBds9+7zQg==
+"@material/typography@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-4.0.0.tgz#57be7ac8b819f2ae29d48c9443b113d2f5585ecc"
+  integrity sha512-lUG4yjG9fl1ryNX4OVnOmi+EjhiV4WsWcYt4yzffHrFg1RfKuCAV59j7TtmlMfZIkNDwqK5jvk3oOpTRDFpL8Q==
   dependencies:
-    "@material/feature-targeting" "^3.1.0"
+    "@material/feature-targeting" "^4.0.0"
 
 "@mdx-js/loader@^1.5.1":
   version "1.5.1"
@@ -1829,10 +1835,10 @@
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.1.6-canary.4.tgz#97c909e01c48cc8e45efd53c26d598873bd701b2"
   integrity sha512-HRof42sSPTvy1c53QooQ6dQffsZHb7EIsV3XMk4eGepIoJ17Kx9Ck7QMsOrL50Aa1/QLCPvEDSlADRmvybcArg==
 
-"@rmwc/base@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.6.tgz#54b30f54c51661025ddb932f293d75f137942245"
-  integrity sha512-62+f7I4oBd7XXmYuedcr+RJeYtRQcqZGT99BCBZg9hkPw3eup01VcRhKsdxLGTOv+nJ2tjI6ldHIHc5SvysfgQ==
+"@rmwc/base@^6.0.0-alpha.7":
+  version "6.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.7.tgz#f7a054597570b2143d3ce37f1a6a5048d2f39f1f"
+  integrity sha512-6om+BE8MeReystAjpS5eEdjy1Y7RHoFKG83qlfp3sEv2y6XUQDS+MiJ52AaJLsMZJ4NavEkY8GGduR1tRFdBQQ==
   dependencies:
     "@rmwc/types" "^6.0.0-alpha.6"
     classnames "^2.2.6"
@@ -1841,43 +1847,43 @@
     mutation-observer "^1.0.3"
     tslib "^1.10.0"
 
-"@rmwc/icon@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.6.tgz#bf42913d96b40998b0de8fda1668e1abb94e7e88"
-  integrity sha512-lrypg8/n3fcZRewqpOoGNL71fTfF4RdOQ5s/k1As5UHE7Qj+/yHaVOwngpE8AJL2+P90vDqLb+AaIhAqovYDjQ==
+"@rmwc/icon@^6.0.0-alpha.7":
+  version "6.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.7.tgz#7d97ac48efb8fb75992390967e2741c5ec5088d8"
+  integrity sha512-0zLClzUrEeCI4zygUjXOiw2mEIc3Jzld1jbv4cdnaU1I7MkfAqX0sDEm2hRZXiwcfh9IutHfigq4qbdh/h1Knw==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.6"
-    "@rmwc/provider" "^6.0.0-alpha.6"
+    "@rmwc/base" "^6.0.0-alpha.7"
+    "@rmwc/provider" "^6.0.0-alpha.7"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/list@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.0-alpha.6.tgz#91d62f4c1fc072df5c0e3d91c6a41057f9ab1999"
-  integrity sha512-F6JzsE9htZLVPBMcIzERTGwa2MRwcBhVaDOLZhFX9h9GZgBiR63L73zs1P3w+0++P5RePIGHHVnDEZI+szPEOQ==
+"@rmwc/list@^6.0.0-alpha.7":
+  version "6.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.0-alpha.7.tgz#fe0401e739a085e826337a6927a3e7be5b51f39b"
+  integrity sha512-NzwoaMXKhlD0Z8vIuuf/bSdLrMWZIVfIXTvRAgmiwY4FRJUAa+3SUEC4crbJWgKr1MukXKIfr6aaJdpTciHibA==
   dependencies:
-    "@material/list" "^3.1.0"
-    "@rmwc/base" "^6.0.0-alpha.6"
-    "@rmwc/icon" "^6.0.0-alpha.6"
-    "@rmwc/provider" "^6.0.0-alpha.6"
-    "@rmwc/ripple" "^6.0.0-alpha.6"
+    "@material/list" "^4.0.0"
+    "@rmwc/base" "^6.0.0-alpha.7"
+    "@rmwc/icon" "^6.0.0-alpha.7"
+    "@rmwc/provider" "^6.0.0-alpha.7"
+    "@rmwc/ripple" "^6.0.0-alpha.7"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/provider@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.6.tgz#be6f20a04fe807351ee833feb9560a91c442efa0"
-  integrity sha512-uvt23tASnA0h6rx1XsB3K1ilb0WBFK8rEGU/Bru/kbsqWvyPSpRunvs/s0FK6XIfTuKkLP9gKa0/ERqf1DDICg==
+"@rmwc/provider@^6.0.0-alpha.7":
+  version "6.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.7.tgz#8ef097199b0b3f493616b37b48ef563e21e4a1ba"
+  integrity sha512-JBpyqhg23Puo27IKlGHczzdjebtMh02S/TcMUFsHmDeoH2DAGk0T7NRF7JbL0tuElfpyyBtykK1pGBpcREbHLQ==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.6"
+    "@rmwc/base" "^6.0.0-alpha.7"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/ripple@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.6.tgz#9b2ccd39f5844941ca39214c4f1e7ba8d74bba10"
-  integrity sha512-p9L21BtW0qsl3PfY5H7xtkblVNh7veGnXJFJn6/mOb/52lVlzp+v7wXCoDTccMieAQZipHkDrYvso/98hbn0og==
+"@rmwc/ripple@^6.0.0-alpha.7":
+  version "6.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.7.tgz#d037a84ace69688b9ba5109bed87f8919af51f78"
+  integrity sha512-Z82h87feVs09wkWUWNXn9oOFH2X7jCQgD/L9c+AskTdNituEDceXupUAUXO1DAKUmZsPqPxTj+p2v+kBUAuXnw==
   dependencies:
-    "@material/ripple" "^3.1.0"
-    "@rmwc/base" "^6.0.0-alpha.6"
-    "@rmwc/provider" "^6.0.0-alpha.6"
+    "@material/ripple" "^4.0.0"
+    "@rmwc/base" "^6.0.0-alpha.7"
+    "@rmwc/provider" "^6.0.0-alpha.7"
     "@rmwc/types" "^6.0.0-alpha.6"
 
 "@rmwc/types@^6.0.0-alpha.6":
