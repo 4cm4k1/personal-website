@@ -40,7 +40,7 @@
     "@next/mdx": "^9.1.7-canary.0",
     "@rmwc/list": "^6.0.0-alpha.7",
     "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
+    "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "@zeit/next-css": "^0.2.1-canary.4",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
