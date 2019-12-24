@@ -45,7 +45,7 @@
     "@zeit/next-css": "^0.2.1-canary.4",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.0.0-beta.5",
-    "modern-normalize": "^0.5.0",
+    "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^5.0.0-beta.11",
     "prettier": "^1.19.1",
