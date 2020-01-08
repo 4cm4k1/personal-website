@@ -42,7 +42,7 @@
     "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
-    "@zeit/next-css": "^0.2.1-canary.4",
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.0.0",
     "modern-normalize": "^0.6.0",
