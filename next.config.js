@@ -1,20 +1,45 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
   }),
-  withCss = require('@zeit/next-css'),
   withMDX = require('@next/mdx')(),
   withOffline = require('next-offline'),
   withPlugins = require('next-compose-plugins'),
+  withPreact = (nextConfig = {}) => {
+    return Object.assign({}, nextConfig, {
+      webpack(config, options) {
+        if (!options.defaultLoaders) {
+          throw new Error(
+            'This plugin is not compatible with Next.js versions below 5.0.0 https://err.sh/next-plugins/upgrade',
+          );
+        }
+
+        if (options.isServer) {
+          config.externals = ['react', 'react-dom', ...config.externals];
+        }
+
+        config.resolve.alias = Object.assign({}, config.resolve.alias, {
+          react: 'preact/compat',
+          react$: 'preact/compat',
+          'react-dom': 'preact/compat',
+          'react-dom$': 'preact/compat',
+          'react-ssr-prepass': 'preact-ssr-prepass',
+          'react-ssr-prepass$': 'preact-ssr-prepass',
+        });
+
+        if (typeof nextConfig.webpack === 'function') {
+          return nextConfig.webpack(config, options);
+        }
+
+        return config;
+      },
+    });
+  },
   withSourceMaps = require('@zeit/next-source-maps')(),
   nextConfig = {
     experimental: {
-      // cpus: 1,
-      // ampBindInitData: false,
-      // profiling: false,
-      // documentMiddleware: false,
-      granularChunks: true,
-      publicDirectory: true,
       modern: true,
+      plugins: true,
+      workerThreads: true,
     },
     future: {
       excludeDefaultMomentLocales: true,
@@ -27,10 +52,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withPlugins(
   [
+    // custom plugin above
+    [withPreact],
     // @zeit/next-bundle-analyzer
     [withBundleAnalyzer],
-    // @zeit/next-css
-    [withCss],
     // @zeit/next-mdx
     [withMDX],
     // next-offline
