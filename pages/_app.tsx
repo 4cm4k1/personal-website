@@ -5,7 +5,11 @@ import constants from '../lib/constants';
 const { profile } = constants;
 
 import 'modern-normalize/modern-normalize.css';
+import '@material/react-layout-grid/dist/layout-grid.css';
 import '@material/list/dist/mdc.list.css';
+import '@material/react-drawer/dist/drawer.css';
+import '@material/react-top-app-bar/dist/top-app-bar.css';
+import '@material/react-material-icon/dist/material-icon.css';
 
 import AppLayout from '../components/AppLayout';
 
