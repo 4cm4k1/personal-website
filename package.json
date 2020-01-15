@@ -37,7 +37,7 @@
     "@material/react-material-icon": "^0.15.0",
     "@material/react-top-app-bar": "^0.15.0",
     "@mdx-js/loader": "^1.5.3",
-    "@next/bundle-analyzer": "^9.1.8-canary.13",
+    "@next/bundle-analyzer": "^9.1.8-canary.16",
     "@next/mdx": "^9.1.8-canary.13",
     "@rmwc/list": "^6.0.0-alpha.7",
     "@types/node": "^13.1.6",
