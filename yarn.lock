@@ -1927,22 +1927,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.5.tgz#6f88bcb847ebd0117fc81bcd26b83220062fd881"
   integrity sha512-IudQkyZuM8T1CrSX9r0ShPXCABjtEtyrV4lxQqhKAwFqw1aYpy/5LOZhitMLoJTybZPVdPotuh+zjqYy9ZOSbA==
 
-"@next/bundle-analyzer@^9.1.8-canary.17":
-  version "9.1.8-canary.17"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.1.8-canary.17.tgz#739d3433a27ba3358dabef4585a34d7fa53c1f22"
-  integrity sha512-eR72VgPT61rLAelmwd7xVKfoIeSeXBXpLxewj1AickEeEqxKlyfmnmmqgGHftSvaGsXewNYXbAFNoVJiiGGPpA==
+"@next/bundle-analyzer@^9.2.1-canary.2":
+  version "9.2.1-canary.2"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.1-canary.2.tgz#205b98ec9ab82902d8eaaaf73afe0ea41e533bb7"
+  integrity sha512-VrLowz7hIvN8+RWjQxVaB7pQTHJhtTjS5CEvZ7QpIOoO1I0C3JGDaePT00NJXxat13dE+7p7qpVI7S5+FHkVCg==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.1.8-canary.17":
-  version "9.1.8-canary.17"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.1.8-canary.17.tgz#cb6d42ae2f979bd900d978b6e9c0b3bf6014eed7"
-  integrity sha512-CGiJV+FLvZRc4GUKU1BjXBFkim2B2UndTRgBY7g61kDzonCehZkHMqh5Ke8EHED0sZFm/x1YBEbVCWXNIY6kxQ==
+"@next/mdx@^9.2.1-canary.2":
+  version "9.2.1-canary.2"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.1-canary.2.tgz#7a5904adab095dbb0bbc5c3319cdf5a14b399795"
+  integrity sha512-SP3SQ+lHTmJmFB7RWOvxgjP/ub1oK20YnMfcrZHtSp565rpcur4TjZWGWeGtjSTmu2iQoxddPhI9zSCpmVjO2w==
 
-"@rmwc/base@^6.0.0-alpha.7":
-  version "6.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.7.tgz#f7a054597570b2143d3ce37f1a6a5048d2f39f1f"
-  integrity sha512-6om+BE8MeReystAjpS5eEdjy1Y7RHoFKG83qlfp3sEv2y6XUQDS+MiJ52AaJLsMZJ4NavEkY8GGduR1tRFdBQQ==
+"@rmwc/base@^6.0.0-alpha.11":
+  version "6.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.11.tgz#c85f2a6c5d583a6cdda8a725c7f6c799aa0eb10c"
+  integrity sha512-EkEXUXplpGhEjbILx8FOpAHuREHM+ZbD0S/4S3TJ4KlLy2EqNu1e00WZa3VTH3kRK/tuKVF7+7L96Q983WBz0w==
   dependencies:
     "@rmwc/types" "^6.0.0-alpha.6"
     classnames "^2.2.6"
@@ -1951,43 +1951,43 @@
     mutation-observer "^1.0.3"
     tslib "^1.10.0"
 
-"@rmwc/icon@^6.0.0-alpha.7":
-  version "6.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.7.tgz#7d97ac48efb8fb75992390967e2741c5ec5088d8"
-  integrity sha512-0zLClzUrEeCI4zygUjXOiw2mEIc3Jzld1jbv4cdnaU1I7MkfAqX0sDEm2hRZXiwcfh9IutHfigq4qbdh/h1Knw==
+"@rmwc/icon@^6.0.0-alpha.11":
+  version "6.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.11.tgz#7f04850d561e5498a49c578a5e6cee36d01ea5a9"
+  integrity sha512-qMTUXI8/QNWS/BUmz9lxJZk0VTwwcNxVdm+o6/Sxq70tD/v1rINoWl1d6mSE67+nNuEURoYVxzEoFSS9f490XA==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.7"
-    "@rmwc/provider" "^6.0.0-alpha.7"
+    "@rmwc/base" "^6.0.0-alpha.11"
+    "@rmwc/provider" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/list@^6.0.0-alpha.7":
-  version "6.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.0-alpha.7.tgz#fe0401e739a085e826337a6927a3e7be5b51f39b"
-  integrity sha512-NzwoaMXKhlD0Z8vIuuf/bSdLrMWZIVfIXTvRAgmiwY4FRJUAa+3SUEC4crbJWgKr1MukXKIfr6aaJdpTciHibA==
+"@rmwc/list@^6.0.0-alpha.11":
+  version "6.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.0-alpha.11.tgz#1fcaa7dcc97c9062d886d6c5f045be1187e435ce"
+  integrity sha512-R3/D5+Nag7OrMEKsqJILZstXrSMom1s/1MkIOlJHqoCz9cBKrOV1S3jXsUl05n7e+/day2NDxGk4NeJrHzWhng==
   dependencies:
     "@material/list" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.7"
-    "@rmwc/icon" "^6.0.0-alpha.7"
-    "@rmwc/provider" "^6.0.0-alpha.7"
-    "@rmwc/ripple" "^6.0.0-alpha.7"
+    "@rmwc/base" "^6.0.0-alpha.11"
+    "@rmwc/icon" "^6.0.0-alpha.11"
+    "@rmwc/provider" "^6.0.0-alpha.11"
+    "@rmwc/ripple" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/provider@^6.0.0-alpha.7":
-  version "6.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.7.tgz#8ef097199b0b3f493616b37b48ef563e21e4a1ba"
-  integrity sha512-JBpyqhg23Puo27IKlGHczzdjebtMh02S/TcMUFsHmDeoH2DAGk0T7NRF7JbL0tuElfpyyBtykK1pGBpcREbHLQ==
+"@rmwc/provider@^6.0.0-alpha.11":
+  version "6.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.11.tgz#762c97ec2da92ce9b4cefc6e8a95fd331c126d02"
+  integrity sha512-YsukYYLKYScxEe9XjFGbaLTBlMQV+RtaIJriaN2L/KJKCLuoiAgByKDLyuTXAlwZyoQw0XANxLe9M8Qh0l4bpQ==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.7"
+    "@rmwc/base" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/ripple@^6.0.0-alpha.7":
-  version "6.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.7.tgz#d037a84ace69688b9ba5109bed87f8919af51f78"
-  integrity sha512-Z82h87feVs09wkWUWNXn9oOFH2X7jCQgD/L9c+AskTdNituEDceXupUAUXO1DAKUmZsPqPxTj+p2v+kBUAuXnw==
+"@rmwc/ripple@^6.0.0-alpha.11":
+  version "6.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.11.tgz#a94beaf456f85a30103a9bd7b76ab9486bf67be5"
+  integrity sha512-c48wT2lOu6VzBQkfR37b8Yc1+Y+r5q0qmWG1hK/8XiVAJOqc1GMFvW+BGJ+TfOnO5TGhWFTg1N/zOFp+nrY6dQ==
   dependencies:
     "@material/ripple" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.7"
-    "@rmwc/provider" "^6.0.0-alpha.7"
+    "@rmwc/base" "^6.0.0-alpha.11"
+    "@rmwc/provider" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
 "@rmwc/types@^6.0.0-alpha.6":
@@ -2023,10 +2023,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.1.7":
-  version "13.1.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.7.tgz#db51d28b8dfacfe4fb2d0da88f5eb0a2eca00675"
-  integrity sha512-HU0q9GXazqiKwviVxg9SI/+t/nAsGkvLDkIdxz+ObejG2nX6Si00TeLqHMoS+a/1tjH7a8YpKVQwtgHuMQsldg==
+"@types/node@^13.1.8":
+  version "13.1.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.8.tgz#1d590429fe8187a02707720ecf38a6fe46ce294b"
+  integrity sha512-6XzyyNM9EKQW4HKuzbo/CkOIjn/evtCmsU+MUM1xDfJ+3/rNjBttM1NgN7AOQvN6tP1Sl1D1PIKMreTArnxM9A==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5466,10 +5466,10 @@ next-offline@^5.0.0-beta.11:
     fs-extra "~8.1.0"
     workbox-webpack-plugin "5.0.0-rc.1"
 
-next@^9.1.8-canary.17:
-  version "9.1.8-canary.17"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.1.8-canary.17.tgz#dca0bc4ae4e61db4eafbc156b1c084c6a81d0f55"
-  integrity sha512-6SGxJocmcPGs2B13nWyQcGdva0XXzWhJvxwga0qyFOdehqHNK636pTMwqWBK790ic7DkpCbymFz2sNpEAgxr9g==
+next@^9.2.1-canary.2:
+  version "9.2.1-canary.2"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.1-canary.2.tgz#696176f5f40209f42217cbb2855ff49cc5b330fb"
+  integrity sha512-I6i7ViTNwSGWW2DsW3Cwer9oS9iqjzxKSuXfkRjvALc/V9dNzXIQ2g+91IMcw/X3Xj/yZssZwntl0zLh9HT6SQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "1.1.1"
     "@babel/core" "7.7.2"
