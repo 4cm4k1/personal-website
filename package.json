@@ -42,7 +42,7 @@
     "@rmwc/list": "^6.0.0-alpha.11",
     "@types/node": "^13.1.8",
     "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
+    "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.0.10",
     "modern-normalize": "^0.6.0",
