@@ -22,6 +22,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
           react$: 'preact/compat',
           'react-dom': 'preact/compat',
           'react-dom$': 'preact/compat',
+          'react-dom/test-utils': 'preact/test-utils',
+          'react-dom/test-utils$': 'preact/test-utils',
           'react-ssr-prepass': 'preact-ssr-prepass',
           'react-ssr-prepass$': 'preact-ssr-prepass',
         });

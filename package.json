@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.9.3",
   "private": true,
-  "description": "Personal website – made with Next.js, React, MDX, and Material Components – deployed on ZEIT Now",
+  "description": "Personal website of Anthony Maki",
   "bugs": "https://github.com/4cm4k1/personal-website/issues",
   "repository": "https://github.com/4cm4k1/personal-website",
   "license": "MIT - Hippocratic",
@@ -16,7 +16,7 @@
     "dev": "next",
     "now-build": "next build",
     "start": "next start",
-    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,ts,tsx} --write",
+    "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx} --write",
     "type-check": "tsc"
   },
   "husky": {
@@ -31,15 +31,16 @@
     "preact-ssr-prepass": "^1.0.0"
   },
   "devDependencies": {
-    "@material/react-drawer": "^0.15.0",
-    "@material/react-layout-grid": "^0.15.0",
-    "@material/react-list": "^0.15.0",
-    "@material/react-material-icon": "^0.15.0",
-    "@material/react-top-app-bar": "^0.15.0",
     "@mdx-js/loader": "^1.5.5",
     "@next/bundle-analyzer": "^9.2.1-canary.11",
     "@next/mdx": "^9.2.1-canary.11",
+    "@rmwc/avatar": "^6.0.0-alpha.11",
+    "@rmwc/drawer": "^6.0.0-alpha.11",
+    "@rmwc/grid": "^6.0.0-alpha.11",
     "@rmwc/list": "^6.0.0-alpha.11",
+    "@rmwc/provider": "^6.0.0-alpha.11",
+    "@rmwc/theme": "^6.0.0-alpha.11",
+    "@rmwc/top-app-bar": "^6.0.0-alpha.11",
     "@types/node": "^13.5.0",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
@@ -53,11 +54,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "typescript": "^3.7.5",
-    "webpack": "^4.41.5"
-  },
-  "resolutions": {
-    "serialize-javascript": "^2.1.1",
-    "set-value": "^3.0.1"
+    "use-dark-mode": "^2.3.1"
   },
   "engines": {
     "node": ">=12.x"
