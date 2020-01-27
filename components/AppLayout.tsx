@@ -6,8 +6,6 @@ import {
   DrawerContent,
 } from '@rmwc/drawer';
 
-import { List, ListItem, ListItemGraphic, ListItemText } from '@rmwc/list';
-
 import { ThemeProvider } from '@rmwc/theme';
 
 import {
@@ -21,7 +19,10 @@ import {
 } from '@rmwc/top-app-bar';
 
 import useDarkMode from 'use-dark-mode';
+
 import { useEffect, useState } from 'react';
+
+import Nav from '../components/Nav';
 
 const AppLayout: React.FunctionComponent = ({ children }) => {
   const { value, toggle } = useDarkMode(false);
@@ -121,63 +122,7 @@ const AppLayout: React.FunctionComponent = ({ children }) => {
             </DrawerSubtitle>
           </DrawerHeader>
           <DrawerContent>
-            <List>
-              <ListItem
-                style={
-                  value ? { backgroundColor: '#a00037', color: '#ffffff' } : {}
-                }
-              >
-                <ListItemGraphic
-                  icon='home'
-                  style={value ? { color: '#ffffff' } : {}}
-                />
-                <ListItemText>Home</ListItemText>
-              </ListItem>
-              <ListItem
-                style={
-                  value ? { backgroundColor: '#484848', color: '#fafafa' } : {}
-                }
-              >
-                <ListItemGraphic
-                  icon='portrait'
-                  style={value ? { color: '#ffffff' } : {}}
-                />
-                <ListItemText>About</ListItemText>
-              </ListItem>
-              <ListItem
-                style={
-                  value ? { backgroundColor: '#484848', color: '#fafafa' } : {}
-                }
-              >
-                <ListItemGraphic
-                  icon='view_carousel'
-                  style={value ? { color: '#ffffff' } : {}}
-                />
-                <ListItemText>Projects</ListItemText>
-              </ListItem>
-              <ListItem
-                style={
-                  value ? { backgroundColor: '#484848', color: '#fafafa' } : {}
-                }
-              >
-                <ListItemGraphic
-                  icon='contacts'
-                  style={value ? { color: '#ffffff' } : {}}
-                />
-                <ListItemText>Contact</ListItemText>
-              </ListItem>
-              <ListItem
-                style={
-                  value ? { backgroundColor: '#484848', color: '#fafafa' } : {}
-                }
-              >
-                <ListItemGraphic
-                  icon='code'
-                  style={value ? { color: '#ffffff' } : {}}
-                />
-                <ListItemText>Source Code</ListItemText>
-              </ListItem>
-            </List>
+            <Nav darkMode={value} />
           </DrawerContent>
         </Drawer>
         <TopAppBarFixedAdjust />
