@@ -6637,10 +6637,10 @@ preact-render-to-string@^5.1.4:
   dependencies:
     pretty-format "^3.8.0"
 
-preact-ssr-prepass@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/preact-ssr-prepass/-/preact-ssr-prepass-1.0.0.tgz#e09f8abbc5e815ff442978b800ed793d948618f7"
-  integrity sha512-X8N22RpESyL+MdOh1tGMooMBmh43vrZsuXGwT0KJiuNp30d6iNRCrA9v2aw95oyeknJQY2+5QQGsL39j+8HxGQ==
+preact-ssr-prepass@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/preact-ssr-prepass/-/preact-ssr-prepass-1.0.1.tgz#15ce9306edacc1095fcefe3e6a4e461f3af805cc"
+  integrity sha512-pUCh/X/KJd45GVCfQAqmIdL6eLSj/EIrCPBU81s95wEYNM9f1omsZWrxusIwJP3oVKQyt29//9dLBjY2P6iyYg==
 
 preact@^10.2.1:
   version "10.2.1"

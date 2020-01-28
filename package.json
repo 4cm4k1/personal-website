@@ -28,7 +28,7 @@
     "next": "^9.2.1-canary.11",
     "preact": "^10.2.1",
     "preact-render-to-string": "^5.1.4",
-    "preact-ssr-prepass": "^1.0.0"
+    "preact-ssr-prepass": "^1.0.1"
   },
   "devDependencies": {
     "@material/react-drawer": "^0.15.0",
