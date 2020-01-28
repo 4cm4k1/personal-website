@@ -662,6 +662,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
+"@babel/plugin-syntax-bigint@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-bigint/-/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
+  integrity sha512-wnTnFlG+YxQm3vDxpGE57Pj0srRU4sHE/mDkt1qv2YJJSeUAec2ma4WLUnUPeKjyrfntVwe/N6dCXpU+zL3Npg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.0"
+
 "@babel/plugin-syntax-dynamic-import@7.2.0", "@babel/plugin-syntax-dynamic-import@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.2.0.tgz#69c159ffaf4998122161ad8ebc5e6d1f55df8612"
@@ -1672,17 +1679,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.5.tgz#6f88bcb847ebd0117fc81bcd26b83220062fd881"
   integrity sha512-IudQkyZuM8T1CrSX9r0ShPXCABjtEtyrV4lxQqhKAwFqw1aYpy/5LOZhitMLoJTybZPVdPotuh+zjqYy9ZOSbA==
 
-"@next/bundle-analyzer@^9.2.1-canary.11":
-  version "9.2.1-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.1-canary.11.tgz#779bc0bf5e7e12ed40f758843573345e0202e945"
-  integrity sha512-j9BwR1I5Q3JEzUs5ARZMxHZMf/vzny59OZlVZK+2vKPMmFIRd5BG3Z+uFwzpgHrzIg4XS1ecs+81mDDRuWPW9w==
+"@next/bundle-analyzer@^9.2.2-canary.2":
+  version "9.2.2-canary.2"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.2.tgz#800c7ee574fcf55234586908095deca3031cc734"
+  integrity sha512-HquIvunNZzKl6K5jQwtaBVbQuaEDrPCd482bwMjMJOszlkDU+s+AzD3Bwt6S7tGP4HHC58OIiA5d2BLsqjLsnw==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.1-canary.11":
-  version "9.2.1-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.1-canary.11.tgz#35d2b7a8842ae11beb2fe5096c85a008f8eab0d6"
-  integrity sha512-yJ3FeRsVflAvgwxzUxyRt9eX7v8lGDACBH16Zt8Z6Gx3xGC7LH+UD+bWKNUn1kCwQx4XYwUWmDbVrkgryt4Xqg==
+"@next/mdx@^9.2.2-canary.2":
+  version "9.2.2-canary.2"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.2.tgz#ec9e3b23a22f0ccc18056f7f126a41fa1d1b9bab"
+  integrity sha512-JfbnqiWqNZOxpVr3LYO8L7aKZiq8ai3rqqsLY8O8oo0Ps5fT8g8X64MMDiaMQeo9PFnb8T6PwuvgWERR0G/nmg==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -1827,10 +1834,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.5.0":
-  version "13.5.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.0.tgz#4e498dbf355795a611a87ae5ef811a8660d42662"
-  integrity sha512-Onhn+z72D2O2Pb2ql2xukJ55rglumsVo1H6Fmyi8mlU9SvKdBk/pUSUAiBY/d9bAOF7VVWajX3sths/+g6ZiAQ==
+"@types/node@^13.5.1":
+  version "13.5.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.1.tgz#6fae50892d1841f4b38b298e2f78fb68c5960cb9"
+  integrity sha512-Jj2W7VWQ2uM83f8Ls5ON9adxN98MvyJsMSASYFuSvrov8RMRY64Ayay7KV35ph1TSGIJ2gG9ZVDdEq3c3zaydA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3619,6 +3626,11 @@ escape-html@~1.0.3:
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
+escape-string-regexp@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -5389,10 +5401,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.1-canary.11:
-  version "9.2.1-canary.11"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.1-canary.11.tgz#55022ac728bf1cca1105afda2b30ce6505d130e8"
-  integrity sha512-EyyWlBDG31lCJAOBrUgbR3FjrgMi8wYaZCYwC9CFXsuf0KvWEf5HHxovePo4gY7JAqMbNMaYx3ze35ifSvf36Q==
+next@^9.2.2-canary.2:
+  version "9.2.2-canary.2"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.2.tgz#5ebedab78992f424aa0fbfab82eaab878149e6fe"
+  integrity sha512-03AAy35AwfgBghG/NGuSYD4dPJ+9Z7W1ThQY7uj9r88Hr3EQW3ayFZ4XzunqTAtnN5PUv1JNHktAbZBEXFjI0A==
   dependencies:
     "@ampproject/toolbox-optimizer" "1.1.1"
     "@babel/core" "7.7.2"
@@ -5400,6 +5412,7 @@ next@^9.2.1-canary.11:
     "@babel/plugin-proposal-nullish-coalescing-operator" "7.7.4"
     "@babel/plugin-proposal-object-rest-spread" "7.6.2"
     "@babel/plugin-proposal-optional-chaining" "7.7.4"
+    "@babel/plugin-syntax-bigint" "7.8.3"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@babel/plugin-transform-modules-commonjs" "7.7.0"
     "@babel/plugin-transform-runtime" "7.6.2"
@@ -5429,6 +5442,7 @@ next@^9.2.1-canary.11:
     css-loader "3.3.0"
     cssnano-simple "1.0.0"
     devalue "2.0.1"
+    escape-string-regexp "2.0.0"
     etag "1.8.1"
     file-loader "4.2.0"
     find-up "4.0.0"
@@ -6453,10 +6467,10 @@ preact-render-to-string@^5.1.4:
   dependencies:
     pretty-format "^3.8.0"
 
-preact-ssr-prepass@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/preact-ssr-prepass/-/preact-ssr-prepass-1.0.0.tgz#e09f8abbc5e815ff442978b800ed793d948618f7"
-  integrity sha512-X8N22RpESyL+MdOh1tGMooMBmh43vrZsuXGwT0KJiuNp30d6iNRCrA9v2aw95oyeknJQY2+5QQGsL39j+8HxGQ==
+preact-ssr-prepass@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/preact-ssr-prepass/-/preact-ssr-prepass-1.0.1.tgz#15ce9306edacc1095fcefe3e6a4e461f3af805cc"
+  integrity sha512-pUCh/X/KJd45GVCfQAqmIdL6eLSj/EIrCPBU81s95wEYNM9f1omsZWrxusIwJP3oVKQyt29//9dLBjY2P6iyYg==
 
 preact@^10.2.1:
   version "10.2.1"
