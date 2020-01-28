@@ -14,7 +14,13 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
         }
 
         if (options.isServer) {
-          config.externals = ['react', 'react-dom', ...config.externals];
+          config.externals = [
+            'react',
+            'react-dom',
+            'react-dom/test-utils',
+            'react-ssr-prepass',
+            ...config.externals,
+          ];
         }
 
         config.resolve.alias = Object.assign({}, config.resolve.alias, {

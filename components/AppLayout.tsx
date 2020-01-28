@@ -88,6 +88,7 @@ const AppLayout: React.FunctionComponent = ({ children }) => {
 
   useEffect(() => {
     setMounted(true);
+    console.log(mounted);
   }, []);
 
   return (
