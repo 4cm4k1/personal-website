@@ -6,7 +6,7 @@ type Props = {
   title?: string;
 };
 
-const PageLayout: React.FunctionComponent<Props> = ({
+const PageLayout: React.FC<Props> = ({
   children,
   title = 'This is the default title',
 }) => (

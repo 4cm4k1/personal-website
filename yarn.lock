@@ -1679,17 +1679,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.5.tgz#6f88bcb847ebd0117fc81bcd26b83220062fd881"
   integrity sha512-IudQkyZuM8T1CrSX9r0ShPXCABjtEtyrV4lxQqhKAwFqw1aYpy/5LOZhitMLoJTybZPVdPotuh+zjqYy9ZOSbA==
 
-"@next/bundle-analyzer@^9.2.2-canary.2":
-  version "9.2.2-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.2.tgz#800c7ee574fcf55234586908095deca3031cc734"
-  integrity sha512-HquIvunNZzKl6K5jQwtaBVbQuaEDrPCd482bwMjMJOszlkDU+s+AzD3Bwt6S7tGP4HHC58OIiA5d2BLsqjLsnw==
+"@next/bundle-analyzer@^9.2.2-canary.3":
+  version "9.2.2-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.3.tgz#698be8e735f4626c51b5c284e7f227fb1cce3edb"
+  integrity sha512-3mHHLZsDlJpyMuxPGxNHWcLku6FaH2his50Zmk80NvHqdPLKg8F3u7r6vS03RuM3ph6fMlsmQMBgbYfHzaHI9Q==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.2-canary.2":
-  version "9.2.2-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.2.tgz#ec9e3b23a22f0ccc18056f7f126a41fa1d1b9bab"
-  integrity sha512-JfbnqiWqNZOxpVr3LYO8L7aKZiq8ai3rqqsLY8O8oo0Ps5fT8g8X64MMDiaMQeo9PFnb8T6PwuvgWERR0G/nmg==
+"@next/mdx@^9.2.2-canary.3":
+  version "9.2.2-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.3.tgz#15a5be1c844dd707e00a2c8527546618c7e37e18"
+  integrity sha512-RQgnPOTHINj0qp0wjSb/WdbkrPoZsZWayUmCefZy9H2AVCmUwQIzj4jArMe7s7Ph1+mkwyvx7Z6TIfjRL8B2sA==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -1834,10 +1834,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.5.1":
-  version "13.5.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.1.tgz#6fae50892d1841f4b38b298e2f78fb68c5960cb9"
-  integrity sha512-Jj2W7VWQ2uM83f8Ls5ON9adxN98MvyJsMSASYFuSvrov8RMRY64Ayay7KV35ph1TSGIJ2gG9ZVDdEq3c3zaydA==
+"@types/node@^13.5.2":
+  version "13.5.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.2.tgz#3de53b55fd39efc428a901a0f6db31f761cfa131"
+  integrity sha512-Fr6a47c84PRLfd7M7u3/hEknyUdQrrBA6VoPmkze0tcflhU5UnpWEX2kn12ktA/lb+MNHSqFlSiPHIHsaErTPA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5401,10 +5401,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.2-canary.2:
-  version "9.2.2-canary.2"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.2.tgz#5ebedab78992f424aa0fbfab82eaab878149e6fe"
-  integrity sha512-03AAy35AwfgBghG/NGuSYD4dPJ+9Z7W1ThQY7uj9r88Hr3EQW3ayFZ4XzunqTAtnN5PUv1JNHktAbZBEXFjI0A==
+next@^9.2.2-canary.3:
+  version "9.2.2-canary.3"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.3.tgz#cbc9fc1900db22f2e76dd2398c10ac583302d464"
+  integrity sha512-3jyqFhlhEYxoa2iLa+UJVK0X0oLl70ZCCGMcMOzUc3+kiWEETv3zM/xPWS35FVOnXoqZCrYDuDxpSjqFYZS8uQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "1.1.1"
     "@babel/core" "7.7.2"

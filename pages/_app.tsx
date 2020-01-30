@@ -1,4 +1,3 @@
-import { NextPage } from 'next';
 import { AppProps } from 'next/app';
 
 import 'modern-normalize/modern-normalize.css';
@@ -15,7 +14,7 @@ import { RMWCProvider } from '@rmwc/provider';
 
 import AppLayout from '../components/AppLayout';
 
-const App: NextPage<AppProps> = ({ Component, pageProps }) => (
+const App: React.FC<AppProps> = ({ Component, pageProps }) => (
   <RMWCProvider
     icon={{
       basename: 'material-icons-outlined',

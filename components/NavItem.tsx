@@ -10,7 +10,7 @@ type Props = {
   darkMode?: boolean;
 };
 
-const NavItem: React.FunctionComponent<Props> = ({
+const NavItem: React.FC<Props> = ({
   children,
   href,
   as = href,

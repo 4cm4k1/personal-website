@@ -25,15 +25,15 @@
     }
   },
   "dependencies": {
-    "next": "^9.2.2-canary.2",
+    "next": "^9.2.2-canary.3",
     "preact": "^10.2.1",
     "preact-render-to-string": "^5.1.4",
     "preact-ssr-prepass": "^1.0.1"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.5",
-    "@next/bundle-analyzer": "^9.2.2-canary.2",
-    "@next/mdx": "^9.2.2-canary.2",
+    "@next/bundle-analyzer": "^9.2.2-canary.3",
+    "@next/mdx": "^9.2.2-canary.3",
     "@rmwc/avatar": "^6.0.0-alpha.11",
     "@rmwc/drawer": "^6.0.0-alpha.11",
     "@rmwc/grid": "^6.0.0-alpha.11",
@@ -41,7 +41,7 @@
     "@rmwc/provider": "^6.0.0-alpha.11",
     "@rmwc/theme": "^6.0.0-alpha.11",
     "@rmwc/top-app-bar": "^6.0.0-alpha.11",
-    "@types/node": "^13.5.1",
+    "@types/node": "^13.5.2",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",

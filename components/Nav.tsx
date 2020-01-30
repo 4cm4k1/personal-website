@@ -6,7 +6,7 @@ type Props = {
   darkMode?: boolean;
 };
 
-const Nav: React.FunctionComponent<Props> = ({ darkMode = false }) => {
+const Nav: React.FC<Props> = ({ darkMode = false }) => {
   const style = darkMode
     ? { backgroundColor: '#000000', color: '#ffffff' }
     : undefined;

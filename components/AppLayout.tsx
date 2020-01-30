@@ -24,7 +24,7 @@ import { useEffect, useState } from 'react';
 
 import Nav from '../components/Nav';
 
-const AppLayout: React.FunctionComponent = ({ children }) => {
+const AppLayout: React.FC = ({ children }) => {
   const { value, toggle } = useDarkMode(false);
 
   const lightTheme = {
@@ -88,7 +88,6 @@ const AppLayout: React.FunctionComponent = ({ children }) => {
 
   useEffect(() => {
     setMounted(true);
-    console.log(mounted);
   }, []);
 
   return (
