@@ -12,10 +12,11 @@
   ],
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
-    "build": "next build",
-    "dev": "next",
-    "now-build": "next build",
-    "start": "next start",
+    "build": "yarn next build",
+    "dev": "yarn next",
+    "next": "next-preact",
+    "now-build": "yarn next build",
+    "start": "yarn next start",
     "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx} --write",
     "type-check": "tsc"
   },
@@ -26,9 +27,7 @@
   },
   "dependencies": {
     "next": "^9.2.2-canary.3",
-    "preact": "^10.2.1",
-    "preact-render-to-string": "^5.1.4",
-    "preact-ssr-prepass": "^1.0.1"
+    "preact": "^10.2.1"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.5",
@@ -50,6 +49,7 @@
     "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^5.0.0-beta.11",
+    "next-plugin-preact": "^1.0.2",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "react": "^16.12.0",

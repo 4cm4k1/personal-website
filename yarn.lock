@@ -5293,6 +5293,11 @@ modern-normalize@^0.6.0:
   resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.6.0.tgz#21a469988edfc7c9020348e7a3b5b3583a1c9406"
   integrity sha512-gzvL1uFLV4EErHhaKoqTcrx52/sea6AIcMFWz/GBCuFrDBp485wSgyX5M+MZsj+grfcuqYLQGfHjDRrCvvwZLw==
 
+module-alias@^2.2.0:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
+  integrity sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -5395,6 +5400,15 @@ next-offline@^5.0.0-beta.11:
     copy-webpack-plugin "~5.0.5"
     fs-extra "~8.1.0"
     workbox-webpack-plugin "5.0.0-rc.1"
+
+next-plugin-preact@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/next-plugin-preact/-/next-plugin-preact-1.0.2.tgz#2d0b7882fdd93a4479a7717b3d2f236e092d3916"
+  integrity sha512-KQQMSwAcM3KzOWfgThoYV/Rs7u8sIs8uc1OC1vuAiTgg2Wi/aUdZolbnxN9CWQhqQEhLaQNNsp3I7lpMRzPefw==
+  dependencies:
+    module-alias "^2.2.0"
+    preact-render-to-string "^5.0.4"
+    preact-ssr-prepass "^1.0.0"
 
 next-tick@~1.0.0:
   version "1.0.0"
@@ -6460,14 +6474,14 @@ postcss@^7.0.23:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-preact-render-to-string@^5.1.4:
+preact-render-to-string@^5.0.4:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.1.4.tgz#f26171f58f0e93b36236e4b0bee62ce561120b7c"
   integrity sha512-fQyrkbn4Ustz5Gr4nQuTu2TIS+8IHqkIXf/SqstA2amgqLoPI6Z1e6Ttk5OL4jcE3MC6V+eaeRAed39sn8Oh4w==
   dependencies:
     pretty-format "^3.8.0"
 
-preact-ssr-prepass@^1.0.1:
+preact-ssr-prepass@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/preact-ssr-prepass/-/preact-ssr-prepass-1.0.1.tgz#15ce9306edacc1095fcefe3e6a4e461f3af805cc"
   integrity sha512-pUCh/X/KJd45GVCfQAqmIdL6eLSj/EIrCPBU81s95wEYNM9f1omsZWrxusIwJP3oVKQyt29//9dLBjY2P6iyYg==
