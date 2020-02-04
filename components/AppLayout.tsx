@@ -20,7 +20,7 @@ import {
 
 import useDarkMode from 'use-dark-mode';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 
 import Nav from '../components/Nav';
 
