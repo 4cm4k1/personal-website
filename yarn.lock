@@ -1697,22 +1697,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.6-ci.0.tgz#0ed7ea6da388618c8bbb19c7465f0c8095ebfb6b"
   integrity sha512-vGMjRFnaff44x0E2hGvM4aTXJPLMNmSz7d5Qx4UUf0Lb4L4axcgxKhiqMCVUEl3zv5CNf5QKQCmR6AaEx3HxcA==
 
-"@next/bundle-analyzer@^9.2.2-canary.11":
-  version "9.2.2-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.11.tgz#94802f042c4b966b89222cc107ce158c844d3cf8"
-  integrity sha512-Dl5z+SqGDx8MdtTYVvC9jMreIbFHPCGqIKSJBqmsQSmiS2eJIS6pnibyamAbDEXDHvcZohZ9MPTDQ2huU+kyIA==
+"@next/bundle-analyzer@^9.2.2-canary.14":
+  version "9.2.2-canary.14"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.14.tgz#2205bc9223677f8b2db81eb46d381951444858c4"
+  integrity sha512-/cUZoRnPOOd3oSZmTRe8kgqcOk/tFMnl8emqp+HqvZdB/XhQG8zO+YlT38RPdUyEG2uTm97olM1CyAUMPWclSw==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.2-canary.11":
-  version "9.2.2-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.11.tgz#9c0d961b937b5859b9fc25059ce7fd502a95acef"
-  integrity sha512-Sfcdr8ZJpLmWlOIWF0g7Ud8oDuZktpVaIqpmkIanJgY4nm8Mazly0SA1re9tw7qGSm57iHVS7LoooVyl3cCLiw==
+"@next/mdx@^9.2.2-canary.14":
+  version "9.2.2-canary.14"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.14.tgz#8941e3784768d978357c5f805a5adf2b7abce684"
+  integrity sha512-kOj5tA0xeRK30Tc61Zyq86ZaVXYubDm7fkG4U1W7PtI0zbTwl/ZJL3khhjGwaSs9/oCILvXlKG7yjdhbIgp5xA==
 
-"@next/polyfill-nomodule@9.2.2-canary.11":
-  version "9.2.2-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.2-canary.11.tgz#4a98cf14a206d7a490c343a31650f09cd7b626cb"
-  integrity sha512-gnkpR1+BxaM0uiTYBGsFBY8ws6kbNyuty2/yX6AFROr1pIjgU2jWo7lPPYr1tQOXISg2+bkXB1FKOuZXWwv66A==
+"@next/polyfill-nomodule@9.2.2-canary.14":
+  version "9.2.2-canary.14"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.2-canary.14.tgz#e03cba089b81e7d1c4e8f281a9f8dff7612c0393"
+  integrity sha512-JqaT+KeOBghuJLa49LXk5UX6UXPXTkFhQLpKk4goiWhkxcYbjDI0QJWLFQqBfb94rXoanhqOcIeKcQzigIxGLw==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -5447,6 +5447,13 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+native-url@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/native-url/-/native-url-0.2.6.tgz#ca1258f5ace169c716ff44eccbddb674e10399ae"
+  integrity sha512-k4bDC87WtgrdD362gZz6zoiXQrl40kYlBmpfmSjwRO1VU0V5ccwJTlxuE72F6m3V0vc1xOf6n3UCP9QyerRqmA==
+  dependencies:
+    querystring "^0.2.0"
+
 needle@^2.2.1:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/needle/-/needle-2.4.0.tgz#6833e74975c444642590e15a750288c5f939b57c"
@@ -5485,10 +5492,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.2-canary.11:
-  version "9.2.2-canary.11"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.11.tgz#944bf2843205183749ab64e7090e361ffc0e7473"
-  integrity sha512-QQRR9WIGr/T76XzIqTmg0dsMbAegkBZNAMPGBUGIFLgszHdnykP+lJdfqKn0/1qfhx56XRrwc39LV5MqUcdKNA==
+next@^9.2.2-canary.14:
+  version "9.2.2-canary.14"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.14.tgz#70378cb7aa8797c01aee8b3462e0c0fb03cda4f2"
+  integrity sha512-NEjUparfB+NmWul5BblAL0OPmWHeBr/YpJmLDuCMyFFqyuXT3E6/m9QvU0iZM1SyE4s2FkHXU9ozmsfb/hp4XQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "1.1.1"
     "@babel/core" "7.7.2"
@@ -5506,7 +5513,7 @@ next@^9.2.2-canary.11:
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
     "@babel/runtime-corejs2" "7.7.2"
-    "@next/polyfill-nomodule" "9.2.2-canary.11"
+    "@next/polyfill-nomodule" "9.2.2-canary.14"
     amphtml-validator "1.0.23"
     async-retry "1.2.3"
     async-sema "3.0.0"
@@ -5547,6 +5554,7 @@ next@^9.2.2-canary.11:
     lru-cache "5.1.1"
     mini-css-extract-plugin "0.8.0"
     mkdirp "0.5.1"
+    native-url "0.2.6"
     node-fetch "2.6.0"
     object-assign "4.1.1"
     ora "3.4.0"
@@ -6554,10 +6562,10 @@ preact-render-to-string@^5.1.4:
   dependencies:
     pretty-format "^3.8.0"
 
-preact@~10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.2.1.tgz#b30eb4cdc455499ee2ff82e0fa1a16fc8e20f3a4"
-  integrity sha512-BUNvmQcVtNElku7mYHexIiM5JlGNSW2BY9O2t9xk1NqA43O8wbE0cah6PAlvT7PBHvyDRJ5TAj5Fewdi9DqLoQ==
+preact@^10.3.1:
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.3.1.tgz#70a2cc5484ca727c992216dfc528907d240e0a05"
+  integrity sha512-CaKtEY235GtuypRRvaMxM3PNy44OzQj8BO7plXbPwF+iJzNnUufgHtqRA6NbjeWnfy+cN1dP1MFTAGxJmCiPqQ==
 
 prepend-http@^1.0.0:
   version "1.0.4"

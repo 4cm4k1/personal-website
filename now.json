@@ -1,11 +1,4 @@
 {
-  "alias": ["anthony.codes"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/next@canary"
-    }
-  ],
   "routes": [
     {
       "src": "^/(favicon.ico|keybase.txt|robots.txt|resume-anthony-maki.pdf|sitemap.xml)$",
@@ -88,7 +81,6 @@
     "enabled": true,
     "silent": false
   },
-  "name": "personal-website",
   "public": true,
   "regions": ["all"],
   "version": 2
