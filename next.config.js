@@ -120,9 +120,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
     future: {
       excludeDefaultMomentLocales: true,
     },
+    generateInDevMode: true,
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     reactStrictMode: true,
     target: 'serverless',
+    transformManifest: manifest => ['/'].concat(manifest),
     webpack: (config, { dev, isServer }) => {
       const splitChunks =
         config.optimization && config.optimization.splitChunks;
@@ -146,6 +148,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       return config;
     },
     webpackDevMiddleware: config => config,
+    workboxOpts: {
+      swDest: 'static/service-worker.js',
+    },
   };
 
 module.exports = withPlugins(
