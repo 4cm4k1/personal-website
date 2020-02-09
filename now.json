@@ -1,95 +1,12 @@
 {
-  "alias": ["anthony.codes"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/next@canary"
-    }
-  ],
-  "routes": [
-    {
-      "src": "^/(favicon.ico|keybase.txt|robots.txt|resume-anthony-maki.pdf|sitemap.xml)$",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Cache-Control": "public, max-age=31536000, immutable",
-        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "X-Content-Type-Options": "nosniff",
-        "X-DNS-Prefetch-Control": "on",
-        "X-Download-Options": "noopen",
-        "X-Frame-Options": "DENY",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "X-UA-Compatible": "IE=edge; chrome=1",
-        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
-      },
-      "dest": "/static/$1"
-    },
-    {
-      "src": "^/(service-worker.js)$",
-      "headers": {
-        "Access-Control-Allow-Origin": "https://anthony.codes",
-        "Cache-Control": "public, max-age=31536000, immutable",
-        "Service-Worker-Allowed": "/",
-        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "X-Content-Type-Options": "nosniff",
-        "X-DNS-Prefetch-Control": "on",
-        "X-Download-Options": "noopen",
-        "X-Frame-Options": "DENY",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "X-UA-Compatible": "IE=edge; chrome=1",
-        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
-      },
-      "dest": "/_next/static/$1"
-    },
-    {
-      "src": "^/_next/static/(.*)$",
-      "headers": {
-        "Access-Control-Allow-Origin": "https://anthony.codes",
-        "Cache-Control": "public, max-age=31536000, immutable",
-        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "X-Content-Type-Options": "nosniff",
-        "X-DNS-Prefetch-Control": "on",
-        "X-Download-Options": "noopen",
-        "X-Frame-Options": "DENY",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "X-UA-Compatible": "IE=edge; chrome=1",
-        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
-      },
-      "dest": "/_next/static/$1"
-    },
-    {
-      "src": "/(.*)/amp$",
-      "dest": "/$1/?amp=1"
-    },
-    {
-      "src": "^/(.*)$",
-      "headers": {
-        "Access-Control-Allow-Origin": "https://anthony.codes",
-        "Cache-Control": "public, max-age=31536000, immutable",
-        "Content-Security-Policy": "default-src 'self' 'unsafe-inline' webpack:; upgrade-insecure-requests",
-        "Feature-Policy": "accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "X-Content-Security-Policy": "default-src 'self' 'unsafe-inline' webpack:; upgrade-insecure-requests",
-        "X-Content-Type-Options": "nosniff",
-        "X-DNS-Prefetch-Control": "on",
-        "X-Download-Options": "noopen",
-        "X-Frame-Options": "DENY",
-        "X-Permitted-Cross-Domain-Policies": "none",
-        "X-UA-Compatible": "IE=edge; chrome=1",
-        "X-WebKit-CSP": "default-src 'self' 'unsafe-inline' webpack:; upgrade-insecure-requests",
-        "X-XSS-Protection": "1; mode=block; report=https://anthony.codes/report-xss-violation"
-      },
-      "dest": "/$1"
-    }
-  ],
   "github": {
     "autoAlias": true,
     "autoJobCancelation": true,
     "enabled": true,
     "silent": false
   },
-  "name": "personal-website",
   "public": true,
   "regions": ["all"],
+  "scope": "4cm4k1",
   "version": 2
 }

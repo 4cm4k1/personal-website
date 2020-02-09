@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.9.3",
   "private": true,
-  "description": "Personal website – made with Next.js, React, MDX, and Material Components – deployed on ZEIT Now",
+  "description": "Personal website of Anthony Maki",
   "bugs": "https://github.com/4cm4k1/personal-website/issues",
   "repository": "https://github.com/4cm4k1/personal-website",
   "license": "MIT - Hippocratic",
@@ -16,7 +16,7 @@
     "dev": "next",
     "now-build": "next build",
     "start": "next start",
-    "prettier": "prettier {*,**/*}.{babelrc,html,js,json,jsx,md,mdx,ts,tsx} --write",
+    "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx} --write",
     "type-check": "tsc"
   },
   "husky": {
@@ -25,39 +25,38 @@
     }
   },
   "dependencies": {
-    "next": "^9.2.1-canary.11",
-    "preact": "^10.2.1",
+    "next": "^9.2.2-canary.15",
+    "preact": "^10.3.1",
     "preact-render-to-string": "^5.1.4",
-    "preact-ssr-prepass": "^1.0.0"
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1"
   },
   "devDependencies": {
-    "@material/react-drawer": "^0.15.0",
-    "@material/react-layout-grid": "^0.15.0",
-    "@material/react-list": "^0.15.0",
-    "@material/react-material-icon": "^0.15.0",
-    "@material/react-top-app-bar": "^0.15.0",
-    "@mdx-js/loader": "^1.5.5",
-    "@next/bundle-analyzer": "^9.2.1-canary.11",
-    "@next/mdx": "^9.2.1-canary.11",
+    "@mdx-js/loader": "^1.5.6-alpha.0",
+    "@next/bundle-analyzer": "^9.2.2-canary.15",
+    "@next/mdx": "^9.2.2-canary.15",
+    "@rmwc/avatar": "^6.0.0-alpha.11",
+    "@rmwc/drawer": "^6.0.0-alpha.11",
+    "@rmwc/grid": "^6.0.0-alpha.11",
     "@rmwc/list": "^6.0.0-alpha.11",
-    "@types/node": "^13.5.0",
+    "@rmwc/provider": "^6.0.0-alpha.11",
+    "@rmwc/theme": "^6.0.0-alpha.11",
+    "@rmwc/top-app-bar": "^6.0.0-alpha.11",
+    "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.2.1",
+    "is-url-superb": "^3.0.0",
     "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
-    "next-offline": "^5.0.0-beta.11",
+    "next-offline": "^5.0.0",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
     "typescript": "^3.7.5",
+    "use-dark-mode": "^2.3.1",
     "webpack": "^4.41.5"
-  },
-  "resolutions": {
-    "serialize-javascript": "^2.1.1",
-    "set-value": "^3.0.1"
   },
   "engines": {
     "node": ">=12.x"
