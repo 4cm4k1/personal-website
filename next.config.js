@@ -73,6 +73,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
                 value: 'public, max-age=31536000, immutable',
               },
               {
+                key: 'Expect-CT',
+                value: 'max-age=0, report-uri=/report-ct-violation',
+              },
+              {
                 key: 'Feature-Policy',
                 value: `accelerometer 'none'; autoplay 'none'; camera 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'`,
               },
