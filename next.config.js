@@ -74,7 +74,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
               },
               {
                 key: 'Expect-CT',
-                value: 'max-age=0, report-uri=/report-ct-violation',
+                value: 'enforce, max-age=0, report-uri=/report-ct-violation',
               },
               {
                 key: 'Feature-Policy',
