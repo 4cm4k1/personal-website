@@ -47,7 +47,7 @@
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
-    "husky": "^4.2.1",
+    "husky": "^4.2.3",
     "is-url-superb": "^3.0.0",
     "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
