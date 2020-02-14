@@ -1704,10 +1704,10 @@
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.2-canary.15":
-  version "9.2.2-canary.15"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.15.tgz#2bdafdbcc802a09d5afdd0c0eae40579affe61ad"
-  integrity sha512-SIxcOprFNcIHu6sop4CAaOeQ1U/o09Az1+1TBzIH0AqHMrjaHpfu5PrmLWvdwbBujhV7ZgBE6YYAjxGD+hhrxQ==
+"@next/mdx@^9.2.2-canary.19":
+  version "9.2.2-canary.19"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.19.tgz#a5c70d29eabb16173fb4d0314f50972318ec745b"
+  integrity sha512-sze1bpCvdIIcTZEI6f7/YPGbwFYwGsmqC+eZ3DKeZU52RDUQvWRvo6Mtk7d9DNU/wF4SazjcoHP/ikYtbJ/JEw==
 
 "@next/polyfill-nomodule@9.2.2-canary.15":
   version "9.2.2-canary.15"
