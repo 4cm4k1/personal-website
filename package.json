@@ -25,7 +25,7 @@
     }
   },
   "dependencies": {
-    "next": "^9.2.2-canary.15",
+    "next": "^9.2.2-canary.20",
     "preact": "^10.3.1",
     "preact-render-to-string": "^5.1.4",
     "react": "github:preact-compat/react#1.0.0",
@@ -34,8 +34,8 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.6-alpha.0",
-    "@next/bundle-analyzer": "^9.2.2-canary.15",
-    "@next/mdx": "^9.2.2-canary.15",
+    "@next/bundle-analyzer": "^9.2.2-canary.20",
+    "@next/mdx": "^9.2.2-canary.20",
     "@rmwc/avatar": "^6.0.0-alpha.11",
     "@rmwc/drawer": "^6.0.0-alpha.11",
     "@rmwc/grid": "^6.0.0-alpha.11",
@@ -43,11 +43,11 @@
     "@rmwc/provider": "^6.0.0-alpha.11",
     "@rmwc/theme": "^6.0.0-alpha.11",
     "@rmwc/top-app-bar": "^6.0.0-alpha.11",
-    "@types/node": "^13.7.0",
+    "@types/node": "^13.7.1",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
-    "husky": "^4.2.1",
+    "husky": "^4.2.3",
     "is-url-superb": "^3.0.0",
     "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
@@ -56,7 +56,7 @@
     "pretty-quick": "^2.0.1",
     "typescript": "^3.7.5",
     "use-dark-mode": "^2.3.1",
-    "webpack": "^4.41.5"
+    "webpack": "^4.41.6"
   },
   "engines": {
     "node": ">=12.x"
