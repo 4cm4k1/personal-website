@@ -25,8 +25,8 @@
     }
   },
   "dependencies": {
-    "next": "^9.2.2-canary.20",
-    "preact": "^10.3.1",
+    "next": "^9.2.2-canary.21",
+    "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "react": "github:preact-compat/react#1.0.0",
     "react-dom": "github:preact-compat/react-dom#1.0.0",
@@ -34,8 +34,8 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.6-alpha.0",
-    "@next/bundle-analyzer": "^9.2.2-canary.20",
-    "@next/mdx": "^9.2.2-canary.20",
+    "@next/bundle-analyzer": "^9.2.2-canary.21",
+    "@next/mdx": "^9.2.2-canary.21",
     "@rmwc/avatar": "^6.0.0-alpha.11",
     "@rmwc/drawer": "^6.0.0-alpha.11",
     "@rmwc/grid": "^6.0.0-alpha.11",
