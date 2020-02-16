@@ -1,7 +1,9 @@
-import PageLayout from '../components/PageLayout';
-import { NextPage } from 'next';
-
+// libraries
 import { Avatar } from '@rmwc/avatar';
+// types
+import { NextPage } from 'next';
+// local
+import PageLayout from '../components/PageLayout';
 
 const IndexPage: NextPage = () => (
   <PageLayout title='Home - Anthony Maki'>

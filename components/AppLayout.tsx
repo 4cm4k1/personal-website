@@ -1,3 +1,4 @@
+// libraries
 import {
   Drawer,
   DrawerHeader,
@@ -5,9 +6,7 @@ import {
   DrawerSubtitle,
   DrawerContent,
 } from '@rmwc/drawer';
-
 import { ThemeProvider } from '@rmwc/theme';
-
 import {
   TopAppBar,
   TopAppBarRow,
@@ -17,14 +16,14 @@ import {
   TopAppBarFixedAdjust,
   TopAppBarActionItem,
 } from '@rmwc/top-app-bar';
-
 import useDarkMode from 'use-dark-mode';
-
 import { useEffect, useState } from 'preact/hooks';
-
+// types
+import { FunctionalComponent } from 'preact';
+// local
 import Nav from '../components/Nav';
 
-const AppLayout: React.FC = ({ children }) => {
+const AppLayout: FunctionalComponent = ({ children }) => {
   const { value, toggle } = useDarkMode(false);
 
   const lightTheme = {

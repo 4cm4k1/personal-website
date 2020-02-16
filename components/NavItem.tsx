@@ -1,7 +1,10 @@
+// libraries
 import { useRouter } from 'next/router';
 import { ListItem, ListItemGraphic, ListItemText } from '@rmwc/list';
 import isUrl from 'is-url-superb';
-
+// types
+import { FunctionalComponent } from 'preact';
+// local types
 type Props = {
   href: string;
   as?: string;
@@ -10,7 +13,7 @@ type Props = {
   darkMode?: boolean;
 };
 
-const NavItem: React.FC<Props> = ({
+const NavItem: FunctionalComponent<Props> = ({
   children,
   href,
   as = href,

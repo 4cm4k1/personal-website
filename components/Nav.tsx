@@ -1,12 +1,15 @@
+// libraries
 import { List } from '@rmwc/list';
-
+// types
+import { FunctionalComponent } from 'preact';
+// local
 import NavItem from './NavItem';
-
+// local types
 type Props = {
   darkMode?: boolean;
 };
 
-const Nav: React.FC<Props> = ({ darkMode = false }) => {
+const Nav: FunctionalComponent<Props> = ({ darkMode = false }) => {
   const style = darkMode
     ? { backgroundColor: '#000000', color: '#ffffff' }
     : undefined;

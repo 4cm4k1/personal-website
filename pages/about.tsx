@@ -1,5 +1,7 @@
-import PageLayout from '../components/PageLayout';
+// types
 import { NextPage } from 'next';
+// local
+import PageLayout from '../components/PageLayout';
 
 const AboutPage: NextPage = () => (
   <PageLayout title='About - Anthony Maki'>

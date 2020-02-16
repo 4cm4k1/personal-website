@@ -1,20 +1,20 @@
+// libraries
 import Head from 'next/head';
-
 import { Grid, GridCell } from '@rmwc/grid';
-
+// types
+import { FunctionalComponent } from 'preact';
+// local types
 type Props = {
   title?: string;
 };
 
-const PageLayout: React.FC<Props> = ({
+const PageLayout: FunctionalComponent<Props> = ({
   children,
   title = 'This is the default title',
 }) => (
   <>
     <Head>
       <title>{title}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
     <Grid>
       <GridCell desktop={4} tablet={1} phone={0}></GridCell>

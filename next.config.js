@@ -19,14 +19,14 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       async redirects() {
         return [
           {
-            source: '/source{/}?',
-            statusCode: 301,
-            destination: '/_src',
-          },
-          {
             source: '/logs{/}?',
             statusCode: 301,
             destination: '/_logs',
+          },
+          {
+            source: '/source{/}?',
+            statusCode: 301,
+            destination: '/_src',
           },
         ];
       },
@@ -48,19 +48,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       },
       async headers() {
         return [
-          {
-            source: '/service-worker.js',
-            headers: [
-              {
-                key: 'Cache-Control',
-                value: 'public, max-age=43200, immutable',
-              },
-              {
-                key: 'Service-Worker-Allowed',
-                value: '/',
-              },
-            ],
-          },
           {
             source: '/(.*)',
             headers: [
@@ -118,13 +105,26 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
               },
             ],
           },
+          {
+            source: '/service-worker.js',
+            headers: [
+              {
+                key: 'Cache-Control',
+                value: 'public, max-age=43200, immutable',
+              },
+              {
+                key: 'Service-Worker-Allowed',
+                value: '/',
+              },
+            ],
+          },
         ];
       },
     },
     future: {
       excludeDefaultMomentLocales: true,
     },
-    generateInDevMode: true,
+    generateInDevMode: false,
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     reactStrictMode: true,
     target: 'serverless',

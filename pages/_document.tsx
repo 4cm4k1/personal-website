@@ -1,3 +1,4 @@
+// libraries
 import crypto from 'crypto';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
@@ -21,7 +22,12 @@ export default class extends Document {
     return (
       <Html lang='en-US'>
         <Head>
+          <meta charSet='utf-8' />
           <meta httpEquiv='Content-Security-Policy' content={csp} />
+          <meta
+            name='viewport'
+            content='initial-scale=1.0, width=device-width'
+          />
           <link rel='apple-touch-icon' sizes='180x180' href='/icon-180.png' />
           <link rel='icon' type='image/png' sizes='32x32' href='/icon-32.png' />
           <link rel='icon' type='image/png' sizes='16x16' href='/icon-16.png' />
