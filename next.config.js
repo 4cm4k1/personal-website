@@ -33,16 +33,28 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       async rewrites() {
         return [
           {
-            source: '/feed(.*)',
-            destination: '/_next/static/feed:1',
+            source: '/feed.atom',
+            destination: '/_next/static/feed.atom',
+          },
+          {
+            source: '/feed.json',
+            destination: '/_next/static/feed.json',
+          },
+          {
+            source: '/feed.xml',
+            destination: '/_next/static/feed.xml',
           },
           {
             source: '/keybase.txt',
             destination: '/.well-known/keybase.txt',
           },
           {
-            source: '/service-worker(.*)',
-            destination: '/_next/static/service-worker:1',
+            source: '/service-worker.js',
+            destination: '/_next/static/service-worker.js',
+          },
+          {
+            source: '/service-worker.js.map',
+            destination: '/_next/static/service-worker.js.map',
           },
         ];
       },
@@ -115,6 +127,15 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
               {
                 key: 'Service-Worker-Allowed',
                 value: '/',
+              },
+            ],
+          },
+          {
+            source: '/service-worker.js.map',
+            headers: [
+              {
+                key: 'Cache-Control',
+                value: 'public, max-age=43200, immutable',
               },
             ],
           },
