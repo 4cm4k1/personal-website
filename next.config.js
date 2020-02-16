@@ -33,16 +33,16 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       async rewrites() {
         return [
           {
-            source: '/feed.(atom|json|xml)',
-            destination: '/_next/static/feed.$1',
+            source: '/feed(.*)',
+            destination: '/_next/static/feed:1',
           },
           {
             source: '/keybase.txt',
             destination: '/.well-known/keybase.txt',
           },
           {
-            source: '/service-worker.js',
-            destination: '/_next/static/service-worker.js',
+            source: '/service-worker(.*)',
+            destination: '/_next/static/service-worker:1',
           },
         ];
       },
