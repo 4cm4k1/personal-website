@@ -1659,16 +1659,16 @@
   dependencies:
     "@material/feature-targeting" "^5.0.0"
 
-"@mdx-js/loader@^1.5.6-alpha.0":
-  version "1.5.6-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-1.5.6-alpha.0.tgz#72c774834723580fabb91c2f208658bc0b3a19c0"
-  integrity sha512-rMTaW38ipmA1TSjRJ22nwKOA9iNX3CwTSmNVvYmljTPnkv8Z1DYMbA+tXYevbktrzqRmVSB7eL04o8nNC0kKQQ==
+"@mdx-js/loader@^1.5.6-ci.0":
+  version "1.5.6-ci.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/loader/-/loader-1.5.6-ci.0.tgz#5df4e5bdfe537d080f2c1f6def97e1219ebd0e23"
+  integrity sha512-hhskTBJOzz85pNdvSF/DNDpkSwJ3oifC7iWcnWLISocfP9gYSMcNGNcJQhY29HFYWD4ah2H7O/JhV+Pth10vBA==
   dependencies:
-    "@mdx-js/mdx" "^1.5.6-alpha.0"
-    "@mdx-js/react" "^1.5.6-alpha.0"
+    "@mdx-js/mdx" "^1.5.6-ci.0"
+    "@mdx-js/react" "^1.5.6-ci.0"
     loader-utils "1.2.3"
 
-"@mdx-js/mdx@^1.5.6-alpha.0":
+"@mdx-js/mdx@^1.5.6-ci.0":
   version "1.5.6-ci.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.5.6-ci.0.tgz#9afd17b48c9bc23fcec267d5e88ea5d0417a466d"
   integrity sha512-EmpsuQaeyESGeT6HDJ7EK3J5DmiRo1tYabgJ6rrZOJVlmlp7jDJs8CTL7yGV4kyB5bw7sahmXP5Ww8+qoBgESQ==
@@ -1692,7 +1692,7 @@
     unist-builder "2.0.2"
     unist-util-visit "2.0.1"
 
-"@mdx-js/react@^1.5.6-alpha.0":
+"@mdx-js/react@^1.5.6-ci.0":
   version "1.5.6-ci.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.6-ci.0.tgz#c38df806ce9dc467ef0910b9a775fe51846f4645"
   integrity sha512-k4H85Z/lPzGPt+sZJ5P/oaqxBL9W9KnFUgl9ec/gbmHf4cf549hFTAnPj4Yg0ihrW2wucyo1baupd0PS1CMAyw==
