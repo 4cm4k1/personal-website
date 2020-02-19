@@ -1,9 +1,11 @@
 // libraries
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV !== 'production') {
   // @ts-ignore
   import('preact/debug');
 }
 import { RMWCProvider } from '@rmwc/provider';
+import { register, unregister } from 'next-offline/runtime';
+import { useEffect } from 'preact/hooks';
 // types
 import { AppProps } from 'next/app';
 import { FunctionalComponent } from 'preact';
@@ -20,16 +22,25 @@ import '@rmwc/icon/icon.css';
 // local
 import AppLayout from '../components/AppLayout';
 
-const App: FunctionalComponent<AppProps> = ({ Component, pageProps }) => (
-  <RMWCProvider
-    icon={{
-      basename: 'material-icons-outlined',
-    }}
-  >
-    <AppLayout>
-      <Component {...pageProps} />
-    </AppLayout>
-  </RMWCProvider>
-);
+const App: FunctionalComponent<AppProps> = ({ Component, pageProps }) => {
+  // manually register/unregister service worker with `next-offline`
+  if (process.env.NODE_ENV === 'production')
+    useEffect(() => {
+      register();
+      return unregister();
+    });
+
+  return (
+    <RMWCProvider
+      icon={{
+        basename: 'material-icons-outlined',
+      }}
+    >
+      <AppLayout>
+        <Component {...pageProps} />
+      </AppLayout>
+    </RMWCProvider>
+  );
+};
 
 export default App;

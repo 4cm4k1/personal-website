@@ -1341,14 +1341,6 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.7.2"
 
-"@babel/runtime-corejs2@7.7.2":
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.7.2.tgz#5a8c4e2f8688ce58adc9eb1d8320b6e7341f96ce"
-  integrity sha512-GfVnHchOBvIMsweQ13l4jd9lT4brkevnavnVOej5g2y7PpTRY+R4pcQlCjWMZoUla5rMLFzaS/Ll2s59cB1TqQ==
-  dependencies:
-    core-js "^2.6.5"
-    regenerator-runtime "^0.13.2"
-
 "@babel/runtime@7.7.2":
   version "7.7.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
@@ -1457,19 +1449,19 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.2.0", "@babel/types@^7.4.4", "@babel/types@^7.5.5", "@babel/types@^7.6.0":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.6.1.tgz#53abf3308add3ac2a2884d539151c57c4b3ac648"
-  integrity sha512-X7gdiuaCmA0uRjCmRtYJNAVCc/q+5xSgsfKJHqMN4iNLILX39677fJE1O40arPMh0TTtS9ItH67yre6c7k6t0g==
+"@babel/types@7.7.4", "@babel/types@^7.7.1", "@babel/types@^7.7.2", "@babel/types@^7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.7.4.tgz#516570d539e44ddf308c07569c258ff94fde9193"
+  integrity sha512-cz5Ji23KCi4T+YIE/BolWosrJuSmoZeN1EFnRtBwF+KKLi8GG/Z2c2hOJJeCXPk4mwk4QFvTmwIodJowXgttRA==
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@babel/types@^7.7.1", "@babel/types@^7.7.2", "@babel/types@^7.7.4":
-  version "7.7.4"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.7.4.tgz#516570d539e44ddf308c07569c258ff94fde9193"
-  integrity sha512-cz5Ji23KCi4T+YIE/BolWosrJuSmoZeN1EFnRtBwF+KKLi8GG/Z2c2hOJJeCXPk4mwk4QFvTmwIodJowXgttRA==
+"@babel/types@^7.0.0", "@babel/types@^7.2.0", "@babel/types@^7.4.4", "@babel/types@^7.5.5", "@babel/types@^7.6.0":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.6.1.tgz#53abf3308add3ac2a2884d539151c57c4b3ac648"
+  integrity sha512-X7gdiuaCmA0uRjCmRtYJNAVCc/q+5xSgsfKJHqMN4iNLILX39677fJE1O40arPMh0TTtS9ItH67yre6c7k6t0g==
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.13"
@@ -1710,22 +1702,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.6-ci.0.tgz#0ed7ea6da388618c8bbb19c7465f0c8095ebfb6b"
   integrity sha512-vGMjRFnaff44x0E2hGvM4aTXJPLMNmSz7d5Qx4UUf0Lb4L4axcgxKhiqMCVUEl3zv5CNf5QKQCmR6AaEx3HxcA==
 
-"@next/bundle-analyzer@^9.2.2-canary.21":
-  version "9.2.2-canary.21"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.2-canary.21.tgz#d42ca16d27a3dc84b3a073d32a7c2d0463490f5f"
-  integrity sha512-o7P0pP87zWZVXOT0aJ/SJ6oOot11BWqtc6o1As2uMP+7x5+01O9Nlfoga0UBlEnJp4rQtiAOD/4HGKRUgO6Itw==
+"@next/bundle-analyzer@^9.2.3-canary.1":
+  version "9.2.3-canary.1"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.1.tgz#1896163168913da52af2eeae12bdc9b48246eee7"
+  integrity sha512-Ig0aSxgJpEix7YWqxEkgO8cH1FacV3FAzgGYmS/Ms5ZOouoqVwQeoVAfgglElDpJnIPwcS9cbFbu/gHdCoyCcA==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.2-canary.21":
-  version "9.2.2-canary.21"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.2-canary.21.tgz#93e92a728e1ba26c0a68da8bc4b2e5bf75ebfb0f"
-  integrity sha512-kmg+h4lA01QYqQxPctFPO+Ip2aor2L7J3NLOetBdUX+P1S5GhuhcH9PbLJcbFZbJdpm6uiLge6UIVNqh5nYC3g==
+"@next/mdx@^9.2.3-canary.1":
+  version "9.2.3-canary.1"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.1.tgz#8069c88ce4ad770c60b6a96fde2e8597b261b7a0"
+  integrity sha512-jzI2BQqIHtVKS2rzSFRhMmtE80mZNqFaSri5Hx4z5fIWDRP7gImNSa1Vqx5Jdvr7X6zDgrk586Q4kPatnT886Q==
 
-"@next/polyfill-nomodule@9.2.2-canary.21":
-  version "9.2.2-canary.21"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.2-canary.21.tgz#015d3572fbda21b1c492f3a62d74a8a4802b93e1"
-  integrity sha512-G2SbSGHGeeexv1yu+TmtiCFVlSnaR9LgWq4xkcp9OKYKVIGa3Y3p3q8ULUdJjOfxf/eZR0zqVDJ0xmmTXpx9Gw==
+"@next/polyfill-nomodule@9.2.3-canary.1":
+  version "9.2.3-canary.1"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.1.tgz#c962f1732048bae672ad0adfc6612fa60d132982"
+  integrity sha512-RlWyN/MlK4Ftqj+lIsS/NsucVaGSiUVSBG0wNb0ZVJHG9OEgQ3G1XPS4v/aZrf2heERwSJ1Vli44u7muJJHoPQ==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -1870,10 +1862,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.7.1":
-  version "13.7.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.1.tgz#238eb34a66431b71d2aaddeaa7db166f25971a0d"
-  integrity sha512-Zq8gcQGmn4txQEJeiXo/KiLpon8TzAl0kmKH4zdWctPj05nWwp1ClMdAVEloqrQKfaC48PNLdgN/aVaLqUrluA==
+"@types/node@^13.7.2":
+  version "13.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.2.tgz#50375b95b5845a34efda2ffb3a087c7becbc46c6"
+  integrity sha512-uvilvAQbdJvnSBFcKJ2td4016urcGvsiR+N4dHGU87ml8O2Vl6l+ErOi9w0kXSPiwJ1AYlIW+0pDXDWWMOiWbw==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1900,10 +1892,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.9.19":
-  version "16.9.19"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
-  integrity sha512-LJV97//H+zqKWMms0kvxaKYJDG05U2TtQB3chRLF8MPNs+MQh/H1aGlyDUxjaHvu08EAGerdX2z4LTBc7ns77A==
+"@types/react@^16.9.20":
+  version "16.9.20"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.20.tgz#e83285766340fb1a7fafe7e5c4708c53832e3641"
+  integrity sha512-jRrWBr25zzEVNa4QbESKLPluvrZ3W6Odfwrfe2F5vzbrDuNvlpnHa/xbZcXg8RH5D4CE181J5VxrRrLvzRH+5A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -3225,7 +3217,7 @@ core-js-compat@^3.1.1:
     browserslist "^4.6.6"
     semver "^6.3.0"
 
-core-js@^2.4.0, core-js@^2.6.5:
+core-js@^2.4.0:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
@@ -5630,10 +5622,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.2-canary.21:
-  version "9.2.2-canary.21"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.2-canary.21.tgz#fd53ed14ef7a81413879057dc311eaa7b9102a28"
-  integrity sha512-MpZJEqOUyWNYEnTXIkOjH+LhZQElQKh1FKOFNkGLpHF2t+q+Qx2wz2oJk6fljZcTRcO03QSv9aWlRQ/cySIswQ==
+next@^9.2.3-canary.1:
+  version "9.2.3-canary.1"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.1.tgz#d078cd267c400255f495ecfa2d37bb7afd6d1cc2"
+  integrity sha512-6rCi4B1h7V/KGbSzaBCKhJ1TiDri6TQh3J+85d1Tt8o2wcuNTc/bDTK86T6YeQL/rmc1NoF74M4M1qrwtfGIdQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
@@ -5650,8 +5642,8 @@ next@^9.2.2-canary.21:
     "@babel/preset-react" "7.7.0"
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
-    "@babel/runtime-corejs2" "7.7.2"
-    "@next/polyfill-nomodule" "9.2.2-canary.21"
+    "@babel/types" "7.7.4"
+    "@next/polyfill-nomodule" "9.2.3-canary.1"
     amphtml-validator "1.0.23"
     async-retry "1.2.3"
     async-sema "3.0.0"
@@ -5694,7 +5686,6 @@ next@^9.2.2-canary.21:
     mini-css-extract-plugin "0.8.0"
     mkdirp "0.5.1"
     node-fetch "2.6.0"
-    object-assign "4.1.1"
     ora "3.4.0"
     path-to-regexp "6.1.0"
     pnp-webpack-plugin "1.5.0"
@@ -5726,7 +5717,6 @@ next@^9.2.2-canary.21:
     webpack-dev-middleware "3.7.0"
     webpack-hot-middleware "2.25.0"
     webpack-sources "1.4.3"
-    whatwg-fetch "3.0.0"
 
 node-fetch@2.6.0:
   version "2.6.0"
@@ -5882,7 +5872,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-object-assign@4.1.1, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=

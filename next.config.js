@@ -1,20 +1,22 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
   }),
-  withMDX = require('@next/mdx')(),
-  withOffline = require('next-offline'),
-  withPlugins = require('next-compose-plugins'),
-  withSourceMaps = require('@zeit/next-source-maps')(),
-  nextConfig = {
+  NextComposePlugins = require('next-compose-plugins'),
+  NextConfig = {
+    /**
+     * NOTE: this config omits default values that are desired
+     * e.g. experimental.granularChunks = true
+     */
+    env: [],
     experimental: {
-      catchAllRouting: true,
-      deferScripts: true,
-      granularChunks: true,
+      catchAllRouting: true, // does this exist & do I want it?
+      deferScripts: true, // same question
+      documentMiddleware: false, // same question
       modern: true,
-      pages404: true,
       plugins: true,
-      polyfillsOptimization: true,
-      prefetchPreload: true,
+      prefetchPreload: true, // same question
+      profiling: process.env.PROFILE === 'true',
+      reactMode: 'legacy', // same question
       workerThreads: true,
       async redirects() {
         return [
@@ -145,17 +147,18 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
     future: {
       excludeDefaultMomentLocales: true,
     },
-    generateInDevMode: false,
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+    publicRuntimeConfig: {},
+    serverRuntimeConfig: {},
     reactStrictMode: true,
     target: 'serverless',
-    transformManifest: manifest => ['/'].concat(manifest),
     webpack: (config, { dev, isServer }) => {
+      // TODO: contribute this to `next-plugin-preact`
       const splitChunks =
         config.optimization && config.optimization.splitChunks;
       if (splitChunks) {
         const cacheGroups = splitChunks.cacheGroups;
-        const preactModules = /[\\/]node_modules[\\/](preact|preact-render-to-string|preact-context-provider)[\\/]/;
+        const preactModules = /(?<!node_modules.*)[\\/]node_modules[\\/](preact|preact-render-to-string|preact-context-provider)[\\/]/;
         if (cacheGroups.framework) {
           cacheGroups.preact = Object.assign({}, cacheGroups.framework, {
             test: preactModules,
@@ -169,25 +172,29 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
           };
         }
       }
-
       return config;
     },
-    webpackDevMiddleware: config => config,
-    workboxOpts: {
-      swDest: 'static/service-worker.js',
-    },
-  };
+  },
+  NextMDX = require('@next/mdx')(),
+  NextOffline = require('next-offline'),
+  NextSourceMaps = require('@zeit/next-source-maps')();
 
-module.exports = withPlugins(
+module.exports = NextComposePlugins(
   [
-    // @zeit/next-bundle-analyzer
-    [withBundleAnalyzer],
-    // @zeit/next-mdx
-    [withMDX],
-    // next-offline
-    [withOffline],
-    // @zeit/next-source-maps
-    [withSourceMaps],
+    [NextBundleAnalyzer],
+    [NextMDX],
+    [
+      NextOffline,
+      {
+        // `next-offline`-specific config
+        dontAutoRegisterSw: true,
+        transformManifest: manifest => ['/'].concat(manifest),
+        workboxOpts: {
+          swDest: 'static/service-worker.js',
+        },
+      },
+    ],
+    [NextSourceMaps],
   ],
-  nextConfig,
+  NextConfig,
 );

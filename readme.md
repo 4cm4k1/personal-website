@@ -70,6 +70,9 @@ yarn prettier
 # run webpack analyzer
 yarn analyze
 
+# run in dev mode with profiling on
+yarn profile
+
 # type-check TypeScript files
 yarn type-check
 
