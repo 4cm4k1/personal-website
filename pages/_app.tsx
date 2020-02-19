@@ -4,7 +4,6 @@ if (process.env.NODE_ENV !== 'production') {
   import('preact/debug');
 }
 import { RMWCProvider } from '@rmwc/provider';
-import { register, unregister } from 'next-offline/runtime';
 import { useEffect } from 'preact/hooks';
 // types
 import { AppProps } from 'next/app';
@@ -21,14 +20,13 @@ import '@rmwc/avatar/avatar.css';
 import '@rmwc/icon/icon.css';
 // local
 import AppLayout from '../components/AppLayout';
+import { register } from '../lib/sw';
 
 const App: FunctionalComponent<AppProps> = ({ Component, pageProps }) => {
-  // manually register/unregister service worker with `next-offline`
-  if (process.env.NODE_ENV === 'production')
-    useEffect(() => {
-      register();
-      return unregister();
-    });
+  // manually register service worker with `next-offline`
+  if (process.env.NODE_ENV === 'production') {
+    useEffect(() => register(), []);
+  }
 
   return (
     <RMWCProvider

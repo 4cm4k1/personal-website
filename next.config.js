@@ -51,12 +51,12 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             destination: '/.well-known/keybase.txt',
           },
           {
-            source: '/service-worker.js',
-            destination: '/_next/static/service-worker.js',
+            source: '/sw.js',
+            destination: '/_next/static/sw.js',
           },
           {
-            source: '/service-worker.js.map',
-            destination: '/_next/static/service-worker.js.map',
+            source: '/sw.js.map',
+            destination: '/_next/static/sw.js.map',
           },
         ];
       },
@@ -120,7 +120,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             ],
           },
           {
-            source: '/service-worker.js',
+            source: '/sw.js',
             headers: [
               {
                 key: 'Cache-Control',
@@ -133,7 +133,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             ],
           },
           {
-            source: '/service-worker.js.map',
+            source: '/sw.js.map',
             headers: [
               {
                 key: 'Cache-Control',
@@ -190,7 +190,7 @@ module.exports = NextComposePlugins(
         dontAutoRegisterSw: true,
         transformManifest: manifest => ['/'].concat(manifest),
         workboxOpts: {
-          swDest: 'static/service-worker.js',
+          swDest: 'static/sw.js',
         },
       },
     ],
