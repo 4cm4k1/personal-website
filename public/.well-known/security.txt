@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:4cm4k1@gmail.com
+Encryption: https://keybase.io/4cm4k1/pgp_keys.asc
+Preferred-Languages: en, es
+Canonical: https://anthony.codes/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCAAQBQJeVGm+CRBuizAq+KR40AAAFJQQAJLrdtTsuaIfEgVIGLuJ4Pxi
+QVE0dWTODmdmd7YX9L79R0QJhvXf93D101XOtUcsjRasHJtSi8UUJ3paLkA5OLUx
+7sWiydbUJ4JqZGFJ0pqXoc0WwLgBrRy3SiNMTELgOnRc7oP07veNhVP18J46PfE7
+fOWP53Csy67hR0M/LeR9yFry9vHXNDbcfNHuIqS1Qg+GRzWKNzo4UhP711HShPsl
+34/enXK4wDTXzaVuVK4EsgiZpRRS39Uo9tyMpM3m02bQbf5HfDS3im4Y/unrX9Xv
+Gxnu4godyJd27doBO/tJNS/CQbqwncuiTaqD+vUBEQpjMgMQtuWGQ06grUmF/JDp
+E0bEhJDTaCDjWKrjOBV5giD3SB414Fbx3oMXiOsh+3CqjrELx8QcZulgRp/ec3Jo
+4Dr+/cPffPulhitl6UWSZQ4WRnrO3DNcwDQQUXfXg94mCIF6eqhDvR7K1gHMH8Oh
+0cP65v0zHnvOcASjq/+Skbu3iQaN767qY+iCFOWqyhD6z3Yy9Du81uIqNXfE9qMp
+crH072sPNFt/hedQjo65LcPa+iq5IJ9xhB1br5Fvvb2qt1AydCBr6HkC7WKF7/ms
+Q9WPdXUULBt6WRMblG/pCq1z46NEBIS/7Xabw9FiFIV1DBVitVimXIZYpBGcYCOS
+1kWs5WLa6TAXLEic6bSO
+=pOif
+-----END PGP SIGNATURE-----

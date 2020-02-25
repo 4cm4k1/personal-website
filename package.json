@@ -16,7 +16,7 @@
     "dev": "next",
     "now-build": "next build",
     "start": "next start",
-    "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx} --write",
+    "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx,webmanifest} --write",
     "profile": "PROFILE=true yarn dev",
     "type-check": "tsc"
   },
@@ -26,7 +26,7 @@
     }
   },
   "dependencies": {
-    "next": "^9.2.3-canary.11",
+    "next": "^9.2.3-canary.12",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "react": "github:preact-compat/react#1.0.0",
@@ -35,8 +35,8 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.8-alpha.0",
-    "@next/bundle-analyzer": "^9.2.3-canary.11",
-    "@next/mdx": "^9.2.3-canary.11",
+    "@next/bundle-analyzer": "^9.2.3-canary.12",
+    "@next/mdx": "^9.2.3-canary.12",
     "@rmwc/avatar": "^6.0.0-alpha.11",
     "@rmwc/drawer": "^6.0.0-alpha.11",
     "@rmwc/grid": "^6.0.0-alpha.11",
