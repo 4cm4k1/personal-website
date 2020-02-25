@@ -23,16 +23,30 @@ export default class extends Document {
       <Html lang='en-US'>
         <Head>
           <meta charSet='utf-8' />
-          <meta httpEquiv='Content-Security-Policy' content={csp} />
           <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
-          <link rel='apple-touch-icon' sizes='180x180' href='/icon-180.png' />
-          <link rel='icon' type='image/png' sizes='32x32' href='/icon-32.png' />
-          <link rel='icon' type='image/png' sizes='16x16' href='/icon-16.png' />
+          <meta httpEquiv='Content-Security-Policy' content={csp} />
           <link rel='manifest' href='/site.webmanifest' />
           <link rel='shortcut icon' href='/favicon.ico' />
+          <link
+            rel='apple-touch-icon'
+            sizes='180x180'
+            href='/icon-ios-180x180.png'
+          />
+          <link
+            rel='icon'
+            type='image/png'
+            sizes='32x32'
+            href='/icon-32x32.png'
+          />
+          <link
+            rel='icon'
+            type='image/png'
+            sizes='16x16'
+            href='/icon-16x16.png'
+          />
           <meta name='msapplication-TileColor' content='#d81b60' />
           <meta name='msapplication-config' content='/browserconfig.xml' />
           <meta name='theme-color' content='#424242' />
