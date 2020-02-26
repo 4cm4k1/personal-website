@@ -19,4 +19,5 @@ function unregister(): void {
         .catch(err => console.log('Failed to unregister ServiceWorker!', err)),
     );
 }
+
 export { register, unregister };

@@ -17,7 +17,7 @@ export default class extends Document {
   render() {
     const csp = `upgrade-insecure-requests; object-src 'none'; script-src ${cspHashOf(
       NextScript.getInlineScriptSource(this.props),
-    )} 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:; base-uri 'none'; report-uri /report-csp-violation`;
+    )} 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:; base-uri 'none'; report-uri=/report-csp-violation`;
 
     return (
       <Html lang='en-US'>
