@@ -1678,22 +1678,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.8-alpha.0.tgz#04bae2df9ca68396d98c442ba1e2ac13d759a71f"
   integrity sha512-wfapTF5N7lSJzdx8qEVhF8ulehpeqwIQzQpjRs3fjLG2tgBqLcGKhETQ1K+tG2hO3lIgYOVd15i3INyfcic2Pw==
 
-"@next/bundle-analyzer@^9.2.3-canary.12":
-  version "9.2.3-canary.12"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.12.tgz#0456ad72622fbac0bd3d4161bb5c5944657785dc"
-  integrity sha512-uXAiQnssyzaLS9iIZt5KpqXLDPU8E+QNDOJhLEuVNi3t2CP1bRO3zfu7OJXX4wx4SpbRYkYJIejuPlXKOEdxUw==
+"@next/bundle-analyzer@^9.2.3-canary.16":
+  version "9.2.3-canary.16"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.16.tgz#eda4e276f267254521c91562975a1f7416e0794f"
+  integrity sha512-m3HkOTjFyhltxteX/BUQnCeggapUvKz7OOT59Gyi4qvOLmnV/aX7LyN1LoKTalkh+08ixaENCDSXYgIaTi3uXw==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.3-canary.12":
-  version "9.2.3-canary.12"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.12.tgz#0f72224f9e4c2c4a14b822f12c87fc60cd383868"
-  integrity sha512-S9nZF54vQrk44YbtNKoBhaSz7/1pJC+hcZVruufWwgOYEIAXfoC7G4H8IdEwYMR5OiKdbubhcqslGfkytSsP3Q==
+"@next/mdx@^9.2.3-canary.16":
+  version "9.2.3-canary.16"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.16.tgz#da1201fc4e67c27762f4f179cadb9b6d84879bf5"
+  integrity sha512-p3G29Cww335YhVFUQHKNGZn72PO2xOkXd6vq0UwvXaojwROz34kuSN1qsrsoSgy9kTOtfiLDgmm2mKPT6tUHAw==
 
-"@next/polyfill-nomodule@9.2.3-canary.12":
-  version "9.2.3-canary.12"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.12.tgz#53f01244baccde6b4c23cfd5b9b157ccd1c48495"
-  integrity sha512-I5PxFKoVEFjL3nXl6qC98mmhBd7ynfCfvY5KLeckO1LKqaEHk09c0Or7XYkyx1H2GrxDpRHDkF/ws8fxFWOq4w==
+"@next/polyfill-nomodule@9.2.3-canary.16":
+  version "9.2.3-canary.16"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.16.tgz#a7d4fbd49bde8d8945e84c75359f50a64ebc7515"
+  integrity sha512-x5xj5iJmm+PzVEjPqKO6tJvjSjkqAfeciQysN2agsSVJFUhIDoaOrzHOOSSOKOzm4pJ9Kuaq5IpeFXIZUUgMAA==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -5591,10 +5591,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.3-canary.12:
-  version "9.2.3-canary.12"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.12.tgz#6712ee9a483572ae47d812ec45dd2c3623200de6"
-  integrity sha512-grr3ScyoUsungu3oRqMrNTJb7CJlZZQ0T7QmOg72ldEt0VvQID6SWtjBdRC3AVWnDLXW0w98V/W6bA0Tn2b/sg==
+next@^9.2.3-canary.16:
+  version "9.2.3-canary.16"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.16.tgz#6dcf8a82c302f33383c89c0de46c7eb4628f142d"
+  integrity sha512-nCQVeX2OYt4FqXjggv6xwRvrqX8YbewJTkI79J+Y7mHL9R0DQJ5d2STuwWUzm2Z2+Go1FWttB1xj8i6pzd/Hxg==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
@@ -5612,7 +5612,7 @@ next@^9.2.3-canary.12:
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
     "@babel/types" "7.7.4"
-    "@next/polyfill-nomodule" "9.2.3-canary.12"
+    "@next/polyfill-nomodule" "9.2.3-canary.16"
     amphtml-validator "1.0.30"
     async-retry "1.2.3"
     async-sema "3.0.0"
