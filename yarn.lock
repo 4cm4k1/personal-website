@@ -1678,22 +1678,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.8-alpha.0.tgz#04bae2df9ca68396d98c442ba1e2ac13d759a71f"
   integrity sha512-wfapTF5N7lSJzdx8qEVhF8ulehpeqwIQzQpjRs3fjLG2tgBqLcGKhETQ1K+tG2hO3lIgYOVd15i3INyfcic2Pw==
 
-"@next/bundle-analyzer@^9.2.3-canary.16":
-  version "9.2.3-canary.16"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.16.tgz#eda4e276f267254521c91562975a1f7416e0794f"
-  integrity sha512-m3HkOTjFyhltxteX/BUQnCeggapUvKz7OOT59Gyi4qvOLmnV/aX7LyN1LoKTalkh+08ixaENCDSXYgIaTi3uXw==
+"@next/bundle-analyzer@^9.2.3-canary.17":
+  version "9.2.3-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.17.tgz#be23913eda63ea1523f67879f856d907ec72990e"
+  integrity sha512-CGQHlXAFkQxRkoHTh/l616XFII9kqcxJ2gVjud0dySlQJ3rzBRceA1FRZfiLHdw19Vxq6drZnM5Ttn9LMD0psQ==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.3-canary.16":
-  version "9.2.3-canary.16"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.16.tgz#da1201fc4e67c27762f4f179cadb9b6d84879bf5"
-  integrity sha512-p3G29Cww335YhVFUQHKNGZn72PO2xOkXd6vq0UwvXaojwROz34kuSN1qsrsoSgy9kTOtfiLDgmm2mKPT6tUHAw==
+"@next/mdx@^9.2.3-canary.17":
+  version "9.2.3-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.17.tgz#870b3442d41eaa59a164089d888d692e20c0bb9d"
+  integrity sha512-LWGC9SpmznmwfNYbNQK2Lzwp+rfSHKF9BGG5+I0V6gboWOxWDc6PdvWM87Yqq/Zzk0GkVXkSYvKDQcXVoesUng==
 
-"@next/polyfill-nomodule@9.2.3-canary.16":
-  version "9.2.3-canary.16"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.16.tgz#a7d4fbd49bde8d8945e84c75359f50a64ebc7515"
-  integrity sha512-x5xj5iJmm+PzVEjPqKO6tJvjSjkqAfeciQysN2agsSVJFUhIDoaOrzHOOSSOKOzm4pJ9Kuaq5IpeFXIZUUgMAA==
+"@next/polyfill-nomodule@9.2.3-canary.17":
+  version "9.2.3-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.17.tgz#747923f53747a0df33b9aa399d98276e739cf2ba"
+  integrity sha512-xPaHdLQ8QmsUtg3H0ucl7QqE5jGQpYOBZipSYvkoVcz75zidy+xJjMPsDNU3uFgUDLVl7cQc5Wu+uSP41pUksQ==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -1838,10 +1838,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.7.6":
-  version "13.7.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.6.tgz#cb734a7c191472ae6a2b3a502b4dfffcea974113"
-  integrity sha512-eyK7MWD0R1HqVTp+PtwRgFeIsemzuj4gBFSQxfPHY5iMjS7474e5wq+VFgTcdpyHeNxyKSaetYAjdMLJlKoWqA==
+"@types/node@^13.7.7":
+  version "13.7.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.7.tgz#1628e6461ba8cc9b53196dfeaeec7b07fa6eea99"
+  integrity sha512-Uo4chgKbnPNlxQwoFmYIwctkQVkMMmsAoGGU4JKwLuvBefF0pCq4FybNSnfkfRCpC7ZW7kttcC/TrRtAJsvGtg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5553,6 +5553,13 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+native-url@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/native-url/-/native-url-0.2.6.tgz#ca1258f5ace169c716ff44eccbddb674e10399ae"
+  integrity sha512-k4bDC87WtgrdD362gZz6zoiXQrl40kYlBmpfmSjwRO1VU0V5ccwJTlxuE72F6m3V0vc1xOf6n3UCP9QyerRqmA==
+  dependencies:
+    querystring "^0.2.0"
+
 needle@^2.2.1:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/needle/-/needle-2.4.0.tgz#6833e74975c444642590e15a750288c5f939b57c"
@@ -5591,10 +5598,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.3-canary.16:
-  version "9.2.3-canary.16"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.16.tgz#6dcf8a82c302f33383c89c0de46c7eb4628f142d"
-  integrity sha512-nCQVeX2OYt4FqXjggv6xwRvrqX8YbewJTkI79J+Y7mHL9R0DQJ5d2STuwWUzm2Z2+Go1FWttB1xj8i6pzd/Hxg==
+next@^9.2.3-canary.17:
+  version "9.2.3-canary.17"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.17.tgz#7ad280fba039721a9fad87fcb485b8bbd71dd2d7"
+  integrity sha512-485DyXU/0MVQ3NnsLm0NQLGKPknzBkh3z/zx4kOl/9drBKNt+akRp+6yW2XyW5C3vJXj/enAzaKdYK2q70S/FA==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
@@ -5612,7 +5619,7 @@ next@^9.2.3-canary.16:
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
     "@babel/types" "7.7.4"
-    "@next/polyfill-nomodule" "9.2.3-canary.16"
+    "@next/polyfill-nomodule" "9.2.3-canary.17"
     amphtml-validator "1.0.30"
     async-retry "1.2.3"
     async-sema "3.0.0"
@@ -5654,6 +5661,7 @@ next@^9.2.3-canary.16:
     lru-cache "5.1.1"
     mini-css-extract-plugin "0.8.0"
     mkdirp "0.5.1"
+    native-url "0.2.6"
     node-fetch "2.6.0"
     ora "3.4.0"
     path-to-regexp "6.1.0"
@@ -5679,7 +5687,6 @@ next@^9.2.3-canary.16:
     thread-loader "2.1.3"
     unfetch "4.1.0"
     url "0.11.0"
-    url-polyfill "1.1.7"
     use-subscription "1.1.1"
     watchpack "2.0.0-beta.13"
     webpack "4.41.2"
@@ -8070,10 +8077,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.2.tgz#91d6868aaead7da74f493c553aeff76c0c0b1d5a"
-  integrity sha512-EgOVgL/4xfVrCMbhYKUQTdF37SQn4Iw73H5BgCrF1Abdun7Kwy/QZsE/ssAy0y4LxBbvua3PIbFsbRczWWnDdQ==
+typescript@^3.8.3:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
+  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
 unfetch@4.1.0:
   version "4.1.0"
@@ -8283,11 +8290,6 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-
-url-polyfill@1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/url-polyfill/-/url-polyfill-1.1.7.tgz#402ee84360eb549bbeb585f4c7971e79a31de9e3"
-  integrity sha512-ZrAxYWCREjmMtL8gSbSiKKLZZticgihCvVBtrFbUVpyoETt8GQJeG2okMWA8XryDAaHMjJfhnc+rnhXRbI4DXA==
 
 url-regex@^5.0.0:
   version "5.0.0"
