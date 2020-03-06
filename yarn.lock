@@ -1705,12 +1705,12 @@
     "@rmwc/ripple" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/base@^6.0.0-alpha.11":
-  version "6.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.11.tgz#c85f2a6c5d583a6cdda8a725c7f6c799aa0eb10c"
-  integrity sha512-EkEXUXplpGhEjbILx8FOpAHuREHM+ZbD0S/4S3TJ4KlLy2EqNu1e00WZa3VTH3kRK/tuKVF7+7L96Q983WBz0w==
+"@rmwc/base@^6.0.0-alpha.11", "@rmwc/base@^6.0.0-alpha.12":
+  version "6.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.12.tgz#216b4b789ab514d78544fc48cd7049f3ef76c9c3"
+  integrity sha512-Kc6nXZ37nEvgUxZjq5jqGKs94o8Caxvdfz7v22Jr7ZKYUkEmJeEggnqU47HNXf2U7eI3AUkKwH3Apbbt2cDSTg==
   dependencies:
-    "@rmwc/types" "^6.0.0-alpha.6"
+    "@rmwc/types" "^6.0.0-alpha.12"
     classnames "^2.2.6"
     focus-trap "^5.0.0"
     hyperform "^0.9.9"
@@ -1785,14 +1785,14 @@
     "@rmwc/provider" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/theme@^6.0.0-alpha.11":
-  version "6.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.0.0-alpha.11.tgz#65ccf90b14cecb91f59bb099aa22c3049044387f"
-  integrity sha512-J6ggwrqAfX4ZwplcwQ7USpXzhNZ7flFUB8Y8ExKGCU++nCFWk3xl47WEVt4IhU/kyDIt9mTuODT4Jxq/NWj/7A==
+"@rmwc/theme@^6.0.0-alpha.12":
+  version "6.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.0.0-alpha.12.tgz#57cbf4a47f2b82af82cb74c17befc7e0475ca72f"
+  integrity sha512-8KiuAslby4XAE4JGcfH5GfzgBxcqpLjwJS+bmeQAxyjZPWqYem6xye/7SSNhhyFT/JPUDXc9YJlDsdFQEG7XUA==
   dependencies:
     "@material/theme" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.11"
-    "@rmwc/types" "^6.0.0-alpha.6"
+    "@rmwc/base" "^6.0.0-alpha.12"
+    "@rmwc/types" "^6.0.0-alpha.12"
 
 "@rmwc/top-app-bar@^6.0.0-alpha.11":
   version "6.0.0-alpha.11"
@@ -1805,10 +1805,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.11"
     "@rmwc/types" "^6.0.0-alpha.6"
 
-"@rmwc/types@^6.0.0-alpha.6":
-  version "6.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.6.tgz#2c3bbb1288eb229882517390ea05f09b76af8932"
-  integrity sha512-FOxUmKCMb3Tir74JZitKbdMfnLePK/TSeZvw9CHLRyasYetJWu9HcnyGhdny9W1PNgSi2i8V+h1MIs+zSMCwfQ==
+"@rmwc/types@^6.0.0-alpha.12", "@rmwc/types@^6.0.0-alpha.6":
+  version "6.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.12.tgz#9661778c4be252f0d4b88fd54810d96c7ddefc33"
+  integrity sha512-5Y5yVDEoNzTF0KyqLDJ5vw2jV2+0Y+8W+ojhiHQR7eEbW40O2vma7MuyVBqo0ROLUKYUlTVzFVa4h9fIkL4BbQ==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.1.1"
