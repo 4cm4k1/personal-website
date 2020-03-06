@@ -38,7 +38,7 @@
     "@next/bundle-analyzer": "^9.2.3-canary.17",
     "@next/mdx": "^9.2.3-canary.17",
     "@rmwc/avatar": "^6.0.0-alpha.11",
-    "@rmwc/drawer": "^6.0.0-alpha.11",
+    "@rmwc/drawer": "^6.0.0-alpha.12",
     "@rmwc/grid": "^6.0.0-alpha.11",
     "@rmwc/list": "^6.0.0-alpha.11",
     "@rmwc/provider": "^6.0.0-alpha.11",
