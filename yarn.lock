@@ -1678,22 +1678,22 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.8-alpha.0.tgz#04bae2df9ca68396d98c442ba1e2ac13d759a71f"
   integrity sha512-wfapTF5N7lSJzdx8qEVhF8ulehpeqwIQzQpjRs3fjLG2tgBqLcGKhETQ1K+tG2hO3lIgYOVd15i3INyfcic2Pw==
 
-"@next/bundle-analyzer@^9.2.3-canary.26":
-  version "9.2.3-canary.26"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.2.3-canary.26.tgz#aac643eb31b1e87040436f5bf767e63abc12faa7"
-  integrity sha512-ItQYNkHjTJTnKl9oE9nCcZ2GcN/AxF4Lrf5TaEC63T1OJB6FqgT363MLy8OoO1BFW9K4JQfJ0FaNVrfDYllZ3w==
+"@next/bundle-analyzer@^9.3.1-canary.4":
+  version "9.3.1-canary.4"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.3.1-canary.4.tgz#1dda68e803cf68bdeb9732c400d996907a177ed2"
+  integrity sha512-SSznWSYE+ZPsbBLZdTYir8fpd0u2yh7idY4ULIvHjQ78EnhM6qcI6nEezgI5NK7JZATlj83/hbChxUILxWDPgQ==
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.2.3-canary.26":
-  version "9.2.3-canary.26"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.2.3-canary.26.tgz#c333d47e6f4780f13054d450f4f9b8349e4bb03f"
-  integrity sha512-5uFqQ6ts5dvynTL0b83Bxjv/dIask95QwUElC8bZn4lqXwjwY5havdH5XSWrhG27+J1sFGFbBJwz9M8HogNKyQ==
+"@next/mdx@^9.3.1-canary.4":
+  version "9.3.1-canary.4"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.1-canary.4.tgz#89e371020ddc4b76b591b3e13ba04c27a10ad932"
+  integrity sha512-jmc4KJP2SociN1uLKB9PQtDSNlAxdZK6bASFpyzV6erNfKhUdP/XNTrG3oT6TX+igYbN5XX/UZGloPh3WhDwUg==
 
-"@next/polyfill-nomodule@9.2.3-canary.26":
-  version "9.2.3-canary.26"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.2.3-canary.26.tgz#12dd27014f5f919c7d19d9019a0201a8cf68c0f4"
-  integrity sha512-YW8AB2z2NLHMBOqa/agzrv7AD1tUJMQu77vNXwCNRCbxhEM81Kq5GVzCDXQIG717PH38/fi9z62I4zaX8xe5hQ==
+"@next/polyfill-nomodule@9.3.1-canary.4":
+  version "9.3.1-canary.4"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.3.1-canary.4.tgz#cf25951123c8ecdfc34a2354a7fbf7a42dd3ff94"
+  integrity sha512-a1tYzqpFneCGTs1fQnsuxERS1uF7BUlxgEruwv1bJAsZVi7lkWQA7p8KzBFtkpEpWkkXr9F1Yd8/8zv1U8B9IA==
 
 "@rmwc/avatar@^6.0.0-alpha.11":
   version "6.0.0-alpha.12"
@@ -1838,10 +1838,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
   integrity sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
 
-"@types/node@^13.7.7":
-  version "13.9.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.0.tgz#5b6ee7a77faacddd7de719017d0bc12f52f81589"
-  integrity sha512-0ARSQootUG1RljH2HncpsY2TJBfGQIKOOi7kxzUY6z54ePu/ZD+wJA8zI2Q6v8rol2qpG/rvqsReco8zNMPvhQ==
+"@types/node@^13.9.1":
+  version "13.9.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.1.tgz#96f606f8cd67fb018847d9b61e93997dabdefc72"
+  integrity sha512-E6M6N0blf/jiZx8Q3nb0vNaswQeEyn0XlupO+xN6DtJ6r6IT4nXrTry7zhIfYvFCl3/8Cu6WIysmUBKiqV0bqQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5598,10 +5598,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.2.3-canary.26:
-  version "9.2.3-canary.26"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.2.3-canary.26.tgz#3c34667b7a6e4dc4c70ab6e7188ed7c2213ae785"
-  integrity sha512-5IzKvwr0s3mX/siYoA9fFZuMZBz50aeho7cKxFGu8Ty3+qrcuf0Ooh8r9w7/yh4eEp4Gcfr+GoOnQaOTEsEcIg==
+next@^9.3.1-canary.4:
+  version "9.3.1-canary.4"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.3.1-canary.4.tgz#d0a39564cf9cfa1aae6f4064bbebcba68917d270"
+  integrity sha512-fvkovZmXFVFo4juPrtpeyddie7XVcAvX6YnV284LBTUtltr3kYuHD6CTCYJ94ZOg7gh3V2MkeaVeco4EI5vtAA==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
@@ -5619,7 +5619,7 @@ next@^9.2.3-canary.26:
     "@babel/preset-typescript" "7.7.2"
     "@babel/runtime" "7.7.2"
     "@babel/types" "7.7.4"
-    "@next/polyfill-nomodule" "9.2.3-canary.26"
+    "@next/polyfill-nomodule" "9.3.1-canary.4"
     amphtml-validator "1.0.30"
     async-retry "1.2.3"
     async-sema "3.0.0"
@@ -5689,7 +5689,7 @@ next@^9.2.3-canary.26:
     url "0.11.0"
     use-subscription "1.1.1"
     watchpack "2.0.0-beta.13"
-    webpack "4.41.2"
+    webpack "4.42.0"
     webpack-dev-middleware "3.7.0"
     webpack-hot-middleware "2.25.0"
     webpack-sources "1.4.3"
@@ -6674,9 +6674,9 @@ preact-render-to-string@^5.1.4:
     pretty-format "^3.8.0"
 
 preact@^10.3.3:
-  version "10.3.3"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.3.3.tgz#31a949cdc89dd1cf72bc2b94f80ad55d1ac8c7e6"
-  integrity sha512-8EWUuHuLhX48uK0acnnXwBL/ZyrgeadnyhxG6hFI85BhwmquyGwWzfj2SylCNdEyltkdgbY3FZzQOM2mG1leAg==
+  version "10.3.4"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.3.4.tgz#e1542a4d3eba3e7a37f312a2c331231b97052024"
+  integrity sha512-wMgzs/RGYf0I1PZf8ZFJdyU/3kCcwepJyVYe+N9FGajyQWarMoPrPfrQajcG0psPj6ySYv2cSuLYFCihvV/Qrw==
 
 prepend-http@^1.0.0:
   version "1.0.4"
@@ -7845,21 +7845,6 @@ tempy@^0.3.0:
     type-fest "^0.3.1"
     unique-string "^1.0.0"
 
-terser-webpack-plugin@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.1.tgz#61b18e40eaee5be97e771cdbb10ed1280888c2b4"
-  integrity sha512-ZXmmfiwtCLfz8WKZyYUuuHf3dMYEjg8NrjHMb0JqHVHVOSkzp3cW2/XG1fP3tRhqEqSzMwzzRQGtAPbs4Cncxg==
-  dependencies:
-    cacache "^12.0.2"
-    find-cache-dir "^2.1.0"
-    is-wsl "^1.1.0"
-    schema-utils "^1.0.0"
-    serialize-javascript "^1.7.0"
-    source-map "^0.6.1"
-    terser "^4.1.2"
-    webpack-sources "^1.4.0"
-    worker-farm "^1.7.0"
-
 terser-webpack-plugin@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.3.tgz#5ecaf2dbdc5fb99745fd06791f46fc9ddb1c9a7c"
@@ -8499,36 +8484,7 @@ webpack-sources@1.4.3, webpack-sources@^1.0.1, webpack-sources@^1.1.0, webpack-s
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@4.41.2:
-  version "4.41.2"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.2.tgz#c34ec76daa3a8468c9b61a50336d8e3303dce74e"
-  integrity sha512-Zhw69edTGfbz9/8JJoyRQ/pq8FYUoY0diOXqW0T6yhgdhCv6wr0hra5DwwWexNRns2Z2+gsnrNcbe9hbGBgk/A==
-  dependencies:
-    "@webassemblyjs/ast" "1.8.5"
-    "@webassemblyjs/helper-module-context" "1.8.5"
-    "@webassemblyjs/wasm-edit" "1.8.5"
-    "@webassemblyjs/wasm-parser" "1.8.5"
-    acorn "^6.2.1"
-    ajv "^6.10.2"
-    ajv-keywords "^3.4.1"
-    chrome-trace-event "^1.0.2"
-    enhanced-resolve "^4.1.0"
-    eslint-scope "^4.0.3"
-    json-parse-better-errors "^1.0.2"
-    loader-runner "^2.4.0"
-    loader-utils "^1.2.3"
-    memory-fs "^0.4.1"
-    micromatch "^3.1.10"
-    mkdirp "^0.5.1"
-    neo-async "^2.6.1"
-    node-libs-browser "^2.2.1"
-    schema-utils "^1.0.0"
-    tapable "^1.1.3"
-    terser-webpack-plugin "^1.4.1"
-    watchpack "^1.6.0"
-    webpack-sources "^1.4.1"
-
-webpack@^4.42.0:
+webpack@4.42.0, webpack@^4.42.0:
   version "4.42.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.42.0.tgz#b901635dd6179391d90740a63c93f76f39883eb8"
   integrity sha512-EzJRHvwQyBiYrYqhyjW9AqM90dE4+s1/XtCfn7uWg6cS72zH+2VPFAlsnW0+W0cDi0XRjNKUMoJtpSi50+Ph6w==
