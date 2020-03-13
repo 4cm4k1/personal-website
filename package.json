@@ -44,7 +44,7 @@
     "@rmwc/provider": "^6.0.0-alpha.11",
     "@rmwc/theme": "^6.0.0-alpha.11",
     "@rmwc/top-app-bar": "^6.0.0-alpha.11",
-    "@types/node": "^13.7.7",
+    "@types/node": "^13.9.1",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
