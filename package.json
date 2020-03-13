@@ -75,7 +75,8 @@
     "@material/shape": "^5.1.0",
     "@material/theme": "^5.1.0",
     "@material/top-app-bar": "^5.1.0",
-    "@material/typography": "^5.1.0"
+    "@material/typography": "^5.1.0",
+    "minimist": "^1.2.2"
   },
   "engines": {
     "node": ">=12.x"
