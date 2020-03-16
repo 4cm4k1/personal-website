@@ -1705,26 +1705,26 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/base@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.12.tgz#216b4b789ab514d78544fc48cd7049f3ef76c9c3"
-  integrity sha512-Kc6nXZ37nEvgUxZjq5jqGKs94o8Caxvdfz7v22Jr7ZKYUkEmJeEggnqU47HNXf2U7eI3AUkKwH3Apbbt2cDSTg==
+"@rmwc/base@^6.0.0-alpha.12", "@rmwc/base@^6.0.0-alpha.13":
+  version "6.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.13.tgz#8bf41cd1a02c86fdaf9717e437b0db9273af8d31"
+  integrity sha512-iw62ar67GhvpYiCfRAvmibsZrVuDyB2FwPL+7CXCjy9AqvpfM3Ax0Mt5/ZpzL92X4/DoI11Y/kX5PVTdjQGbYg==
   dependencies:
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/types" "^6.0.0-alpha.13"
     classnames "^2.2.6"
     focus-trap "^5.0.0"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
     tslib "^1.10.0"
 
-"@rmwc/drawer@^6.0.0-alpha.11":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/drawer/-/drawer-6.0.0-alpha.12.tgz#4a189117010429a29e260cc23241138264452723"
-  integrity sha512-k5R6NvqOB0zCvflsqdYgX+1SkMNVQUM1cnaBOKLBL5OaijiMjzhwSZE0vtP+mToBtYTNvQb9aicEZg6sN9ilRQ==
+"@rmwc/drawer@^6.0.0-alpha.13":
+  version "6.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@rmwc/drawer/-/drawer-6.0.0-alpha.13.tgz#29dc34094893a0e121d65bff3378a3593c3fcc9f"
+  integrity sha512-iF2xeKk05CaHM+bKVF6qLypsEtf3aFix+/0zesTZqx2NdL6lDA3y4JQoAzLeLRT7FYwt5H0RKMwbRqxh2M+vDg==
   dependencies:
     "@material/drawer" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.12"
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/base" "^6.0.0-alpha.13"
+    "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/grid@^6.0.0-alpha.11":
   version "6.0.0-alpha.12"
@@ -1805,10 +1805,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/types@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.12.tgz#9661778c4be252f0d4b88fd54810d96c7ddefc33"
-  integrity sha512-5Y5yVDEoNzTF0KyqLDJ5vw2jV2+0Y+8W+ojhiHQR7eEbW40O2vma7MuyVBqo0ROLUKYUlTVzFVa4h9fIkL4BbQ==
+"@rmwc/types@^6.0.0-alpha.12", "@rmwc/types@^6.0.0-alpha.13":
+  version "6.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.13.tgz#592099a2d9829b460bd5d693b859246dd3c1d020"
+  integrity sha512-QFr/FhB0kZj5o4Ya3DgWTOfY63rheGrp4S0jbvvha7/sJq9HQUXuzfNA1CLX055b+ys9ImtBeUod4Gvgeieu0g==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.1.1"
