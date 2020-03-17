@@ -1580,7 +1580,7 @@
     "@material/typography" "^5.1.0"
     tslib "^1.9.3"
 
-"@material/ripple@^4.0.0", "@material/ripple@^5.1.0":
+"@material/ripple@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-5.1.0.tgz#6624e0ff7718d6bfa65fecd0bca4c03d2696c07b"
   integrity sha512-mluIf+HaaCplszp9/MAl178FpfIJWi5hSyQOpF7w8RTzRSaH8J0uwgmn8VeNnwe1TAWio0vQzHrz4iEg2r7Ngw==
@@ -1695,24 +1695,23 @@
   resolved "https://registry.yarnpkg.com/@next/polyfill-nomodule/-/polyfill-nomodule-9.3.1-canary.4.tgz#cf25951123c8ecdfc34a2354a7fbf7a42dd3ff94"
   integrity sha512-a1tYzqpFneCGTs1fQnsuxERS1uF7BUlxgEruwv1bJAsZVi7lkWQA7p8KzBFtkpEpWkkXr9F1Yd8/8zv1U8B9IA==
 
-"@rmwc/avatar@^6.0.0-alpha.11":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/avatar/-/avatar-6.0.0-alpha.12.tgz#7ed736be9fe040afbc507d7f04f42a59e379d7d3"
-  integrity sha512-WDHlWRCMp8sNwAZ5dqfTqmARPwhbolmb8y+beV7u7s+mpSvdk6NB60MMIxSz9RanE1VLLVfAXeK5/GBdM11o1g==
+"@rmwc/avatar@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/avatar/-/avatar-6.0.0-alpha.15.tgz#4522552c8ad0f7e93bb37271c0eb922db0ffd6a0"
+  integrity sha512-tOZzjIYdiLMaaJJPunKvSErmOvv0Fdf6QN8vfVn9JVTFOvmnzEG/mRKUt7G5NaIpzLokoOejs7lk1ndagG+jXw==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.12"
-    "@rmwc/icon" "^6.0.0-alpha.12"
-    "@rmwc/ripple" "^6.0.0-alpha.12"
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/base" "^6.0.0-alpha.15"
+    "@rmwc/icon" "^6.0.0-alpha.15"
+    "@rmwc/ripple" "^6.0.0-alpha.15"
+    "@rmwc/types" "^6.0.0-alpha.13"
 
-"@rmwc/base@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.12.tgz#216b4b789ab514d78544fc48cd7049f3ef76c9c3"
-  integrity sha512-Kc6nXZ37nEvgUxZjq5jqGKs94o8Caxvdfz7v22Jr7ZKYUkEmJeEggnqU47HNXf2U7eI3AUkKwH3Apbbt2cDSTg==
+"@rmwc/base@^6.0.0-alpha.12", "@rmwc/base@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.15.tgz#5203b05385fccac3d887f8806311f3091d143aad"
+  integrity sha512-KeV6qxQmpO8WtYRvrVswYLlwAWSYV4TfGW/647OOyxGImZuJMldtVlaBv7cyXzgYd6k9Zp/6hp3NGO5uu5I/XA==
   dependencies:
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/types" "^6.0.0-alpha.13"
     classnames "^2.2.6"
-    focus-trap "^5.0.0"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
     tslib "^1.10.0"
@@ -1746,14 +1745,14 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/icon@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.12.tgz#469ff7bf28bd3763047740d67382ed3a15209a7d"
-  integrity sha512-n271jVfROUina0Ex0shBR3iOUiXHAOMsNuLEF0dLDfNjI8cA/TIZLh5N5ANztpJq6SihyjlEQCVQe1IowN+bpQ==
+"@rmwc/icon@^6.0.0-alpha.12", "@rmwc/icon@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.0-alpha.15.tgz#575e8641e77953e19dbebfd06b13becae6c95b95"
+  integrity sha512-UKORx5rrf788D6+JmO/fTDkB5Z3BVrNiOnSSUjU3IFJmsPM8lwaUgGufw3balEEk/VU6JvY62NAht4vya0dnCQ==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.12"
-    "@rmwc/provider" "^6.0.0-alpha.12"
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/base" "^6.0.0-alpha.15"
+    "@rmwc/provider" "^6.0.0-alpha.15"
+    "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/list@^6.0.0-alpha.11":
   version "6.0.0-alpha.12"
@@ -1775,15 +1774,23 @@
     "@rmwc/base" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/ripple@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.12.tgz#28916449ee39770ca66989d2639102bf103d8730"
-  integrity sha512-d0QIL//5iXBMWF5Fn6psZ+ocFcLtQfog9LnWI+eWTI8kyf6DCkRHNTmwLfrJpFYKmVKTz6Rq8sMf7a+szZWNUw==
+"@rmwc/provider@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.15.tgz#c37091352fa8ed6195ce0d26908d2ee286e665a4"
+  integrity sha512-+dfSmH0bynGeRZVIg4AkJ+gKy9XDZ2Qa9kWAGBwgy9hl6hhhfXUKz77IEs+oMAnvbhTW1JTHPJb+BSQUFAtK3A==
   dependencies:
-    "@material/ripple" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.12"
-    "@rmwc/provider" "^6.0.0-alpha.12"
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/base" "^6.0.0-alpha.15"
+    "@rmwc/types" "^6.0.0-alpha.13"
+
+"@rmwc/ripple@^6.0.0-alpha.12", "@rmwc/ripple@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.0-alpha.15.tgz#2168ed895686d9e1f9bf1fa4723a1178d5e26ff2"
+  integrity sha512-pdidn8k3cII1IPAFGoXMXJHgFVuoi468vWTl6OifNja/pm/Z17bPp0DSaeMZ8/RgvK39Mz3kVZGCK+rTno6IAg==
+  dependencies:
+    "@material/ripple" "^5.1.0"
+    "@rmwc/base" "^6.0.0-alpha.15"
+    "@rmwc/provider" "^6.0.0-alpha.15"
+    "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/theme@^6.0.0-alpha.11":
   version "6.0.0-alpha.12"
@@ -1805,10 +1812,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/types@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.12.tgz#9661778c4be252f0d4b88fd54810d96c7ddefc33"
-  integrity sha512-5Y5yVDEoNzTF0KyqLDJ5vw2jV2+0Y+8W+ojhiHQR7eEbW40O2vma7MuyVBqo0ROLUKYUlTVzFVa4h9fIkL4BbQ==
+"@rmwc/types@^6.0.0-alpha.12", "@rmwc/types@^6.0.0-alpha.13":
+  version "6.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.13.tgz#592099a2d9829b460bd5d693b859246dd3c1d020"
+  integrity sha512-QFr/FhB0kZj5o4Ya3DgWTOfY63rheGrp4S0jbvvha7/sJq9HQUXuzfNA1CLX055b+ys9ImtBeUod4Gvgeieu0g==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.1.1"
@@ -4020,14 +4027,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-focus-trap@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-5.1.0.tgz#64a0bfabd95c382103397dbc96bfef3a3cf8e5ad"
-  integrity sha512-CkB/nrO55069QAUjWFBpX6oc+9V90Qhgpe6fBWApzruMq5gnlh90Oo7iSSDK7pKiV5ugG6OY2AXM5mxcmL3lwQ==
-  dependencies:
-    tabbable "^4.0.0"
-    xtend "^4.0.1"
 
 follow-redirects@^1.0.0:
   version "1.10.0"
@@ -7797,11 +7796,6 @@ supports-color@^7.1.0:
   integrity sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
   dependencies:
     has-flag "^4.0.0"
-
-tabbable@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-4.0.0.tgz#5bff1d1135df1482cf0f0206434f15eadbeb9261"
-  integrity sha512-H1XoH1URcBOa/rZZWxLxHCtOdVUEev+9vo5YdYhC9tCY4wnybX+VQrCYuy9ubkg69fCBxCONJOSLGfw0DWMffQ==
 
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
