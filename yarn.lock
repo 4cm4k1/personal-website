@@ -1559,7 +1559,7 @@
     "@material/theme" "^5.1.0"
     tslib "^1.9.3"
 
-"@material/layout-grid@^4.0.0", "@material/layout-grid@^5.1.0":
+"@material/layout-grid@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-5.1.0.tgz#a1f584bfdd3a1f11db37aa63c512b4c3c1dbfee9"
   integrity sha512-6TvPVZE+UGVfmzttbRp0K6SOUvFmYI5W8p966Vztg8dYK122ondRJqMmyFf0SS0CdbrbO+bSW7/S3YkpPNrvAg==
@@ -1705,14 +1705,13 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/base@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.12.tgz#216b4b789ab514d78544fc48cd7049f3ef76c9c3"
-  integrity sha512-Kc6nXZ37nEvgUxZjq5jqGKs94o8Caxvdfz7v22Jr7ZKYUkEmJeEggnqU47HNXf2U7eI3AUkKwH3Apbbt2cDSTg==
+"@rmwc/base@^6.0.0-alpha.12", "@rmwc/base@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.15.tgz#5203b05385fccac3d887f8806311f3091d143aad"
+  integrity sha512-KeV6qxQmpO8WtYRvrVswYLlwAWSYV4TfGW/647OOyxGImZuJMldtVlaBv7cyXzgYd6k9Zp/6hp3NGO5uu5I/XA==
   dependencies:
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@rmwc/types" "^6.0.0-alpha.13"
     classnames "^2.2.6"
-    focus-trap "^5.0.0"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
     tslib "^1.10.0"
@@ -1726,14 +1725,14 @@
     "@rmwc/base" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/grid@^6.0.0-alpha.11":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.0-alpha.12.tgz#a2190920e4381cb682211f35664fff26b9041881"
-  integrity sha512-BTzIUJtsiIkc2EWF+ucbjkgMhj7LzGmO/wFh9e/m2wv6arCmONZjE20EZ1QhJC1/sIMWo/2PyOnft+4lQrl4cw==
+"@rmwc/grid@^6.0.0-alpha.15":
+  version "6.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.0-alpha.15.tgz#c58219c7f82b2fd87732a8f7c18754cf84b56320"
+  integrity sha512-dT6DxdLRi2ha1YOBLHWDjXYqFbsWeidXJFAmxAFaN4VxxLkh4yWHh9pwWf7DImI0hXO7lRG5Gxu7mznkzFYR5w==
   dependencies:
-    "@material/layout-grid" "^4.0.0"
-    "@rmwc/base" "^6.0.0-alpha.12"
-    "@rmwc/types" "^6.0.0-alpha.12"
+    "@material/layout-grid" "^5.1.0"
+    "@rmwc/base" "^6.0.0-alpha.15"
+    "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/icon-button@^6.0.0-alpha.12":
   version "6.0.0-alpha.12"
@@ -1805,10 +1804,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.12"
     "@rmwc/types" "^6.0.0-alpha.12"
 
-"@rmwc/types@^6.0.0-alpha.12":
-  version "6.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.12.tgz#9661778c4be252f0d4b88fd54810d96c7ddefc33"
-  integrity sha512-5Y5yVDEoNzTF0KyqLDJ5vw2jV2+0Y+8W+ojhiHQR7eEbW40O2vma7MuyVBqo0ROLUKYUlTVzFVa4h9fIkL4BbQ==
+"@rmwc/types@^6.0.0-alpha.12", "@rmwc/types@^6.0.0-alpha.13":
+  version "6.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.0-alpha.13.tgz#592099a2d9829b460bd5d693b859246dd3c1d020"
+  integrity sha512-QFr/FhB0kZj5o4Ya3DgWTOfY63rheGrp4S0jbvvha7/sJq9HQUXuzfNA1CLX055b+ys9ImtBeUod4Gvgeieu0g==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.1.1"
@@ -4020,14 +4019,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-focus-trap@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-5.1.0.tgz#64a0bfabd95c382103397dbc96bfef3a3cf8e5ad"
-  integrity sha512-CkB/nrO55069QAUjWFBpX6oc+9V90Qhgpe6fBWApzruMq5gnlh90Oo7iSSDK7pKiV5ugG6OY2AXM5mxcmL3lwQ==
-  dependencies:
-    tabbable "^4.0.0"
-    xtend "^4.0.1"
 
 follow-redirects@^1.0.0:
   version "1.10.0"
@@ -7797,11 +7788,6 @@ supports-color@^7.1.0:
   integrity sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
   dependencies:
     has-flag "^4.0.0"
-
-tabbable@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-4.0.0.tgz#5bff1d1135df1482cf0f0206434f15eadbeb9261"
-  integrity sha512-H1XoH1URcBOa/rZZWxLxHCtOdVUEev+9vo5YdYhC9tCY4wnybX+VQrCYuy9ubkg69fCBxCONJOSLGfw0DWMffQ==
 
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
