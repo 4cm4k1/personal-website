@@ -1685,10 +1685,10 @@
   dependencies:
     webpack-bundle-analyzer "3.3.2"
 
-"@next/mdx@^9.3.1-canary.4":
-  version "9.3.1-canary.4"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.1-canary.4.tgz#89e371020ddc4b76b591b3e13ba04c27a10ad932"
-  integrity sha512-jmc4KJP2SociN1uLKB9PQtDSNlAxdZK6bASFpyzV6erNfKhUdP/XNTrG3oT6TX+igYbN5XX/UZGloPh3WhDwUg==
+"@next/mdx@^9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.1.tgz#5c1ff820c3026b8826ce3a6c1f8bb0c43280fb79"
+  integrity sha512-bPxjWMEPTowcZtVsRCbzthsYYIfcC9U3/GmHew9AYFKXS/QUeyFvZhTfW0czklUbhUD3cqXUWoFv+qoQyZB3xg==
 
 "@next/polyfill-nomodule@9.3.1-canary.4":
   version "9.3.1-canary.4"
