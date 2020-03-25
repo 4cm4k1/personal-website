@@ -38,7 +38,7 @@
     "@next/mdx": "^9.3.2-canary.0",
     "@rmwc/avatar": "^6.0.0-alpha.11",
     "@rmwc/drawer": "^6.0.0-alpha.11",
-    "@rmwc/grid": "^6.0.0-alpha.11",
+    "@rmwc/grid": "^6.0.0-rc.0",
     "@rmwc/list": "^6.0.0-alpha.11",
     "@rmwc/provider": "^6.0.0-alpha.11",
     "@rmwc/theme": "^6.0.0-alpha.11",

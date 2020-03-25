@@ -1571,10 +1571,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.16"
     "@rmwc/types" "^6.0.0-alpha.13"
 
-"@rmwc/base@^6.0.0-alpha.16":
-  version "6.0.0-alpha.16"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.16.tgz#6ddab20dbded098b86684060212ebf9d8c26f7d5"
-  integrity sha512-+tlVyJ2oV/l/fJ15+SpMK17R6xNcsBWzridv5hlq0e+4ff8RCYB/yr9pcIVXn1GcDoNOuG/KBW6P5sSDfDSmgw==
+"@rmwc/base@^6.0.0-alpha.16", "@rmwc/base@^6.0.0-rc.0":
+  version "6.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-rc.0.tgz#0d9c557540a71da4595980d9605086b1e8589525"
+  integrity sha512-pBgWTTg8slIi4nhnbaY1VKzq4my5wAmy+7wgv82+r1UokoqegxeWYUJAGppPjnv7/+Xhsfs7BAbeewqK3vvNHQ==
   dependencies:
     "@rmwc/types" "^6.0.0-alpha.13"
     classnames "^2.2.6"
@@ -1591,13 +1591,13 @@
     "@rmwc/base" "^6.0.0-alpha.16"
     "@rmwc/types" "^6.0.0-alpha.13"
 
-"@rmwc/grid@^6.0.0-alpha.11":
-  version "6.0.0-alpha.16"
-  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.0-alpha.16.tgz#8bf44e47a1a22f28071acd08883dfb3ed8fde428"
-  integrity sha512-ppt/gLctWi7wm680/XiLnhdt/Wt2ZaDQinkqknP5mkTuwB8u20BbPXhDqYC2b3kSP3AoQcIsPQwABYLWW9oWfA==
+"@rmwc/grid@^6.0.0-rc.0":
+  version "6.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.0-rc.0.tgz#a90dc7210f245ff17ab941f0ba6d8f216424eb8d"
+  integrity sha512-7shGI6rc4SdqL2NLmvltvvuEUBzxjR3OwI9ku+OS5dDFPY7NRyOzg1ynd6rXPNVx+nB693yns6brbBtcjOT08Q==
   dependencies:
     "@material/layout-grid" "^5.1.0"
-    "@rmwc/base" "^6.0.0-alpha.16"
+    "@rmwc/base" "^6.0.0-rc.0"
     "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/icon-button@^6.0.0-alpha.16":
