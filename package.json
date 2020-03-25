@@ -36,7 +36,7 @@
     "@mdx-js/loader": "^1.5.8-alpha.0",
     "@next/bundle-analyzer": "^9.3.2-canary.0",
     "@next/mdx": "^9.3.2-canary.0",
-    "@rmwc/avatar": "^6.0.0-alpha.11",
+    "@rmwc/avatar": "^6.0.0-rc.0",
     "@rmwc/drawer": "^6.0.0-alpha.11",
     "@rmwc/grid": "^6.0.0-alpha.11",
     "@rmwc/list": "^6.0.0-alpha.11",
