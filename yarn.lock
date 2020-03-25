@@ -1571,10 +1571,10 @@
     "@rmwc/ripple" "^6.0.0-alpha.16"
     "@rmwc/types" "^6.0.0-alpha.13"
 
-"@rmwc/base@^6.0.0-alpha.16":
-  version "6.0.0-alpha.16"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-alpha.16.tgz#6ddab20dbded098b86684060212ebf9d8c26f7d5"
-  integrity sha512-+tlVyJ2oV/l/fJ15+SpMK17R6xNcsBWzridv5hlq0e+4ff8RCYB/yr9pcIVXn1GcDoNOuG/KBW6P5sSDfDSmgw==
+"@rmwc/base@^6.0.0-alpha.16", "@rmwc/base@^6.0.0-rc.0":
+  version "6.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.0-rc.0.tgz#0d9c557540a71da4595980d9605086b1e8589525"
+  integrity sha512-pBgWTTg8slIi4nhnbaY1VKzq4my5wAmy+7wgv82+r1UokoqegxeWYUJAGppPjnv7/+Xhsfs7BAbeewqK3vvNHQ==
   dependencies:
     "@rmwc/types" "^6.0.0-alpha.13"
     classnames "^2.2.6"
@@ -1632,12 +1632,12 @@
     "@rmwc/ripple" "^6.0.0-alpha.16"
     "@rmwc/types" "^6.0.0-alpha.13"
 
-"@rmwc/provider@^6.0.0-alpha.11", "@rmwc/provider@^6.0.0-alpha.16":
-  version "6.0.0-alpha.16"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-alpha.16.tgz#7f85f492fff95a3a745cb8872c7507e599892d52"
-  integrity sha512-0zGiG8omuvsvn0tDibge2sfv2zhtMs5kK/YSdJPglW7Qi2psZkSArYNyoG2e0ES0JZbTKfQWRPLZj7/46F8OTw==
+"@rmwc/provider@^6.0.0-alpha.16", "@rmwc/provider@^6.0.0-rc.0":
+  version "6.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.0-rc.0.tgz#90d48d89a4ab137c110e776ce97739d739ee5555"
+  integrity sha512-ET9Uun4dVKan/fUuTe6sg029gICnXpvze71TgiArt81k8YD1lnOvP8rX3k+/r26eoO25W10bPfwhr9BMijs2Eg==
   dependencies:
-    "@rmwc/base" "^6.0.0-alpha.16"
+    "@rmwc/base" "^6.0.0-rc.0"
     "@rmwc/types" "^6.0.0-alpha.13"
 
 "@rmwc/ripple@^6.0.0-alpha.16":
