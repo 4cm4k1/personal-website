@@ -1586,12 +1586,12 @@
     "@rmwc/ripple" "^6.0.3"
     "@rmwc/types" "^6.0.1"
 
-"@rmwc/base@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.3.tgz#ed7d5fbc0faf2e3bfc620567a92cde5b4fb8217f"
-  integrity sha512-luqE/GSSe81L3JZdsag+6bhY8JOa6f/rxAB+gZHudiindSu9eg5H2K9msU6LbbGc48izHEgr1nPt6DJ7lgAtSg==
+"@rmwc/base@^6.0.3", "@rmwc/base@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.4.tgz#15294ab99ab9a49f04847a6ab22bc9cc73ced7e3"
+  integrity sha512-J/NDAbcYgX1y4fwTIG0ALo0EkNIGw6uiKDMMyRfwyCfZiYb6sT3LgwCetAoJbYsCrPYgeyuoVQSRIve5tIcqfA==
   dependencies:
-    "@rmwc/types" "^6.0.1"
+    "@rmwc/types" "^6.0.4"
     classnames "^2.2.6"
     hyperform "^0.9.9"
     mutation-observer "^1.0.3"
@@ -1647,13 +1647,13 @@
     "@rmwc/ripple" "^6.0.3"
     "@rmwc/types" "^6.0.1"
 
-"@rmwc/provider@^6.0.0-alpha.11", "@rmwc/provider@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.3.tgz#78a63c7b94ca311c5465704feeafd387ebaf7ea9"
-  integrity sha512-j7BWwS2lJoG3ffFT7HPeNJJ7xvODP1I+FjzasOD5E5UexGa25dPhusv7BX5aelpFtFbxHYUYuyr7647LFsn9RA==
+"@rmwc/provider@^6.0.3", "@rmwc/provider@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.4.tgz#d21b330ccc1d97866bdfd1c58f0730cfbc1287b7"
+  integrity sha512-eFpziKMGrqIMaeTnwHo0Gp1HXIqAWU8tnrkQF1TcpD8/F5L+ZTSKqRuyCWfahcaAsRdYvs0sa43us3t3oNsljg==
   dependencies:
-    "@rmwc/base" "^6.0.3"
-    "@rmwc/types" "^6.0.1"
+    "@rmwc/base" "^6.0.4"
+    "@rmwc/types" "^6.0.4"
 
 "@rmwc/ripple@^6.0.3":
   version "6.0.3"
@@ -1685,10 +1685,10 @@
     "@rmwc/ripple" "^6.0.3"
     "@rmwc/types" "^6.0.1"
 
-"@rmwc/types@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.1.tgz#5dc734e763190b0851e164d757b2af4d5ecfd453"
-  integrity sha512-GjCfXKEdzg9P9InfVT+8z2MSQ7MeIyV+/9+XgKrAkgIRR55REkbJkSnF6j+TaDWppLPEr3r9aPu5IB2rqX0L6g==
+"@rmwc/types@^6.0.1", "@rmwc/types@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@rmwc/types/-/types-6.0.4.tgz#a4ce92267dc8df7d376b8c9d4416522b7394f279"
+  integrity sha512-82Y2JlY4hIGKfqOCahj8x08hUtu+dvicRrcwpTSsiOPyGCCHZW4S2mHyIiXivF1EOaxGyBs4HAYghWM6zOx0BQ==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.1.1"
