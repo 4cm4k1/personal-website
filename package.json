@@ -37,7 +37,7 @@
     "@next/bundle-analyzer": "^9.3.5-canary.2",
     "@next/mdx": "^9.3.5-canary.2",
     "@rmwc/avatar": "^6.0.10",
-    "@rmwc/drawer": "^6.0.10",
+    "@rmwc/drawer": "^6.0.12",
     "@rmwc/grid": "^6.0.10",
     "@rmwc/list": "^6.0.10",
     "@rmwc/provider": "^6.0.10",
