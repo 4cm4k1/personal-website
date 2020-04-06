@@ -1577,11 +1577,12 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.12.tgz#7628f99f8f74da206b3e3d5fc9b5793649e58db2"
+  integrity sha512-BNBur+abGvFnioNS1jffeCgPP3YD+1ChaAPeQlLF6ArGaZpez630PXjyndqJDHJW2o81tIDz8VTs4eeyEPd/9g==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
     classnames "^2.2.6"
     hyperform "^0.11.0"
@@ -1606,15 +1607,15 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/icon-button@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon-button/-/icon-button-6.0.10.tgz#5b1acbbab46370b8778372493b9ac8fa1fe34f41"
-  integrity sha512-1aJUCTn7nW8t/b8UXDzCXKsavPp8TQ6roVMhgbZV5OPc7k6IPDS5Mtga/EwEShZMRLTWaNImWE7m8IR0uyj0zg==
+"@rmwc/icon-button@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon-button/-/icon-button-6.0.12.tgz#4fcaf3cd610657c47a35bb836853499e29400f95"
+  integrity sha512-vLveRlcTajALNpLbfp8X+nCHp3bkCzTOnGndcIaw1UARmBAQbJuVOjTz9iYfSCx7v1UUSmYB7I7lQ+YBYsQHlw==
   dependencies:
     "@material/icon-button" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/icon" "^6.0.12"
+    "@rmwc/ripple" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/icon@^6.0.10":
@@ -1624,6 +1625,15 @@
   dependencies:
     "@rmwc/base" "^6.0.10"
     "@rmwc/provider" "^6.0.10"
+    "@rmwc/types" "^6.0.5"
+
+"@rmwc/icon@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.12.tgz#321852fe2cc65bc071c2dff4c1017d3ad5868e13"
+  integrity sha512-o4ZJ5ouwr1MMNB8vrCHNPtrBNab1hacdbaO9zSH6riiWHrFMW+XhQXTk509P7ehN32pWpAqW9YwzScVaKnketw==
+  dependencies:
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/provider" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/list@^6.0.10":
@@ -1646,14 +1656,22 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/ripple@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.10.tgz#efa6197f86f09a9d2e38aa30459eec8d95fc57e1"
-  integrity sha512-jq6xEAsaLIeZBd53WVDNLgGIV5kYzsj3pOUNmIP335d2v6q/NNOSSRjk0j/xzXVhbSNxiNyLwdqNP3VY5/Tyyw==
+"@rmwc/provider@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.12.tgz#ff898e765132774e0523770e9a7e281e30b72125"
+  integrity sha512-w72/0ONm/uwWoBMpp2RtxJ8e29ofjnufNQZ3BEE64Afo4vxQwZ74LTaYsjClO8yt1p8aM0FSxRFfaTWNBy6R4Q==
+  dependencies:
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/types" "^6.0.5"
+
+"@rmwc/ripple@^6.0.10", "@rmwc/ripple@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.12.tgz#f6ba5eaaa59c7565f6bf6a1abb59a332d08804c4"
+  integrity sha512-TOCOtAhd5VG8B1DjcLKCoBVHibVELy2Om3W5JwPoNhC06iBJ6LbJGbebUPH/q3lH8AHAbMjI5JOxHGAtYing7A==
   dependencies:
     "@material/ripple" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/provider" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/theme@^6.0.10":
@@ -1665,15 +1683,15 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/top-app-bar@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/top-app-bar/-/top-app-bar-6.0.10.tgz#fd45c9f6b62faebcf9f33e0aa59ed482a9ecd6cb"
-  integrity sha512-0a4zKQxWTe3BBTu6W8pq0hOrOxzaQ1hVjUMMscjPbyLBYDE5VUkxliVGaqeg2InAykYq+PXUTxBgtcWDAAvaug==
+"@rmwc/top-app-bar@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/top-app-bar/-/top-app-bar-6.0.12.tgz#0f325402e775fbffde8031650d644cf6a3c0c7c8"
+  integrity sha512-Ph6U7v6LMc3OZxHyEiNYCMLiquYzT/Bwtj3PJbE6hzuT32m9His3nHD11goPusePLK3qW0LRCL2j8xqIr4O42g==
   dependencies:
     "@material/top-app-bar" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon-button" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/icon-button" "^6.0.12"
+    "@rmwc/ripple" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/types@^6.0.5":
