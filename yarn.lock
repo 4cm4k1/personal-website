@@ -1577,11 +1577,12 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.12.tgz#7628f99f8f74da206b3e3d5fc9b5793649e58db2"
+  integrity sha512-BNBur+abGvFnioNS1jffeCgPP3YD+1ChaAPeQlLF6ArGaZpez630PXjyndqJDHJW2o81tIDz8VTs4eeyEPd/9g==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
     classnames "^2.2.6"
     hyperform "^0.11.0"
@@ -1617,43 +1618,43 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/icon@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.10.tgz#cefe3b30f88d7dccef6849e0a957d3473d6484e4"
-  integrity sha512-ipEs3mByGPPgDequ/0WgXdrzLZowq8mWw41yBtzpjK8WeRsuthvLHbgHvSCEKzvPXW2Z8IkwvgK0MgvISUMJ6Q==
+"@rmwc/icon@^6.0.10", "@rmwc/icon@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.12.tgz#321852fe2cc65bc071c2dff4c1017d3ad5868e13"
+  integrity sha512-o4ZJ5ouwr1MMNB8vrCHNPtrBNab1hacdbaO9zSH6riiWHrFMW+XhQXTk509P7ehN32pWpAqW9YwzScVaKnketw==
   dependencies:
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/provider" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/list@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.10.tgz#545ae0679c6ce52912146845b86ab440c6c56ad1"
-  integrity sha512-wv4zADbgXOrvelbz28MfH/rBtxJsq+FuJRGnj0byI0MJ0yRVlNLmwgEvYIDkqYwqe8XxqAeZd6Q6cJwFIi+OlQ==
+"@rmwc/list@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/list/-/list-6.0.12.tgz#1aea17c7e2c46b0a04a8c0341da6e8ffd8dfcc14"
+  integrity sha512-uhTWhSHxLy1+WbiK43K5vm0vjghbJbx4LovQVirStpE3CBcpqILphzXvVUNNbB8w5JskIKwV6SGc+W2CHW5SnQ==
   dependencies:
     "@material/list" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/icon" "^6.0.12"
+    "@rmwc/provider" "^6.0.12"
+    "@rmwc/ripple" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/provider@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.10.tgz#90d122c85d17255671af3912a44172f4db2994ae"
-  integrity sha512-nV7XoLhUso0VGKlgpELcqeGn3HT04qUiEA+H+n3E/Qf/dEDWJHlEwvQA37E5Ek+gFSRleX8RjxrrEKCIkoWZyQ==
+"@rmwc/provider@^6.0.10", "@rmwc/provider@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.12.tgz#ff898e765132774e0523770e9a7e281e30b72125"
+  integrity sha512-w72/0ONm/uwWoBMpp2RtxJ8e29ofjnufNQZ3BEE64Afo4vxQwZ74LTaYsjClO8yt1p8aM0FSxRFfaTWNBy6R4Q==
   dependencies:
-    "@rmwc/base" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/ripple@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.10.tgz#efa6197f86f09a9d2e38aa30459eec8d95fc57e1"
-  integrity sha512-jq6xEAsaLIeZBd53WVDNLgGIV5kYzsj3pOUNmIP335d2v6q/NNOSSRjk0j/xzXVhbSNxiNyLwdqNP3VY5/Tyyw==
+"@rmwc/ripple@^6.0.10", "@rmwc/ripple@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.12.tgz#f6ba5eaaa59c7565f6bf6a1abb59a332d08804c4"
+  integrity sha512-TOCOtAhd5VG8B1DjcLKCoBVHibVELy2Om3W5JwPoNhC06iBJ6LbJGbebUPH/q3lH8AHAbMjI5JOxHGAtYing7A==
   dependencies:
     "@material/ripple" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
+    "@rmwc/provider" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/theme@^6.0.10":
