@@ -1577,11 +1577,12 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.12.tgz#7628f99f8f74da206b3e3d5fc9b5793649e58db2"
+  integrity sha512-BNBur+abGvFnioNS1jffeCgPP3YD+1ChaAPeQlLF6ArGaZpez630PXjyndqJDHJW2o81tIDz8VTs4eeyEPd/9g==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
     classnames "^2.2.6"
     hyperform "^0.11.0"
@@ -1656,13 +1657,13 @@
     "@rmwc/provider" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/theme@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.0.10.tgz#b02cd9f7cbd8af0f7abbc9f7cb13d23386a1412d"
-  integrity sha512-1SFv8BBMQk6jh0LKvt4MpA6GHSbmkvzNfhkufm6Zx2hmEbd+BBHUfhp+2RgcQZt3WcNGufAxqtT8CwIrC9KwVA==
+"@rmwc/theme@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.0.12.tgz#adb413c35150cad5581d780758121c87e58e7516"
+  integrity sha512-11S+Z1txHgjIdfPWHTEICpmMIsCTag1BuoUH/3hIW0sLMa77a84jzxNxgY1oZ7ugaNXVVAncJslmg2UvLQF1KA==
   dependencies:
     "@material/theme" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
+    "@rmwc/base" "^6.0.12"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/top-app-bar@^6.0.10":
