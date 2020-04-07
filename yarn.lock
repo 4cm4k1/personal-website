@@ -1567,22 +1567,24 @@
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.5-canary.2.tgz#5ec0a5dc74710c70f2ecf8633a61f49f68d15048"
   integrity sha512-JA1ccZ//hMNyqP8iyiIOZIfQveAM2AD30/hifBn7Q++lr53jcz5FR0GVnFWaDKpyImYXeArrbQj5AMofUdyqRA==
 
-"@rmwc/avatar@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/avatar/-/avatar-6.0.10.tgz#99ed48ab90db3b9ee3e0a1b86e8d8c724947e413"
-  integrity sha512-KjmtoEdK4gfTildEjd0cGjdnNSyAdzMh9PtHOth5KbPH+5lcmWB8/tIK7C0Ve+c6IKXc+U5EbEc4oYzs6n7SFQ==
+"@rmwc/avatar@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/avatar/-/avatar-6.0.14.tgz#635f21879b25ae4083939ba183f0dba7e3a5eb30"
+  integrity sha512-qvTDZEK310dmw+piigonwPCoYZ3XURc3e8pe6OkkQ66i4Wz+rHXgWkQK0jAT7y5Uy6xy1snlMlpNtWACKb80wg==
   dependencies:
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/icon" "^6.0.14"
+    "@rmwc/ripple" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.14.tgz#8cac1ec2c4723f5d4175be52cb1ce5262358a4a1"
+  integrity sha512-BjrZ2iAjt53ZISlqHp8I1O9p4Ly19M+YrnyaoJIG4ngyZa5y9DpgDUuKMmL6bFuVGH3Ewmyuh64/SAgDfn6cmg==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
+    "@types/classnames" "^2.2.7"
     classnames "^2.2.6"
     hyperform "^0.11.0"
     mutation-observer "^1.0.3"
@@ -1617,13 +1619,13 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/icon@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.10.tgz#cefe3b30f88d7dccef6849e0a957d3473d6484e4"
-  integrity sha512-ipEs3mByGPPgDequ/0WgXdrzLZowq8mWw41yBtzpjK8WeRsuthvLHbgHvSCEKzvPXW2Z8IkwvgK0MgvISUMJ6Q==
+"@rmwc/icon@^6.0.10", "@rmwc/icon@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.14.tgz#f8375d770ab752618a43945f0dd0f688a5996534"
+  integrity sha512-9KoizaeFeOnzSViE6B2vw/ljXCeoI2f5UZ7vn7QyuXtknSEtPIxmpym3ubo32saar96gBYZMFJ+cw1K+Qpz3Ug==
   dependencies:
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/provider" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/list@^6.0.10":
@@ -1646,14 +1648,22 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/ripple@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.10.tgz#efa6197f86f09a9d2e38aa30459eec8d95fc57e1"
-  integrity sha512-jq6xEAsaLIeZBd53WVDNLgGIV5kYzsj3pOUNmIP335d2v6q/NNOSSRjk0j/xzXVhbSNxiNyLwdqNP3VY5/Tyyw==
+"@rmwc/provider@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.14.tgz#df6267d92fbe4a3f561726e2904963857aba42ce"
+  integrity sha512-6AGEaPDlDmQ6BLO+gIeWgGND1H0VMka6QBCEAruIXfDiubBHREw+cveC9v4Dzz01Xjcwzd+r0K8GzJLFvhUdZQ==
+  dependencies:
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/types" "^6.0.5"
+
+"@rmwc/ripple@^6.0.10", "@rmwc/ripple@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.14.tgz#bfd1e45922da3fa86d75ab6764a1c0e55efc2ad0"
+  integrity sha512-MDPq9qGU4P0sml19uPFSQYUyNyUCM0KDZD5NuSi65q51Xuv2O69r/tbboBoX3B5IbGEC/PGiKzIC3lpij4u9DA==
   dependencies:
     "@material/ripple" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/provider" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/theme@^6.0.10":
@@ -1688,6 +1698,11 @@
   dependencies:
     ejs "^2.6.1"
     magic-string "^0.25.0"
+
+"@types/classnames@^2.2.7":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
+  integrity sha512-1UzDldn9GfYYEsWWnn/P4wkTlkZDH7lDb0wBMGbtIQc9zXEQq7FlKBdZUn6OBqD8sKZZ2RQO2mAjGpXiDGoRmQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
