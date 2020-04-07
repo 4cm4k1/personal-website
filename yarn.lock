@@ -1577,12 +1577,14 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.14.tgz#8cac1ec2c4723f5d4175be52cb1ce5262358a4a1"
+  integrity sha512-BjrZ2iAjt53ZISlqHp8I1O9p4Ly19M+YrnyaoJIG4ngyZa5y9DpgDUuKMmL6bFuVGH3Ewmyuh64/SAgDfn6cmg==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
+    "@types/classnames" "^2.2.7"
     classnames "^2.2.6"
     hyperform "^0.11.0"
     mutation-observer "^1.0.3"
@@ -1606,15 +1608,15 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/icon-button@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/icon-button/-/icon-button-6.0.10.tgz#5b1acbbab46370b8778372493b9ac8fa1fe34f41"
-  integrity sha512-1aJUCTn7nW8t/b8UXDzCXKsavPp8TQ6roVMhgbZV5OPc7k6IPDS5Mtga/EwEShZMRLTWaNImWE7m8IR0uyj0zg==
+"@rmwc/icon-button@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon-button/-/icon-button-6.0.14.tgz#11a4f5ffdca9da9c220e8fcc7057e894d0725348"
+  integrity sha512-kaqRumgst4xY1jT/MdCEMIyYApPl6DUhJrH7+omI6RJ+ILrnOzhGMkDBh0Ij+dg5NexTU4YBQwdE36+BcAkKCQ==
   dependencies:
     "@material/icon-button" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/icon" "^6.0.14"
+    "@rmwc/ripple" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/icon@^6.0.10":
@@ -1624,6 +1626,15 @@
   dependencies:
     "@rmwc/base" "^6.0.10"
     "@rmwc/provider" "^6.0.10"
+    "@rmwc/types" "^6.0.5"
+
+"@rmwc/icon@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/icon/-/icon-6.0.14.tgz#f8375d770ab752618a43945f0dd0f688a5996534"
+  integrity sha512-9KoizaeFeOnzSViE6B2vw/ljXCeoI2f5UZ7vn7QyuXtknSEtPIxmpym3ubo32saar96gBYZMFJ+cw1K+Qpz3Ug==
+  dependencies:
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/provider" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/list@^6.0.10":
@@ -1646,14 +1657,22 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/ripple@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.10.tgz#efa6197f86f09a9d2e38aa30459eec8d95fc57e1"
-  integrity sha512-jq6xEAsaLIeZBd53WVDNLgGIV5kYzsj3pOUNmIP335d2v6q/NNOSSRjk0j/xzXVhbSNxiNyLwdqNP3VY5/Tyyw==
+"@rmwc/provider@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/provider/-/provider-6.0.14.tgz#df6267d92fbe4a3f561726e2904963857aba42ce"
+  integrity sha512-6AGEaPDlDmQ6BLO+gIeWgGND1H0VMka6QBCEAruIXfDiubBHREw+cveC9v4Dzz01Xjcwzd+r0K8GzJLFvhUdZQ==
+  dependencies:
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/types" "^6.0.5"
+
+"@rmwc/ripple@^6.0.10", "@rmwc/ripple@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/ripple/-/ripple-6.0.14.tgz#bfd1e45922da3fa86d75ab6764a1c0e55efc2ad0"
+  integrity sha512-MDPq9qGU4P0sml19uPFSQYUyNyUCM0KDZD5NuSi65q51Xuv2O69r/tbboBoX3B5IbGEC/PGiKzIC3lpij4u9DA==
   dependencies:
     "@material/ripple" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/provider" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/provider" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/theme@^6.0.10":
@@ -1665,15 +1684,15 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/top-app-bar@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/top-app-bar/-/top-app-bar-6.0.10.tgz#fd45c9f6b62faebcf9f33e0aa59ed482a9ecd6cb"
-  integrity sha512-0a4zKQxWTe3BBTu6W8pq0hOrOxzaQ1hVjUMMscjPbyLBYDE5VUkxliVGaqeg2InAykYq+PXUTxBgtcWDAAvaug==
+"@rmwc/top-app-bar@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/top-app-bar/-/top-app-bar-6.0.14.tgz#90c0f7a48ffbd0058573ec0c6976a2b37ae37084"
+  integrity sha512-0UHU7oHGvLTznh7o5n6IsG/sQGggiXx2apj7EKRXXRucvB4MQOzn9JS/sBLauv9TXrSy8rh5ay9dhpMM3xrZQQ==
   dependencies:
     "@material/top-app-bar" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
-    "@rmwc/icon-button" "^6.0.10"
-    "@rmwc/ripple" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
+    "@rmwc/icon-button" "^6.0.14"
+    "@rmwc/ripple" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/types@^6.0.5":
@@ -1688,6 +1707,11 @@
   dependencies:
     ejs "^2.6.1"
     magic-string "^0.25.0"
+
+"@types/classnames@^2.2.7":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
+  integrity sha512-1UzDldn9GfYYEsWWnn/P4wkTlkZDH7lDb0wBMGbtIQc9zXEQq7FlKBdZUn6OBqD8sKZZ2RQO2mAjGpXiDGoRmQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
