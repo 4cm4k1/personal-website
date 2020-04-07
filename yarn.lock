@@ -1577,12 +1577,14 @@
     "@rmwc/ripple" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/base@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.10.tgz#3abc95468ff7be4b66f67b4b13fbf9aaee833335"
-  integrity sha512-M33iyw1PqQlITsEY7TArjSiCtgLeuvDhBGJskhz/npYnawotmIfj0Ld1YkF+IRfszxcspLmaVkffLVy0hWkzOw==
+"@rmwc/base@^6.0.10", "@rmwc/base@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/base/-/base-6.0.14.tgz#8cac1ec2c4723f5d4175be52cb1ce5262358a4a1"
+  integrity sha512-BjrZ2iAjt53ZISlqHp8I1O9p4Ly19M+YrnyaoJIG4ngyZa5y9DpgDUuKMmL6bFuVGH3Ewmyuh64/SAgDfn6cmg==
   dependencies:
+    "@material/dom" "^5.1.0"
     "@rmwc/types" "^6.0.5"
+    "@types/classnames" "^2.2.7"
     classnames "^2.2.6"
     hyperform "^0.11.0"
     mutation-observer "^1.0.3"
@@ -1597,13 +1599,13 @@
     "@rmwc/base" "^6.0.10"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/grid@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.10.tgz#73e697be711d456d1de640f8d02a2b19f797ce7b"
-  integrity sha512-teI0vV37IFX25C+SiRun1LzG93V4TpocasgiCW2/i458qICzR7tVXwZ5eXhe6oYrQ1Fzmg52PrBkB8hZeuaOqg==
+"@rmwc/grid@^6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@rmwc/grid/-/grid-6.0.14.tgz#b9a5b0c1188a01f03be2bf089175f0404632417a"
+  integrity sha512-+Ba4GVYJaL/LS6fhm2vp5daJopb5iVO13U0k9n+zgIC3eXMGWBSM5pXZICGgrOF7uSKPBBmB4GGwRbZdTaJNDw==
   dependencies:
     "@material/layout-grid" "^5.1.0"
-    "@rmwc/base" "^6.0.10"
+    "@rmwc/base" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
 "@rmwc/icon-button@^6.0.10":
@@ -1688,6 +1690,11 @@
   dependencies:
     ejs "^2.6.1"
     magic-string "^0.25.0"
+
+"@types/classnames@^2.2.7":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
+  integrity sha512-1UzDldn9GfYYEsWWnn/P4wkTlkZDH7lDb0wBMGbtIQc9zXEQq7FlKBdZUn6OBqD8sKZZ2RQO2mAjGpXiDGoRmQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
