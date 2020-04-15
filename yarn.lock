@@ -1590,10 +1590,10 @@
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.3.5-canary.7":
-  version "9.3.5-canary.7"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.5-canary.7.tgz#d6125d4e6a137eb39035a073301463de690d53d7"
-  integrity sha512-2IubQE+qfiqeXX37R8RRhp/XJ9PEV7gHNw9X0EAR2nD4aDXFfIgKH5+WcPP8Za2ewZcsq6rXhpHmOl0AMgZNTg==
+"@next/mdx@^9.3.5":
+  version "9.3.5"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.5.tgz#9343b77c5b92da7bdaa022969977562cd523df6a"
+  integrity sha512-LYzwx+oZ9iPHPzAvf2RPsPpmulmVMdmZ0IrB/eRWTC+RrW6wD0QHEYuS68qm5TWkwi9bLpNru3GANxX6Cniq2A==
 
 "@rmwc/avatar@^6.0.10":
   version "6.0.14"
