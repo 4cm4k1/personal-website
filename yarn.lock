@@ -1583,17 +1583,17 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.8.tgz#cbadda0378af899c17ce1aa69c677015cab28448"
   integrity sha512-a7Gjjw8bfBSertA/pTWBA/9WKEhgaSxvQE2NTSUzaknrzGFOhs4alZSHh3RHmSFdSWv5pUuzAgsWseMLhWEVkQ==
 
-"@next/bundle-analyzer@^9.3.5-canary.7":
-  version "9.3.5-canary.7"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.3.5-canary.7.tgz#2c08902c85e0f0b2bab33ebc5e09a81e5c3c4660"
-  integrity sha512-5WW1FNWEwXW25nCHY8VZmS+EYdnHqGabHCi3ZmwoRNYJPABkrmlHXXrxxljowN+xzbHI4+s0OxtuY13GrZ9vsA==
+"@next/bundle-analyzer@^9.3.6-canary.0":
+  version "9.3.6-canary.0"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.3.6-canary.0.tgz#73ea52afa64a5e2eddb9a7edaef3ced65bf7f28e"
+  integrity sha512-xYSZnm4Ba6eneWNjhGJdot9hCPawg7ySrNWcHSc4X8bgrTaSNtxM8P+Ziz1r6Fd6hlkBc2LEkPlOs8tCUUoo8w==
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.3.5-canary.7":
-  version "9.3.5-canary.7"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.5-canary.7.tgz#d6125d4e6a137eb39035a073301463de690d53d7"
-  integrity sha512-2IubQE+qfiqeXX37R8RRhp/XJ9PEV7gHNw9X0EAR2nD4aDXFfIgKH5+WcPP8Za2ewZcsq6rXhpHmOl0AMgZNTg==
+"@next/mdx@^9.3.6-canary.0":
+  version "9.3.6-canary.0"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.6-canary.0.tgz#fa22bd6a05db34dd2d1253f2d03edf81a9123998"
+  integrity sha512-6WyEKH2JMRu+ZXwIjWo+YQJigXzEYmWvaWT4fTVahMh6FJkcCY1QejiCF2AUyRYkyqiSfwPv7KXJiQwoxW5VCQ==
 
 "@rmwc/avatar@^6.0.10":
   version "6.0.14"
@@ -5203,10 +5203,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.3.5-canary.7:
-  version "9.3.5-canary.7"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.3.5-canary.7.tgz#0f13c89964fb68283c7c60244d88969be2a50c38"
-  integrity sha512-wU+PgSYif1NPgeJJ8pHKI9EMBx0bv01tCR7EupHA8poHXCKAP4HBG+lVaWNktRPQLvQ25KtdhafG/mjz4nv6kw==
+next@^9.3.6-canary.0:
+  version "9.3.6-canary.0"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.3.6-canary.0.tgz#724ad69b80c8a6f117f38a82594fbb98d8efd8e2"
+  integrity sha512-P9TjJMTO/a5GRtHkMUrOfZkxqN/4PWFi5xVLrZQOCRmpsqbMPZ/oQHxbqq82pwKVkShZQJe5VLyIF9BJYsyMRA==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.2.0"
     "@babel/core" "7.7.2"
