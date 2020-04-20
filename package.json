@@ -51,7 +51,7 @@
     "is-url-superb": "^3.0.0",
     "modern-normalize": "^0.6.0",
     "next-compose-plugins": "^2.2.0",
-    "next-offline": "^5.0.0",
+    "next-offline": "^5.0.1",
     "prettier": "^2.0.2",
     "pretty-quick": "^2.0.1",
     "typescript": "^3.9.0-beta",
