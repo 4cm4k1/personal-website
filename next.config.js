@@ -17,6 +17,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       prefetchPreload: true, // same question
       profiling: process.env.PROFILE === 'true',
       reactMode: 'legacy', // same question
+      reactRefresh: true,
       workerThreads: true,
       async redirects() {
         return [
