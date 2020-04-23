@@ -21,7 +21,7 @@ import { useEffect, useState } from 'preact/hooks';
 // types
 import { FunctionalComponent } from 'preact';
 // local
-import Nav from '../components/Nav';
+import Nav from './Nav';
 
 const AppLayout: FunctionalComponent = ({ children }) => {
   const { value, toggle } = useDarkMode(false);
