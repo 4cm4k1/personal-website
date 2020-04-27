@@ -1545,10 +1545,10 @@
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.3.6-canary.9":
-  version "9.3.6-canary.9"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.6-canary.9.tgz#bd048efe2f8fd175269da241342c10fd159502f0"
-  integrity sha512-P42+nIF3UPonX5+nD8FTbtnHIHGGqRCHi+SBqhkNyoD7ox291REmdjxUz63RAH+CDgr7sepsxtmijGjesy6Cig==
+"@next/mdx@^9.3.6-canary.13":
+  version "9.3.6-canary.13"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.6-canary.13.tgz#d433ebea18bd13fe25de23aef6bb83553f30aa6b"
+  integrity sha512-HLxRRrA4XuCoCJGdwOrRzbKiGXrKgt8nBH1kui/CEXHD8rwZpAHXwMZoHckLUU+8vnXfO2/6jfjTNR5ZqBnQHQ==
 
 "@next/react-refresh-utils@9.3.6-canary.9":
   version "9.3.6-canary.9"
