@@ -11,7 +11,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     experimental: {
       catchAllRouting: true, // does this exist & do I want it?
       deferScripts: true, // same question
-      documentMiddleware: false, // same question
       modern: true,
       plugins: true,
       prefetchPreload: true, // same question
