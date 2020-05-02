@@ -65,11 +65,10 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
           {
             source: '/(.*)',
             headers: [
-              // disabled pending https://github.com/zeit/next.js/pull/12031
-              // {
-              //   key: 'Access-Control-Allow-Origin',
-              //   value: 'https://anthony.codes',
-              // },
+              {
+                key: 'Access-Control-Allow-Origin',
+                value: 'https://anthony.codes',
+              },
               {
                 key: 'Cache-Control',
                 value: 'public, max-age=31536000, immutable',
