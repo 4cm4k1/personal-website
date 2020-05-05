@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.1",
-    "@next/bundle-analyzer": "^9.3.7-canary.6",
+    "@next/bundle-analyzer": "^9.3.7-canary.10",
     "@next/mdx": "^9.3.7-canary.6",
     "@rmwc/avatar": "^6.0.14",
     "@rmwc/drawer": "^6.0.14",
