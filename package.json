@@ -45,7 +45,7 @@
     "@rmwc/top-app-bar": "^6.0.14",
     "@types/node": "^13.13.5",
     "@types/react": "^16.9.34",
-    "@types/react-dom": "^16.9.7",
+    "@types/react-dom": "^16.9.8",
     "@zeit/next-source-maps": "^0.0.4-canary.1",
     "husky": "^4.2.5",
     "is-url-superb": "^3.0.0",
