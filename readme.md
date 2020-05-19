@@ -10,13 +10,13 @@ This repo contains the source code for my personal website located at <https://a
 - [husky](https://github.com/typicode/husky)
 - [MDX](https://github.com/mdx-js/mdx)
 - [modern-normalize](https://github.com/sindresorhus/modern-normalize)
-- [Next.js](https://github.com/zeit/next.js)
+- [Next.js](https://github.com/vercel/next.js)
 - [next-offline](https://github.com/hanford/next-offline)
-- [Now](https://zeit.co/now)
 - [Prettier](https://github.com/prettier/prettier)
 - [Preact](https://github.com/preactjs/preact)
 - [RMWC](https://github.com/jamesmfriedman/rmwc)
 - [TypeScript](https://github.com/microsoft/TypeScript)
+- [Vercel](https://github.com/vercel/vercel)
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ This repo contains the source code for my personal website located at <https://a
 
 - [Git](https://github.com/git/git)
 - [Node](https://github.com/nodejs/node)
-- [Now](https://github.com/zeit/now-cli) _(optional deployment location)_
+- [Vercel](https://github.com/vercel/vercel) _(optional deployment location)_
 - [Yarn](https://github.com/yarnpkg/yarn)
 
 ## Installation
@@ -55,8 +55,8 @@ yarn
 # run in dev mode
 yarn dev
 
-# if using Now, Now's dev mode simulates their servers
-now dev
+# if using Vercel, Vercel's dev mode simulates their servers
+vc dev
 
 # build in prod mode
 yarn build
@@ -76,8 +76,8 @@ yarn profile
 # type-check TypeScript files
 yarn type-check
 
-# deploy to Now
-now --prod
+# deploy to Vercel
+vc --prod
 
 # …or just push to configured branch on GitHub for auto-deploy
 ```
