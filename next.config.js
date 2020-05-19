@@ -14,6 +14,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       modern: true,
       plugins: true,
       prefetchPreload: true, // same question
+      productionBrowserSourceMaps: true,
       profiling: process.env.PROFILE === 'true',
       reactMode: 'legacy', // same question
       reactRefresh: true,
@@ -176,8 +177,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
   },
   NextMDX = require('@next/mdx')(),
-  NextOffline = require('next-offline'),
-  NextSourceMaps = require('@zeit/next-source-maps')();
+  NextOffline = require('next-offline');
 
 module.exports = NextComposePlugins(
   [
@@ -194,7 +194,6 @@ module.exports = NextComposePlugins(
         },
       },
     ],
-    [NextSourceMaps],
   ],
   NextConfig,
 );
