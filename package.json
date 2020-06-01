@@ -33,7 +33,7 @@
     "react-dom": "github:preact-compat/react-dom#1.0.0"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^1.6.4",
+    "@mdx-js/loader": "^1.6.5",
     "@next/bundle-analyzer": "^9.4.3-canary.1",
     "@next/mdx": "^9.4.3-canary.1",
     "@rmwc/avatar": "^6.0.14",
