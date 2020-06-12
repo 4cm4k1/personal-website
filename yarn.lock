@@ -1760,10 +1760,10 @@
     "@rmwc/provider" "^6.0.14"
     "@rmwc/types" "^6.0.5"
 
-"@rmwc/theme@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.1.0.tgz#1fc29f525eae1f9c943b2a5e6903dab18d8159c1"
-  integrity sha512-Ona/kWTiQjxoNquMwF4wRIm1lzzMY+nr8VS8VVRjOVVE9+2R7lFFGTUuMDbLa2fyU1B3dUwFL+KoYSI3wF0PvQ==
+"@rmwc/theme@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@rmwc/theme/-/theme-6.1.2.tgz#bebe27d0bef4bcc035da86fc5520a6ebd724802f"
+  integrity sha512-pAX2kGlpIGbD5bIQkUoqfzrMBDtFhZbXseoV53hPUsI8e3rnj0PjopXpAYa7qoXCDcuFCoZTrRU4Pa4pbW1fqA==
   dependencies:
     "@material/theme" "^5.1.0"
     "@rmwc/base" "^6.0.14"
