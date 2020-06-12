@@ -40,7 +40,7 @@
     "@rmwc/avatar": "^6.0.14",
     "@rmwc/drawer": "^6.0.14",
     "@rmwc/grid": "^6.0.14",
-    "@rmwc/list": "^6.0.14",
+    "@rmwc/list": "^6.1.2",
     "@rmwc/provider": "^6.0.14",
     "@rmwc/theme": "^6.1.0",
     "@rmwc/top-app-bar": "^6.0.14",
