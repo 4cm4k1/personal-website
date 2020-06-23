@@ -6,9 +6,9 @@
   "bugs": "https://github.com/4cm4k1/personal-website/issues",
   "repository": "https://github.com/4cm4k1/personal-website",
   "license": "MIT - Hippocratic",
-  "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
+  "author": "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>",
   "contributors": [
-    "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"
+    "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>"
   ],
   "scripts": {
     "analyze": "ANALYZE=true yarn build",

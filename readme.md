@@ -1,8 +1,8 @@
 # personal-website
 
-[![Status](https://img.shields.io/website-up-down-green-red/https/anthony.codes.svg?label=status&style=flat-square)](https://anthony.codes) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/) [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/) [![Latest Release](https://img.shields.io/github/release/4cm4k1/personal-website/all.svg?style=flat-square)](https://github.com/4cm4k1/personal-website/releases) [![License](https://img.shields.io/github/license/4cm4k1/personal-website.svg?style=flat-square)](license) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website?ref=badge_small)
+[![Status](https://img.shields.io/website-up-down-green-red/https/anthony.app.svg?label=status&style=flat-square)](https://anthony.app) [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/) [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/) [![Latest Release](https://img.shields.io/github/release/4cm4k1/personal-website/all.svg?style=flat-square)](https://github.com/4cm4k1/personal-website/releases) [![License](https://img.shields.io/github/license/4cm4k1/personal-website.svg?style=flat-square)](license) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2F4cm4k1%2Fpersonal-website?ref=badge_small)
 
-This repo contains the source code for my personal website located at <https://anthony.codes>, using many awesome technologies such as, but not limited to:
+This repo contains the source code for my personal website located at <https://anthony.app>, using many awesome technologies such as, but not limited to:
 
 - [Dependabot](https://dependabot.com/)
 - [EditorConfig](https://github.com/editorconfig/editorconfig)
@@ -88,9 +88,9 @@ vc --prod
 
 ## Contributors
 
-| Name             | Website                 |
-| ---------------- | ----------------------- |
-| **Anthony Maki** | <https://anthony.codes> |
+| Name             | Website               |
+| ---------------- | --------------------- |
+| **Anthony Maki** | <https://anthony.app> |
 
 ## [Changelog](changelog.md)
 

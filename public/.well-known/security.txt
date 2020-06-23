@@ -4,7 +4,7 @@ Hash: SHA256
 Contact: mailto:4cm4k1@gmail.com
 Encryption: https://keybase.io/4cm4k1/pgp_keys.asc
 Preferred-Languages: en, es
-Canonical: https://anthony.codes/.well-known/security.txt
+Canonical: https://anthony.app/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
 wsFcBAEBCAAQBQJeVGm+CRBuizAq+KR40AAAFJQQAJLrdtTsuaIfEgVIGLuJ4Pxi

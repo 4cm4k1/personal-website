@@ -68,7 +68,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             headers: [
               {
                 key: 'Access-Control-Allow-Origin',
-                value: 'https://anthony.codes',
+                value: 'https://anthony.app',
               },
               {
                 key: 'Cache-Control',
