@@ -7,7 +7,7 @@ import PageLayout from '../components/PageLayout';
 
 const IndexPage: NextPage = () => (
   <PageLayout title='Home - Anthony Maki'>
-    <h1>Hi! 👋</h1>
+    <h1>Hi Aaron! 👋</h1>
     <p>
       My name is Anthony Maki. I’m a web software engineer based in Minneapolis.
     </p>
