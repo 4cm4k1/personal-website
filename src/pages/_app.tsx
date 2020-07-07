@@ -1,8 +1,4 @@
 // libraries
-if (process.env.NODE_ENV !== 'production') {
-  // @ts-ignore
-  // import('preact/debug');
-}
 import { RMWCProvider } from '@rmwc/provider';
 import { useEffect } from 'preact/hooks';
 // types
