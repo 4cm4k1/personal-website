@@ -13,7 +13,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       plugins: true,
       productionBrowserSourceMaps: true,
       profiling: process.env.PROFILE === 'true',
-      reactProductionProfiling: true,
+      reactProductionProfiling: process.env.PROFILE === 'true',
       workerThreads: true,
       pageEnv: true,
       scrollRestoration: true,
