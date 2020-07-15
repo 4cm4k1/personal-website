@@ -26,7 +26,7 @@
     }
   },
   "dependencies": {
-    "next": "^9.4.5-canary.31",
+    "next": "^9.4.5-canary.34",
     "preact": "^10.4.5",
     "preact-render-to-string": "^5.1.9",
     "react": "github:preact-compat/react#1.0.0",
