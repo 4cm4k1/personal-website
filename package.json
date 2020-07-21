@@ -26,16 +26,16 @@
     }
   },
   "dependencies": {
-    "next": "^9.4.5-canary.35",
+    "next": "^9.4.5-canary.42",
     "preact": "^10.4.6",
     "preact-render-to-string": "^5.1.10",
     "react": "github:preact-compat/react#1.0.0",
     "react-dom": "github:preact-compat/react-dom#1.0.0"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^1.6.7",
-    "@next/bundle-analyzer": "^9.4.5-canary.35",
-    "@next/mdx": "^9.4.5-canary.35",
+    "@mdx-js/loader": "^1.6.13",
+    "@next/bundle-analyzer": "^9.4.5-canary.42",
+    "@next/mdx": "^9.4.5-canary.42",
     "@prefresh/next": "^0.3.2",
     "@rmwc/avatar": "^6.1.3",
     "@rmwc/drawer": "^6.0.14",
@@ -44,7 +44,7 @@
     "@rmwc/provider": "^6.1.3",
     "@rmwc/theme": "^6.1.2",
     "@rmwc/top-app-bar": "^6.1.3",
-    "@types/node": "^14.0.23",
+    "@types/node": "^14.0.24",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "husky": "^4.2.5",
@@ -56,7 +56,7 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "typescript": "^4.0.0-beta",
+    "typescript": "^3.9.7",
     "use-dark-mode": "^2.3.1",
     "webpack": "^4.43.0"
   },
