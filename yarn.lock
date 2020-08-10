@@ -1828,10 +1828,10 @@
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.5.2-canary.8":
-  version "9.5.2-canary.8"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.2-canary.8.tgz#0fcc00858a320a5dab12a3c91dc6eeaa90f1b77f"
-  integrity sha512-Ro3z3I+cQvzdjA6gEG553ct7930xGbAzGmEI944zL0hVSbPSZ64MeAeJx5cKlMDAos8K/MsTkAYCHxb4AZ9+kw==
+"@next/mdx@^9.5.2-canary.11":
+  version "9.5.2-canary.11"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.2-canary.11.tgz#3fec7cfe010016dea4e7fff5daddbfc502b95a05"
+  integrity sha512-Dt09AVV02EeOF1gRFen6vPzAgML5L1LhhWYTUd8PFWUzbCgSSu8JWvb4jm/a8Cc7Urq5Eneo+WO/miU/9zoVmQ==
 
 "@next/react-dev-overlay@9.5.2-canary.8":
   version "9.5.2-canary.8"
