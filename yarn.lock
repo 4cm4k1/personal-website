@@ -1854,23 +1854,23 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.2-canary.8.tgz#268ed3dfa211de93f705bb99b4ff48c390a0cc39"
   integrity sha512-xTPWIDDsVM++sUh0UZtjNoIS/KPHEfaTHBMVNEm3Xd+fORF4JP/LasaLdSrRvpmqMovqilkdqjXS14BlLLxZow==
 
-"@prefresh/core@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.7.2.tgz#982a530cd26b1c466786e92b2abfa03aa8c29f56"
-  integrity sha512-K01Yx3cWY+A4Cb61cJ93swmFS2ZaeCD2uRg8dvaUAw/6oZvtEPrqzueVRjjavkRdwhIuOwqHbCg4scSbo7jE/A==
+"@prefresh/core@^0.8.0":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.8.1.tgz#d4f15d9e3ee9c16bf420405e2b422774e807a594"
+  integrity sha512-woho+Ja8w3pxnZwq68MnWzH9ffdidrpJsV6PDTNIsJOpsLYmfCNxqxGsxIqYw40d1yjg4h6HFGbb6Y9lhyTPNA==
 
-"@prefresh/next@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@prefresh/next/-/next-0.3.2.tgz#92c84865ec0ec285918955ea9e07a7662e780f02"
-  integrity sha512-HpsMsqyjVHsn2/U1AWHneBN28rhmPQHTyYRaOzbZ3yz89s2WSpsEdZWkTZM5aVRqh1d2gy9eEhS0lVxjPzYPTg==
+"@prefresh/next@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/next/-/next-0.4.0.tgz#3af0fa50fbbee780eda24e89ee568d74a1b37b05"
+  integrity sha512-14sCiNujIo0LGJJb2dA9buU4E1oHnHUceE852G3OFy3TmNYSHaYpDM/U5vneICcfw/jzI+o6qdIOqQawSkLfwg==
   dependencies:
-    "@prefresh/core" "^0.7.2"
-    "@prefresh/utils" "^0.2.1"
+    "@prefresh/core" "^0.8.0"
+    "@prefresh/utils" "^0.3.0"
 
-"@prefresh/utils@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.2.1.tgz#1446082c87f1ef61b0c407f1bd0e79726fb5ab45"
-  integrity sha512-Ju7WHncqUKsaFp7yAFoNSR2jdr0bjqr8AwV06LtpFmwliPe4IDGRcBGhofg+SY9yld3FUF1JWmEoUOfCyCGRhA==
+"@prefresh/utils@^0.3.0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.3.1.tgz#f9e1a5e1fa4bc02989980733950e60520f0f9869"
+  integrity sha512-9kLzPWN4teeiKuc+Rle3SF/hyx5lzo35X4rHr+kQXnJT+BaEb1ymDWIHGkv85xjnw8+l6I1r1H7JB4BHOMJfmg==
 
 "@rmwc/avatar@^6.1.3":
   version "6.1.3"
