@@ -4,19 +4,19 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
   NextComposePlugins = require('next-compose-plugins'),
   NextConfig = {
     /**
-     * NOTE: this config omits default values that are desired
-     * e.g. experimental.granularChunks = true
+     * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config.ts#L12-L64
      */
     env: [],
     experimental: {
       modern: true,
+      optimizeFonts: true,
+      optimizeImages: true,
+      pageEnv: true,
       plugins: true,
       productionBrowserSourceMaps: true,
       profiling: process.env.PROFILE === 'true',
-      reactProductionProfiling: process.env.PROFILE === 'true',
-      workerThreads: true,
-      pageEnv: true,
       scrollRestoration: true,
+      workerThreads: true,
     },
     async redirects() {
       return [
