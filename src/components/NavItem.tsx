@@ -1,7 +1,6 @@
 // libraries
 import { useRouter } from 'next/router';
 import { ListItem, ListItemGraphic, ListItemText } from '@rmwc/list';
-import isUrl from 'is-url-superb';
 // types
 import { FunctionalComponent } from 'preact';
 // local types
@@ -25,11 +24,7 @@ const NavItem: FunctionalComponent<Props> = ({
 
   const handleClick = (e: React.SyntheticEvent): void => {
     e.preventDefault();
-    if (isUrl(href)) {
-      window.location.href = href;
-    } else {
-      router.push(href, as, options);
-    }
+    router.push(href, as, options);
   };
 
   const style = darkMode
