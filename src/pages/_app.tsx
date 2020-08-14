@@ -1,6 +1,7 @@
 // libraries
 import { RMWCProvider } from '@rmwc/provider';
 import { useEffect } from 'preact/hooks';
+import Head from 'next/head';
 // types
 import { AppProps } from 'next/app';
 import { FunctionalComponent } from 'preact';
@@ -30,6 +31,9 @@ const App: FunctionalComponent<AppProps> = ({ Component, pageProps }) => {
         basename: 'material-icons-outlined',
       }}
     >
+      <Head>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
       <AppLayout>
         <Component {...pageProps} />
       </AppLayout>

@@ -23,10 +23,6 @@ export default class extends Document {
       <Html lang='en-US'>
         <Head>
           <meta charSet='utf-8' />
-          <meta
-            name='viewport'
-            content='initial-scale=1.0, width=device-width'
-          />
           <meta httpEquiv='Content-Security-Policy' content={csp} />
           <link rel='manifest' href='/site.webmanifest' />
           <link rel='shortcut icon' href='/favicon.ico' />
