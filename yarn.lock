@@ -1428,10 +1428,10 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.16.tgz#07a7342f6b61ea1ecbfb31e6e23bf7a8c79b9b57"
   integrity sha512-SFtLGIGZummuyMDPRL5KdmpgI8U19Ble28UjEWihPjGxF1Lgj8aDjLWY8KiaUy9eqb9CKiVCqEIrK9jbnANfkw==
 
-"@next/bundle-analyzer@^9.5.3-canary.10":
-  version "9.5.3-canary.10"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.5.3-canary.10.tgz#66331ce7758d533f1f35d119ddb6f30f84ca7e9b"
-  integrity sha512-mrXR3qk5mSPQH87TZddqain2CAIPjdlSMDYIa23ZE/z3RWAtqlOM5h+kYM8KR8qGH8Fm4f0CwmtX4ah/wxtvdQ==
+"@next/bundle-analyzer@^9.5.3-canary.11":
+  version "9.5.3-canary.11"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.5.3-canary.11.tgz#f29a27f91a7ae32cebbc2b5fa5dd44d5d6d180fc"
+  integrity sha512-hdHsX549tFU6+QXwlLawLgIVRM0wMuTPZABs9pyUF1cZpTuIpurVYcFkey60S+qrePklWTgij28W8G4AjTxYqg==
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
