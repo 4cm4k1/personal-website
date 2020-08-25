@@ -1440,10 +1440,10 @@
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.3-canary.16.tgz#e2c2c28285983127cfd2b5068f0ea9781f0e451c"
   integrity sha512-QTOYXV2YdkZiGkv6HSPiFmtxmcSxiRvufN3yBJd7brMnxQ5oBlNwWo+ogrlGsGdjX7/7qX3n8D/Jdz/X92VLRQ==
 
-"@next/react-dev-overlay@9.5.3-canary.16":
-  version "9.5.3-canary.16"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3-canary.16.tgz#0eccaefbc93cf7abf1b402cf23dc19436d1c007d"
-  integrity sha512-ZMf5zwFAIpTQDig3KNbATI9s1Siw1aAVN2zrZJUkV77mD4TaclUrwyyzYViNL4H2bkVcbFq/dPnpWAIsUrD0yQ==
+"@next/react-dev-overlay@9.5.3-canary.21":
+  version "9.5.3-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3-canary.21.tgz#6d4f1e0fb4c0dab1ac7624c9fd1cac8b52e92d0b"
+  integrity sha512-Q8QNT8KvXF0T9h3BrhDAdsCGjbvdTEpHZbqblvoISRErd0nrZtJx1mNQw7HLThhotmuGQQh2JMckBuI1Kz7lJQ==
   dependencies:
     "@babel/code-frame" "7.8.3"
     ally.js "1.4.1"
@@ -1456,10 +1456,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@9.5.3-canary.16":
-  version "9.5.3-canary.16"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.3-canary.16.tgz#d673297b6b07e4a455ccaaa06ed4fc45c844dc94"
-  integrity sha512-jNqWrcwZh+Ra632uYjUE6WTn3+8Xd3zoLIa3vqx974KcExJiai3WnP1Lw3Wsqj9BkcoIUglJrVYEvywBFCWxpg==
+"@next/react-refresh-utils@9.5.3-canary.21":
+  version "9.5.3-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.3-canary.21.tgz#d01b1cbd6b62430f9d6a04df1c3e76e52be3f75c"
+  integrity sha512-4EZ7WIOiqA6P+ICkf5eWROwp5AL78Ao7i26sNcFqFAAJ0Oz6p9a6Qk2Nj7p8zDylFwbSzcKyteCNeO7yL/a7oQ==
 
 "@prefresh/core@^0.8.1":
   version "0.8.1"
@@ -3040,10 +3040,10 @@ cssnano-preset-simple@1.1.4:
   dependencies:
     postcss "^7.0.32"
 
-cssnano-preset-simple@1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/cssnano-preset-simple/-/cssnano-preset-simple-1.1.7.tgz#38378118f156b3f4bf85c38a0b2fd06a1bdc7228"
-  integrity sha512-GVOJVQ1l5KI5sRaM9HOXCwYn78dmsLYoyJTYJcORhl9Tz44xDlP8Al6EvBdFIOvH6+wZlHcsMftlh1pwswuLeA==
+cssnano-preset-simple@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-simple/-/cssnano-preset-simple-1.2.0.tgz#afcf13eb076e8ebd91c4f311cd449781c14c7371"
+  integrity sha512-zojGlY+KasFeQT/SnD/WqYXHcKddz2XHRDtIwxrWpGqGHp5IyLWsWFS3UW7pOf3AWvfkpYSRdxOSlYuJPz8j8g==
   dependencies:
     caniuse-lite "^1.0.30001093"
     postcss "^7.0.32"
@@ -3056,12 +3056,12 @@ cssnano-simple@1.0.5:
     cssnano-preset-simple "1.1.4"
     postcss "^7.0.32"
 
-cssnano-simple@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/cssnano-simple/-/cssnano-simple-1.0.7.tgz#a812571ee6ae25817434d4b926d5e83ea4b0e7dd"
-  integrity sha512-jjmSazE36Bl77zBcNQ9efcUdxQevKkrqkE5FqgHbcb3GQASnWrOU3PLF+DR3c7lDZxi1vtLvuJMtfL5QLkCGdw==
+cssnano-simple@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/cssnano-simple/-/cssnano-simple-1.2.0.tgz#b8cc5f52c2a52e6513b4636d0da165ec9d48d327"
+  integrity sha512-pton9cZ70/wOCWMAbEGHO1ACsW1KggTB6Ikj7k71uOEsz6SfByH++86+WAmXjRSc9q/g9gxkpFP9bDX9vRotdA==
   dependencies:
-    cssnano-preset-simple "1.1.7"
+    cssnano-preset-simple "1.2.0"
     postcss "^7.0.32"
 
 csstype@^3.0.2:
@@ -4911,10 +4911,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.5.3-canary.16:
-  version "9.5.3-canary.16"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.5.3-canary.16.tgz#ade328482a0a3252561a78e1984b18093fafa58b"
-  integrity sha512-rMQzlpMG72tEauF1lv6syRU7ZqEThTj6ASEraEjDrePul7NFXw5bog4+n1fd6X/lJ7o1deAoJqZ2Grqz8a2n1w==
+next@^9.5.3-canary.21:
+  version "9.5.3-canary.21"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.5.3-canary.21.tgz#5e848b956c1874ad89f97f3c8e57aedb39864d8b"
+  integrity sha512-tZfEkf/UoY2QKzZkcb2mYcEVVXXiqn8z3MqJZTgKPk0UBw+phENJu8nLy0JvSX2NnONakVB8EDyKZv5+j2ukPA==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.6.0"
     "@babel/code-frame" "7.8.3"
@@ -4935,8 +4935,8 @@ next@^9.5.3-canary.16:
     "@babel/preset-typescript" "7.9.0"
     "@babel/runtime" "7.9.6"
     "@babel/types" "7.9.6"
-    "@next/react-dev-overlay" "9.5.3-canary.16"
-    "@next/react-refresh-utils" "9.5.3-canary.16"
+    "@next/react-dev-overlay" "9.5.3-canary.21"
+    "@next/react-refresh-utils" "9.5.3-canary.21"
     ast-types "0.13.2"
     babel-plugin-syntax-jsx "6.18.0"
     babel-plugin-transform-define "2.0.0"
@@ -4948,7 +4948,7 @@ next@^9.5.3-canary.16:
     chokidar "2.1.8"
     crypto-browserify "3.12.0"
     css-loader "3.5.3"
-    cssnano-simple "1.0.7"
+    cssnano-simple "1.2.0"
     find-cache-dir "3.3.1"
     jest-worker "24.9.0"
     loader-utils "2.0.0"
