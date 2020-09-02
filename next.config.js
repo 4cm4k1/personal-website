@@ -9,7 +9,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     env: [],
     experimental: {
       modern: true,
-      optimizeFonts: true,
+      optimizeFonts: true, // see https://github.com/vercel/next.js/issues/16566
       optimizeImages: true,
       pageEnv: true,
       plugins: true,

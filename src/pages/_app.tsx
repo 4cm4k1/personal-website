@@ -4,7 +4,6 @@ import { useEffect } from 'preact/hooks';
 import Head from 'next/head';
 // types
 import { AppProps } from 'next/app';
-import { FunctionalComponent } from 'preact';
 // styles
 import 'modern-normalize/modern-normalize.css';
 import '@material/theme/dist/mdc.theme.css';
@@ -19,7 +18,7 @@ import '@rmwc/icon/icon.css';
 import AppLayout from '../components/AppLayout';
 import { register } from '../lib/sw';
 
-const App: FunctionalComponent<AppProps> = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }: AppProps) => {
   // manually register service worker with `next-offline`
   if (process.env.NODE_ENV === 'production') {
     useEffect(() => register(), []);

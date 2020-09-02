@@ -1,6 +1,13 @@
 // libraries
 import crypto from 'crypto';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, {
+  DocumentContext,
+  DocumentInitialProps,
+  Html,
+  Head,
+  Main,
+  NextScript,
+} from 'next/document';
 
 const cspHashOf = (text: any) => {
   const hash = crypto.createHash('sha256');
@@ -9,7 +16,9 @@ const cspHashOf = (text: any) => {
 };
 
 export default class extends Document {
-  static async getInitialProps(ctx: any) {
+  static async getInitialProps(
+    ctx: DocumentContext,
+  ): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
