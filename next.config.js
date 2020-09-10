@@ -8,8 +8,8 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
      */
     env: [],
     experimental: {
-      modern: true,
-      optimizeFonts: true, // see https://github.com/vercel/next.js/issues/16566
+      modern: false, // `next-esm-plugin` currently does not support this with `webpack@5`
+      optimizeFonts: false, // see https://github.com/vercel/next.js/issues/16566
       optimizeImages: true,
       pageEnv: true,
       plugins: true,
@@ -200,7 +200,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = NextComposePlugins(
   [
-    [NextPrefresh],
     [NextBundleAnalyzer],
     [NextMDX],
     [
@@ -214,6 +213,7 @@ module.exports = NextComposePlugins(
         },
       },
     ],
+    [NextPrefresh],
   ],
   NextConfig,
 );
