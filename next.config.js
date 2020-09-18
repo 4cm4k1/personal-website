@@ -207,7 +207,7 @@ module.exports = NextComposePlugins(
       {
         // `next-offline`-specific config
         dontAutoRegisterSw: true,
-        transformManifest: manifest => ['/'].concat(manifest),
+        // transformManifest: manifest => ['/'].concat(manifest), // obsolete: fix with PR for https://github.com/hanford/next-offline/issues/209?
         workboxOpts: {
           swDest: 'static/sw.js',
         },
