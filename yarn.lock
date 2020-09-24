@@ -69,7 +69,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@7.11.6":
+"@babel/core@7.11.6", "@babel/core@^7.8.4":
   version "7.11.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.6.tgz#3a9455dc7387ff1bac45770650bc13ba04a15651"
   integrity sha512-Wpcv03AGnmkgm6uS6k8iwhIwTrcP0m17TL1n1sy7qD0qelDu4XNeW0dN0mHfa+Gei211yDaLoEe/VlbXQzM4Bg==
@@ -110,28 +110,6 @@
     resolve "^1.3.2"
     semver "^5.4.1"
     source-map "^0.5.0"
-
-"@babel/core@^7.8.4":
-  version "7.11.5"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.5.tgz#6ad96e2f71899ea3f9b651f0a911e85205d1ff6d"
-  integrity sha512-fsEANVOcZHzrsV6dMVWqpSeXClq3lNbYrfFGme6DE25FQWe7pyeYpXyx9guqUnpy466JLzZ8z4uwSr2iv60V5Q==
-  dependencies:
-    "@babel/code-frame" "^7.10.4"
-    "@babel/generator" "^7.11.5"
-    "@babel/helper-module-transforms" "^7.11.0"
-    "@babel/helpers" "^7.10.4"
-    "@babel/parser" "^7.11.5"
-    "@babel/template" "^7.10.4"
-    "@babel/traverse" "^7.11.5"
-    "@babel/types" "^7.11.5"
-    convert-source-map "^1.7.0"
-    debug "^4.1.0"
-    gensync "^1.0.0-beta.1"
-    json5 "^2.1.2"
-    lodash "^4.17.19"
-    resolve "^1.3.2"
-    semver "^5.4.1"
-    source-map "^0.6.1"
 
 "@babel/generator@^7.11.5", "@babel/generator@^7.7.7":
   version "7.11.5"
@@ -1307,15 +1285,15 @@
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4-canary.20.tgz#c6a70f4e9a70f89f7be49149836ab034b0984655"
   integrity sha512-9YFmHwlt0wrxuK7P5JYASzIP2R+5zZEbeNFhmiakjn/dMuuN2nh0sb9c6UzrNzf+RT6KLzIbfcQiHgLYQpCfwQ==
 
-"@next/polyfill-module@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-9.5.4-canary.20.tgz#1de6f1a5924c6dc1998d8a3e0dbd685f413203bc"
-  integrity sha512-9C/RQIiXA62TheJLatVRR6UVOBZVIMZ5J7DJIn2WRxgT2srRI0Ku6C+tgPJekjHp9XjbWRzc0JCKG1mYwkmdtA==
+"@next/polyfill-module@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-9.5.4-canary.21.tgz#97918140bb9b4ae7eab36390874d4827eb11230d"
+  integrity sha512-Ao7OtEVAaHkIKi4+izaOi4Uk758cUjaqZ7BhpyEIzV8iEG8SZmp9Kum6XR3ssm9q2cq2NtUk8HWBL91/kFQcZw==
 
-"@next/react-dev-overlay@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.4-canary.20.tgz#dd3dcd3898b8684e3768a1018822041e0e304fb7"
-  integrity sha512-Q8/iSvIJuLQnF3KQ4lV15wAm2j3ZFgT6Hn6y4+rj6p0DU9bB/Cp4XqDbVh3VIo+yyGNsw0cT/vmcimFe1MSqFg==
+"@next/react-dev-overlay@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.4-canary.21.tgz#b6d9ee4d1a587d4df0bbb8f9926b1e6568e72c69"
+  integrity sha512-HLlPBt0t/MtI+mzPPCrRNevfm6JJ5+qnv4BU81kprOCrtcUNXpGLkIVSEOXYyKU9SBdZxLK62uA13q/T91J66Q==
   dependencies:
     "@babel/code-frame" "7.10.4"
     ally.js "1.4.1"
@@ -1328,10 +1306,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.4-canary.20.tgz#2eac9bbf1cb19303b6e9690ec49c6355ab055e2f"
-  integrity sha512-5B9/GLFqnv6/lx/7kySB8EiqB/R/mXWmH53pcbHKVNdXvoD4oi2fT7PWHXA05JQdr0P1cYIPA1ytrrnIf8F1EQ==
+"@next/react-refresh-utils@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.4-canary.21.tgz#5a71c8cb3fb885e81b744c33375acfe2af38aac8"
+  integrity sha512-o44L7NO07QwNSPbICcevCyY5Oc59UANdgIugqvuA5RI0l4uMZwYjdjaSsCHFDELd5ggmaiEvYds66c2b6TtyJw==
 
 "@npmcli/move-file@^1.0.1":
   version "1.0.1"
@@ -4701,10 +4679,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.5.4-canary.20:
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.5.4-canary.20.tgz#041ae6c400b8ab7b7aabba3d66bdcda428f241c3"
-  integrity sha512-rQvdk3NDYyrB1KvQv2SzAoZlcpOJV2GA93l7BVbByp0l006d3dkFDML7XKEqqtYcvtDlzdKS/V9hde0psKFkAg==
+next@^9.5.4-canary.21:
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.5.4-canary.21.tgz#eac6a647b03eb51e8b9dff4d9bba4ceb24c4b1fa"
+  integrity sha512-X4K15S6zosIu7VS2GZFOiwJnZ8L9TB9qdkMJYfybGR4T3fRKfcAld+Ayu30IBS3h2ALFtQd1745skD3jTkNFVw==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.6.0"
     "@babel/code-frame" "7.10.4"
@@ -4724,9 +4702,9 @@ next@^9.5.4-canary.20:
     "@babel/preset-typescript" "7.10.4"
     "@babel/runtime" "7.11.2"
     "@babel/types" "7.11.5"
-    "@next/polyfill-module" "9.5.4-canary.20"
-    "@next/react-dev-overlay" "9.5.4-canary.20"
-    "@next/react-refresh-utils" "9.5.4-canary.20"
+    "@next/polyfill-module" "9.5.4-canary.21"
+    "@next/react-dev-overlay" "9.5.4-canary.21"
+    "@next/react-refresh-utils" "9.5.4-canary.21"
     ast-types "0.13.2"
     babel-plugin-transform-define "2.0.0"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
