@@ -1302,10 +1302,10 @@
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4-canary.20.tgz#c6a70f4e9a70f89f7be49149836ab034b0984655"
-  integrity sha512-9YFmHwlt0wrxuK7P5JYASzIP2R+5zZEbeNFhmiakjn/dMuuN2nh0sb9c6UzrNzf+RT6KLzIbfcQiHgLYQpCfwQ==
+"@next/mdx@^9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4-canary.21.tgz#aadaa794d857353b21c231b2598d15ea0aee6ae5"
+  integrity sha512-0BnKzR985keMM8Jh87knV3aUHmdOPtiGG95ySbnEfH8LK2n0CezB4SN2Edi/cemFzKmFy2kuNnZ4DnpM/1iEag==
 
 "@next/polyfill-module@9.5.4-canary.20":
   version "9.5.4-canary.20"
