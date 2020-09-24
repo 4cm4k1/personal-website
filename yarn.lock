@@ -1295,27 +1295,27 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.18.tgz#c7563bf72cb4520b8b7100b64006a64be717e936"
   integrity sha512-axMe+NoLF55OlXPbhRn4GNCHcL1f5W3V3c0dWzg05S9JXm3Ecpxzxaht3g3vTP0dcqBL/yh/xCvzK0ZpO54Eug==
 
-"@next/bundle-analyzer@^9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.5.4-canary.20.tgz#605efbcfb55305a33abc3dd0c052e09e4b22e63e"
-  integrity sha512-xFEHHgvLDcJ6KLwNhaQiGcUKQdfVfAr6/Ep0tO66sMxyFTWwKve7WyqWm2ehhI61wdW6t7Y4eQyCaM4lBcv8ig==
+"@next/bundle-analyzer@^9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-9.5.4-canary.21.tgz#41dbb4d24ca667e52d7b63f58340a3e3a20e5864"
+  integrity sha512-cDqVxF841pQeC0qzKG5FVja6dIH53ceBz0PV2B0i2SNTAGTR7BQZSul40OLEM4vlCbsqS0pxhC7WrH9Q8j3zVg==
   dependencies:
     webpack-bundle-analyzer "3.6.1"
 
-"@next/mdx@^9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4-canary.20.tgz#c6a70f4e9a70f89f7be49149836ab034b0984655"
-  integrity sha512-9YFmHwlt0wrxuK7P5JYASzIP2R+5zZEbeNFhmiakjn/dMuuN2nh0sb9c6UzrNzf+RT6KLzIbfcQiHgLYQpCfwQ==
+"@next/mdx@^9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4-canary.21.tgz#aadaa794d857353b21c231b2598d15ea0aee6ae5"
+  integrity sha512-0BnKzR985keMM8Jh87knV3aUHmdOPtiGG95ySbnEfH8LK2n0CezB4SN2Edi/cemFzKmFy2kuNnZ4DnpM/1iEag==
 
-"@next/polyfill-module@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-9.5.4-canary.20.tgz#1de6f1a5924c6dc1998d8a3e0dbd685f413203bc"
-  integrity sha512-9C/RQIiXA62TheJLatVRR6UVOBZVIMZ5J7DJIn2WRxgT2srRI0Ku6C+tgPJekjHp9XjbWRzc0JCKG1mYwkmdtA==
+"@next/polyfill-module@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-9.5.4-canary.21.tgz#97918140bb9b4ae7eab36390874d4827eb11230d"
+  integrity sha512-Ao7OtEVAaHkIKi4+izaOi4Uk758cUjaqZ7BhpyEIzV8iEG8SZmp9Kum6XR3ssm9q2cq2NtUk8HWBL91/kFQcZw==
 
-"@next/react-dev-overlay@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.4-canary.20.tgz#dd3dcd3898b8684e3768a1018822041e0e304fb7"
-  integrity sha512-Q8/iSvIJuLQnF3KQ4lV15wAm2j3ZFgT6Hn6y4+rj6p0DU9bB/Cp4XqDbVh3VIo+yyGNsw0cT/vmcimFe1MSqFg==
+"@next/react-dev-overlay@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.4-canary.21.tgz#b6d9ee4d1a587d4df0bbb8f9926b1e6568e72c69"
+  integrity sha512-HLlPBt0t/MtI+mzPPCrRNevfm6JJ5+qnv4BU81kprOCrtcUNXpGLkIVSEOXYyKU9SBdZxLK62uA13q/T91J66Q==
   dependencies:
     "@babel/code-frame" "7.10.4"
     ally.js "1.4.1"
@@ -1328,10 +1328,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@9.5.4-canary.20":
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.4-canary.20.tgz#2eac9bbf1cb19303b6e9690ec49c6355ab055e2f"
-  integrity sha512-5B9/GLFqnv6/lx/7kySB8EiqB/R/mXWmH53pcbHKVNdXvoD4oi2fT7PWHXA05JQdr0P1cYIPA1ytrrnIf8F1EQ==
+"@next/react-refresh-utils@9.5.4-canary.21":
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.4-canary.21.tgz#5a71c8cb3fb885e81b744c33375acfe2af38aac8"
+  integrity sha512-o44L7NO07QwNSPbICcevCyY5Oc59UANdgIugqvuA5RI0l4uMZwYjdjaSsCHFDELd5ggmaiEvYds66c2b6TtyJw==
 
 "@npmcli/move-file@^1.0.1":
   version "1.0.1"
@@ -1581,10 +1581,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.2.tgz#264b44c5a28dfa80198fc2f7b6d3c8a054b9491f"
   integrity sha512-onlIwbaeqvZyniGPfdw/TEhKIh79pz66L1q06WUQqJLnAb6wbjvOtepLYTGHTqzdXgBYIE3ZdmqHDGsRsbBz7A==
 
-"@types/node@^14.11.1":
-  version "14.11.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.1.tgz#56af902ad157e763f9ba63d671c39cda3193c835"
-  integrity sha512-oTQgnd0hblfLsJ6BvJzzSL+Inogp3lq9fGgqRkMB/ziKMgEUaFl801OncOzUmalfzt14N0oPHMK47ipl+wbTIw==
+"@types/node@^14.11.2":
+  version "14.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.2.tgz#2de1ed6670439387da1c9f549a2ade2b0a799256"
+  integrity sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -4701,10 +4701,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.5.4-canary.20:
-  version "9.5.4-canary.20"
-  resolved "https://registry.yarnpkg.com/next/-/next-9.5.4-canary.20.tgz#041ae6c400b8ab7b7aabba3d66bdcda428f241c3"
-  integrity sha512-rQvdk3NDYyrB1KvQv2SzAoZlcpOJV2GA93l7BVbByp0l006d3dkFDML7XKEqqtYcvtDlzdKS/V9hde0psKFkAg==
+next@^9.5.4-canary.21:
+  version "9.5.4-canary.21"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.5.4-canary.21.tgz#eac6a647b03eb51e8b9dff4d9bba4ceb24c4b1fa"
+  integrity sha512-X4K15S6zosIu7VS2GZFOiwJnZ8L9TB9qdkMJYfybGR4T3fRKfcAld+Ayu30IBS3h2ALFtQd1745skD3jTkNFVw==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.6.0"
     "@babel/code-frame" "7.10.4"
@@ -4724,9 +4724,9 @@ next@^9.5.4-canary.20:
     "@babel/preset-typescript" "7.10.4"
     "@babel/runtime" "7.11.2"
     "@babel/types" "7.11.5"
-    "@next/polyfill-module" "9.5.4-canary.20"
-    "@next/react-dev-overlay" "9.5.4-canary.20"
-    "@next/react-refresh-utils" "9.5.4-canary.20"
+    "@next/polyfill-module" "9.5.4-canary.21"
+    "@next/react-dev-overlay" "9.5.4-canary.21"
+    "@next/react-refresh-utils" "9.5.4-canary.21"
     ast-types "0.13.2"
     babel-plugin-transform-define "2.0.0"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
@@ -5486,10 +5486,10 @@ preact-render-to-string@^5.1.10:
   dependencies:
     pretty-format "^3.8.0"
 
-preact@^10.4.8:
-  version "10.4.8"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.4.8.tgz#8517b106cc5591eb675237c93da99ac052cf4756"
-  integrity sha512-uVLeEAyRsCkUEFhVHlOu17OxcrwC7+hTGZ08kBoLBiGHiZooUZuibQnphgMKftw/rqYntNMyhVCPqQhcyAGHag==
+preact@^10.5.2:
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.2.tgz#4c07c27f4239666840e0d637ec7c110cfcae181d"
+  integrity sha512-4y2Q6kMiJtMONMJR7z+o8P5tGkMzVItyy77AXGrUdusv+dk4jwoS3KrpCBkFloY2xsScRJYwZQZrx89tTjDkOw==
 
 prettier@^2.1.2:
   version "2.1.2"
@@ -6562,10 +6562,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
-  integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
+typescript@^4.1.0-beta:
+  version "4.1.0-beta"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.0-beta.tgz#e4d054035d253b7a37bdc077dd71706508573e69"
+  integrity sha512-b/LAttdVl3G6FEmnMkDsK0xvfvaftXpSKrjXn+OVCRqrwz5WD/6QJOiN+dTorqDY+hkaH+r2gP5wI1jBDmdQ7A==
 
 unherit@^1.0.4:
   version "1.1.3"
@@ -6896,10 +6896,10 @@ webpack-sources@^2.0.0:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@4.44.1, webpack@^5.0.0-beta.32:
-  version "5.0.0-beta.32"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.32.tgz#3ac957b9ef064e8502b546dbc8ade42e4d7d5506"
-  integrity sha512-PrEyICK8AGeY/yK6yuHk7iuo5y1lMOuD2tI0rM+pG8ZYR6tjdkmvvu0kJGBeor9AaPjB46YA4BDBigMdBLCFCA==
+webpack@4.44.1, webpack@^5.0.0-rc.0:
+  version "5.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-rc.0.tgz#166f6d9cd65912ff021695d82256b2f1e6e858ee"
+  integrity sha512-tHUFu4vaZxJuyKYf8FKkDZmxnf0txy6twNewxUlviFo+GYjFoGW3szD71cOw0NtJBiyGAQ9zLGVzfb2pXBSKVA==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
