@@ -64,7 +64,6 @@
   },
   "resolutions": {
     "node-fetch": "^2.6.1",
-    "tapable": "^2.0.0",
     "webpack": "^5.0.0"
   }
 }
