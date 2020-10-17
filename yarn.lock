@@ -6724,10 +6724,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.1.0-beta:
-  version "4.1.0-beta"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.0-beta.tgz#e4d054035d253b7a37bdc077dd71706508573e69"
-  integrity sha512-b/LAttdVl3G6FEmnMkDsK0xvfvaftXpSKrjXn+OVCRqrwz5WD/6QJOiN+dTorqDY+hkaH+r2gP5wI1jBDmdQ7A==
+typescript@^4.1.0-dev.20201016:
+  version "4.1.0-dev.20201016"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.0-dev.20201016.tgz#14128e5cb67004742ba7d871f21cfb753516df95"
+  integrity sha512-DsJnEMvsL7+zHdpUOZQu3s/J0P3IwaFxSe1dhalwAZoH+btc75kpMjLXXzANdjkU5s5hjL2t+JmvkgpsYpF1rQ==
 
 unherit@^1.0.4:
   version "1.1.3"
