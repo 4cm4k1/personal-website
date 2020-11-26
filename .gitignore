@@ -1,8 +1,8 @@
 # Directories ---------------
-# Next.js build outputs
+# `next` build outputs
 .next
-# Zeit Now account config
-.now
+# `vercel` account config
+.vercel
 # Webpack Bundle Analyzer outputs
 bundles
 # Yarn-installed packages

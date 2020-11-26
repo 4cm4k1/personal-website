@@ -1,7 +1,9 @@
 # Directories ---------------
 # GitHub configuration files
 .github
-# Next.js build outputs
+# `husky` Git hooks
+.husky
+# `next` build outputs
 .next
 # Webpack Bundle Analyzer outputs
 bundles
