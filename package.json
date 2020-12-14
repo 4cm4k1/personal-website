@@ -22,7 +22,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "^10.0.4-canary.2",
+    "next": "^10.0.4-canary.5",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
     "react": "github:preact-compat/react#1.0.0",
