@@ -11,7 +11,7 @@
     "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>"
   ],
   "scripts": {
-    "analyze": "ANALYZE=true npm run build",
+    "analyze": "ANALYZE=true yarn build",
     "build": "next build",
     "dev": "next",
     "now-build": "next build",
@@ -19,21 +19,22 @@
     "postinstall": "husky install",
     "pre-commit": "pretty-quick --staged",
     "prettier": "prettier {*,**/*}{,.*} --write",
-    "profile": "PROFILE=true npm run dev",
+    "profile": "PROFILE=true yarn dev",
     "type-check": "tsc"
   },
   "dependencies": {
     "next": "^10.0.5-canary.6",
+    "next-plugin-preact": "^3.0.3",
     "preact": "^10.5.8",
     "preact-render-to-string": "^5.1.12",
-    "react": "github:preact-compat/react#1.0.0",
-    "react-dom": "github:preact-compat/react-dom#1.0.0"
+    "react": "npm:@preact/compat@0.0.3",
+    "react-dom": "npm:@preact/compat@0.0.3",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.1.2"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@next/bundle-analyzer": "^10.0.5-canary.6",
     "@next/mdx": "^10.0.5-canary.6",
-    "@prefresh/next": "^1.4.4",
     "@rmwc/avatar": "^6.1.4",
     "@rmwc/drawer": "^6.1.4",
     "@rmwc/grid": "^6.1.4",
@@ -44,6 +45,7 @@
     "@types/node": "^14.14.17",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "critters": "^0.0.6",
     "husky": "^5.0.6",
     "modern-normalize": "^1.0.0",
     "next-compose-plugins": "^2.2.1",
@@ -66,6 +68,6 @@
   },
   "volta": {
     "node": "15.5.0",
-    "npm": "7.3.0"
+    "yarn": "1.22.10"
   }
 }

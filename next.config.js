@@ -6,59 +6,25 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     /**
      * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config.ts#L12-L64
      */
-    env: [],
+    amp: {
+      // default
+      canonicalBase: '',
+    },
+    env: [], // default
     experimental: {
-      modern: false, // `next-esm-plugin` currently does not support this with `webpack@5`
-      optimizeFonts: false, // see https://github.com/vercel/next.js/issues/16566
+      optimizeCss: true,
+      optimizeFonts: true,
       optimizeImages: true,
       pageEnv: true,
       plugins: true,
-      productionBrowserSourceMaps: true,
       profiling: process.env.PROFILE === 'true',
+      reactMode: 'legacy', // default
+      scriptLoader: false, // default
       scrollRestoration: true,
       workerThreads: true,
     },
-    async redirects() {
-      return [
-        {
-          source: '/logs{/}?',
-          statusCode: 301,
-          destination: '/_logs',
-        },
-        {
-          source: '/source{/}?',
-          statusCode: 301,
-          destination: '/_src',
-        },
-      ];
-    },
-    async rewrites() {
-      return [
-        {
-          source: '/feed.atom',
-          destination: '/_next/static/feed.atom',
-        },
-        {
-          source: '/feed.json',
-          destination: '/_next/static/feed.json',
-        },
-        {
-          source: '/feed.xml',
-          destination: '/_next/static/feed.xml',
-        },
-        {
-          source: '/keybase.txt',
-          destination: '/.well-known/keybase.txt',
-        },
-        {
-          source: '/sw.js',
-          destination: '/_next/static/sw.js',
-        },
-        {
-          source: '/sw.js.map',
-          destination: '/_next/static/sw.js.map',
-        },
-      ];
+    future: {
+      excludeDefaultMomentLocales: true,
     },
     async headers() {
       return [
@@ -143,60 +109,60 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
         },
       ];
     },
-    future: {
-      excludeDefaultMomentLocales: true,
-    },
+    i18n: null, // default
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-    publicRuntimeConfig: {},
-    serverRuntimeConfig: {},
+    productionBrowserSourceMaps: true,
+    publicRuntimeConfig: {}, // default
+    sassOptions: {}, // default
+    serverRuntimeConfig: {}, // default
     reactStrictMode: true,
-    target: 'serverless',
-    webpack: (config, { dev, isServer }) => {
-      // Copied from: https://github.com/vercel/next.js/blob/canary/examples/using-preact/next.config.js
-      // Move `preact` into the framework chunk instead of duplicating in routes:
-      const splitChunks =
-        config.optimization && config.optimization.splitChunks;
-      if (splitChunks) {
-        const cacheGroups = splitChunks.cacheGroups;
-        const test = /(?<!node_modules.*)[\\/]node_modules[\\/](preact|preact-render-to-string|preact-context-provider)[\\/]/;
-        if (cacheGroups.framework) {
-          cacheGroups.preact = Object.assign({}, cacheGroups.framework, {
-            test,
-          });
-          // If you want to merge the 2 small commons+framework chunks:
-          // cacheGroups.commons.name = 'framework';
-        }
-      }
-
-      if (isServer) {
-        // Mark `preact` stuff as external for server bundle to prevent duplicate copies of `preact`:
-        config.externals.push(
-          /^(preact|preact-render-to-string|preact-context-provider)([\\/]|$)/,
-        );
-      }
-
-      // Install `webpack` aliases:
-      const aliases = config.resolve.alias || (config.resolve.alias = {});
-      aliases.react = aliases['react-dom'] = 'preact/compat';
-
-      // Automatically inject `preact/debug` in dev environment:
-      if (dev && !isServer) {
-        const entry = config.entry;
-        config.entry = () =>
-          entry().then(entries => {
-            entries['main.js'] = ['preact/debug'].concat(
-              entries['main.js'] || [],
-            );
-            return entries;
-          });
-      }
-
-      return config;
+    async redirects() {
+      return [
+        {
+          source: '/logs{/}?',
+          statusCode: 301,
+          destination: '/_logs',
+        },
+        {
+          source: '/source{/}?',
+          statusCode: 301,
+          destination: '/_src',
+        },
+      ];
     },
+    async rewrites() {
+      return [
+        {
+          source: '/feed.atom',
+          destination: '/_next/static/feed.atom',
+        },
+        {
+          source: '/feed.json',
+          destination: '/_next/static/feed.json',
+        },
+        {
+          source: '/feed.xml',
+          destination: '/_next/static/feed.xml',
+        },
+        {
+          source: '/keybase.txt',
+          destination: '/.well-known/keybase.txt',
+        },
+        {
+          source: '/sw.js',
+          destination: '/_next/static/sw.js',
+        },
+        {
+          source: '/sw.js.map',
+          destination: '/_next/static/sw.js.map',
+        },
+      ];
+    },
+    target: 'serverless',
   },
   NextMDX = require('@next/mdx')(),
   NextOffline = require('next-offline'),
-  NextPrefresh = require('@prefresh/next');
+  NextPreact = require('next-plugin-preact');
 
 module.exports = NextComposePlugins(
   [
@@ -213,7 +179,7 @@ module.exports = NextComposePlugins(
         },
       },
     ],
-    [NextPrefresh],
+    [NextPreact],
   ],
   NextConfig,
 );

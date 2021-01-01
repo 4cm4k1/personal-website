@@ -5,7 +5,7 @@
 .vercel
 # `webpack-bundle-analyzer` outputs
 bundles
-# `npm` packages
+# `yarn` packages
 node_modules
 # files ---------------------
 # logs

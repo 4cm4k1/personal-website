@@ -1,5 +1,13 @@
 # Changelog
 
+## 2021-01-01
+
+- Adds `next-plugin-preact` to `dependencies`
+- Changes `react` `npm` aliases
+- Removes custom `webpack` config from `next.config.js`
+- Adds `critters` to `devDependencies`
+- Removes `@prefresh/next`
+
 ## 2020-12-31
 
 - Updates `code_of_conduct.md` to Contributor Covenant Code of Conduct v2.0
@@ -7,7 +15,6 @@
 - Updates `.prettierrc.json`
 - Updates `prettier` script in `package.json`
 - Upgrades `dependencies`, `devDependencies`, and `resolutions`
-- Changes from `yarn` to `npm`
 - Adds `pre-commit` script to `package.json`
 - Uses `pre-commit` script in `.husky/pre-commit`
 - Edits `.ignore` files
