@@ -1,6 +1,19 @@
 # Changelog
 
-## Master
+## 2020-12-31
+
+- Updates `code_of_conduct.md` to Contributor Covenant Code of Conduct v2.0
+- Updates `license` to Hippocratic v2.1
+- Updates `.prettierrc.json`
+- Updates `prettier` script in `package.json`
+- Upgrades `dependencies`, `devDependencies`, and `resolutions`
+- Changes from `yarn` to `npm`
+- Adds `pre-commit` script to `package.json`
+- Uses `pre-commit` script in `.husky/pre-commit`
+- Edits `.ignore` files
+- Adds `overrides` to `.prettierrc.json`
+
+## Previously Master
 
 - Refines route rewrites in `now.json`
 - Adds `*.doubleclick.net` and `*.google.com` to CSP since Google Analytics sometimes requests a 1x1 image from there

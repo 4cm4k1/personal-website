@@ -1,25 +1,25 @@
-# Directories ---------------
-# GitHub configuration files
+# directories ---------------
+# GitHub config files
 .github
-# `husky` Git hooks
+# `husky` `git` hooks
 .husky
-# `next` build outputs
+# `next build` outputs
 .next
-# Webpack Bundle Analyzer outputs
+# `webpack-bundle-analyzer` outputs
 bundles
-# Yarn-installed packages
+# `npm` packages
 node_modules
-# Files ---------------------
+# files ---------------------
 # EditorConfig
 .editorconfig
-# Git
+# `git`
 .gitignore
-# Prettier
+# `prettier`
 .prettierignore
 .prettierrc.json
-# Logs
+# logs
 *.log
-# Root Markdown files
+# root markdown files
 *.md
-# License
+# license
 license

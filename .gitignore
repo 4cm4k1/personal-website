@@ -1,12 +1,12 @@
-# Directories ---------------
-# `next` build outputs
+# directories ---------------
+# `next build` outputs
 .next
 # `vercel` account config
 .vercel
-# Webpack Bundle Analyzer outputs
+# `webpack-bundle-analyzer` outputs
 bundles
-# Yarn-installed packages
+# `npm` packages
 node_modules
-# Files ---------------------
-# Logs
+# files ---------------------
+# logs
 *.log

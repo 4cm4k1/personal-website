@@ -1,11 +1,32 @@
-# Directories ---------------
-# `husky` Git hooks
+# directories ---------------
+# `husky` `git` hooks
 .husky
-# `next` build outputs
+# `next build` outputs
 .next
 # `vercel` account config
 .vercel
-# Webpack Bundle Analyzer outputs
+# `webpack-bundle-analyzer` outputs
 bundles
-# Yarn-installed packages
+# `npm` packages
 node_modules
+# files ---------------------
+# fonts
+*.eot
+*.otf
+*.ttf
+*.woff
+*.woff2
+# images
+*.gif
+*.ico
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.webp
+# pdf
+*.pdf
+# txt
+*.txt
+# xml
+*.xml

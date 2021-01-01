@@ -2,6 +2,16 @@
   "arrowParens": "avoid",
   "bracketSpacing": true,
   "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": "license",
+      "options": { "parser": "markdown" }
+    },
+    {
+      "files": "site.webmanifest",
+      "options": { "parser": "json" }
+    }
+  ],
   "printWidth": 80,
   "proseWrap": "preserve",
   "semi": true,

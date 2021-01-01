@@ -33,8 +33,9 @@ This repo contains the source code for my personal website located at <https://a
 
 - [Git](https://github.com/git/git)
 - [Node](https://github.com/nodejs/node)
+- [npm](https://github.com/npm/cli)
 - [Vercel](https://github.com/vercel/vercel) _(optional deployment location)_
-- [Yarn](https://github.com/yarnpkg/yarn)
+- [Volta](https://github.com/volta-cli/volta)
 
 ## Installation
 
@@ -46,38 +47,38 @@ git clone https://github.com/4cm4k1/personal-website
 cd personal-website
 
 # install dependencies
-yarn
+npm i
 ```
 
 ## Usage
 
 ```shell
 # run in dev mode
-yarn dev
+ npm run dev
 
 # if using Vercel, Vercel's dev mode simulates their servers
-vc dev
+volta run vc dev
 
 # build in prod mode
-yarn build
+ npm run build
 
 # serve built assets in prod mode
-yarn start
+ npm run start
 
 # run `prettier` linter
-yarn prettier
+ npm run prettier
 
 # run webpack analyzer
-yarn analyze
+ npm run analyze
 
 # run in dev mode with profiling on
-yarn profile
+ npm run profile
 
 # type-check TypeScript files
-yarn type-check
+npm run runtype-check
 
 # deploy to Vercel
-vc --prod
+volta run vc --prod
 
 # …or just push to configured branch on GitHub for auto-deploy
 ```

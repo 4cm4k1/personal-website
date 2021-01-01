@@ -5,20 +5,21 @@
   "description": "Personal website of Anthony Maki",
   "bugs": "https://github.com/4cm4k1/personal-website/issues",
   "repository": "https://github.com/4cm4k1/personal-website",
-  "license": "MIT - Hippocratic",
+  "license": "Hippocratic 2.1",
   "author": "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>",
   "contributors": [
     "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>"
   ],
   "scripts": {
-    "analyze": "ANALYZE=true yarn build",
+    "analyze": "ANALYZE=true npm run build",
     "build": "next build",
     "dev": "next",
     "now-build": "next build",
     "start": "next start",
     "postinstall": "husky install",
-    "prettier": "prettier {*,**/*}.{html,js,json,jsx,md,mdx,ts,tsx,webmanifest} --write",
-    "profile": "PROFILE=true yarn dev",
+    "pre-commit": "pretty-quick --staged",
+    "prettier": "prettier {*,**/*}{,.*} --write",
+    "profile": "PROFILE=true npm run dev",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -65,6 +66,6 @@
   },
   "volta": {
     "node": "15.5.0",
-    "yarn": "1.22.10"
+    "npm": "7.3.0"
   }
 }
