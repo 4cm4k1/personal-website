@@ -10,6 +10,7 @@
 - Disables `experimental.optimizeCss` (see https://vercel.com/4cm4k1/personal-website/px3rlc9t7)
 - Fixes/updates strict CSP implementation with `nonce` and `strict-dynamic`
 - Adds `Report-To` HTTP header
+- Renames `Feature-Policy` to `Permissions-Policy`
 
 ## 2020-12-31
 

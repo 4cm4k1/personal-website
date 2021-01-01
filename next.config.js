@@ -41,10 +41,11 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             },
             {
               key: 'Expect-CT',
-              value: 'enforce, max-age=0, report-uri=/report-ct-violation',
+              value:
+                'enforce, max-age=86400, report-uri="https://anthony.app/api/ct-violation"',
             },
             {
-              key: 'Feature-Policy',
+              key: 'Permissions-Policy',
               value: `accelerometer 'none'; autoplay 'none'; camera 'none'; document-domain 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'self'; usb 'none'; xr-spatial-tracking 'none'`,
             },
             {
