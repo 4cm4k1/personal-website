@@ -52,6 +52,10 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
               value: 'strict-origin-when-cross-origin',
             },
             {
+              key: 'Report-To',
+              value: `{"group":"default","max_age":10886400,"endpoints":[{"url":"https://anthony.app/api/csp-violation"}]}`,
+            },
+            {
               key: 'Strict-Transport-Security',
               value: 'max-age=63072000; includeSubDomains; preload',
             },
@@ -81,7 +85,8 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
             },
             {
               key: 'X-XSS-Protection',
-              value: '1; mode=block; report=/report-xss-violation',
+              value:
+                '1; mode=block; report=https://anthony.app/api/xss-violation',
             },
           ],
         },

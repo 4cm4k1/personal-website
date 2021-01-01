@@ -8,6 +8,8 @@
 - Adds `critters` to `devDependencies`
 - Removes `@prefresh/next`
 - Disables `experimental.optimizeCss` (see https://vercel.com/4cm4k1/personal-website/px3rlc9t7)
+- Fixes/updates strict CSP implementation with `nonce` and `strict-dynamic`
+- Adds `Report-To` HTTP header
 
 ## 2020-12-31
 

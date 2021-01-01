@@ -1,36 +1,42 @@
 // libraries
-import crypto from 'crypto';
+import { randomBytes } from 'crypto';
 import Document, {
   DocumentContext,
-  DocumentInitialProps,
   Html,
   Head,
   Main,
   NextScript,
 } from 'next/document';
 
-const cspHashOf = (text: any) => {
-  const hash = crypto.createHash('sha256');
-  hash.update(text);
-  return `'sha256-${hash.digest('base64')}'`;
+// strict CSP with `nonce` and `strict-dynamic`
+// https://kotamat.com/post/nextjs-strict-csp/
+type WithNonceProp = {
+  nonce: string;
 };
 
-export default class extends Document {
-  static async getInitialProps(
-    ctx: DocumentContext,
-  ): Promise<DocumentInitialProps> {
+export default class extends Document<WithNonceProp> {
+  static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const nonce = randomBytes(128).toString('base64');
+    return { ...initialProps, nonce };
   }
 
   render() {
-    const csp = `upgrade-insecure-requests; object-src 'none'; script-src ${cspHashOf(
-      NextScript.getInlineScriptSource(this.props),
-    )} 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:; base-uri 'none'; report-uri=/report-csp-violation`;
+    const { nonce } = this.props;
+    const csp =
+      `object-src 'none'; ` +
+      `base-uri 'none'; ` +
+      // `Report-To`: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#Reporting_directives
+      `report-uri https://anthony.app/api/csp-violation; report-to default; ` +
+      // script-src 'unsafe-inline' https: 'nonce-abcdefg' 'strict-dynamic'
+      // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#strict-dynamic_2
+      `script-src 'unsafe-inline' https: 'nonce-${nonce}' 'strict-dynamic'; ` +
+      // `script-src 'self' 'unsafe-inline' 'unsafe-eval' https: http: 'nonce-${nonce}' 'strict-dynamic' ` +
+      `upgrade-insecure-requests`;
 
     return (
       <Html lang='en-US'>
-        <Head>
+        <Head nonce={nonce}>
           <meta charSet='utf-8' />
           <meta httpEquiv='Content-Security-Policy' content={csp} />
           <link rel='manifest' href='/site.webmanifest' />
@@ -58,7 +64,7 @@ export default class extends Document {
         </Head>
         <body>
           <Main />
-          <NextScript />
+          <NextScript nonce={nonce} />
         </body>
       </Html>
     );
