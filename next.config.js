@@ -12,7 +12,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
     env: [], // default
     experimental: {
-      optimizeCss: true,
+      optimizeCss: false, // default
       optimizeFonts: true,
       optimizeImages: true,
       pageEnv: true,

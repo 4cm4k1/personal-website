@@ -7,6 +7,7 @@
 - Removes custom `webpack` config from `next.config.js`
 - Adds `critters` to `devDependencies`
 - Removes `@prefresh/next`
+- Disables `experimental.optimizeCss` (see https://vercel.com/4cm4k1/personal-website/px3rlc9t7)
 
 ## 2020-12-31
 
