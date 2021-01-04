@@ -25,7 +25,7 @@
   "dependencies": {
     "next": "^10.0.5-canary.6",
     "next-plugin-preact": "^3.0.3",
-    "preact": "^10.5.8",
+    "preact": "^10.5.9",
     "preact-render-to-string": "^5.1.12",
     "react": "npm:@preact/compat@0.0.3",
     "react-dom": "npm:@preact/compat@0.0.3",
