@@ -1107,25 +1107,25 @@
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
-"@next/env@10.0.8-canary.3":
-  version "10.0.8-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.8-canary.3.tgz#9827accde59863f797896514122c48a9c24d8450"
-  integrity sha512-zCsW5d3v0Lp4RXALzU6BrJsSYEuOhGICfolDubc9Sj++6x6YthGHtOttvGHvcAjcxGKmECOe7d8d9CxQmB5Rgw==
+"@next/env@10.0.8-canary.7":
+  version "10.0.8-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.8-canary.7.tgz#aa3618271821122d62873257d617353dcd7e209c"
+  integrity sha512-R4nMs82wdag2e2ZOKIVLSdGkUEq5iR+ivZhzHfvA2MFu5aFMYgSsdBvHbVxE2nn/rchMcsY1n3VJe8ZeFe9afQ==
 
 "@next/mdx@^10.0.8-canary.3":
   version "10.0.8-canary.3"
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.0.8-canary.3.tgz#5ece9adea7dbc66a65447778d21d20951782a1aa"
   integrity sha512-aACqLJHa8WCtMSFtsY/dpAjB6a55VBh23akcXoOb/mCn2gtuJkPwSMAzP51ZRCf5G9/14PpUmEgLJCWFYL6bjA==
 
-"@next/polyfill-module@10.0.8-canary.3":
-  version "10.0.8-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.0.8-canary.3.tgz#20941a0285ec369a7db41a196128cf35df5715e1"
-  integrity sha512-CrWJ+aTk2eJypYZBUQ3btlwLjfNpuHJaWyJKJwpWC6Be0V7FbLgOW3lyyfct/GAfvn3Z6iAnYTZSllHKO79saw==
+"@next/polyfill-module@10.0.8-canary.7":
+  version "10.0.8-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.0.8-canary.7.tgz#738f8826da11b0f7d497f87054972c8ed9c4a591"
+  integrity sha512-4lcn5HtT9PqfsXkRsIHk4nKj8e+QgH6v9ADhafgABdBncs6T+V/I9+VqCC/UwUX3xDeH8341FuJ5OGUDshJVIg==
 
-"@next/react-dev-overlay@10.0.8-canary.3":
-  version "10.0.8-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.0.8-canary.3.tgz#472833b57f2515450cd4372dec7f9ce18b6aa64a"
-  integrity sha512-jzz+TIr9qq2MEfn7bwCKuqHImQMyEk+E9jMs8alZE81hjqHDSeZR4FLOQkwJ0Mnd76MjOSQxbJBed82Vnt7Tfg==
+"@next/react-dev-overlay@10.0.8-canary.7":
+  version "10.0.8-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.0.8-canary.7.tgz#c5813d8cf6a11ef2d37928cf533629f6876b70d2"
+  integrity sha512-Qaij7oZHi5GMc+9LJfaLxFjp2YryrfZIKJbOQjpva8EKYksa/T9CIldzwq+124Hl0uNIz50KHWkzkJVo1OXPgg==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -1139,10 +1139,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@10.0.8-canary.3":
-  version "10.0.8-canary.3"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.8-canary.3.tgz#7d4535091f9d51ca7080962fe36c7996c17e9599"
-  integrity sha512-H64+O+oLc3qf80NdYD+lt9EeRkyONZxfKOzm+DFYbcT/Dzzik+zAkamsSYVpQKQ2N3ziYrT86eRlGoQuymgzBQ==
+"@next/react-refresh-utils@10.0.8-canary.7":
+  version "10.0.8-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.8-canary.7.tgz#b92e409dbc52598e1ced8171b4e481614cd8087e"
+  integrity sha512-oqIvRu1UWFtfyi0HTdoo0V6djVvBZJ0xs5d4XtOQDQY1S4w+klajoYUKplj3rumFsOwErDAVamTAneYFHfycxQ==
 
 "@opentelemetry/api@0.14.0":
   version "0.14.0"
@@ -1923,7 +1923,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@4.16.1:
+browserslist@4.16.1, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.15.0, browserslist@^4.6.4:
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.1.tgz#bf757a2da376b3447b800a16f0f1c96358138766"
   integrity sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==
@@ -1933,17 +1933,6 @@ browserslist@4.16.1:
     electron-to-chromium "^1.3.634"
     escalade "^3.1.1"
     node-releases "^1.1.69"
-
-browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.15.0, browserslist@^4.6.4:
-  version "4.16.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.0.tgz#410277627500be3cb28a1bfe037586fbedf9488b"
-  integrity sha512-/j6k8R0p3nxOC6kx5JGAxsnhc9ixaWJfYc+TNTzxg6+ARaESAvQGV7h0uNOB4t+pLQJZWzcrMxXOxjgsCj3dqQ==
-  dependencies:
-    caniuse-lite "^1.0.30001165"
-    colorette "^1.2.1"
-    electron-to-chromium "^1.3.621"
-    escalade "^3.1.1"
-    node-releases "^1.1.67"
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -2021,12 +2010,7 @@ camelcase-css@2.0.1:
   resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
-caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001165:
-  version "1.0.30001171"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001171.tgz#3291e11e02699ad0a29e69b8d407666fc843eba7"
-  integrity sha512-5Alrh8TTYPG9IH4UkRqEBZoEToWRLvPbSQokvzSz0lii8/FOWKG4keO1HoYfPWs8IF/NH/dyNPg1cmJGvV3Zlg==
-
-caniuse-lite@^1.0.30001173, caniuse-lite@^1.0.30001179:
+caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173, caniuse-lite@^1.0.30001179:
   version "1.0.30001179"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
   integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
@@ -2504,11 +2488,6 @@ ejs@^2.6.1:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
-
-electron-to-chromium@^1.3.621:
-  version "1.3.633"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.633.tgz#16dd5aec9de03894e8d14a1db4cda8a369b9b7fe"
-  integrity sha512-bsVCsONiVX1abkWdH7KtpuDAhsQ3N3bjPYhROSAXE78roJKet0Y5wznA14JE9pzbwSZmSMAW6KiKYf1RvbTJkA==
 
 electron-to-chromium@^1.3.634:
   version "1.3.645"
@@ -3608,17 +3587,17 @@ next-plugin-preact@^3.0.3:
     "@prefresh/next" "^1.3.0"
     module-alias "^2.0.0"
 
-next@^10.0.8-canary.3:
-  version "10.0.8-canary.3"
-  resolved "https://registry.yarnpkg.com/next/-/next-10.0.8-canary.3.tgz#90db44ac17ebaa16534246e4c94ce82ae8c1695a"
-  integrity sha512-vK6XTL9sO+YKFZRLofrjvRIYglMJoLsrTDuT+vVYot5CxzaUrW1W3UaPruIwJb/75+Fqe7BvlNGw+SZxBFGOuQ==
+next@^10.0.8-canary.7:
+  version "10.0.8-canary.7"
+  resolved "https://registry.yarnpkg.com/next/-/next-10.0.8-canary.7.tgz#2384cdcae39fdea0f6eaa304ac5814bdbd9ada3b"
+  integrity sha512-9Yc5wALw0gFM0fbzcl2inIScAUivSLhJr+wHDSb/PSBw8g6HPpWPztPPx1z3VbmJQGQTHg4cfZnH+1X8gBlE4w==
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.1"
-    "@next/env" "10.0.8-canary.3"
-    "@next/polyfill-module" "10.0.8-canary.3"
-    "@next/react-dev-overlay" "10.0.8-canary.3"
-    "@next/react-refresh-utils" "10.0.8-canary.3"
+    "@next/env" "10.0.8-canary.7"
+    "@next/polyfill-module" "10.0.8-canary.7"
+    "@next/react-dev-overlay" "10.0.8-canary.7"
+    "@next/react-refresh-utils" "10.0.8-canary.7"
     "@opentelemetry/api" "0.14.0"
     ast-types "0.13.2"
     browserslist "4.16.1"
@@ -3649,7 +3628,7 @@ next@^10.0.8-canary.3:
     styled-jsx "3.3.2"
     use-subscription "1.5.1"
     vm-browserify "1.1.2"
-    watchpack "2.0.0-beta.13"
+    watchpack "2.1.1"
 
 node-fetch@2.6.1, node-fetch@^3.0.0-beta.9:
   version "3.0.0-beta.6-exportfix"
@@ -3694,11 +3673,6 @@ node-libs-browser@^2.2.1:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
-
-node-releases@^1.1.67:
-  version "1.1.67"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.67.tgz#28ebfcccd0baa6aad8e8d4d8fe4cbc49ae239c12"
-  integrity sha512-V5QF9noGFl3EymEwUYzO+3NTDpGfQB4ve6Qfnzf3UNydMhjQRVPR1DZTuvWiLzaFJYw2fmDwAfnRNEVb64hSIg==
 
 node-releases@^1.1.69:
   version "1.1.70"
@@ -5377,18 +5351,10 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-watchpack@2.0.0-beta.13:
-  version "2.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.0.0-beta.13.tgz#9d9b0c094b8402139333e04eb6194643c8384f55"
-  integrity sha512-ZEFq2mx/k5qgQwgi6NOm+2ImICb8ngAkA/rZ6oyXZ7SgPn3pncf+nfhYTCrs3lmHwOxnPtGLTOuFLfpSMh1VMA==
-  dependencies:
-    glob-to-regexp "^0.4.1"
-    graceful-fs "^4.1.2"
-
-watchpack@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.1.0.tgz#e63194736bf3aa22026f7b191cd57907b0f9f696"
-  integrity sha512-UjgD1mqjkG99+3lgG36at4wPnUXNvis2v1utwTgQ43C22c4LD71LsYMExdWXh4HZ+RmW+B0t1Vrg2GpXAkTOQw==
+watchpack@2.1.1, watchpack@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.1.1.tgz#e99630550fca07df9f90a06056987baa40a689c7"
+  integrity sha512-Oo7LXCmc1eE1AjyuSBmtC3+Wy4HcV8PxWh2kP6fOl8yTlNS7r0K9l1ao2lrrUza7V39Y3D/BbJgY8VeSlc5JKw==
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
