@@ -25,6 +25,8 @@ import Nav from './Nav';
 
 const AppLayout: FunctionalComponent = ({ children }) => {
   const { value, toggle } = useDarkMode(false);
+  const [mounted, setMounted] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const lightTheme = {
     primary: '#d81b60',
@@ -81,9 +83,6 @@ const AppLayout: FunctionalComponent = ({ children }) => {
   };
 
   const theme = value ? darkTheme : lightTheme;
-
-  const [mounted, setMounted] = useState(false);
-  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true);

@@ -4,7 +4,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
   NextComposePlugins = require('next-compose-plugins'),
   NextConfig = {
     /**
-     * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config.ts#L12-L64
+     * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config-shared.ts
      */
     amp: {
       // default
@@ -12,7 +12,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
     env: [], // default
     experimental: {
-      optimizeCss: false, // default
+      optimizeCss: true,
       optimizeFonts: true,
       optimizeImages: true,
       pageEnv: true,
@@ -21,10 +21,13 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       reactMode: 'legacy', // default
       scriptLoader: false, // default
       scrollRestoration: true,
+      stats: true,
       workerThreads: true,
     },
     future: {
       excludeDefaultMomentLocales: true,
+      webpack5: false, // default, `true` currently causes problems with `preact`
+      // use `webpack` in `devDeps` and `resolutions` until fix
     },
     async headers() {
       return [

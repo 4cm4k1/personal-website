@@ -1,5 +1,14 @@
 # Changelog
 
+## 2021-03-11
+
+- Re-enables `NextConfig.experimental.optimizeCss` with `critters@^0.0.8`
+- Adds but keeps disabled `NextConfig.future.webpack5`
+- Enables `NextConfig.experimental.stats`
+- Hoists hook invocations in `AppLayout`
+- Removes `webpack` from `resolutions` in `package.json`
+- Bumps `dependencies` and `devDependencies`
+
 ## 2021-01-01
 
 - Adds `next-plugin-preact` to `dependencies`
