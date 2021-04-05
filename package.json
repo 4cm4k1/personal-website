@@ -26,7 +26,7 @@
     "next": "^10.0.9-canary.5",
     "next-plugin-preact": "^3.0.3",
     "preact": "^10.5.12",
-    "preact-render-to-string": "^5.1.15",
+    "preact-render-to-string": "^5.1.19",
     "react": "npm:@preact/compat@^0.0.4",
     "react-dom": "npm:@preact/compat@^0.0.4",
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.1.3"
