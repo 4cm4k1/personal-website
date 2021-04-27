@@ -5,6 +5,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
   NextConfig = {
     /**
      * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config-shared.ts
+     * defaults that *are* included here i may want to change in the future
      */
     amp: {
       // default
@@ -13,21 +14,17 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     env: [], // default
     experimental: {
       optimizeCss: true,
-      optimizeFonts: true,
       optimizeImages: true,
       pageEnv: true,
-      plugins: true,
       profiling: process.env.PROFILE === 'true',
-      reactMode: 'legacy', // default
-      scriptLoader: false, // default
+      reactRoot: false, // default
       scrollRestoration: true,
       stats: true,
       workerThreads: true,
     },
     future: {
       excludeDefaultMomentLocales: true,
-      webpack5: false, // default, `true` currently causes problems with `preact`
-      // use `webpack` in `devDeps` and `resolutions` until fix
+      webpack5: true,
     },
     async headers() {
       return [

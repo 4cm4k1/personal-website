@@ -1,5 +1,24 @@
 # Changelog
 
+## 2021-04-27
+
+- Removes `NextConfig.experimental.reactMode` as deprecated
+- Adds `NextConfig.experimental.reactRoot` in preparation for React v18 (matching Preact API?)
+- Removes `NextConfig.experimental.optimizeFonts` (it is now a default)
+- Removes `NextConfig.experimental.plugins` as deprecated
+- Bumps `dependencies` and `devDependencies`:
+  - `next` packages to `10.1.4-canary.17`
+  - `next-plugin-preact@3.0.4`
+  - `preact@10.5.13`
+  - `preact-render-to-string@5.1.19`
+  - `@types` packages to `latest`
+  - `critters@0.0.10`
+  - `husky@6.0.0`
+  - `next-offline@5.0.5`
+  - `typescript@4.3.0-beta`
+  - `webpack@5.36.0`
+- Bumps `volta.node@16.0.0`
+
 ## 2021-03-11
 
 - Re-enables `NextConfig.experimental.optimizeCss` with `critters@^0.0.8`
