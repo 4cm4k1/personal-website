@@ -18,6 +18,7 @@
   - `typescript@4.3.0-beta`
   - `webpack@5.36.0`
 - Bumps `volta.node@16.0.0`
+- Removes `resolutions` (no longer needed)
 
 ## 2021-03-11
 
