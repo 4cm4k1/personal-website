@@ -19,6 +19,7 @@
   - `webpack@5.36.0`
 - Bumps `volta.node@16.0.0`
 - Removes `resolutions` (no longer needed)
+- Bumps `engines.node@>=14.x`
 
 ## 2021-03-11
 
