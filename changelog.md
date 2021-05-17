@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-05-16
+
+- Bumps `dependencies` and `devDependencies`
+
 ## 2021-04-27
 
 - Removes `NextConfig.experimental.reactMode` as deprecated
