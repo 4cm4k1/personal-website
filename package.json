@@ -42,7 +42,7 @@
     "@rmwc/provider": "^6.1.4",
     "@rmwc/theme": "^6.1.4",
     "@rmwc/top-app-bar": "^6.1.4",
-    "@types/node": "^15.3.0",
+    "@types/node": "^15.3.1",
     "@types/react": "^17.0.6",
     "@types/react-dom": "^17.0.5",
     "critters": "^0.0.10",
