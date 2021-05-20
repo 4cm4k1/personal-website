@@ -1156,10 +1156,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-10.2.1-canary.11.tgz#48736ae77390bcc88a98635ea569a837f4b60db6"
   integrity sha512-Za5iJHhv6S9v0RwpGR/ssuvN3ba5L/nFPr/l9hQlndxlizfkyQbPJ1X4H7wXCG9dbytwoefhSCcGFx7uCrhY3g==
 
-"@next/mdx@^10.2.1-canary.11":
-  version "10.2.1-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.2.1-canary.11.tgz#2628d12c147507d0a1520b86c4a9e6de47b4e0a5"
-  integrity sha512-PgbaHBcdOdmi6YwuE+SEQ6rriZ2NqNmmg/6HmFBUXuajQTrIKP0QCvyP2XQXlP4csp9l+E5Izo2G0FK1oiy3nQ==
+"@next/mdx@^10.2.2":
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.2.2.tgz#58040a555bd39f80572ff44797703a6ff2c7ddae"
+  integrity sha512-7JB5IIuFoqwqlQwOBxj5e/NfuTePIP6hv0lVo4vkDvGoC88+aY46FooooB8WzqdzE27aR0+c91W1cmPDqoO/uQ==
 
 "@next/polyfill-module@10.2.1-canary.11":
   version "10.2.1-canary.11"
