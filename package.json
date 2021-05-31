@@ -23,7 +23,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "^10.2.3-canary.1",
+    "next": "^10.2.4-canary.0",
     "next-plugin-preact": "^3.0.6",
     "preact": "^10.5.13",
     "preact-render-to-string": "^5.1.19",
@@ -33,8 +33,8 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.22",
-    "@next/bundle-analyzer": "^10.2.3-canary.1",
-    "@next/mdx": "^10.2.3-canary.1",
+    "@next/bundle-analyzer": "^10.2.4-canary.0",
+    "@next/mdx": "^10.2.4-canary.0",
     "@rmwc/avatar": "^6.1.4",
     "@rmwc/drawer": "^6.1.4",
     "@rmwc/grid": "^6.1.4",
@@ -42,8 +42,8 @@
     "@rmwc/provider": "^6.1.4",
     "@rmwc/theme": "^6.1.4",
     "@rmwc/top-app-bar": "^6.1.4",
-    "@types/node": "^15.6.0",
-    "@types/react": "^17.0.6",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
     "critters": "^0.0.10",
     "husky": "^6.0.0",
@@ -54,9 +54,9 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.3.0",
     "pretty-quick": "^3.1.0",
-    "typescript": "^4.3.1-rc",
+    "typescript": "^4.3.2",
     "use-dark-mode": "^2.3.1",
-    "webpack": "^5.37.1"
+    "webpack": "^5.38.1"
   },
   "engines": {
     "node": ">=14.x"
