@@ -44,7 +44,7 @@
     "@rmwc/top-app-bar": "^6.1.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
-    "@types/react-dom": "^17.0.5",
+    "@types/react-dom": "^17.0.6",
     "critters": "^0.0.10",
     "husky": "^6.0.0",
     "modern-normalize": "^1.1.0",
