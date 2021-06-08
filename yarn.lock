@@ -1189,25 +1189,25 @@
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
-"@next/env@10.2.4-canary.0":
-  version "10.2.4-canary.0"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.2.4-canary.0.tgz#bed83142eed26ad33a21a93c9d531e7a0a7507fb"
-  integrity sha512-N+rFV+B58/PMHOCI7oRFlPQGZNZ4YujJXu5BdBeCZ6Z3qIwHMczX1PYaME2a01FqF65MzmqHeGQ9qiVwcJad4Q==
+"@next/env@10.2.4-canary.7":
+  version "10.2.4-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.2.4-canary.7.tgz#9b6208847010c460e847fe0b387f73a9c1043f59"
+  integrity sha512-GiZN3Y8lkvm3Ix/j4IROEfzt8e4NVJlZAwGpjY+ozpsE8L/fpGXAR3o3Y5sw+Z0qvrYheBimY9vgSIjJiWG2LQ==
 
 "@next/mdx@^10.2.4-canary.0":
   version "10.2.4-canary.0"
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-10.2.4-canary.0.tgz#275e39e7604b296097f2cfe6b587a19d2373ba99"
   integrity sha512-EPaZ+vRFDUugdHm9B+yb6bkJjSvtuWKASKz3fPH8oEBjAhujiR4keeo+QQNLWRn3PF07QUjn5fOADyY/ORVM3Q==
 
-"@next/polyfill-module@10.2.4-canary.0":
-  version "10.2.4-canary.0"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.2.4-canary.0.tgz#c119897b937be6cc0ef915dc01f275de93b6259d"
-  integrity sha512-qBSg+ajOMnT5tHMuJee4QtY1t9g3r6GcZstV7xhPNxoJKw8Ttc6WMlarfO/fg/WZ8XPmRdi+R404h7gUBczStQ==
+"@next/polyfill-module@10.2.4-canary.7":
+  version "10.2.4-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.2.4-canary.7.tgz#17d96a335291c6133fa66bd866d68180771f0766"
+  integrity sha512-kvWQIb6bCeDK7MacX42iKSwNa6TvNWdzHhR0HzbeQur9Uhn6NQ/N51891x+kDDD9ark9UWKrFYBLgDUat3SCZA==
 
-"@next/react-dev-overlay@10.2.4-canary.0":
-  version "10.2.4-canary.0"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.2.4-canary.0.tgz#7ebb6c17a6d0547429d970faef90b5d21d0ef672"
-  integrity sha512-RjNfsDoq0hukIrMWN17TuaARlF3thtAHkQaZ73br1Es69oGmZTF4uPR97dJ/86ofmnhFrWb28KgMWbxU/pRn8Q==
+"@next/react-dev-overlay@10.2.4-canary.7":
+  version "10.2.4-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.2.4-canary.7.tgz#deac02a707afdcb45cc9edbcf6cfa3106cf399c3"
+  integrity sha512-LbuCwNZv5k4jfxLUwE9vRtZAIlpvrsufxmKXr+uqNXjyk01OnLgn13TOEAYU3YGlHwNr9z8San0IH101caIp/A==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -1221,10 +1221,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@10.2.4-canary.0":
-  version "10.2.4-canary.0"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.2.4-canary.0.tgz#734774d4ec1441034e0a42e1119d598da6a61ac2"
-  integrity sha512-neoH4cT+romaA/Hv0hoMGdTxfyC7r+n4ZgN2C3SwHMT6z42Ezc3NAzq/FEgr31VSbrqBzYVV2/7JNNjbhS7DYw==
+"@next/react-refresh-utils@10.2.4-canary.7":
+  version "10.2.4-canary.7"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.2.4-canary.7.tgz#b07479420700925453a242fddcafed50572fb754"
+  integrity sha512-49qPXthHwepEXSEzShKCkRXYw8aog73A6vw0+hnXTSu9Az7RKkpytYDTJik0pr4g87+QXrjX6VHeQCu6ShzeIA==
 
 "@opentelemetry/api@0.14.0":
   version "0.14.0"
@@ -3190,6 +3190,13 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
+image-size@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-1.0.0.tgz#58b31fe4743b1cec0a0ac26f5c914d3c5b2f0750"
+  integrity sha512-JLJ6OwBfO1KcA+TvJT+v8gbE6iWbj24LyDNFgFEN0lzegn6cC6a/p3NIDaepMsJjQjlUWqIC7wJv8lBFxPNjcw==
+  dependencies:
+    queue "6.0.2"
+
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
@@ -3842,17 +3849,17 @@ next-plugin-preact@^3.0.6:
     "@prefresh/webpack" "^3.3.0"
     module-alias "^2.0.0"
 
-next@^10.2.4-canary.0:
-  version "10.2.4-canary.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-10.2.4-canary.0.tgz#8d3025f1a3fb1471f6df8568def5131ec0741fec"
-  integrity sha512-hG6lhixhQR2Oq4I3U8b0ohrtl3YLe+4xwzmthw0MTLb904rprXZ1o7sRcboUnTpSx+ZGeBRxC8+ldZWE907lDA==
+next@^10.2.4-canary.7:
+  version "10.2.4-canary.7"
+  resolved "https://registry.yarnpkg.com/next/-/next-10.2.4-canary.7.tgz#55acc229ca6ce9f5560b659680a36b327bbd113e"
+  integrity sha512-phxaASny6iQzgX4MzVQZELHsJKvVEzdI6/H6TTlXFkLV8yRc3BZgOQ9nlPSFmA/X4TX4H85n5gfvo3GjXUEjeQ==
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.2"
-    "@next/env" "10.2.4-canary.0"
-    "@next/polyfill-module" "10.2.4-canary.0"
-    "@next/react-dev-overlay" "10.2.4-canary.0"
-    "@next/react-refresh-utils" "10.2.4-canary.0"
+    "@next/env" "10.2.4-canary.7"
+    "@next/polyfill-module" "10.2.4-canary.7"
+    "@next/react-dev-overlay" "10.2.4-canary.7"
+    "@next/react-refresh-utils" "10.2.4-canary.7"
     "@opentelemetry/api" "0.14.0"
     assert "2.0.0"
     ast-types "0.13.2"
@@ -3871,6 +3878,7 @@ next@^10.2.4-canary.0:
     find-cache-dir "3.3.1"
     get-orientation "1.1.2"
     https-browserify "1.0.0"
+    image-size "1.0.0"
     jest-worker "27.0.0-next.5"
     native-url "0.3.4"
     node-fetch "2.6.1"
@@ -3885,7 +3893,7 @@ next@^10.2.4-canary.0:
     prop-types "15.7.2"
     querystring-es3 "0.2.1"
     raw-body "2.4.1"
-    react-is "16.13.1"
+    react-is "17.0.2"
     react-refresh "0.8.3"
     stream-browserify "3.0.0"
     stream-http "3.1.1"
@@ -4661,6 +4669,13 @@ querystring@^0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
   integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
 
+queue@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/queue/-/queue-6.0.2.tgz#b91525283e2315c7553d2efa18d83e76432fed65"
+  integrity sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==
+  dependencies:
+    inherits "~2.0.3"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -4691,7 +4706,12 @@ raw-body@2.4.1:
   resolved "https://registry.yarnpkg.com/@preact/compat/-/compat-0.0.4.tgz#f329e41caa330199eaf779c9bc9cf9556e3984a0"
   integrity sha512-NdazvKTisqbua54srMCVGuPwae53SM3u85yxrTymT+eJnScJOIAybDEzyOcAOpJsvo6vnGOiSyxmID7rlGw3nw==
 
-react-is@16.13.1, react-is@^16.8.1:
+react-is@17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
