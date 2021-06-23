@@ -1189,25 +1189,25 @@
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
-"@next/env@11.0.1-canary.8":
-  version "11.0.1-canary.8"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.1-canary.8.tgz#3ed5aa76ff7f4d28dff0415f7b9b55a50b6019c0"
-  integrity sha512-Ka2j69VPRJgfYmcRgk1FDu8emWiYu6z63alaXKSWZmNTw89LsaIJ4vi+ws46Jt6Vgcow5LeY98x8aoWY1Ck3nA==
+"@next/env@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.1.tgz#6dc96ac76f1663ab747340e907e8933f190cc8fd"
+  integrity sha512-yZfKh2U6R9tEYyNUrs2V3SBvCMufkJ07xMH5uWy8wqcl5gAXoEw6A/1LDqwX3j7pUutF9d1ZxpdGDA3Uag+aQQ==
 
 "@next/mdx@^11.0.1-canary.8":
   version "11.0.1-canary.8"
   resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-11.0.1-canary.8.tgz#124b90bf2a1e14bacbbf63b01660499acaa89fca"
   integrity sha512-/PXcHp4IOm+kWo/4EcUByJ3XHqomRq/I1qwFg56iTV55iI2XqO9rv7Hmxz9Fh3y/S/KdgW2StrqfFV4/wMB4Qw==
 
-"@next/polyfill-module@11.0.1-canary.8":
-  version "11.0.1-canary.8"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-11.0.1-canary.8.tgz#5b39b329e7b2c153b9206f1767d38165757f3d39"
-  integrity sha512-yyow/pN0j36yFugQPBNZem6/3jqDvC0ZxIoyM0c36J1dlx4D6Wu0EpVsfbFLMAHM0KdwLvvKGSMkc7D93XAB0g==
+"@next/polyfill-module@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-11.0.1.tgz#ca2a110c1c44672cbcff6c2b983f0c0549d87291"
+  integrity sha512-Cjs7rrKCg4CF4Jhri8PCKlBXhszTfOQNl9AjzdNy4K5jXFyxyoSzuX2rK4IuoyE+yGp5A3XJCBEmOQ4xbUp9Mg==
 
-"@next/react-dev-overlay@11.0.1-canary.8":
-  version "11.0.1-canary.8"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-11.0.1-canary.8.tgz#e400c866b523159d8f519050f94be764a89edee0"
-  integrity sha512-qQRYhLEMnpqOqogs2w+Ufdh14qSqOPAFJH0PJcjw7ovPxcErDxVxPthf3wDlrf5wCKvt7HEEFTWTxLbtZ2uhsg==
+"@next/react-dev-overlay@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-11.0.1.tgz#3c481e83347255abd466dcf7e59ac8a79a0d7fd6"
+  integrity sha512-lvUjMVpLsgzADs9Q8wtC5LNqvfdN+M0BDMSrqr04EDWAyyX0vURHC9hkvLbyEYWyh+WW32pwjKBXdkMnJhoqMg==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -1221,10 +1221,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@11.0.1-canary.8":
-  version "11.0.1-canary.8"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-11.0.1-canary.8.tgz#b503e27bd416b6a756317a3b5ece31799417c4dd"
-  integrity sha512-3F5wt6gpzii5Fh40ntDEA/BCKxEMGNQqbOzZmoHpx97WhVuuxut7O4FA26YuT62GJk/BWZQfCdocD1AcHQIGIw==
+"@next/react-refresh-utils@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-11.0.1.tgz#a7509f22b6f70c13101a26573afd295295f1c020"
+  integrity sha512-K347DM6Z7gBSE+TfUaTTceWvbj0B6iNAsFZXbFZOlfg3uyz2sbKpzPYYFocCc27yjLaS8OfR8DEdS2mZXi8Saw==
 
 "@polka/url@^1.0.0-next.15":
   version "1.0.0-next.15"
@@ -3851,17 +3851,17 @@ next-plugin-preact@^3.0.6:
     "@prefresh/webpack" "^3.3.0"
     module-alias "^2.0.0"
 
-next@^11.0.1-canary.8:
-  version "11.0.1-canary.8"
-  resolved "https://registry.yarnpkg.com/next/-/next-11.0.1-canary.8.tgz#587d326e70442a848800737ccdd7014fd34e2a10"
-  integrity sha512-YrFGKkiY8MxDq4dSwm1d1lirjfsKPYtwm51o5PvhnC5Vnfjn6icvfJLkro4qGFAcmpVqcN+DonEO4e/C3ku1kw==
+next@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/next/-/next-11.0.1.tgz#b8e3914d153aaf7143cb98c09bcd3c8230eeb17a"
+  integrity sha512-yR7be7asNbvpVNpi6xxEg28wZ7Gqmj1nOt0sABH9qORmF3+pms2KZ7Cng33oK5nqPIzEEFJD0pp2PCe3/ueMIg==
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.2"
-    "@next/env" "11.0.1-canary.8"
-    "@next/polyfill-module" "11.0.1-canary.8"
-    "@next/react-dev-overlay" "11.0.1-canary.8"
-    "@next/react-refresh-utils" "11.0.1-canary.8"
+    "@next/env" "11.0.1"
+    "@next/polyfill-module" "11.0.1"
+    "@next/react-dev-overlay" "11.0.1"
+    "@next/react-refresh-utils" "11.0.1"
     assert "2.0.0"
     ast-types "0.13.2"
     browserify-zlib "0.2.0"
