@@ -23,9 +23,9 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "^11.0.1-canary.8",
+    "next": "^11.0.2-canary.26",
     "next-plugin-preact": "^3.0.6",
-    "preact": "^10.5.13",
+    "preact": "^10.5.14",
     "preact-render-to-string": "^5.1.19",
     "react": "npm:@preact/compat@^0.0.4",
     "react-dom": "npm:@preact/compat@^0.0.4",
@@ -33,8 +33,8 @@
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.22",
-    "@next/bundle-analyzer": "^11.0.1-canary.8",
-    "@next/mdx": "^11.0.1-canary.8",
+    "@next/bundle-analyzer": "^11.0.2-canary.26",
+    "@next/mdx": "^11.0.2-canary.26",
     "@rmwc/avatar": "^6.1.4",
     "@rmwc/drawer": "^6.1.4",
     "@rmwc/grid": "^6.1.4",
@@ -42,27 +42,27 @@
     "@rmwc/provider": "^6.1.4",
     "@rmwc/theme": "^6.1.4",
     "@rmwc/top-app-bar": "^6.1.4",
-    "@types/node": "^15.12.4",
-    "@types/react": "^17.0.11",
-    "@types/react-dom": "^17.0.8",
+    "@types/node": "^16.4.12",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
     "critters": "^0.0.10",
-    "husky": "^6.0.0",
+    "husky": "^7.0.1",
     "modern-normalize": "^1.1.0",
     "next-compose-plugins": "^2.2.1",
     "next-offline": "^5.0.5",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
-    "typescript": "^4.3.4",
+    "typescript": "^4.3.5",
     "use-dark-mode": "^2.3.1",
-    "webpack": "^5.40.0"
+    "webpack": "^5.48.0"
   },
   "engines": {
     "node": ">=14.x"
   },
   "volta": {
-    "node": "16.4.0",
-    "yarn": "1.22.10"
+    "node": "16.6.1",
+    "yarn": "1.22.11"
   }
 }

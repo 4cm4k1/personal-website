@@ -1,8 +1,27 @@
 # Changelog
 
-## 2021-06-23
+## 2021-08-05
 
 > TODO: apply Next.js v11 changes to code
+
+- Bumps `dependencies`:
+  - `next@^11.0.2-canary.26`
+  - `preact@^10.5.14`
+- Bumps `devDependencies`:
+  - `@next/bundle-analyzer@^11.0.2-canary.26`
+  - `@next/mdx@^11.0.2-canary.26`
+  - `@types/node@^16.4.12`
+  - `@types/react@^17.0.15`
+  - `@types/react-dom@^17.0.9`
+  - `husky@^7.0.1`
+  - `prettier@^2.3.2`
+  - `typescript@^4.3.5`
+  - `webpack@^5.48.0`
+- Bumps `volta`:
+  - `node@16.6.1`
+  - `yarn@1.22.11`
+
+## 2021-06-23
 
 - Bumps `next@^11.0.1-canary.8`
 - Bumps `devDependencies`:
