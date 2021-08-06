@@ -16,13 +16,14 @@ import '@rmwc/avatar/avatar.css';
 import '@rmwc/icon/icon.css';
 // local
 import AppLayout from '../components/AppLayout';
-import { register } from '../lib/sw';
+// import { register } from '../lib/sw';
 
 const App = ({ Component, pageProps }: AppProps) => {
   // manually register service worker with `next-offline`
-  if (process.env.NODE_ENV === 'production') {
-    useEffect(() => register(), []);
-  }
+  // TODO: fix service worker issues, switch packages
+  // if (process.env.NODE_ENV === 'production') {
+  //   useEffect(() => register(), []);
+  // }
 
   return (
     <RMWCProvider

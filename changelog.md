@@ -21,6 +21,11 @@
   - `node@16.6.1`
   - `yarn@1.22.11`
 - Removes deprecated `future.webpack5` in `next.config.js`
+- Adds `devDependencies`:
+  - `eslint@^7.32.0`
+  - `eslint-config-next@11.0.2-canary.26`
+- Creates `.eslintrc.json`
+- Temporarily removes service worker registration
 
 ## 2021-06-23
 
