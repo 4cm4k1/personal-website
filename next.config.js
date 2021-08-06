@@ -24,7 +24,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
     future: {
       excludeDefaultMomentLocales: true,
-      webpack5: true,
     },
     async headers() {
       return [

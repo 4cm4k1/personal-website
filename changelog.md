@@ -20,6 +20,7 @@
 - Bumps `volta`:
   - `node@16.6.1`
   - `yarn@1.22.11`
+- Removes deprecated `future.webpack5` in `next.config.js`
 
 ## 2021-06-23
 
