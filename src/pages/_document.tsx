@@ -14,7 +14,7 @@ type WithNonceProp = {
   nonce: string;
 };
 
-export default class extends Document<WithNonceProp> {
+export default class MyDocument extends Document<WithNonceProp> {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
     const nonce = randomBytes(128).toString('base64');
