@@ -1241,10 +1241,10 @@
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.0.2-canary.26.tgz#14bc6dcbf4ad0661a2b149d5cd7a4518573afa6b"
   integrity sha512-WJJAFGlcsxaCpjQjkhvZgKCt3SgylWelLWBhB+oLsssfnDaAVxqocEwawhXwxqB/ZHhAwAbvPMficC2KiE0jfQ==
 
-"@next/mdx@^11.0.2-canary.26":
-  version "11.0.2-canary.26"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-11.0.2-canary.26.tgz#63c02ef482fd7e1734dda6b65082f317729613df"
-  integrity sha512-9ZguBxolWXdu/fMWo9IAnUY7UFlLEa1npQMrP8ebpCcdnX40q70svGhiZ2gvXOYEHsFvIrsp+fGzxAoXQpBYcA==
+"@next/mdx@^11.0.2-canary.27":
+  version "11.0.2-canary.27"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-11.0.2-canary.27.tgz#5533ce99f0a56f7aefd155109ab4ece10e722268"
+  integrity sha512-rhedAyDLt1DdY0rbuTRYTnCeX/kETC9jbdRA7hbTlKYKjIYK3uDoj0nIunissmrKQPfkKxflgo3OdDSImtrs/A==
 
 "@next/polyfill-module@11.0.2-canary.26":
   version "11.0.2-canary.26"
