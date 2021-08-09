@@ -1236,10 +1236,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.2-canary.26.tgz#20327fc9c06a75223de46a367d7bbc1dfe002632"
   integrity sha512-JlL0CwA8Xw0605UkyNMR0q3yxIzxANHEB89UF2DlcGuZIay8UbKfH9WNdgHJSQwH4nedVgULNO0BFy3u6ThhfA==
 
-"@next/eslint-plugin-next@11.0.2-canary.26":
-  version "11.0.2-canary.26"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.0.2-canary.26.tgz#14bc6dcbf4ad0661a2b149d5cd7a4518573afa6b"
-  integrity sha512-WJJAFGlcsxaCpjQjkhvZgKCt3SgylWelLWBhB+oLsssfnDaAVxqocEwawhXwxqB/ZHhAwAbvPMficC2KiE0jfQ==
+"@next/eslint-plugin-next@11.0.2-canary.27":
+  version "11.0.2-canary.27"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.0.2-canary.27.tgz#4f11745c2670a8b9eb9c7d83a70073bb260900dd"
+  integrity sha512-/tJMPa5OJnalrQvsorHpBsAzmxw9UnBOJIZ3vCK6Zny91gv2wEuTpv+uUrJgvWuX1vpCYgmC6PxY0jQyvx4uyQ==
 
 "@next/mdx@^11.0.2-canary.26":
   version "11.0.2-canary.26"
@@ -3005,12 +3005,12 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-next@^11.0.2-canary.26:
-  version "11.0.2-canary.26"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-11.0.2-canary.26.tgz#738ea895b646bd139959e78d0bc1c4c8f80f765d"
-  integrity sha512-yZY54CEjkXBeD4gARR6FCImDEfZPDMaZX+jwan17zhFe3Vzh0R9cFnCe6ARIVNyOqAnCVuGscJ9ihh6uGVdgKw==
+eslint-config-next@^11.0.2-canary.27:
+  version "11.0.2-canary.27"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-11.0.2-canary.27.tgz#5bdff0fcf676a9a815cf25db4822ddaabcf1c15f"
+  integrity sha512-yd3VGC3FIcGw5uyOjY+8jvyQErSyOvWviPcbddpVfYwT2zUnL4jJOkSTFpMCrwSyM5HgtoVRCqPGqSovxm10ug==
   dependencies:
-    "@next/eslint-plugin-next" "11.0.2-canary.26"
+    "@next/eslint-plugin-next" "11.0.2-canary.27"
     "@rushstack/eslint-patch" "^1.0.6"
     "@typescript-eslint/parser" "^4.20.0"
     eslint-import-resolver-node "^0.3.4"
