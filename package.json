@@ -24,7 +24,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "^11.0.2-canary.26",
+    "next": "^11.0.2-canary.28",
     "next-plugin-preact": "^3.0.6",
     "preact": "^10.5.14",
     "preact-render-to-string": "^5.1.19",
