@@ -1,8 +1,24 @@
 # Changelog
 
-## 2021-08-05
+## 2021-08-18
 
 > TODO: apply Next.js v11 changes to code
+
+- Bumps `dependencies`:
+  - `next@^11.1.1-canary.10`
+  - `preact@^10.5.14`
+  - `react-ssr-prepass@npm:preact-ssr-prepass@^1.2.0`
+- Bumps `devDependencies`:
+  - `@next/bundle-analyzer@^11.1.1-canary.10`
+  - `@next/mdx@^11.1.1-canary.10`
+  - `@types/node@^16.6.1`
+  - `@types/react@^17.0.18`
+  - `eslint-config-next@11.1.1-canary.10`
+  - `webpack@^5.50.0`
+- Bumps `volta`:
+  - `node@16.7.0`
+
+## 2021-08-05
 
 - Bumps `dependencies`:
   - `next@^11.0.2-canary.26`
