@@ -59,7 +59,7 @@
     "pretty-quick": "^3.1.1",
     "typescript": "^4.3.5",
     "use-dark-mode": "^2.3.1",
-    "webpack": "^5.50.0"
+    "webpack": "^5.51.0"
   },
   "engines": {
     "node": ">=14.x"
