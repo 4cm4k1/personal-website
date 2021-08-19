@@ -1222,10 +1222,10 @@
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
   integrity sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA==
 
-"@next/bundle-analyzer@^11.1.1-canary.10":
-  version "11.1.1-canary.10"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-11.1.1-canary.10.tgz#4bee6cd676669e51213f27b777f166c5596c28e7"
-  integrity sha512-byDI4RRK0al6zRu9Dx1q4c3EECjphtKk/Ypx2yPyIwldiGl3jG9gRfkLLcUjT1N1PQ5hN9any5PlxaUYKxiuFw==
+"@next/bundle-analyzer@^11.1.1-canary.11":
+  version "11.1.1-canary.11"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-11.1.1-canary.11.tgz#8d45cff41f574e5bb25dabdc79d78e2d6d6600df"
+  integrity sha512-FcNsy1Zkot6TTAdqZkCZFC2wz/b21pBQz6c4DsPuuyVPamh25ibQhscgcYlyCBSd9Ld5CnTechTyPPacWs0Zhw==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
