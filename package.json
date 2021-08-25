@@ -48,7 +48,7 @@
     "@types/react-dom": "^17.0.9",
     "critters": "^0.0.10",
     "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.1-canary.10",
+    "eslint-config-next": "^11.1.1-canary.15",
     "husky": "^7.0.1",
     "modern-normalize": "^1.1.0",
     "next-compose-plugins": "^2.2.1",
