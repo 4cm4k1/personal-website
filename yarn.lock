@@ -1241,10 +1241,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^11.1.1-canary.10":
-  version "11.1.1-canary.10"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-11.1.1-canary.10.tgz#0b547b34fafbbc1d461404a99e3c55dff2c876c0"
-  integrity sha512-02s4lzglvW5CbOeQipm7ReUqF+Olm52hmPRT72IUTAN644n4F2OSEV/WWoyeynykW2JtBL2hAvBE0s40RTeEow==
+"@next/mdx@^11.1.1-canary.17":
+  version "11.1.1-canary.17"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-11.1.1-canary.17.tgz#fcc74a775baa35f473e647c6cb64124c28b1cdc7"
+  integrity sha512-KvPR7gT3rFhanwNXSznKYa/3iqccjK9BKvULMw+CdwDg74o9Nsa8nn0pOHO5HdvDsjHoru6SqoMH6zvVs5c55w==
 
 "@next/polyfill-module@11.1.1-canary.10":
   version "11.1.1-canary.10"
