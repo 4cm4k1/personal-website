@@ -1,4 +1,4 @@
-export default function Error({ statusCode }) {
+export default function Error({ statusCode }: any) {
   return (
     <p>
       {statusCode
