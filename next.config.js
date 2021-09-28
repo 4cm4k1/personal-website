@@ -2,16 +2,16 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
   }),
   NextComposePlugins = require('next-compose-plugins'),
+  // @ts-check
+  /**
+   * @type {import('next').NextConfig}
+   */
   NextConfig = {
-    /**
-     * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config-shared.ts
-     * defaults that *are* included here i may want to change in the future
-     */
     amp: {
       // default
       canonicalBase: '',
     },
-    env: [], // default
+    env: {}, // default
     experimental: {
       optimizeCss: true,
       optimizeImages: true,
@@ -21,9 +21,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       scrollRestoration: true,
       stats: true,
       workerThreads: true,
-    },
-    future: {
-      excludeDefaultMomentLocales: true,
     },
     async headers() {
       return [
@@ -115,6 +112,15 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
       ];
     },
     i18n: null, // default
+    images: {
+      deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+      imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+      path: '/_next/image',
+      loader: 'default',
+      domains: [],
+      disableStaticImages: false,
+      minimumCacheTTL: 60,
+    },
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     productionBrowserSourceMaps: true,
     publicRuntimeConfig: {}, // default
@@ -166,25 +172,26 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     target: 'serverless',
   },
   NextMDX = require('@next/mdx')(),
-  NextOffline = require('next-offline'),
-  NextPreact = require('next-plugin-preact');
+  NextPreact = require('next-plugin-preact'),
+  NextPWA = require('next-pwa');
 
 module.exports = NextComposePlugins(
   [
     [NextBundleAnalyzer],
     [NextMDX],
-    [
-      NextOffline,
-      {
-        // `next-offline`-specific config
-        dontAutoRegisterSw: true,
-        // transformManifest: manifest => ['/'].concat(manifest), // obsolete: fix with PR for https://github.com/hanford/next-offline/issues/209?
-        workboxOpts: {
-          swDest: 'static/sw.js',
-        },
-      },
-    ],
     [NextPreact],
+    [NextPWA({ pwa: { dest: 'public' } })],
   ],
   NextConfig,
 );
+
+// const csp =
+// `object-src 'none'; ` +
+// `base-uri 'none'; ` +
+// // `Report-To`: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#Reporting_directives
+// `report-uri https://anthony.app/api/csp-violation; report-to default; ` +
+// // script-src 'unsafe-inline' https: 'nonce-abcdefg' 'strict-dynamic'
+// // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#strict-dynamic_2
+// `script-src 'unsafe-inline' https: 'nonce-${nonce}' 'strict-dynamic'; ` +
+// // `script-src 'self' 'unsafe-inline' 'unsafe-eval' https: http: 'nonce-${nonce}' 'strict-dynamic' ` +
+// `upgrade-insecure-requests`;

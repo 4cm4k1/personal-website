@@ -1,0 +1,54 @@
+@keyframes slant {
+  0% {
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'wght' 300, 'slnt' 0,
+      'CRSV' 0.5;
+  }
+  69% {
+    font-variation-settings: 'MONO' 0.9, 'CASL' 0.1, 'wght' 300, 'slnt' -13,
+      'CRSV' 0.5;
+  }
+}
+.link {
+  color: #fff;
+  font-size: 2vh;
+  font-variation-settings: 'MONO' 0.9, 'CASL' 0.1, 'wght' 300, 'slnt' -13,
+    'CRSV' 0.5;
+  text-decoration-color: transparent;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 0.21rem;
+  text-underline-offset: 0.42rem;
+  transition: all 0.42s ease-in;
+}
+.link:hover {
+  color: #d81b60;
+  text-decoration-color: #d81b60;
+  transition: all 0.69s ease-in;
+}
+.header {
+  animation: 6900ms slant infinite forwards;
+  font-size: 9vh;
+  font-variation-settings: 'MONO' 0, 'CASL' 1, 'wght' 300, 'slnt' 0, 'CRSV' 0.5;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  font-size: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  border-top: 0.125rem solid #222;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 1rem;
+  margin-left: 0.5rem;
+}

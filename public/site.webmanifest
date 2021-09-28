@@ -1,14 +1,14 @@
 {
-  "name": "Anthony Maki",
-  "short_name": "Anthony",
-  "description": "Software Engineer",
+  "name": "anthony.app",
+  "short_name": "anthony.app",
+  "description": "web software engineer in Minneapolis",
   "lang": "en-US",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#424242",
-  "background_color": "#d81b60",
+  "theme_color": "#111111",
+  "background_color": "#111111",
   "dir": "ltr",
   "icons": [
     {
