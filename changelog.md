@@ -1,5 +1,34 @@
 # Changelog
 
+## 2021-12-21
+
+- Bumps `dependencies`:
+  - `next@^12.0.8-canary.11`
+  - `preact@^10.6.4`
+- Adds `scheduler` as workaround (https://github.com/vercel/next.js/issues/31240)
+- Bumps `devDependencies`:
+  - `@next/bundle-analyzer@^12.0.8-canary.11`
+  - `@next/mdx@^12.0.8-canary.11`
+  - `@types/node@^17.0.2`
+  - `@types/react@^17.0.37`
+  - `@types/react-dom@^17.0.11`
+  - `critters@^0.0.15`
+  - `eslint-config-next@^12.0.8-canary.11`
+  - `husky@^7.0.4`
+  - `next-pwa@^5.4.4`
+  - `postcss-preset-env@^7.0.2`
+  - `prettier@^2.5.1`
+  - `pretty-quick@^3.1.2`
+  - `typescript@^4.5.4`
+  - `webpack@^5.65.0`
+- Bumps `volta`:
+  - `node@17.3.0`
+  - `yarn@1.22.17`
+- Removes `@deprecated` `target` field in `next.config.js`
+- Enables `swcMinify`
+- Adds build-generated Service Worker files to `.gitignore`
+- Removes `<reference types="next/types/global" />` from `next-env.d.ts`
+
 ## 2021-08-18
 
 > TODO: apply Next.js v11 changes to code

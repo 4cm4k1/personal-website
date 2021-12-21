@@ -35,3 +35,7 @@ export default function Document() {
     </Html>
   );
 }
+
+// https://github.com/vercel/next.js/tree/canary/examples/styled-jsx-with-csp
+// TODO: reimplement CSP
+// export const nonce = process.env.NEXT_PUBLIC_NONCE;

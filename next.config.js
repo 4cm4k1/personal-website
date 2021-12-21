@@ -124,8 +124,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     productionBrowserSourceMaps: true,
     publicRuntimeConfig: {}, // default
-    sassOptions: {}, // default
-    serverRuntimeConfig: {}, // default
     reactStrictMode: true,
     async redirects() {
       return [
@@ -169,7 +167,9 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
         },
       ];
     },
-    target: 'serverless',
+    sassOptions: {}, // default
+    serverRuntimeConfig: {}, // default
+    swcMinify: true,
   },
   NextMDX = require('@next/mdx')(),
   NextPreact = require('next-plugin-preact'),
