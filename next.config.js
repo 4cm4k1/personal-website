@@ -13,6 +13,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
     env: {}, // default
     experimental: {
+      esmExternals: true,
       optimizeCss: true,
       optimizeImages: true,
       pageEnv: true,
@@ -124,8 +125,6 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     productionBrowserSourceMaps: true,
     publicRuntimeConfig: {}, // default
-    sassOptions: {}, // default
-    serverRuntimeConfig: {}, // default
     reactStrictMode: true,
     async redirects() {
       return [
@@ -169,9 +168,19 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
         },
       ];
     },
-    target: 'serverless',
+    sassOptions: {}, // default
+    serverRuntimeConfig: {}, // default
+    swcMinify: true,
   },
-  NextMDX = require('@next/mdx')(),
+  NextMDX = require('@next/mdx')({
+    /** @type {import('@mdx-js/loader').Options} */
+    options: {
+      jsxImportSource: 'preact',
+      providerImportSource: '@mdx-js/react',
+      remarkPlugins: [import('remark-gfm')],
+      rehypePlugins: [],
+    },
+  }),
   NextPreact = require('next-plugin-preact'),
   NextPWA = require('next-pwa');
 

@@ -26,6 +26,8 @@ node_modules
 
 # production
 /build
+/public/sw*
+/public/workbox*
 
 # misc
 .DS_Store
