@@ -28,6 +28,12 @@
 - Enables `swcMinify`
 - Adds build-generated Service Worker files to `.gitignore`
 - Removes `<reference types="next/types/global" />` from `next-env.d.ts`
+- Upgrades/enables MDX v2 support
+- Adds `experimental.esmExternals = true` to `next.config.js`
+- Adds `devDependencies`:
+  - `@mdx-js/loader@^2.0.0-rc.2`
+  - `@mdx-js/preact@^2.0.0-rc.2`
+  - `remark-gfm@^3.0.1`
 
 ## 2021-08-18
 

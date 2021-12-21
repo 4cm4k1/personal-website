@@ -13,6 +13,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     },
     env: {}, // default
     experimental: {
+      esmExternals: true,
       optimizeCss: true,
       optimizeImages: true,
       pageEnv: true,
@@ -171,7 +172,15 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
     serverRuntimeConfig: {}, // default
     swcMinify: true,
   },
-  NextMDX = require('@next/mdx')(),
+  NextMDX = require('@next/mdx')({
+    /** @type {import('@mdx-js/loader').Options} */
+    options: {
+      jsxImportSource: 'preact',
+      providerImportSource: '@mdx-js/react',
+      remarkPlugins: [import('remark-gfm')],
+      rehypePlugins: [],
+    },
+  }),
   NextPreact = require('next-plugin-preact'),
   NextPWA = require('next-pwa');
 
