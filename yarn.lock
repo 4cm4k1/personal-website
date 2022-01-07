@@ -1054,10 +1054,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^12.0.8-canary.11":
-  version "12.0.8-canary.11"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.8-canary.11.tgz#f13bcf547a5a41ee3b8485933f75b6aa39db620b"
-  integrity sha512-KR+OO2n09qDKO0duJiSuzinTx4sDMRzQHa48XTsjpnCeXBqr0+aFKDduyXJcOMXvxACYtoUpiyyv4lehPhXu0g==
+"@next/mdx@^12.0.8-canary.19":
+  version "12.0.8-canary.19"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.8-canary.19.tgz#840346253e385b3e5b2ea64a38ba64b008cb59d6"
+  integrity sha512-DO3/k1hXhr/bkmknyXprTnNXIYe8yXG9J+HcIpm5s6ulNfZch1R0bZ/b/H8ux1KeABuWsl2sw/WwlXOI8R6b6g==
 
 "@next/polyfill-module@12.0.8-canary.11":
   version "12.0.8-canary.11"
