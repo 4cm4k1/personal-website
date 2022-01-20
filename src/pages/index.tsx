@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+// import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           </a>
         </li>
       </ul>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <span className={styles.text}>
           powered by{' '}
           <span className={styles.logo}>
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
             />
           </span>
         </span>
-      </footer>
+      </footer> */}
     </>
   );
 };
