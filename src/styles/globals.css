@@ -6,3 +6,8 @@ body {
   font-family: 'Recursive', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

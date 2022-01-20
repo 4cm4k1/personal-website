@@ -1,5 +1,12 @@
 # Changelog
 
+## 2021-01-19
+
+- Dependency bumps
+- Updates resume PDF
+- Creates route rewrite for resume PDF
+- Updates home page copy
+
 ## 2021-12-21
 
 - Bumps `dependencies`:
