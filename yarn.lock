@@ -1035,10 +1035,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.9-canary.2.tgz#cd0de84ecbfd4e535ceaf0aba416f9ef4675b063"
   integrity sha512-1ntTD6jbbEAx8F8GzgOXlUzKwmNpHm3BfeucpzQXjPvFXiHk9+V6hz68oLdGU0WZaK4FD64UrDiyhIIOfMoWLw==
 
-"@next/eslint-plugin-next@12.0.9-canary.2":
-  version "12.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-12.0.9-canary.2.tgz#078039d90e5f163a2e2061412182c98774910c14"
-  integrity sha512-QiouEpQKw8ih4gF0V5f6ZHAngWER575+ha+9V1RQb4Bvc4IiVxyooEHR+/YZsrUhklEQxn7LKZDwkRqMo36Iug==
+"@next/eslint-plugin-next@12.0.9-canary.9":
+  version "12.0.9-canary.9"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-12.0.9-canary.9.tgz#296712b1c484547f5720df54ce86a4b016e51024"
+  integrity sha512-a/eHFD7a4gpQ2tCjfkuJKv6oE1oCKmwWRge85H0CzvgkiXNxCPIPjf0H4ani6pibBrTqEv2xqz37D6H4wHY6ow==
   dependencies:
     glob "7.1.7"
 
@@ -2445,12 +2445,12 @@ escape-string-regexp@^5.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
   integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
-eslint-config-next@^12.0.9-canary.2:
-  version "12.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-12.0.9-canary.2.tgz#41c4ee493980e413c35985ff5e3e6870e5874a6f"
-  integrity sha512-ZooChcAD0VjZZiIruQ+AEKZASxt2iarLR/Vx+HiAKmXaXX9oLk/+UXlEx2m7cf96yFXnIWCOG/asGWAzeqcKlQ==
+eslint-config-next@^12.0.9-canary.9:
+  version "12.0.9-canary.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-12.0.9-canary.9.tgz#b56f342660b61f9066c541d3dd67274f77640e2f"
+  integrity sha512-7XBVmZiOBjb01+dgxmALrIgGGcxiFDTV655NqthgqB6z1dG4Ab29JHEtiNAAwX9lOwitqWUMUlrm64XduS5WcA==
   dependencies:
-    "@next/eslint-plugin-next" "12.0.9-canary.2"
+    "@next/eslint-plugin-next" "12.0.9-canary.9"
     "@rushstack/eslint-patch" "^1.0.8"
     "@typescript-eslint/parser" "^5.0.0"
     eslint-import-resolver-node "^0.3.4"
@@ -2460,15 +2460,7 @@ eslint-config-next@^12.0.9-canary.2:
     eslint-plugin-react "^7.27.0"
     eslint-plugin-react-hooks "^4.3.0"
 
-eslint-import-resolver-node@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
-  integrity sha512-ogtf+5AB/O+nM6DIeBUNr2fuT7ot9Qg/1harBfBtaP13ekEWFQEEMP94BCB7zaNW3gyY+8SHYF00rnqYwXKWOA==
-  dependencies:
-    debug "^2.6.9"
-    resolve "^1.13.1"
-
-eslint-import-resolver-node@^0.3.6:
+eslint-import-resolver-node@^0.3.4, eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.6.tgz#4048b958395da89668252001dbd9eca6b83bacbd"
   integrity sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==
@@ -5058,7 +5050,7 @@ resolve-from@^4.0.0:
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
-resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0:
+resolve@^1.14.2, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
