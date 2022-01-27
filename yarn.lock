@@ -1042,10 +1042,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^12.0.9-canary.2":
-  version "12.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.9-canary.2.tgz#5f4ede76baca69d011f2c972825f41b353e585eb"
-  integrity sha512-V+0QbVRB7bLhDvjHmfVbIetAIgD4LCYoBChrkmRIc+dtqzaXLp1hQ8xKFqZEyEbQJAjEI11kFvVZmSb+61+peA==
+"@next/mdx@^12.0.9":
+  version "12.0.9"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.9.tgz#9a3036e6b95371301a503dd7992ced7e10dfc712"
+  integrity sha512-BVAUT5VVHrmztpeYnvt1S5Afq42oxl1uz49QyUHPfXfqCgrXM+SHVGnTZ76XnuSz4TTqJZdVpHdhgB8Qjnt46A==
 
 "@next/swc-android-arm64@12.0.9-canary.2":
   version "12.0.9-canary.2"
