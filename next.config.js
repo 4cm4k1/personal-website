@@ -159,8 +159,8 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
           destination: '/.well-known/keybase.txt',
         },
         {
-          source: '/resume.pdf',
-          destination: '/2022-01-05_maki_anthony_resume.pdf',
+          source: '/resume',
+          destination: '/2022-10-04_maki_anthony_resume.pdf',
         },
         {
           source: '/sw.js',
