@@ -34,7 +34,7 @@ const Home: NextPage = () => {
       </main>
       <ul className={styles.list}>
         <li>
-          <a className={styles.link} href='/resume.pdf'>
+          <a className={styles.link} href='/resume'>
             résumé
           </a>
         </li>
