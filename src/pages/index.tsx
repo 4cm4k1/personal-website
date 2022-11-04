@@ -46,9 +46,10 @@ const Home: NextPage = () => {
         <li>
           <a
             className={styles.link}
-            href='https://github.com/4cm4k1/personal-website'
+            rel='me'
+            href='https://mastodon.social/@4cm4k1'
           >
-            source
+            mastodon
           </a>
         </li>
       </ul>
