@@ -1023,10 +1023,10 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@next/bundle-analyzer@^12.0.9-canary.2":
-  version "12.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-12.0.9-canary.2.tgz#27356280eeb174f5a04a53eadc20ebf361db8acc"
-  integrity sha512-Ljsoh4JjQ9gVer4BI0XpKzpIM0ExDBSAiP1QCY+kn/xkgpt7c0qDzEzmMnJnX3c5N9JyZyLdAAbcckKFOPv/pg==
+"@next/bundle-analyzer@^13.0.3":
+  version "13.0.3"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.0.3.tgz#17b589d0c768ec3986312ec24dfb2d7f0a0826d1"
+  integrity sha512-GPZqpXJImCq1LvKX6+pE+V5W5llBNFk/X1G2+qJh5tvLSy1teBzXz90W4yI1BX7ruc7lYufJouky0V3CnqKyLg==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
