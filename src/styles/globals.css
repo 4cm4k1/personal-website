@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;800;900&display=swap');
+:root {
+  --h1: #d50000;
+  --bg: #fff;
+  --main: #000;
+}
 html,
 body {
-  background-color: #fff;
-  color: #000;
-  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bg);
+  color: var(--main);
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+li {
+  margin: 6px 0;
 }
