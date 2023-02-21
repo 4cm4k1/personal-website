@@ -160,7 +160,7 @@ const NextBundleAnalyzer = require('@next/bundle-analyzer')({
         },
         {
           source: '/resume',
-          destination: '/2022-10-04_maki_anthony_resume.pdf',
+          destination: '/2023-02-20_maki_anthony_resume.pdf',
         },
         {
           source: '/sw.js',
