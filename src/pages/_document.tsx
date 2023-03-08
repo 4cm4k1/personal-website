@@ -24,9 +24,9 @@ export default function Document() {
           sizes='16x16'
           href='/icon-16x16.png'
         />
-        <meta name='msapplication-TileColor' content='#111111' />
+        <meta name='msapplication-TileColor' content='#d50000' />
         <meta name='msapplication-config' content='/browserconfig.xml' />
-        <meta name='theme-color' content='#111111' />
+        <meta name='theme-color' content='#d50000' />
       </Head>
       <body>
         <Main />

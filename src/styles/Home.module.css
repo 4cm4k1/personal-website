@@ -1,33 +1,40 @@
 .header {
   color: var(--h1);
   font-weight: 900;
-  margin: -10px 0;
-  text-align: right;
+  margin: 0 0 -0.8em 0;
+}
+.box {
+  align-items: baseline;
+  display: flex;
+  margin: 0 0 -2em 0;
 }
 .subheader {
   font-weight: 800;
-  margin: -10px 0;
-  text-align: right;
+}
+.pronouns {
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 0.25em;
 }
 .bio {
   font-weight: 500;
-  text-align: right;
 }
 .list {
+  font-size: 1.5em;
   font-weight: 500;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 3em;
 }
 .link {
   background: linear-gradient(to bottom, var(--h1) 0%, var(--h1) 100%);
   background-position: 0 100%;
   background-repeat: repeat-x;
-  background-size: 4px 4px;
+  background-size: 0.25em 0.25em;
   color: var(--main);
   text-decoration: none;
   transition: background-size 0.2s, color 0.2s;
 }
 .link:hover {
   color: var(--bg);
-  background-size: 4px 50px;
+  background-size: 0.25em 3.125em;
 }

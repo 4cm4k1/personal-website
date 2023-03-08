@@ -1,14 +1,14 @@
 {
-  "name": "anthony.app",
-  "short_name": "anthony.app",
-  "description": "web software engineer in Minneapolis",
+  "name": "Anthony.app",
+  "short_name": "Anthony.app",
+  "description": "Web Engineer in Minneapolis",
   "lang": "en-US",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#111111",
-  "background_color": "#111111",
+  "theme_color": "#d50000",
+  "background_color": "#ffffff",
   "dir": "ltr",
   "icons": [
     {
