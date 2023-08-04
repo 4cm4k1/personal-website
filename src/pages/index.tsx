@@ -6,9 +6,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Anthony Maki @ Anthony.app</title>
+        <title>Anthony Maki, Web Engineer</title>
         <meta name='author' content='Anthony Maki' />
-        <meta name='description' content='Web Engineer in Minneapolis' />
+        <meta name='description' content='Anthony Maki is a Web Engineer in Minneapolis' />
       </Head>
 
       <main>
@@ -46,20 +46,6 @@ const Home: NextPage = () => {
           <li>
             <a className={styles.link} href='https://linkedin.com/in/4cm4k1'>
               LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              className={styles.link}
-              rel='me'
-              href='https://mastodon.social/@4cm4k1'
-            >
-              Mastodon
-            </a>
-          </li>
-          <li>
-            <a className={styles.link} href='https://twitter.com/antifa__llc'>
-              Twitter
             </a>
           </li>
         </ul>
