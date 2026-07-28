@@ -27,6 +27,7 @@ export default function Document() {
         <meta name='msapplication-TileColor' content='#d50000' />
         <meta name='msapplication-config' content='/browserconfig.xml' />
         <meta name='theme-color' content='#d50000' />
+        <script async src="https://cdn.usefathom.com/script.js" data-site="X6P7Y7F6Z5L2Y4Y1" />
       </Head>
       <body>
         <Main />
